@@ -1,0 +1,2378 @@
+미적분학(, calculus)은 수학의 한 분야로 극한, 함수, 미분, 적분, 무한급수를 다루는 학문이다.
+미분은 도함수라는 정의역에서 미소한 차이에 대한 함수값의 차이 값의 비를 구한다.
+그 값은 곡선의 기울기로 해석한다.
+또 넓이, 부피, 길이 등은 곡선으로 제한된다.
+여기서 "곡선"은 직선을 의미할 수도 있으므로 주의해야 한다.
+또 극한을 구하는 과정을 유도하는 무한 과정 또는 궁극점(일반적으로 구하는 값)에 접근해 가는 것과 관련이 있다.
+이 2가지 방법은 수학적 해석학의 토대가 되고 있다.
+기하학이 모양에 중심을 둔 학문이고 대수학이 연산에 대한 수학이라면, 미적분학은 변화에 중점을 둔 수학이다.
+미적분학은 크게 2개의 분야로 분류되는데, 미분과 적분이 바로 그것이다.
+미분은 미소적인 변화를 다루는 분야이고, 적분은 미소적인 양의 집적을 다루는 분야이다.
+미분의 기하학적 의미를 보면, 특정 함수 그래프의 어떤 점에서 접선, 혹은 접평면을 구하는데 필요한 연산이다.
+더 일반적으로, 미분은 원래는 어렵게 정의된 함수를 선형근사해서 다루기 쉬운 형태로 바꾸어 파악하려는 목적을 가지고 있다.
+미분은 선형사상이 된다.
+그래서 선형 대수학에서 미분가능한 함수들의 선형공간을 다룰 때 중요한 선형사상으로 여겨진다.
+(단, 다변수 함수의 미분을 선형사상으로 취급하는 방식은 20세기에 들어서부터 확립됐다.) 미분방정식은 이런 사고의 자연스러운 연장 선상에 있다.
+적분은 기하학적으로 보면, 곡선 또는 곡면과 좌표축으로 둘러싸인 영역의 면적을 구하는 것에 해당된다.(단, 이때는 절댓값 기호를 씌워서 곡선 또는 곡면을 x축위로 꺾어올렸을때의 상태이다.)(실제 적분의 기하학적인 의미는 y좌표, 즉 길이들의 합이다.) 그러나 적분의 의미는 오랫동안 확실하게 파악되지 못하고 있었다.
+적분의 확실한 정의를 내린 사람은 베른하르트 리만이 최초이다.
+리만이 생각한 적분을 정식화한 것을 리만 적분이라고 한다.
+적분 또한 선형사상이다.
+미분과 적분은 완전히 별개의 개념이지만, 밀접한 연관성을 갖는다.
+변수가 하나인 경우, 하나가 나머지의 역연산이 된다.
+이를 미적분학의 기본정리라고 부른다.
+적분을 이끌어내기 위한 몇 가지 아이디어들은 고대에서부터 시작됐지만 이 시대의 방법들은 수학적으로 엄밀하지도 않고 체계적이지 않았다.
+모스크바 수학 파피루스(Moscow mathematical papyrus)에서 적분의 목표 중 하나인 부피계산법들이 나와있으나 이것들은 방법으로서 설명이 부족하고 몇 가지는 틀렸다.
+고대 그리스에서는 크니도스의 에우독소스(Eudoxus)가 극한의 개념과 유사한 문제의 철저 검토법을 사용했고 아르키메데스는 이 방법을 발전시킨 발견적 교수법이라는 적분과 비슷한 방법을 만들었다.
+중국에서는 유휘가 3세기에 원의 넓이를 구하기 위해 크니도스의 에우독소스와 같은 방법을 발명하였다.
+14세기에 인도의 수학자들은 일부 삼각함수에 적용할 수 있는 미분과 비슷한 엄격하지 않은 방법을 제시했다.
+Sangamagrama의 Madhava및 Kerala 천문학 및 수학 학교 에서는 미적분학의 구성 요소를 명시했다.
+이러한 구성요소를 포괄하는 완전한 이론은 이제 서구 세계에서 Taylor 계열 또는 무한 계열 근사로 잘 알려져 있다..
+프랑스 수학자 피에르 드 페르마는 무한소 오차항이 있어도 등호가 성립된다는 것을 보여주는 adequality 개념을 소개했으며, 미분해서 0이 되는 곳을 구하여서 극대 극소를 찾는 법을 만들었다.
+아일랜드 수학자 제임스 그레고리(James Gregory)이 미적분학의 핵심 정리인 미적분학 기본정리의 증명을 출판하였으며, 영국 수학자 아이작 배로(Issac Barrow)가 좀 더 일반적인 경우를 증명하였다.
+무한소 미적분과 유한차 미적분의 결합은 두 번째 미적분학 기본정리가 증명되고 2년이 지나서 존 월리스(John Wallis), 아이작 배로(Issac Barrow)와 제임스 그레고리(James Gregory)에 의해 1670년경에 완성됐다.
+이후 고트프리트 라이프니츠, 아이작 뉴턴이 당시 알려져 있던 미적분학을 좀 더 체계화하고 발전시켰다.
+아이작 뉴턴은 그가 수리물리학 문제를 풀 때 사용했던 이상한 형태의 곱의 미분법, 연쇄법칙, 고계도 미분계수의 개념, 테일러 급수와 해석함수를 공개했다.
+하지만 그가 출판물로 낼 때는 그 시대의 수학적 표현방법에 맞게 그의 아이디어와 동등한 의미를 지니는 기하적 표현으로 그의 아이디어를 적어냈다.
+뉴턴은 그의 책 자연철학의 수학적 원리에서 거론한 행성의 운동, 회전하는 유체 표면의 모양, 지구의 편평도, 사이클로이드에서 미끄러지는 물체의 운동 같은 문제들을 푸는 데 미적분을 사용했다.
+뉴턴은 미적분과 함께 함수의 급수를 실수의 범위로 확장했고 테일러 급수의 원칙들을 이해하고 있었다.
+하지만 그는 그가 이뤄낸 모든 발견을 출판하지는 않았고 이 시대에 무한소를 이용한 방법은 여전히 평이 좋지 않았다.
+그의 아이디어들은 뉴턴이 자신을 표절했다고 고소한 고트프리트 라이프니츠에 의해서 참된 무한소 미적분으로 체계화됐다.
+뉴턴은 그를 표절자로 여겼지만, 현재는 그도 독립적으로 얻은 것임이 밝혀졌다.
+그는 무한소를 다루는 규칙들을 명확하게 정리했고 2계도 이상의 미분을 가능하도록 해줬으며 곱의 미분법과 연계법칙을 미분 적분 형태로 모두 만들었다.
+앞에서 말했듯이 뉴턴과 라이프니츠는 모두 미적분학에 기여한 자로 인정받고 있다.
+하지만 둘의 미적분의 성격은 다르다.
+뉴턴은 미적분을 물리학에서 활용한 첫 번째 사람으로, 라이프니츠는 오늘날 사용하는 미적분 표기법의 대부분을 만든 사람으로 여겨진다.
+또 라이프니츠는 뉴턴과는 달리 형식을 중시해서 알맞은 표현법을 만들어내는데 며칠을 쓰는 일도 종종 있었다고 한다.
+두 사람의 미적분에서 규정한 기본적인 사항들로는 미분과 적분의 법칙들, 2계도 이상에서의 미분, 다항 함수 급수의 근사에 대한 개념들이 있다.
+(뉴턴과 라이프니츠 이전에 미분과 적분이 역관계라는 미적분학의 기본정리들은 이미 알려져 있었다.) 라이프니츠가 그의 결과를 발표하고 뉴턴이 그의 아이디어에 대해서 권리를 주장하자 수학자들 사이에서는 어떤 사람을 우선권자로 인정을 해야 하느냐는 주제로 큰 논란이 일었다.
+뉴턴이 최초로 결과를 이끌어 낸 사람이지만 출판을 한 것은 라이프니츠가 처음이었기 때문이다.
+뉴턴은 라이프니츠가 자신이 출판하지 않고 왕립학회에서 공유한 노트들에서 아이디어를 훔쳤다고 주장했다.
+이 논란 때문에 영국 수학자들과 유럽 대륙의 수학자들이 오랫동안 갈라지게 되고 이는 영국 수학에 큰 손실을 초래했다.
+현재는 뉴턴과 라이프니츠의 논문에 대한 면밀한 조사 덕분에 그들이 독립적으로 결론을 이끌어 냈다는 것이 밝혀졌다.
+라이프니츠는 적분에서부터 뉴턴은 미분에서부터 시작해서 결과를 도출해냈다.
+이 시대 이후에 수많은 수학자들이 미적분학 발전에 크게 공헌했다.
+첫 번째로 가장 성공적이었던 업적 중 하나로 마리아 아녜시가 1748년에 쓴 무한과 유한 분석이 있다.
+미적분학에서 기초(foundations)는 정확하고 엄밀한 공리와 정의들의 발전을 말한다.
+초기 미적분학에서 사용한 무한소는 엄밀하지 않은 것으로 생각되었기에 많은 수학자들에게 특히 미셸 롤과 조지 버클리(George Berkeley)에게 맹렬하게 비난 받았다.
+버클리는 그가 1734년에 출판한 《해석학자》(영어: The Analyst)라는 책에서 무한소를 ‘사라진 값들의 유령’(영어: the Ghosts of departed quantities)이라고 묘사했다.
+미적분학의 엄밀한 기초를 도출해내는 일은 여러 수학자들이 제공했고 오늘날까지도 연구활동이 있는 분야다.
+콜린 매클로린(Colin Maclaurin)을 포함한 다수의 수학자들이 무한소의 사용이 정당하는 것을 증명하려고 시도했지만 그것은 150년이 지나서야 오귀스탱 루이 코시와 카를 바이어슈트라스에 의해서 증명됐고 무한소의 의미가 극히 작은 값이라는 관념을 막을 방법을 찾았다.
+이것이 미분과 적분을 위한 기초를 놓았다.
+코시의 필기에서 무한소의 형태로 적혀진 연속의 정의와 극한의 (ε-δ) 정의의 원형 등의 기초에 접근하기 위한 다양한 방법을 찾을 수 있다.
+코시의 업적에서 바이어슈트라스는 극한의 정의를 공식화 시키고 무한소의 개념을 없애버린다.
+바이어슈트라스의 작업에 따라서 미적분학은 무한소가 아닌 극한에 기초하는 것이 일반적이게 됐다.
+베른하르트 리만은 바이어슈트라스의 개념을 사용해서 적분의 정확한 개념을 만들었다.
+그리고 이 발견의 기간 동안 미적분학의 아이디어들은 유클리드 공간과 복소평면에서 일반화됐다.
+현대 수학에서 미적분학의 기초는 미적분학의 정리에 대한 완전한 정의와 증명들을 포함하는 실해석 분야에 포함되어 있고 미적분학의 범위는 엄청나게 확대됐다.
+앙리 르베그는 측도론을 만들어서 거의 모든 함수에서 적분을 가능하게 했다.
+로랑 슈바르츠는 어떤 함수도 미분시킬 수 있는 분포 이론을 만들었다.
+일반적으로 극한의 개념을 미적분학의 기초로 두지만 극한이 미적분학의 기초에 대한 유일한 접근법은 아니다.
+에이브러햄 로빈슨(Abraham Robinson)의 비표준해석학이 대안책이다.
+1960년대에 만들어진 로빈슨의 접근법은 미적분학 초창기에 사용했던 개념인 무한소와 무한수로 실수체계를 늘린 체계를 사용한다.
+그 결과로 나온 수를 초실수라고 부른다.
+초실수는 미적분학의 일반적인 법칙들을 라이프니츠의 방식처럼 이끌어 낼 수 있다.
+함수 <math>f</math> 란 집합 <math>D</math>안에 있는 원소 <math>x</math>가 집합 <math>E</math>에 있는 정확히 한 원소, <math>f(x)</math>에 대응되는 규칙을 말한다.
+여기서 집합 <math>D</math>는 정의역이라하고 <math>E</math>는 공역이라고 한다.
+또한 정의역에 있는 임의의 수를 나타내는 기호를 독립변수, 공역에 있는 원소를 나타내는 기호를 종속변수라고 한다.
+함수를 표현하는 방법에는 말로 설명하는 방법, 표를 이용하는 방법, 그래프를 이용하는 방법, 대수학적 식으로 표현하는 방법 등이 있다.
+<math>\lim _{x\to a}f(x)=L</math>는 <math>x</math>가 <math>a</math>로 다가갈 때 <math>f(x)</math>가 <math>L</math>로 다가간다는 것이다.
+극한에는 좌극한과 우극한이 존재하는데 좌극한이란 <math>x</math>가 <math>a</math>보다 작은 곳에서 <math>a</math>로 다가갈 때 <math>f(x)</math>가 다가가는 값을 의미하고 우극한은 반대로 <math>x</math>가 <math>a</math>보다 큰 곳에서 다가간다.
+좌극한과 우극한은 기호로 각각 <math>\lim _{x\to a^{-}}f(x)=L</math>, <math>\lim _{x\to a^{+}}f(x)=L</math>라고 표시한다.
+극한값이 <math>L</math>라는 것과 좌극한과 우극한 모두 <math>L</math>라는 것은 필요충분조건이다.<math>\lim _{x\to a}f(x)=\infty</math>는 <math>x</math>가 <math>a</math>로 다가갈 때 <math>f(x)</math>는 무한히 커진다는 것이고 <math>\lim _{x\to a}f(x)=-\infty</math>는 무한히 작아진다는 것이다.
+극한의 더 정확한 수학적 정의는 엡실론-델타 논법이다.
+<math>\lim _{x\to a}f(x)=L</math>는 모든 양수 <math>\epsilon</math>에 대해 만약 <math>0<|x-a|<\delta</math> 면 <math>|f(x)-L|<\varepsilon</math>인 <math>\delta</math>가 존재한다는 것이다.
+이 말을 기호로 나타내면 다음과 같다.
+<math>\forall \varepsilon >0\ \ \exists \,\delta \ \ s.t\ \ if\ \ 0<|x-a|<\delta \ \ then\ \ |f(x)-L|<\varepsilon</math> 이 방법을 이용하여 여러 가지 극한들을 정의하면 다음과 같다.
+<math>c</math>가 상수이고 <math>\lim _{x\to a}f(x)</math> 와 <math>\lim _{x\to a}g(x)</math>가 존재할 때 다음 성질들을 만족한다.
+<math>\mathbb {R} \to \mathbb {R}</math>에서 정의된 함수 <math>f(x)</math>가 다음의 조건을 만족할 때 <math>f(x)</math>는 <math>x=a</math>인 점에서 연속이라고 한다.
+(<math>a\in \mathbb {R}</math>) 함수 <math>f(x)</math>가 정의역에 존재하는 모든 <math>x</math>에서 연속일 때, <math>f(x)</math>는 연속함수라고 한다.
+정의역 이외의 <math>x</math>에 대해서 불연속이더라도, 함수의 연속성에는 영향을 미치지 않는다.
+예를 들어, <math>f(x)={\frac {1}{x}}</math>은 <math>x=0</math> 이외의 모든 점에서 연속이다.
+<math>x=0</math>에서는 함숫값이 정의되지 않아 불연속이지만, <math>0</math>은 정의역에 있지 않는 수이므로 함수 <math>f(x)</math>는 연속함수이다.
+함수 f(x)가 모든 정의역에서 연속이면, 정의역의 모든점 <math>x_{0}</math>에 대해서 ε-δ 논법에 의해 모든 ε>0에 대해 0<|<math>x-x_{0}</math>|<δ를 만족하는 x가 |<math>f(x)-f(x_{0})</math>|<ε가 되게 하는 δ>0이 존재한다.
+만약 모든 <math>x_{0}</math>에 대해서 δ가 같다면, 즉, δ가 <math>x_{0}</math>에 변화에 따르지 않고 오직 ε의 변화에만 따른다면, 이 함수 f(x)가 균등연속(Uniformly continuous)이라고 한다.
+함수 f(x)가 <math>x=x_{0}</math>에서 불연속이지만 <math>f(x_{0})</math>를 적절히 정했을 때 연속이 될 수 있다면, <math>f(x)</math>는 <math>x=x_{0}</math>에서 제거 가능한 불연속성을 지닌다고 표현한다.
+예를 들어 <math>f(x)={\frac {\sin x}{x}}</math>라면, <math>x=0</math>인 점에서 함숫값이 정의되지 않아 불연속이다.
+그러나 <math>\lim _{x\to 0}f(x)=1</math>로 극한값이 존재하므로 만약 <math>f(0)=1</math>로 함숫값을 정하면 불연속성이 제거될 수 있다.
+따라서 함수 <math>f(x)</math>는 x=0인 점에서 제거 가능한 불연속성을 지닌다.
+그래프 <math>y=f(x)</math>에서 점<math>P(a,f(a))</math>을 통과하는 접선은 기울기 <math>m=\lim _{x\to a}{\frac {f(x)-f(a)}{x-a}}</math>를 가진다.
+여기서 <math>x-a=h</math>라고 하면 <math>m=\lim _{h\to 0}{\frac {f(a+h)-f(a)}{h}}</math>가 된다.
+함수 <math>f(x)</math>의 도함수 <math>f^{'}(x)</math>란 <math>m=\lim _{h\to 0}{\frac {f(x+h)-f(x)}{h}}</math>를 의미한다.
+도함수 표현법에는 <math>f'(x)=y'={\frac {dy}{dx}}={\frac {df}{dx}}={\frac {d}{dx}}f(x)=Df(x)=D_{x}f(x)</math> 등이 있다.
+도함수를 한번 더 미분한 것을 이계도함수라고 한다.
+이계도함수의 표현법에는 <math>y''=f''(x)={\frac {d}{dx}}({\frac {dy}{dx}})={\frac {d^{2}y}{dx^{2}}}</math> 등이 있다.이계도함수를 또 한번 더 미분한 것을 삼차도함수라고 하고 이것은 <math>y'''=f'''(x)={\frac {d}{dx}}\left({\frac {d^{2}y}{dx^{2}}}\right)={\frac {d^{3}y}{dx^{3}}}</math> 등으로 표현한다.
+<math>f</math>를 <math>n</math>번 미분한 것은 <math>y^{(n)}=f^{(n)}(x)={\frac {d^{n}y}{dx^{n}}}</math> 등으로 표현한다.
+함수 <math>f</math>가 <math>a</math>에서 미분 가능하다는 말은 <math>f'(a)</math>가 존재한다는 것이다.
+구간<math>(a,b),(a,\infty ),(-\infty ,a),(-\infty ,\infty )</math>에서 미분가능하다는 말은 구간 내의 모든점에서 미분가능하다는 것이다.
+함수 <math>f</math>가 점 <math>a</math>에서 미분 가능하다는 말은 <math>a</math>에서 연속하다는 것이다.
+미분 불가능한 경우에는 좌미분계수<math>\left(m=\lim _{h\to 0^{-}}{\frac {f(x+h)-f(a)}{x}}\right)</math>와 우미분계수<math>\left(m=\lim _{h\to 0^{+}}{\frac {f(x+h)-f(a)}{x}}\right)</math>값이 다르거나 불연속하거나 수직 접선을 가지고 있다는 것이다.
+수직접선이란 <math>\lim _{x\to a}|f'(x)|=\infty</math>일 때 <math>a</math>에서 수직 접선을 가진다.
+<math>c</math>는 상수이고 <math>f,g</math>는 미분 가능할 때 다음을 만족한다.
+<math>\lim _{\theta \to 0}{\frac {\sin \theta }{\theta }}=1</math>이다.
+이것을 이용하여 삼각함수의 미분을 할 수 있다.
+삼각함수들의 미분은 다음과 같다.
+<math>g</math>가 <math>x</math>에서 미분가능하고 <math>f</math>가 <math>g(x)</math>에서 미분가능하면 <math>F(x)=f(g(x))</math>는 <math>x</math>에서 미분가능하고 <math>F'(x)=f'(g(x))g'(x)</math>로 표현된다.
+이것을 다른방식으로 표현하면 <math>y=f(u)</math>와 <math>u=g(x)</math>가 미분가능한 함수면 <math>{\frac {dy}{dx}}={\frac {dy}{du}}{\frac {du}{dx}}</math>이다.
+일반적으로 함수는 <math>y=f(x)</math>로 표현된다.
+하지만 <math>x^{2}+y^{2}=25</math> 나 <math>x^{3}+y^{3}=xy</math>와 같이 표현되는 음함수도 존재한다.
+이런 함수를 미분할 때는 이 함수를 <math>y=f(x)</math>형태로 바꿀 필요 없이 음함수 미분법을 사용하면 된다.
+이 방법은 양변을 모두 <math>x</math>에 대하여 미분을 한 뒤, <math>y'</math>에 대한 방정식을 풀면 된다.
+예를 들어 <math>x^{2}+y^{2}=25</math>는 양변을 <math>x</math>로 미분하면 <math>2x+2yy'=0</math>가 돼서 <math>y'=-{\frac {x}{y}}</math>가 된다.
+지수함수 <math>y=a^{x}</math>를 정의를 이용해 미분하면 <math>y'=a^{x}\lim _{h\to 0}{\frac {a^{h}-1}{h}}</math>이다.
+이때 <math>f'(0)=\lim _{h\to 0}{\frac {a^{h}-1}{h}}</math>이므로 <math>f'(x)=f'(0)\,a^{x}</math>이다.
+이때 <math>f'(0)=1</math>이 되는 <math>a</math>를 <math>e</math>라고 한다.
+즉, <math>\lim _{h\to 0}{\frac {e^{h}-1}{h}}=1</math>이고 <math>(e^{x})'=e^{x}</math>이다.<math>a^{y}=x</math>일 때, <math>\log _{a}{x}=y</math>라고 정의한다.
+이때 <math>a</math>를 밑이라고 하는데 밑이 <math>e</math> 인 로그를 자연로그라고하고 <math>\ln</math>라고 표현한다.
+즉, <math>\log _{e}{x}=\ln x</math>이다.
+<math>y=\ln x</math>를 <math>e^{y}=x</math>임을 이용하여 미분하면 <math>(\ln x)'={\frac {1}{x}}</math>임을 알 수 있다.
+이 자연로그의 미분을 이용하여 일반적인 밑을 가지는 지수, 로그 함수의 미분을 구하면 다음과 같다.
+모든 <math>x\in I</math>에 대하여 <math>F'(x)=f(x)</math>일 때 함수 <math>F</math>를 구간 <math>I</math>에서의 <math>f</math>의 역도함수(부정적분)라고 한다.
+여기서 F가 f의 부정적분이면 일반적으로 F+C도 f의 부정적분이다.
+여기서 C는 임의의 상수이다.
+함수 f가 구간 [a,b]에서 정의된 연속함수 일 때, 구간 [a,b]를 동일한 n개의 폭 <math>\Delta _{x}={\frac {b-a}{n}}</math>으로 분할하여, 이 n개의 부분구간들의 끝점들을 <math>x_{0},x_{1},...x_{n}</math>이라하자.
+<math>[x_{i-1},x_{i}]</math>에 속하도록 표본점 <math>{x_{i}}^{*}</math>을 잡자.
+이 때 <math>\lim _{n\to \infty }\sum _{k=1}^{n}f(x_{k})\Delta x</math>가 존재하면, 그 값을 a로부터 b까지의 f의 정적분<math>\int _{a}^{b}f(x)dx</math>이라고 하고, 함수 f는 구간 [a,b]에서 적분 가능하다고 한다.
+이 때 표본점은 각구간의 끝점 또는 중점으로 잡는다.
+일반적으로 함수f가 구간 [a,b]에서 유한개의 불연속점을 가지면 f가 구간[a,b]에서 적분 가능하다.
+1.
+<math>\int _{a}^{b}f(x)\,dx=-\int _{b}^{a}f(x)\,dx</math>2.
+<math>\int _{a}^{b}cf(x)\,dx=c\int _{a}^{b}f(x)\,dx</math> (단, <math>c</math>는 임의의 실수)3.
+<math>\int _{a}^{b}(f(x)+g(x))\,dx=\int _{a}^{b}f(x)\,dx+\int _{a}^{b}g(x)\,dx</math>4.
+<math>\int _{a}^{c}f(x)\,dx+\int _{c}^{b}f(x)\,dx=\int _{a}^{b}f(x)\,dx</math> 5.
+<math>a\leq x\leq b</math>인 <math>x</math>에 대해서 <math>f(x)\geq 0</math>이면 <math>\int _{a}^{b}f(x)\,dx\geq 0</math>이다.
+6.
+<math>a\leq x\leq b</math>인 <math>x</math>에 대해서 <math>f(x)\geq g(x)</math>이면 <math>\int _{a}^{b}f(x)\,dx\geq \int _{a}^{b}g(x)\,dx</math>이다.
+7.
+<math>a\leq x\leq b</math>인 <math>x</math>에 대해서 <math>m\leq f(x)\leq M</math>이면 <math>m(b-a)\leq \int _{a}^{b}f(x)\,dx\leq M(b-a)</math>이다.
+8.
+<math>a\leq b</math>이면 <math>\left\vert \,\int _{a}^{b}f(x)dx\,\right\vert \leq \int _{a}^{b}\ |f(x)|dx</math> 함수 <math>f</math>가 구간 <math>[\,a,\,b\,]</math>에서 연속이면, <math>g(x)=\int _{a}^{x}f(t)dt</math>, <math>a\leq x\leq b</math>로 정의된 함수 <math>g</math>는 <math>[\,a,\,b\,]</math>에서 연속이고 <math>(\,a,\,b\,)</math>에서 미분가능하며, <math>g'(x)=f(x)</math>이다.
+증명: <math>x</math>와 <math>x+h</math>가 <math>(\,a,\,b\,)</math>안에 있다고 하면 <math>{\begin{alignedat}{2}g(x+h)-g(x)&=\int _{a}^{x+h}\,f(t)\,dt-\int _{a}^{x}\,f(t)\,dt\\&=\int _{x}^{x+h}f(t)dt\end{alignedat}}</math>따라서 <math>h\neq 0</math>인 <math>h</math>에 대해 <math>{\frac {g(x+h)-g(x)}{h}}={\frac {1}{h}}\int _{x}{x+h}\,f(t)\,dt\,\,\,\cdots \cdots \,\,\,(a)</math>이다.
+이제 <math>h>0</math>임을 가정하자.
+극값정리(<math>{\text{Extreme Value Theory}}</math>에 의해) <math>f(u)=m</math>이고 <math>f(v)=M</math>인 <math>u,\,v</math>가 <math>[\,x,\,x+h\,]</math>안에 존재한다.
+(<math>m,\,M</math>은 각각 함수 <math>f</math>의 <math>[\,x,\,x+h\,]</math>에서의 최솟값과 최댓값) 따라서<math>mh\leq \int _{x}^{x+h}\,f(t)dt\leq Mh</math>이다.
+<math>(a)</math>에 의해 <math>f(u)\leq {\frac {g(x+h)-g(x)}{h}}\leq f(v)</math>이고, <math>(f(u)=m,\,f(v)=M)</math>, <math>h<0</math>인 경우도 비슷한 방법으로 이 부등식을 얻을 수 있다.<math>h</math>가 <math>0</math>에 가까워질때, <math>u,\,v</math>가 <math>[\,x,\,x+h\,]</math>안에 있으므로 <math>u,\,v</math>는 <math>x</math>에 근접하게 된다.
+따라서<math>\lim _{h\to 0}f(u)=\lim _{h\to 0}f(v)=f(x)</math>이다.
+그러므로 압축정리에 의해서(<math>{\text{Squeeze Theorem}}</math>)<math>\lim _{h\to 0}{\frac {g(x+h)-g(x)}{h}}=f(x)</math>이다.
+<math>{\begin{alignedat}{2}g(x+h)-g(x)&=\int _{a}^{x+h}\,f(t)\,dt-\int _{a}^{x}\,f(t)\,dt\\&=\int _{x}^{x+h}f(t)dt\end{alignedat}}</math>따라서 <math>h\neq 0</math>인 <math>h</math>에 대해 <math>{\frac {g(x+h)-g(x)}{h}}={\frac {1}{h}}\int _{x}{x+h}\,f(t)\,dt\,\,\,\cdots \cdots \,\,\,(a)</math>이다.
+이제 <math>h>0</math>임을 가정하자.
+극값정리(<math>{\text{Extreme Value Theory}}</math>에 의해) <math>f(u)=m</math>이고 <math>f(v)=M</math>인 <math>u,\,v</math>가 <math>[\,x,\,x+h\,]</math>안에 존재한다.
+(<math>m,\,M</math>은 각각 함수 <math>f</math>의 <math>[\,x,\,x+h\,]</math>에서의 최솟값과 최댓값) 따라서<math>mh\leq \int _{x}^{x+h}\,f(t)dt\leq Mh</math>이다.
+<math>(a)</math>에 의해 <math>f(u)\leq {\frac {g(x+h)-g(x)}{h}}\leq f(v)</math>이고, <math>(f(u)=m,\,f(v)=M)</math>, <math>h<0</math>인 경우도 비슷한 방법으로 이 부등식을 얻을 수 있다.<math>h</math>가 <math>0</math>에 가까워질때, <math>u,\,v</math>가 <math>[\,x,\,x+h\,]</math>안에 있으므로 <math>u,\,v</math>는 <math>x</math>에 근접하게 된다.
+따라서<math>\lim _{h\to 0}f(u)=\lim _{h\to 0}f(v)=f(x)</math>이다.
+그러므로 압축정리에 의해서(<math>{\text{Squeeze Theorem}}</math>)<math>\lim _{h\to 0}{\frac {g(x+h)-g(x)}{h}}=f(x)</math>이다.
+함수 <math>f</math>가 닫힌 구간 <math>[\,a,\,b\,]</math>에서 연속이면, <math>\int _{a}^{b}f(x)dx=F(b)-F(a)</math>이다.
+여기에서 <math>F</math>는 <math>f</math>의 임의의 역도함수, 즉 <math>F'=f</math>이다.
+증명: <math>g(x)=\int _{a}^{x}f(t)dt</math>로 놓으면 위의 기본정리에 의해 <math>g'(x)=f(x)</math>이다.<math>f</math>의 임의의 도함수 <math>F</math>는 <math>g</math>와 상수만큼 차이가 있다.
+<math>F(x)=g(x)+C</math> 여기서 C는 상수라고 하자.
+따라서 <math>{\begin{aligned}F(b)-F(a)&=[g(b)+C]-[g(a)+c]\\&=g(b)-g(a)=g(b)\\&=\int _{a}^{b}f(t)dt\end{aligned}}</math>이다.
+따라서 <math>{\begin{aligned}F(b)-F(a)&=[g(b)+C]-[g(a)+c]\\&=g(b)-g(a)=g(b)\\&=\int _{a}^{b}f(t)dt\end{aligned}}</math>이다.
+함수 <math>u=g(x)</math>가 미분 가능하고, 그 치역이 구간 I이며 함수 f가 구간 I에서 연속이면, <math>\int _{}^{}f(g(x))g'(x)dx=\int _{}^{}f(u)du</math>이다.
+정적분에 대해 변형시키면, 함수 g'이 [a,b]에서 연속이고, 함수 f가 <math>u=g(x)</math>의 치역에서 연속이면, <math>\int _{a}^{b}f(g(x))g'(x)dx=\int _{g(a)}^{g(b)}f(u)du</math>이다.
+두 미분가능한 연속 함수 <math>f(x)</math>와 <math>g(x)</math>에 대해서, 적분 구간이 <math>[a,b]</math> 일 때, 부분적분법은 다음과 같이 표현할 수 있다.
+<math>\int _{a}^{b}f(x)g'(x)\,dx=\left[f(x)g(x)\right]_{a}^{b}-\int _{a}^{b}f'(x)g(x)\,dx</math> 이때 우변의 첫째 항은 다음을 나타낸다.
+<math>\left[f(x)g(x)\right]_{a}^{b}=f(b)g(b)-f(a)g(a).</math> 이 법칙은 다음과 같이 미분의 곱셈 법칙과 미적분학의 기본정리로 증명할 수 있다.
+<math>f(b)g(b)-f(a)g(a)\,</math> <math>=\int _{a}^{b}{\frac {d}{dx}}(f(x)g(x))\,dx</math> <math>=\int _{a}^{b}f'(x)g(x)\,dx+\int _{a}^{b}f(x)g'(x)\,dx</math> 부정적분의 경우에는 다음과 같다.
+<math>\int f(x)g'(x)\,dx=f(x)g(x)-\int g(x)f'(x)\,dx</math> 또는, 짧게 줄여서 다음과 같이 표현하기도 한다.
+<math>\int u\,dv=uv-\int v\,du</math> 여기서, <math>u=f(x),\ v=g(x)</math>이고, <math>du=f'(x)dx,\ dv=g'(x)dx</math>이다.
+[a,b]안의 모든 x에 대하여 f,g가 연속이고, <math>f(x)</math>≥<math>g(x)</math>일 때, 곡선<math>y=f(x)</math>,<math>y=g(x)</math>와 직선 <math>x=a</math>,<math>x=b</math>로 둘러싸인 영역의 넓이 A는 <math>A=\int _{a}^{b}[f(x)-g(x)]dx</math>로 정의된다.
+S를 <math>x=a</math>와 <math>x=b</math>에 놓인 입체도형이라 하자.
+x를 지나고 x축에 수직인 평면 Px에 있는 S의 절단면의 넓이가 A(x)이고, A가 연속이라면 S의 부피(V)는 <math>V=\int _{a}^{b}A(x)dx</math>이다.
+회전체의 경우, 위의 방법으로는 부피를 구하기 어려운 경우가 많다.
+회전체의 부피의 경우, 아래와 같은 방법을 이용한다.
+곡선 <math>y=f(x)</math>와 <math>x=a</math>및 <math>x=b</math>로 둘러싸인 영역을 <math>y</math>축을 둘레로 회전시킬 때 생기는 회전체의 부피는 다음과 같다.
+<math>V=\int _{a}^{b}2\pi xf(x)dx</math> 수직선 위를 움직이는 점 P의 시각 <math>t</math>에서의 속도가 <math>v(t)</math>이고, 시각 <math>t=a</math>에서의 위치가 <math>x_{0}</math>일 때, 다음이 성립한다.
+좌표평면 위를 움직이는 점 P의 시각 <math>t</math>에서의 위치 <math>(x,y)</math>가 <math>x=f(t)</math>, <math>y=g(t)</math>일 때, 시각 <math>t=a</math>에서 <math>t=b</math>까지 점 P가 움직인 거리 s는 다음과 같다.
+<math>f′(t)}2+{g′(t)}2dt{s=\int _{a}^{b}{\sqrt {{\biggl (}{dx \over dt}{\biggr )}^{2}+{\biggl (}{dy \over dt}{\biggr )}^{2}}}dt=\int _{a}^{b}{\sqrt {\{f'(t)\}^{2}+\{g'(t)\}^{2}}}dt</math> 곡선 <math>x=f(t)</math>, <math>y=g(t)</math> <math>(a\leq t\leq b)</math>의 겹치는 부분이 없을 때 길이 <math>l</math>은 다음과 같다.
+<math>f′(t)}2+{g′(t)}2dt{l=\int _{a}^{b}{\sqrt {{\biggl (}{dx \over dt}{\biggr )}^{2}+{\biggl (}{dy \over dt}{\biggr )}^{2}}}dt=\int _{a}^{b}{\sqrt {\{f'(t)\}^{2}+\{g'(t)\}^{2}}}dt</math> 곡선 <math>y=f(x)</math> <math>(a\leq x\leq b)</math>의 길이 <math>l</math>은 다음과 같다.
+<math>f′(t)}2dt{l=\int _{a}^{b}{\sqrt {1+\{f'(t)\}^{2}}}dt</math> 급수()란 수학에서 수열들의 각 항의 합을 의미한다.
+즉, 급수란 여러 수들의 합연산으로 표현된다.
+급수의 예로는 아래와 같은 등차수열의 합이 있다.
+1 + 2 + 3 + 4 + 5 + ...
++ 99 + 100 급수에 더해지는 각 항들이 어떤 공식이나 알고리즘에 의해 표현되는 경우도 있다.
+난수들로 이루어진 급수도 생각할 수 있다.
+급수는 유한 급수와 무한급수로 나눌 수 있다.
+유한 급수의 경우 기초적인 대수학의 법칙들만 사용하여도 그 값을 구할 수 있다.
+하지만 무한급수는 그 정확한 합을 구하기 위해서는 해석학의 여러 정리들이 필요하다.
+예를 들어 등차수열들의 합으로 이루어진 급수의 경우, 다음과 같이 나타낼 수 있다.<math>\sum _{n=0}^{k}\,(an+b);</math> 등비수열의 합으로 이루어진 급수의 경우, 다음과 같이 나타낼 수 있다.<math>\sum _{n=0}^{k}a^{n}.</math> <math>S_{n}=a_{0}+a_{1}+a_{2}+\cdots +a_{n},</math> 무한급수는 위의 <math>S_{n}</math>, 즉 급수의 부분합으로 이루어지는 수열의 극한값으로 생각한다.
+<math>n</math>이 무한대로 갈 때, 그 극한이 유한한 값을 갖는다면 이 급수가 수렴한다고 한다.
+만약 이 값이 무한하거나 존재하지 않는다면, 이 급수는 발산한다고 한다.
+무한급수의 수렴을 판정하는데는 비교판정법, 적분판정법, 일반항판정법, 멱근판정법, 비율판정법 등이 있다.
+주어진 수열 <math>a}=(a0,a1,a2,⋯){\{a\}=(a_{0},\ a_{1},\ a_{2},\ \cdots )</math>와 변수 <math>x</math>에 대해서 <math>a(x)=a_{0}+a_{1}x+a_{2}x^{2}+\cdots</math>를 수열 a로부터 얻은 멱급수라고 부른다.
+<math>\rho \equiv \lim _{n\to \infty }\ \left\vert {\frac {a_{n+1}}{a_{n}}}\right\vert</math>가 존재한다고 하자.
+이때, 이 수열의 멱급수는 <math>\ |\,x\,|<{\frac {1}{\rho }}</math>일 때 수렴한다.
+원점 <math>0</math>을 포함하는 구간I에 대해서 정의된 n번 미분가능한 함수 f:I→R 에 대하여<math>T_{n}f(x)\equiv \sum _{k=0}^{n}{\frac {f^{(k)}(0)x^{k}}{k!}}</math> <math>f</math>의 <math>n</math>차 근사 다항식이라하고,<math>R_{n}f(x)\equiv f(x)-T_{n}f(x)</math> 를 <math>n</math>차 테일러 나머지 항이라고 하자.그리고 원점 근방에서 정의된 무한번 미분 가능한 함수 <math>f(x)</math>에 대하여 멱급수 <math>Tf(x)\equiv \sum _{n=0}^{\infty }{\frac {f^{(n)}(0)x^{n}}{n!}}</math> 를 <math>f</math>의 테일러 급수라고 한다.
+테일러 급수가 원래 함수에 수렴할 필요충분조건은 <math>\lim _{n\to \infty }R_{n}f(x)=0</math> 이다.
+세계의 여러 나라에서 미적분학을 가르치고 있다.
+대한민국에서는 고등학교의 "수학 II" 과목과 "미적분" 과목에서 미적분학을 배운다.
+수학에서 편미분 방정식(, 영어: partial differential equation, 약자 PDE)은 여러 개의 독립 변수로 구성된 함수와 그 함수의 편미분으로 연관된 방정식이다.
+각각의 변수들의 상관관계를 고려하지 않고 변화량을 보고 싶을 때 이용할 수 있으며, 상미분방정식에 비해 응용범위가 훨씬 크다.
+소리나 열의 전파 과정, 전자기학, 유체역학, 양자역학 등 수많은 역학계에 관련된 예가 많다.
+<math>M</math>과 <math>N</math>이 매끄러운 다양체라고 하자.
+편미분 방정식은 다음과 같은 꼴의 미분 방정식이다.
+<math>F(x,u,\nabla _{i}u,\nabla _{i}\nabla _{j}u,\dots ,\nabla _{i_{1}}\cdots \nabla _{i_{k}}u)=0</math> <math>x\in M,\;u\colon M\to N</math> 여기서 미분 연산자의 최고 계수 <math>k</math>를 편미분 방정식의 계수(영어: order)라고 하며, 이러한 꼴의 편미분 방정식을 <math>k</math>계 편미분 방정식이라고 한다.
+만약 다양체 <math>N</math>이 2차원 이상이라면 이를 연립 편미분 방정식이라고 하며, 만약 <math>N</math>이 1차원이라면 비연립 편미분 방정식이라고 한다.
+1계 편미분 방정식은 대체로 특성곡선법을 사용하여 풀 수 있다.
+매끄러운 다양체 <math>M</math> 위의 일반적인 (비연립) 1계 편미분 방정식은 다음과 같은 꼴이다.
+<math>F(x,u,\partial u/\partial x)=0\qquad (x\in M,\;u(x)\in \mathbb {R} )</math> 여기서 <math>u_{x_{i}}=\partial u/\partial x_{i}</math>이다.
+이 경우, 임의의 해 <math>u(s)=u(x^{i}(s))</math>는 다음과 같은 상미분 방정식을 만족시킨다.
+<math>{\frac {{\dot {x}}_{i}}{\partial F/\partial (\partial u/\partial x_{i})}}=-{\frac {1}{\partial F/\partial x_{i}+(\partial u/\partial x^{i})\partial F/\partial u}}{\dot {p}}^{i}={\frac {\dot {u}}{\sum _{i}p_{i}(\partial F/\partial p_{i})}}</math> 따라서, 이 상미분 방정식을 풀어서 편미분 방정식의 해들을 찾을 수 있다.
+매끄러운 다양체 <math>M</math> 위의 일반적인 (비연립) 2계 편미분 방정식은 일반적으로 다음과 같은 꼴이다.
+<math>Q(\nabla _{i}\nabla _{j}u,x)+F(\nabla _{i}u,u,x)=0\qquad (x\in M,\;u(x)\in \mathbb {R} )</math> 따라서, <math>Q\colon M\to \operatorname {Sym} ^{2}TM</math>는 <math>M</math>의 각 점에 실수 이차 형식을 정의한다.
+이는 실베스터 관성법칙에 따라 이차 형식의 고윳값들의 부호에 따라서 분류할 수 있다.
+구체적으로, 어떤 주어진 점 <math>x\in M</math>에서 타원형·포물형·쌍곡형 방정식들은 각각 현저히 다른 현상을 보인다.
+매끄러운 다양체 <math>M</math>에서 벡터 공간 <math>V</math>로 가는 함수 <math>u\colon M\to V</math>에 대한 선형 편미분 방정식은 다음과 같은 꼴이다.
+<math>c_{0}(x)u(x)+c_{1}^{i}(x)\nabla _{i}u(x)+c_{2}^{ij}(x)\nabla _{i}\nabla _{j}u(x)+\cdots +c_{k}^{i_{1}\cdots i_{k}}(x)\nabla _{i_{1}}\cdots \nabla _{i_{k}}u(x)=0</math> 이는 <math>M</math> 위의, <math>V</math>값을 갖는 매끄러운 함수들의 벡터 공간 <math>{\mathcal {C}}^{\infty }(M,V)</math> 위에 정의된 선형작용소의 고윳값 방정식이다.
+즉, 이 경우 해 <math>u(x)</math>는 선형작용소 <math>T=c_{0}(x)+c_{1}^{i}(x)\nabla _{i}+\cdots +c_{k}^{i_{1}\cdots i_{k}}(x)\nabla _{i_{1}}\cdots \nabla _{i_{k}}</math> 에 대하여 고윳값이 0인 고유벡터를 이룬다.
+이 경우, 함수해석학과 작용소 이론을 적용할 수 있다.
+편미분(, 영어: partial derivative)은 다변수 함수의 특정 변수를 제외한 나머지 변수를 상수로 간주하여 미분하는 것이다.
+기호는 ∂으로, 1770년 니콜라 드 콩도르세가 편차분 기호로서 사용한 이후로 편미분을 나타내는 기호로 사용되고 있으며 이후 1786년에 아드리앵마리 르장드르에 의해 소개되었으나 쓰이지 않다가, 1841년에 카를 구스타프 야코프 야코비가 다시 이 기호를 도입하였다.
+다른 하나의 변수를 상수로 간주한 뒤 미분해 얻은 도함수를 편도함수라고 부르며 이 편도함수를 구하는 과정을 편미분이라 부른다.
+<math>f'_{x},\ f_{x},\ \partial _{x}f,{\frac {\partial }{\partial x}}f,\ {\frac {\partial f}{\partial x}}</math> 는 변수 <math>x</math>에 대한, 함수 <math>f(x,y,\ldots )</math>의 편미분을 뜻한다.
+<math>f'_{x}(x,y,\ldots ),\ {\frac {\partial f}{\partial x}}(x,y,\ldots )</math> 등은 함수로서 편미분이 종속되는 변수를 강조할 수 있다.
+하나 이상의 변수를 갖는 함수 <math>f</math>가 주어졌다고 가정하자.
+예를 들어, <math>z=f(x,y)=x^{2}+xy+y^{2}</math> 이 함수의 그래프는 유클리드 공간 속 곡면을 정의한다.
+곡면 속 점마다 무한히 많은 접선이 존재한다.
+편미분은 이런 접선 가운데 하나를 골라, 그 기울기를 구하는 것이다.
+<math>xz</math>-평면이나 <math>yz</math>-평면과 평행하는 접선(즉, <math>y</math>나 <math>x</math>를 상수로 놓아 얻는 접선)은 특히 중요도가 높다.
+점 <math>(x,y)</math>에서 <math>xz</math>-평면과 평행하는 접선의 기울기를 구하자.
+<math>y</math>를 상수로 볼 때, 곡면 위에 놓인 곡선을 얻는다.
+그 곡선 방정식에서 <math>y</math>를 상수로 보아 미분을 구하면, 점 <math>(x,y)</math>에서 곡선의 기울기가 다음과 같다는 것을 알 수 있다.
+<math>{\frac {\partial z}{\partial x}}=2x+y</math> 대입을 통해, 점 <math>(1,1)</math>에서 <math>xz</math>-평면과 평행하는 접선의 기울기는 3이라는 것을 알 수 있다.
+즉, 점 <math>(1,1)</math>에서 <math>{\frac {\partial z}{\partial x}}(1,1)=3</math>.
+즉, 점 <math>(1,1)</math>에서 <math>z</math>의 <math>x</math>에 대한 편미분은 3이다.
+함수 <math>f</math>는 변수 하나의 함수들의 족으로서 재해석할 수 있다.
+다시 말해, 모든 <math>y</math> 값은 변수 하나의 함수 <math>f_{(y)}(x)=x^{2}+xy+y^{2}</math> 에 대응한다.
+만약 <math>y</math>의 값을 <math>y=a</math>와 같이 선택해 고정시킨다면, <math>f</math>는 함수 <math>f_{(a)}(x)=x^{2}+ax+a^{2}</math> 를 결정한다.
+<math>a</math>가 상수이지 더 이상 변수가 아니며, 따라서 <math>f_{a}</math>는 변수 <math>x</math> 하나만을 갖는다.
+따라서, 일변수 함수의 미분을 <math>f_{(a)}'(x)=2x+a</math> 와 같이 적용할 수 있다.
+이는 모든 <math>x</math> 값의 함수이며, 이 논의는 모든 <math>y=a</math> 값에 적용시킬 수 있다.
+따라서 이로부터, 모든 <math>x</math> 값 및 <math>y</math> 값을 변수로 갖는 함수 <math>{\frac {\partial f}{\partial x}}(x,y)=2x+y</math> 을 얻을 수 있다.
+이는 함수 <math>f</math>의, 변수 <math>x</math>에 대한 편미분이다.
+연결 열린집합 <math>D\subseteq \mathbb {R} ^{n}</math>에 정의된 실숫값 함수 <math>f\colon D\to \mathbb {R}</math> 및 점 <math>{\boldsymbol {a}}\in D</math>에 대하여, 점 <math>{\boldsymbol {a}}</math>에서 함수 <math>f</math>의 변수 <math>x_{i}</math>에 대한 편미분은 다음과 같은 극한이다.
+<math>{\frac {\partial f}{\partial x_{i}}}({\boldsymbol {a}})=\lim _{h\to 0}{\frac {f(a_{1},\ldots ,a_{i-1},a_{i}+h,a_{i+1},\ldots ,a_{n})-f(a_{1},\ldots ,a_{i-1},a_{i},a_{i+1},\ldots ,a_{n})}{h}}</math> 편미분은 다음과 같이 정의할 수도 있으며, 이는 위 정의와 동치이다.
+여기서 어떤 <math>{\boldsymbol {a}}\in D</math>에서 <math>f</math>의 <math>x_{i}</math>에 대한 편미분이 존재한다면, 점 <math>{\boldsymbol {a}}</math>에서 <math>f</math>가 <math>x_{i}</math>에 대해 편미분 가능하다고 한다.
+모든 <math>{\boldsymbol {x}}\in D</math>에서 <math>f</math>의 <math>x_{i}</math>에 대한 편미분이 존재한다면, <math>f</math>가 <math>D</math>에서 <math>x_{i}</math>에 대해 편미분 가능하다고 한다.
+이 경우, 편미분은 정의역이 <math>D</math>, 공역이 <math>\mathbb {R}</math>인 함수이며, 이를 <math>{\frac {\partial f}{\partial x_{i}}}</math> 로 표기한다.
+(어떤 점 또는 모든 점에서) 함수 <math>f</math>가 모든 변수에 대해 편미분 가능할 경우, <math>f</math>의 기울기는 각 변수에 대한 편미분을 좌표로 갖는 벡터이다.
+방향도함수(, 영어: directional derivative)는 편미분의 가벼운 일반화이다.
+좌표축과 평행하는 방향의 함수 변화를 다루는 편미분과 달리, 방향 미분은 임의의 방향의 함수 변화를 다룬다.
+다음과 같은 대상들이 주어졌다고 하자.
+<math>{\boldsymbol {v}}=(\cos \theta _{1},\ldots ,\cos \theta _{n})\in \mathbb {R} ^{n}\qquad (|{\boldsymbol {v}}|=1)</math> <math>{\boldsymbol {v}}=(\cos \theta _{1},\ldots ,\cos \theta _{n})\in \mathbb {R} ^{n}\qquad (|{\boldsymbol {v}}|=1)</math> 이를 "방향"이라고 부르자.
+그렇다면, 점 <math>{\boldsymbol {a}}</math>에서 <math>f</math>의 방향 <math>{\boldsymbol {v}}</math>에 대한 방향도함수는 다음과 같은 극한이다.
+<math>{\begin{aligned}{\frac {\partial f}{\partial {\boldsymbol {v}}}}&=\lim _{t\to 0+0}{\frac {f(a_{1}+t\cos \theta _{1},\ldots ,a_{n}+t\cos \theta _{n})-f(a_{1},\ldots ,a_{n})}{t}}\\&=\lim _{t\to 0+0}{\frac {f({\boldsymbol {a}}+t{\boldsymbol {v}})-f({\boldsymbol {a}})}{t}}\\&=\lim _{E\ni {\boldsymbol {x}}\to {\boldsymbol {a}}}{\frac {f({\boldsymbol {x}})-f({\boldsymbol {a}})}{({\boldsymbol {x}}-{\boldsymbol {a}})\cdot {\boldsymbol {v}}}}\end{aligned}}</math> 여기서 <math>a+tv:0<t<t′}⊆D{E=\{{\boldsymbol {a}}+t{\boldsymbol {v}}\colon 0<t<t'\}\subseteq D</math> 이다.
+함수 <math>f</math>의 고계 편미분(, 영어: higher order partial derivative)은 편미분의 편미분이나 편미분의 편미분의 편미분 등등을 뜻한다.
+예를 들어, 독립 변수 <math>x,y,z</math>의 함수 <math>f\colon \mathbb {R} ^{3}\to \mathbb {R}</math>에 대하여, <math>x</math>에 대한 편미분은 다음과 같이 표기한다.
+<math>{\frac {\partial f}{\partial x}}=f_{x}=\partial _{x}f</math> 이를 다시 <math>x</math>나 <math>y</math>로 편미분하면, 이계 편미분을 얻으며, 다음과 같이 표기한다.
+<math>{\frac {\partial ^{2}f}{\partial x^{2}}}=f_{xx}=\partial _{xx}f\equiv {\frac {\partial }{\partial x}}{\frac {\partial }{\partial x}}f</math> <math>{\frac {\partial ^{2}f}{\partial y\partial x}}=f_{xy}=\partial _{yx}f\equiv {\frac {\partial }{\partial y}}{\frac {\partial }{\partial x}}f</math> 비슷하게, <math>f</math>를 <math>y</math>나 <math>z</math>로 편미분하고, 다시 <math>x</math>나 <math>y</math>나 <math>z</math>로 편미분할 수 있다.
+일반적으로, 연결 열린집합 <math>D\subseteq \mathbb {R} ^{n}</math>에 정의된 실숫값 함수 <math>f\colon D\to \mathbb {R}</math>를 변수 <math>x_{a}</math>로 <math>k_{a}</math>번, 변수 <math>x_{b}</math>로 <math>k_{b}</math>번, ..., 변수 <math>x_{c}</math>로 <math>k_{c}</math>번(인접하지 않는 두 변수는 같을 수 있다) 편미분하는 것은 <math>k_{a}+k_{b}+\cdots +k_{c}</math>계 편미분이며, 다음과 같이 표기한다.
+<math>{\frac {\partial ^{k_{a}+k_{b}+\cdots +k_{c}}f}{\partial x_{c}^{k_{c}}\cdots \partial x_{b}^{k_{b}}\partial x_{a}^{k_{a}}}}\equiv {\frac {\partial ^{k_{c}}}{\partial x_{c}^{k_{c}}}}\cdots {\frac {\partial ^{k_{b}}}{\partial x_{b}^{k_{b}}}}{\frac {\partial ^{k_{a}}}{\partial x_{a}^{k_{a}}}}f</math> 용어 혼합 편미분(, 영어: mixed derivative)은 서로 다른 두 변수에 대한 이계 편미분을 뜻한다.
+예를 들어, 위에서 <math>f</math>의 <math>x</math>에 대한 편미분의 <math>y</math>에 대한 편미분은 혼합 편미분이다.
+많은 경우 편미분 변수 순서는 교환 가능하며, 이 경우 편미분은 다중지표를 사용하여 다음과 같이 표기할 수 있다.
+<math>\left({\frac {\partial }{\partial {\boldsymbol {x}}}}\right)^{\boldsymbol {i}}f\equiv \left({\frac {\partial }{\partial x_{1}}}\right)^{i_{1}}\left({\frac {\partial }{\partial x_{2}}}\right)^{i_{2}}\cdots \left({\frac {\partial }{\partial x_{n}}}\right)^{i_{n}}f</math> 물론, 이들 편미분 가운데 일부 또는 전부는 정의역의 일부 또는 전부에서 존재하지 않을 수 있다.
+(어떤 점이나 모든 점에서) 함수가 전미분 가능하다면, (그 어떤 점이나 모든 점에서) 그 함수의 모든 편미분과 모든 방향 미분이 존재한다.
+또한, 다음이 성립한다.
+<math>df={\frac {\partial f}{\partial x_{1}}}dx_{1}+{\frac {\partial f}{\partial x_{2}}}dx_{2}+\cdots +{\frac {\partial f}{\partial x_{n}}}dx_{n}=\nabla f\cdot d{\boldsymbol {x}}</math> <math>{\frac {\partial f}{\partial {\boldsymbol {v}}}}={\frac {\partial f}{\partial x_{1}}}\cos \theta _{1}+{\frac {\partial f}{\partial x_{2}}}\cos \theta _{2}+\cdots +{\frac {\partial f}{\partial x_{n}}}\cos \theta _{n}=\nabla f\cdot {\boldsymbol {v}}</math> (어떤 점이나 모든 점에서) 함수의 모든 편미분이 존재하고, 모두 연속 함수라면, (그 어떤 점이나 모든 점에서) 그 함수는 전미분 가능하다.
+이 경우 함수가 연속 미분 가능하다고 한다.
+편미분 교환 법칙에 따르면, 연결 열린집합 <math>D\subseteq \mathbb {R} ^{n}</math>에 정의된 함수 <math>f\colon D\to \mathbb {R}</math> 및 그 두 변수 <math>x</math>, <math>y</math>에 대하여, 만약 <math>f</math>가 <math>{\mathcal {C}}^{2}</math>함수라면, <math>f</math>의 <math>x</math>와 <math>y</math>에 대한 혼합 편미분은 서로 같다.
+즉, <math>{\frac {\partial ^{2}f}{\partial x\partial y}}={\frac {\partial ^{2}f}{\partial y\partial x}}</math> 증명: <math>S\left(\Delta x,\Delta y\right)=f\left(x_{0}+\Delta x,y_{0}+\Delta y\right)-f\left(x_{0}+\Delta x,y_{0}\right)-f\left(x_{0},y_{0}+\Delta y\right)+f\left(x_{0},y_{0}\right)</math>라고 하고 <math>g\left(x\right)=f\left(x,y_{0}+\Delta y\right)-f\left(x,y_{0}\right)</math>라고 하자.
+그렇다면 <math>S\left(\Delta x,\Delta y\right)=g\left(x_{0}+\Delta x\right)-g\left(x_{0}\right)</math>이다.
+전제에 의하여 <math>g</math>는 미분가능하므로 평균값 정리에 의하여 <math>x_{0}+\Delta x</math>와 <math>x_{0}</math>사이에는 <math>g\left(x_{0}+\Delta x\right)-g\left(x_{0}\right)=g'\left({\bar {x}}\right)\Delta x</math>를 만족하는 <math>{\bar {x}}</math>가 존재한다.
+<math>S\left(\Delta x,\Delta y\right)=\left[{\frac {\partial f}{\partial x}}\left({\bar {x}},y_{0}+\Delta y\right)-{\frac {\partial f}{\partial x}}\left({\bar {x}},y_{0}\right)\right]\Delta x</math>이다.
+평균값 정리를 다시 한 번 적용하면 <math>f_{x}</math>는 미분가능하므로 평균값 정리에 의하여 <math>y_{0}+\Delta y</math>와 <math>y_{0}</math>사이에는 <math>{\frac {\partial f}{\partial x}}\left({\bar {x}},y_{0}+\Delta y\right)-{\frac {\partial f}{\partial x}}\left({\bar {x}},y_{0}\right)={\frac {\partial ^{2}f}{\partial y\partial x}}\left({\bar {x}},{\bar {y}}\right)\Delta y</math>를 만족하는 <math>{\bar {y}}</math>가 존재한다.
+따라서 <math>S\left(\Delta x,\Delta y\right)={\frac {\partial ^{2}f}{\partial y\partial x}}\left({\bar {x}},{\bar {y}}\right)\Delta y\Delta x</math>이고, <math>{\frac {\partial ^{2}f}{\partial y\partial x}}\left({\bar {x}},{\bar {y}}\right)={\frac {S\left(\Delta x,\Delta y\right)}{\Delta x\Delta y}}</math>이다.
+<math>{\frac {\partial ^{2}f}{\partial y\partial x}}</math>는 연속이므로 <math>\lim _{\left(\Delta x,\Delta y\right)\to \left(0,0\right)}{\frac {S\left(\Delta x,\Delta y\right)}{\Delta x\Delta y}}={\frac {\partial ^{2}f}{\partial y\partial x}}\left(x,y\right)</math>이다.
+유사한 방법으로 계산해보면 <math>{\frac {\partial ^{2}f}{\partial x\partial y}}\left(x,y\right)=\lim _{\left(\Delta x,\Delta y\right)\to \left(0,0\right)}{\frac {S\left(\Delta x,\Delta y\right)}{\Delta x\Delta y}}</math>이므로 <math>f_{xy}=f_{yx}</math>이다.
+밑면의 반지름이 r이고 높이가 h인 원뿔의 부피 V는 다음과 같다.
+<math>V={\frac {\pi r^{2}h}{3}}</math> 여기에서 V를 r에 대해 편미분하면 다음과 같은 식이 얻어진다.
+<math>{\frac {\partial V}{\partial r}}={\frac {2\pi rh}{3}}</math> 또한, V를 h에 대해 편미분하면 다음 식이 얻어진다.
+<math>{\frac {\partial V}{\partial h}}={\frac {\pi r^{2}}{3}}</math> 상미분 방정식(, 영어: ordinary differential equation, 약자 ODE)은 구하려는 함수가 하나의 독립 변수만을 가지고 있는 미분 방정식이다.
+이와 반대되는 개념은 여러 변수에 대한 함수를 편미분하는 형식을 취하는 편미분 방정식이다.
+예를 들어, 뉴턴의 제2법칙은 상미분 방정식으로 나타낼 수 있는데, 어떤 시간 <math>t</math>에 대하여 거리가 <math>x(t)</math>, 힘의 크기가 <math>F</math>인 경우 운동법칙을 다음과 같이 나타낼 수 있다.
+<math>m{\frac {d^{2}x(t)}{dt^{2}}}=F(x(t))</math> 상미분 방정식이 선형인 경우는 해석적인 방법으로 풀 수 있는 반면, 비선형인 경우에는 일반적인 해를 구하는 것이 힘들거나 불가능하다.
+이러한 경우 근사적으로 해를 구할 수도 있다.
+상미분 방정식은 과학과 공학의 다양한 분야에서 널리 응용된다.
+아이작 뉴턴, 고트프리트 빌헬름 라이프니츠, 야코프 베르누이, 야코포 리카티(이탈리아어: Jacopo Riccati), 알렉시스 클레로, 장 르 롱 달랑베르, 레온하르트 오일러 등 여러 수학자들이 상미분 방정식 이론의 발전에 기여하였다.
+변수 <math>x</math>에 대한 함수 <math>y(x)</math>에 대해, <math>x</math>, <math>y</math>, <math>y'</math>의 도함수로 구성된 어떤 방정식이 <math>F(x,y(x),y'(x),\cdots ,y^{(n-1)}(x))=y^{(n)}(x)</math> 와 같은 형태로 표현될 수 있는 경우 (<math>y^{(k)}</math>는 <math>y</math>의 <math>k</math>차 도함수), 이 방정식을 n차 상미분 방정식이라고 정의한다.
+만약 방정식이 <math>F(x,y(x),y'(x),\ y''(x),\ \cdots ,\ y^{(n)}(x))=0</math> 의 모양으로 표현된다면 이를 내재적 형태(영어: implicit form)라고 한다.
+이에 반해 첫 번째 식의 경우는 명시적 형태(영어: explicit form)라고 한다.
+상미분 방정식은 아래의 성질을 기준으로 분류할 수 있다.
+상미분 방정식이 함수 y의 도함수들의 선형 결합인 경우, 즉 <math>y^{(n)}=\sum _{i=0}^{n-1}a_{i}(x)y^{(i)}+r(x)</math> 의 꼴로 표현할 수 있는 경우 이 상미분 방정식을 선형 상미분 방정식(영어: linear ODE)이라 한다.
+여기서 ai(x)와 r(x)는 변수 x에 대한 연속 함수이다.
+함수 r(x)는 초항(source term)이라 부른다.
+선형이 아닌 상미분방정식을 비선형 상미분 방정식(영어: nonlinear ODE)이라 한다.
+r(x)=0인 선형 미분 방정식을 동차 선형 상미분 방정식(영어: homogeneous linear ODE)이라 한다.
+동차가 아닌 경우 비동차 선형 상미분 방정식(영어: nonhomogeneous linear ODE)이라 한다.
+여러 개의 상미분 방정식들로 이루어진 계를 연립 상미분 방정식(영어: system of ODE)이라 한다.
+y가 함수들로 이루어진 벡터 y(x) = [y1(x), y2(x),..., ym(x)]이고 F가 y와 그 도함수들에 대한 벡터 함수일 때, 아래의 상미분 방정식 <math>\mathbf {y} ^{(n)}=\mathbf {F} \left(x,\mathbf {y} ,\mathbf {y} ',\mathbf {y} '',\ldots ,\mathbf {y} ^{(n-1)}\right)</math> 을 연립 상미분 방정식 꼴로 나타내면 다음과 같다.
+<math>{\begin{pmatrix}y_{1}^{(n)}\\y_{2}^{(n)}\\\vdots \\y_{m}^{(n)}\end{pmatrix}}={\begin{pmatrix}f_{1}\left(x,\mathbf {y} ,\mathbf {y} ',\mathbf {y} '',\ldots ,\mathbf {y} ^{(n-1)}\right)\\f_{2}\left(x,\mathbf {y} ,\mathbf {y} ',\mathbf {y} '',\ldots ,\mathbf {y} ^{(n-1)}\right)\\\vdots \\f_{m}\left(x,\mathbf {y} ,\mathbf {y} ',\mathbf {y} '',\ldots ,\mathbf {y} ^{(n-1)}\right)\end{pmatrix}}</math> 다음의 상미분 방정식 <math>F\left(x,y,y',\ldots ,y^{(n)}\right)=0</math> 이 주어졌을 때, 구간 I에서 n번 미분 가능하고 <math>F(x,u,u',\ \ldots ,\ u^{(n)})=0\quad x\in I</math> 을 만족하는 함수 u: I ⊂ R → R를 이 상미분 방정식의 해(영어: solution)라고 한다.
+<math>y'+p\left(x\right)y=0</math> 와 같은 1계 제차 선형 상미분 방정식은 변수분리를 통해 <math>{\frac {dy}{y}}=-p\left(x\right)dx</math> 로 나타낼 수 있고, 적분을 통해 아래와 같이 나타낼 수 있다.
+<math>\ln \left|y\right|=-\int _{}^{}{p\left(x\right)dx+c*}</math> 따라서 아래의 식으로 손쉽게 1계 제차 선형 상미분 방정식의 해를 구할 수 있다.
+<math>y\left(x\right)=ce^{-\int _{}^{}{p\left(x\right)dx}}</math>, (<math>y\neq 0</math>이면, <math>c=\pm e^{c*}</math>) 이때, <math>c=0</math>이면 자명한 해 <math>y(x)=0</math>를 얻는다.
+2계 선형 상미분방정식은 역학, 파동, 열전도 등에서 많이 이용된다.
+다음 식으로 표현되는 2계 제차 선형 상미분 방정식은 <math>y''+ay'+by=0</math> 은 다음과 같은 특성방정식(characteristic equation; 보조방정식)을 이용해 특성을 알아내고, 그 해를 구할 수 있다 <math>\lambda ^{2}+a\lambda +b=0</math> 특성방정식의 각각의 경우에 대한 일해 및 설명은 아래 표와 같다.
+비제차 상미분 방정식은 <math>y^{\left(n\right)}+a_{n-1}y^{\left(n-1\right)}+\cdots +a_{1}y'+a_{0}y=r\left(x\right)</math> 와 같이 우항의 <math>r\left(x\right)</math>가 '0'이 아닌 경우를 말한다.
+비제차 상미분 방정식의 일반해는 <math>y\left(x\right)=y_{h}\left(x\right)+y_{p}\left(x\right)</math> 와 같은 형태이다.
+비제차 상미분 방정식을 풀이하는 방법에는 다음의 방법들이 있다.
+선형이 아닌 상미분 방정식을 비선형 상미분 방정식(영어: nonlinear ordinary differential equation)이라 부른다.
+비선형 상미분 방정식의 해는 선형방정식에 비해 매우 복잡하다.
+비선형 방정식의 풀이법으로는 다음이 있다.
+또한, 베르누이 방정식과 같은 특수한 경우에는 선형 상미분 방정식으로 변환시킬 수 있다.
+다음은 대표적인 상미분 방정식의 예이다.
+적분(한국 한자: , 영어: integral)은 정의된 함수의 그래프와 그 구간으로 둘러싸인 도형의 넓이를 구하는 것이다.
+리만 적분에서 다루는 고전적인 정의에 따르면, 실수의 척도를 사용하는 측도 공간에 나타낼 수 있는 연속인 함수 f(x)에 대하여 그 함수의 정의역의 부분 집합을 이루는 구간 [a, b] 에 대응하는 치역으로 이루어진 곡선의 리만 합의 극한을 구하는 것이다.
+이를 정적분(, 영어: definite integral)이라 한다.
+구간 [a, b]에 대하여 <math>f(x)\geq 0</math> 이면 적분은 곡선의 면적과 동일하다.
+그러나, 오른쪽 그림과 같이 구간 가운데 일부가 음수인 치역을 갖는다면 적분 값은 서로 상쇄되어 곡선이 이루는 면적과 다를 수 있다.
+이를 수식으로 나타내면, 폐구간<math>[a,b]</math>에서 연속인 함수 <math>f(x)</math>에 대한 정적분은 다음과 같은 수식으로 나타낼 수 있다.
+<math>\int _{a}^{b}f(x)dx=\lim _{n\to \infty }\sum _{k=1}^{n}f(x_{k})\Delta x\quad</math> <math>\left(x_{k}=a+k\Delta x,\ \Delta x={\frac {b-a}{n}}\right)</math> 아르키메데스가 적분의 아이디어를 처음 생각해내었고 앙리 르베그가 적분론을 완성하였다.
+고대 그리스 시대 시라쿠사의 수학자 아르키메데스는 도형의 면적이나 부피를 구하는데 오늘날의 적분과 유사한 방법을 사용하였다.
+아르키메데스는 구적법을 이용하여 원, 구, 포물선의 일부 등에 대한 면적과 부피를 구하는 증명을 제시하였다.
+구적법 문제는 이후 오랫동안 별다른 진전을 보이지 못하였다가 르네상스 시기에 이르러 보나벤투라 카발리에리가 무한의 개념을 도입하면서 진전이 있었다.
+1622년 카발리에리는 곡선으로 둘러싸인 도형의 면적을 매우 폭이 좁은 직사각형들의 면적을 합한 것으로 이해할 수 있다는 착상을 내놓았다.
+이후 블레즈 파스칼은 지금의 적분 기호를 사용한 것은 아니지만 곡선의 면적은 모든 가로 선분의 합인 <math>\sum _{0\leq k<na}f\left({\frac {k}{n}}\right)</math>의 단위, 즉 n에 대한 비와 같다는 것을 파악하고 있었다.
+카발리에리 이후 유럽에서는 도형을 당시의 표현을 빌리자면 불가분량이라고 부르는 아주 작은 양으로 나누어 넓이나 부피를 구하는 방법이 지속적으로 연구되었다.
+케플러는 케플러의 행성운동법칙에서 지구의 공전 궤도가 타원을 이루며 같은 시간 동안 지구가 지나가는 황도면의 넓이는 같다고 주장하였다.
+그는 타원의 넓이를 계산하기 위해 카빌리에리 이후 알려진 불가분량을 이용하였다.
+또한, 케플러는 포도주통의 내측 부피를 구하기 위해 포도주통을 이루는 입체도형을 얇은 막들의 집합으로 파악하여 합산하였다.
+이러한 발상은 케플러가 적분의 발견에 매우 근접하였다는 것을 보여준다.:77-79 한편, 데카르트가 제시한 좌표 평면과 해석기하학의 출현은 미적분학이 발전하는 중요한 밑거름이 되었다.
+아이작 뉴턴과 고트프리트 빌헬름 라이프니츠는 각자 독자적으로 미적분학을 수립하였으며 적분은 결국 미분의 역산으로 역도함수를 구하는 것과 같다는 점을 발견하였다.
+이를 미적분학의 기본정리라고 한다.
+19세기에 이르러 베른하르트 리만은 적분에 대해 수학적으로 엄밀한 정의를 내렸다.
+1823년 오귀스탱 루이 코시는 모든 연속함수는 적분 가능함을 증명하였고, 리만은 이를 확장하여 연속 함수 f(x)의 적분은 해당 구간에서 리만 합의 극한과 같다는 점을 증명하였다.
+이렇게 정의된 적분을 흔히 리만 적분이라 한다.:118-119 리만 적분은 이후 토마스 요아너스 스틸티어스에 의해 보다 간단히 정리되었다.
+1902년 앙리 르베그는 연속된 함수의 유계 구간에 대해 내측도와 외측도의 개념을 정립하고 이를 덮개로 파악하여 계측하는 르베그 측도를 이용한 르베그 적분을 발표하였다.
+르베그 적분은 n차원의 일반적인 함수에 대해 리만 적분을 확장하여 적용한 것이다.
+르베그 적분은 특정 함수에 대해 리만 적분이 존재할 때에는 리만 적분과 일치하지만, 그렇지 않은 경우에도 적분 가능한 함수들을 만들어 낸다.:277 미적분학, 특히 적분은 수학의 역사에서 비교적 최근에 발전한 학문으로 꾸준히 확장되고 있다.
+‘적분()’이란 번역어를 근대에 처음 쓴 문헌은 엘리어스 루미스(영어판)의 《Analytical Geometry and of the Differential and Integral Calculus》(1835)를 1859년 알렉산더 와일리(영어판)와 이선란이 번역한 《대미적습급()》이다.
+한편 조지프 니덤은 《중국의 과학과 문명(영어판)》에서 11세기 중국에서 이미 ‘적분’이라는 번역어를 사용했었다고 주장했다.
+적분은 곡면으로 이루어진 도형의 넓이나 물체의 부피와 같은 것에서 중력의 중심을 구하는 문제에 이르기까지 폭넓게 사용된다.
+예를 들어 곡면으로 이루어진 수영장을 채우기 위해 얼마만큼의 물이 필요한지를 계산할 수 있다.
+임의의 함수 <math>f(x)</math>의 정의역 가운데 일부 구간 <math>[a,b]</math>에 대한 적분은 구간 내의 치역이 모두 <math>0</math> 이상일 때 해당 구간의 넓이와 같다.
+치역의 일부 구간이 음수일 경우 <math>0</math> 이상인 구간과 상계되어 엄밀한 의미에서 적분과 구간의 넓이는 동일한 개념은 아니지만, 적분의 개요를 이해하기 위해 여기서는 넓이를 구하는 방법으로서 적분을 다룬다.
+<math>y=f(x)</math>인 곡선에서 <math>x=0</math>부터 <math>x=1</math>사이의 넓이를 구하는 경우를 가정할 때,<math>f(x)={\sqrt {x}}</math> 라면.
+이것은 다음과 같은 적분식으로 표현할 수 있다.
+<math>\int _{0}^{1}{\sqrt {x}}\,dx\,\!.</math> 이제 다음과 같은 방법에 따라 위 식이 나타내는 넓이를 구할 수 있다.
+우선 <math>f(0)=0</math>, <math>f(1)=1</math> 이므로 구간 <math>[0,1]</math>에서 전체의 넓이는 가로와 세로가 각각 1인, 즉 넓이가 1인 정사각형 안에 있다고 할 수 있다.
+물론, 여기서 구하고자 하는 곡선의 넓이는 이 전체 구간의 넓이보다 작다.
+더욱 정확한 넓이를 계산하기 위해서는 구간을 더 세밀하게 나눌 필요가 있다.
+오른쪽 그림의 노란색 사각형과 같이 구간 [0, 1]을 폭이 0.2인 구간으로 나누어 오른쪽 값을 높이로 하는 다섯 개의 사각형을 그릴 수 있다.
+이들 사각형의 넓이의 합은 <math>0.2\times ({\sqrt {0.2}}+{\sqrt {0.4}}+{\sqrt {0.6}}+{\sqrt {0.8}}+{\sqrt {1}})</math> <math>\approx 0.2\times (0.4472+0.6325+0.7746+0.8944+1)=0.7497.\,\!</math> <math>\approx 0.2\times (0.4472+0.6325+0.7746+0.8944+1)=0.7497.\,\!</math> 이 된다.
+그래프에서 나타난 것과 같이 이 사각형들의 넓이의 합은 실제 넓이보다 여전히 크다.
+한편, 오른쪽 그래프의 녹색 사각형은 구간 [0,1]을 12등분하여 왼쪽 값을 높이로 하는 사각형을 그린 것이다.
+이 사각형들의 넓이의 합은 <math>{\frac {1}{12}}\times \left({\sqrt {\frac {0}{12}}}+{\sqrt {\frac {1}{12}}}+\cdots +{\sqrt {\frac {11}{12}}}\right)\approx 0.6203.\,\!</math> 이다.
+이 경우에는 사각형들의 넓이의 합은 실제 곡선의 넓이보다 작다.
+이렇게 작게 나눈 구간의 오른쪽을 사각형의 높이로 삼으면 실제 곡선의 넓이보다 크게 되고 왼쪽을 사각형의 높이로 삼으면 실제 곡선의 넓이보다 작게된다.
+그러나, 작게 나눈 구간의 폭을 매우 작게 만들면 둘의 차이는 거의 없게 되고 곡선의 실제 넓이에 근사하게 된다.
+이와 같이 적분은 곡선의 넓이를 구하기 위해 밑변의 길이가 0으로 수렴하는 무수히 많은 사각형들의 넓이를 합한 것과 같다.
+다항식을 관계식으로 하는 함수의 적분 계산법에 따라 구간 [0,1]에서 <math>f(x)={\sqrt {x}}</math>의 적분은 다음과 같이 계산된다.
+<math>\int _{0}^{1}{\sqrt {x}}\,dx=\int _{0}^{1}x^{\frac {1}{2}}\,dx=F(1)-F(0)={\textstyle {\frac {2}{3}}}.\approx 0.6667.\,\!</math> 단, <math>F(x)={\frac {2}{3}}x^{\frac {3}{2}}</math> 계산의 자세한 방법은 이 글의 표기와 계산 문단에 있다.
+지금까지의 예제는 리만 적분에 따른 것이다.
+리만 적분에서 함수 f(x)의 적분은 다음과 같이 표기한다.
+<math>\int f(x)\,dx\,\!</math> 이때 ∫는 S를 변형시킨 것으로 합한다(영어: summation)는 것을 나타내는 적분 기호이고 <math>f(x)</math>는 함수를 <math>dx</math>는 <math>x</math>의 구간에 대한 변화량(영어: differentials)을 곱한다는 의미를 지닌다.
+르베그 적분에서는 <math>\int _{A}f(x)\,d\mu \,\!</math> 와 같은 표기를 사용하는데, 리만 적분과는 달리 곡선을 가로로 잘라낸 사각형들의 넓이의 합을 구한다는 의미를 나타낸다.
+이 외에도 스토크스의 정리에서는 적분을 보다 일반적으로 정의하여 다음과 같이 표기한다.
+<math>\int _{A}d\omega =\int _{\partial A}\omega ,\,\!</math> 오늘날 일반적으로 사용되는 적분을 나타내는 표기 <math>\int</math>은 라이프니츠가 제안한 것이다.:140-141 적분 가능한 함수 f(x)가 있을 때 적분의 표기는 다음과 같다.
+<math>\int _{a}^{b}f(x)dx</math> (구간 <math>[a,b]</math>에 대한 함수 <math>f(x)=x</math>의 적분) 미적분학의 기본정리에 따라 적분은 미분의 역연산이다.
+즉, 함수 <math>f(x)</math>를 도함수로 하는 원시함수 <math>F(x)</math>가 존재한다.
+원시함수를 구하는 과정을 부정적분()이라 한다.
+이를 식으로 나타내면 다음과 같은 관계가 성립한다.
+<math>{\frac {d}{dx}}F(x)=f(x)</math> 예를 들어, <math>f(x)=x</math> 라고 하면 원시함수 <math>F(x)</math>는 다음과 같이 생각하여 구할 수 있다.
+<math>{\frac {d}{dx}}F(x)=x\</math> 이 때 도함수가 <math>f(x)=x</math>인 원시 함수 <math>F(x)</math>는 일반적인 다항식을 관계식으로 하는 함수이므로 <math>F(x)=Ax^{2}+Bx+C\</math> 의 형태가 됨을 알 수 있다.
+따라서, 다항식의 도함수 계산법을 이용하면 <math>2A=1,B=0</math>가 되고, <math>C</math>는 임의의 상수가 된다.
+즉, <math>F(x)={\frac {1}{2}}x^{2}+C\</math> 위 식에서 나타나는 임의의 상수 <math>C</math>를 적분상수라고 한다.
+원시함수 <math>F(x)</math>에 나타나는 적분 상수는 함수 <math>f(x)</math>로 미분될 때 <math>0</math>이 되어 소멸한다.
+일반적으로, <math>f(x)=a_{0}x^{n}+a_{1}x^{n-1}+\cdots +a_{n}</math>(단, <math>n\neq -1</math>) 의 꼴을 갖는 다항식을 관계식으로 하는 함수의 원시 함수 F(x)는 다음과 같은 형태가 된다.:246-247 <math>F(x)={\frac {a_{0}}{n+1}}x^{n+1}+{\frac {a_{1}}{n}}x^{n}+\cdots +a_{n}x+C</math> (C는 적분 상수) 일반적인 경우를 살펴보자.
+구간 [a, b]에서 적분 가능한 함수 <math>f(x)</math>의 임의의 두 부정적분을 <math>F(x)</math>, <math>G(x)</math>라 하자.
+<math>H(x)=F(x)-G(x)</math> 라 하자.
+구간 <math>(a,b]</math>에 속하는 임의의 <math>x</math>에 대하여, 함수 <math>H(x)</math>에 평균값의 정리를 적용하면 <math>{\frac {H(x)-H(a)}{x-a}}=H'(c)</math> 를 만족하는 c가 구간 (a, x)에 존재한다.
+그런데 <math>H'(c)=F'(c)-G'(c)=f(c)-f(c)=0</math> 이므로 <math>H(x)-H(a)=0</math> 이다.
+즉 H(x) = H(a)이다.
+구간 (a, b]에 속하는 임의의 x를 택하였으므로, 구간 [a, b]에서 이 식이 성립한다.
+즉, 구간 [a, b]에서 H(x)는 상수함수이다.
+따라서 H(x) = k (k는 상수)라 할 수 있으므로 <math>F(x)-G(x)=H(x)=k</math> 이다.
+즉, 구간 [a, b]에서 두 함수 F(x)와 G(x)는 상수만큼 차이난다.
+따라서 함수 f(x)의 임의의 부정적분 F(x)와 G(x)는 상수만큼 차이난다.
+어떤 함수의 부정적분을 적분상수를 이용하여 표기하는 것이 정당함을 알 수 있다.
+한편, 함수 f(x)의 구간 [a, b]에 대한 적분은 시작점과 끝점이 있는 유계의 변화량을 뜻하며 이를 정적분()이라 한다.
+구간 [a, b]에 대한 함수 f(x)의 정적분은 다음과 같이 계산될 수 있다.
+일반적으로 적분은 정적분을 가리킨다.
+또한, 리만 합의 극한으로서 정적분을 정의하는 것을 리만 적분이라고 하며, 별다른 설명이 없을 경우 적분은 흔히 리만 적분을 가리킨다.
+<math>\int _{a}^{b}f(x)dx=F(b)-F(a)</math> (단, <math>F(x)\</math>는 <math>f(x)\</math>의 원시 함수) 위에서 예를 든 <math>f(x)=x</math>의 구간 [4, 9] 에 대한 적분을 계산하면, <math>\int _{4}^{9}xdx=F(9)-F(4)=\left({\frac {1}{2}}\cdot 9^{2}+C\right)-\left({\frac {1}{2}}\cdot 4^{2}+C\right)</math> <math>={\frac {9^{2}}{2}}-{\frac {4^{2}}{2}}={\frac {81-16}{2}}={\frac {65}{2}}=32.5</math> <math>={\frac {9^{2}}{2}}-{\frac {4^{2}}{2}}={\frac {81-16}{2}}={\frac {65}{2}}=32.5</math> 구간 [4, 9]에 대한 함수 f(x)=x의 치역은 모두 양수 이므로 위 결과는 구간 [4, 9]에 대한 f(x)=x의 넓이와 같다.
+오른쪽의 그래프와 같이 이는 결국 한변의 길이가 9인 직각이등변삼각형의 넓이에서 한변의 길이가 4인 직각이등변삼각형의 넓이를 뺀 것과 동일하고, 그 결과 역시 같다.
+위의 예와 같이 적분은 하나의 수로서 <math>x\</math>와는 무관하다.
+즉 다음의 등식이 성립한다.
+<math>\int _{a}^{b}f(x)dx=\int _{a}^{b}f(y)dy=\int _{a}^{b}f(z)dz=\cdots</math> 삼각함수 역시 미분적분의 기본정리를 이용하여 원시 함수를 구한후 정적분을 계산한다.
+예를 들어 <math>f(x)=\sin {x}\</math>의 원시 함수는 <math>F(x)=-\cos {x}+C\</math>가 되므로, 구간 [a,b]의 정적분은 <math>\int _{a}^{b}\sin {x}dx=-\cos {b}+\cos {a}=\cos {a}-\cos {b}</math> 와 같이 계산할 수 있다.
+적분은 여러 가지 형식으로 구분된다.
+적분 계산에 대한 정의 방식이 달라 서로 다른 형식으로 분류되는 것이 대부분이지만, 교육적인 목적때문에 구분한 경우도 있다.
+가장 일반적으로 널리 쓰이는 적분은 리만 적분과 르베그 적분이다.
+리만 적분은 주어진 구간에서 리만 합의 극한으로 적분을 정의한다.
+폐구간 [a,b]는 다음과 같이 보다 작은 구간으로 분할 될 수 있다.
+<math>a=x_{0}\leqq t_{1}\leqq x_{1}\leqq t_{2}\leqq x_{2}\leqq \cdots \leqq x_{n-1}\leqq t_{n}\leqq x_{n}=b.\,\!</math> 구간 [a,b]를 n 개의 하위 구간으로 분할하는 경우, 하위 구간들은 [xi-1, xi]와 같이 i에 의해 표기될 수 있다.
+분할된 각각의 하위 구간의 표시는, ti ∈ [xi-1, xi]와 같이 지정할 수 있다.
+함수 f(x)의 특정 구간 [a, b]를 n 개의 하위 구간으로 분할 할 때 리만 합은 다음과 같이 정의된다.
+<math>\sum _{i=1}^{n}f(t_{i})\Delta _{i};</math> 왼쪽의 그래프와 같이 각각의 하위 구간들은 사각형을 구성하게 된다.
+이때 곡선과 만나는 어느 지점을 사각형의 높이로 삼을 것인지에 따라 사각형의 크기가 달라지게 된다.
+예를 들어 하위 구간의 시작점을 기준으로 한다면 그래프에서는 왼쪽을 기준으로 한 사각형을 그릴 수 있다.
+이 경우를 왼쪽 리만 합이라고 한다.
+같은 방법으로 하위 구간의 끝점을 기준으로 하는 오른쪽 리만 합, 가운데 지점을 기준으로 하는 가운데 리만 합, 하위 구간에서 곡선의 가장 높은 곳을 기준으로 하는 최댓값 리만 합 등을 만들 수 있다.
+왼쪽의 그림에서 가운데에 있는 그래프는 오른쪽 리만 합이든 다른 종류의 리만 합이든 종류에 관계없이 극한을 취할 경우 같은 값으로 수렴함을 보여주고 있다.
+구간 [a,b]에 대하여 k를 간격으로 하여 n 개로 분할된 하위 구간의 변량을 Δk = xk-xk-1 라 하면, 전체 구간 [a,b]는 분할 된 각각의 하위 구간들의 합으로 생각할 수 있다.
+위에서 설명한 〈적분의 개요〉에서 보았듯이 적분은 하위 구간의 변량 Δk 가 0으로 수렴하는 경우를 구하는 것이다.
+즉, 리만 적분은 구간 [a.b]에서 리만 합의 극한을 구하는 것과 같다.
+이를 식으로 나타내면 다음과 같다.:253-255 <math>\int _{a}^{b}f(x)dx=\lim _{n\to \infty }\sum _{k=1}^{n}f(x_{k})\Delta x\quad \left(x_{k}=a+k\Delta x,\ \Delta x={\frac {b-a}{n}}\right)</math> 르베그 적분은 리만 적분에 비해 보다 광범위하게 적용할 수 있는 적분이다.
+예를 들어 리만 적분은 강철 빔의 질량을 쉽게 계산할 수 있지만 강철 구의 경우에는 해결하기가 쉽지 않다.
+반면, 르베그 적분은 형태에 제약없이 사용할 수 있다.
+르베그 적분은 하중의 계산 등에 흔히 쓰인다.
+르베그 적분의 정의는 측도 μ를 정의하는 것에서부터 시작한다.
+간단한 경우를 보면, 르베그 측도 μ(A)는 구간 A = [a,b]를 폭으로 삼는다.
+이것은 b - a 가 되며, 이 경우 르베그 적분과 리만 적분은 같은 값을 갖는다.
+보다 복잡한 경우, 르베그 적분은 불연속 구간에서의 적분과 분할된 구간들이 서로 다른 형상을 갖는 경우 등을 포함한다.
+이를 테면 르베그 적분은 리만 적분의 확장이라고 볼 수 있다.
+리만 적분이 “함수 f의 구간 [a,b] 에 대하여 분할된 하위 구간의 합”을 살피는 것부터 접근하는데 비해, 르베그 적분은 “함수 f의 범위에 대해 유효한 분할”을 살피는 것에서부터 적분의 정의에 접근한다.
+일반적인 접근법은 우선 측도 A의 지시 함수의 적분을 다음과 같이 정의하는 것이다.
+<math>\int 1_{A}d\mu =\mu (A)</math>.
+측정 가능한 단순 함수 s를 0 이상의 자연수인 n개의 구역으로 분할하면, <math>{\begin{aligned}\int s\,d\mu &{}=\int \left(\sum _{i=1}^{n}a_{i}1_{A_{i}}\right)d\mu \\&{}=\sum _{i=1}^{n}a_{i}\int 1_{A_{i}}\,d\mu \\&{}=\sum _{i=1}^{n}a_{i}\,\mu (A_{i})\end{aligned}}</math> 이 때, 단순 함수 s에 의한 측도 Ai 에 포함되는 값 ai가 존재한다.
+한편, 측정 가능한 E를 다음과 같이 정의한다.
+<math>\int _{E}s\,d\mu =\sum _{i=1}^{n}a_{i}\,\mu (A_{i}\cap E).</math> 따라서, 함수 f의 르베그 적분은 <math>∫Esdμ:0≦s≦f}{\int _{E}f\,d\mu =\sup \left\{\int _{E}s\,d\mu \,\colon 0\leqq s\leqq f\right\}</math>; (s는 단순 함수) 과 같이 되고, 음이 아닌 측정가능한 함수 f의 상한은 다음과 같이 표현할 수 있다.
+<math>f(x),iff(x)>00,otherwisef−(x)={−f(x),iff(x)<00,otherwise{{\begin{aligned}f^{+}(x)&{}={\begin{cases}f(x),&{\text{if }}f(x)>0\\0,&{\text{otherwise}}\end{cases}}\\f^{-}(x)&{}={\begin{cases}-f(x),&{\text{if }}f(x)<0\\0,&{\text{otherwise}}\end{cases}}\end{aligned}}</math> 결국, f의 르베그 적분은 <math>\int _{E}|f|\,d\mu <\infty ,\,\!</math> 일때 <math>\int _{E}f\,d\mu =\int _{E}f^{+}\,d\mu -\int _{E}f^{-}\,d\mu .\,\!</math> 로 정의된다.
+리만 적분과 르베그 적분을 확장한 리만-스틸티어스 적분, 르베그-스틸티어스 적분 등 여러 가지 확장이 존재한다.
+적멸적분이라는 방법 역시 있다.
+수학에서 수열() 또는 열(, sequence)은 수 또는 다른 대상의 순서 있는 나열이다.
+나열 순서를 생각해야 하고 중복이 허용된다는 점에서 집합과 구분된다.
+양의 짝수의 크기 순 나열 2, 4, 6, 8, ...은 수열의 예이다.
+수열은 자연수의 집합에 정의된 함수라고 할 수 있다.
+수열을 이루는 구성원을 수열 항(term) 또는 원소(element)라고 한다.
+수열은 항의 유형에 따라 자연수열, 실수열, 점렬, 함수열, 집합열 등으로 나뉜다.
+처음으로 오는 항을 첫째항(first term) 또는 첫항, 초항이라고 부르며, 둘째, 셋째, 넷째, ...로 오는 항을 둘째항, 셋째항, 넷째항, ..., 다르게는 제2항, 제3항, 제4항, ...이라고 부른다.
+수열에서 나열되는 항의 개수를 그 수열의 길이(length)라고 한다.
+수열의 길이는 유한할 수도, 무한할 수도 있으며, 길이가 유한하면 유한수열(finite sequence), 무한하면 무한수열(infinite sequence)이라고 부른다.
+유한수열에게는 마지막으로 오는 항이 존재하며, 이를 끝항(final term) 또는 마지막항, 말항이라고 부른다.
+특정되지 않은 일반적인 제n항(nth term)을 수열의 일반항이라고 한다.
+많은 경우에 n과 제n항 사이의 관계 규칙은 수식으로 표현 가능하다.
+예를 들어 1, 3, 5, ...처럼 홀수를 오름차순으로 나열한 수열의 일반항은 <math>2n-1</math>이다.
+여기의 n에 임의의 자연수를 대입하면, 수열의 아무 번째 항의 값을 알아낼 수 있다.
+자연수는 일부 문헌에서는 1부터, 일부 문헌에서는 0부터 시작한다.
+만약 0부터 시작한다고 정할 경우 수열에서 처음 오는 항은 '제0항'이 된다 수열의 원소를 순서대로 나열하는 것은 수열의 한 가지 표현법이다.
+홀수열은 1, 3, 5, ...와 같이 표현할 수 있다.
+<math>1,3,5,…}{\{1,\ 3,\ 5,\ \dots \}</math> 또는 <math>(1,\ 3,\ 5,\ \dots )</math>처럼 괄호를 씌워도 된다.
+구체적으로 지정되지 않은 수열은 그 항들을 첨자가 달린 변수로 나타내어 (무한수열의 예를 들면) <math>a_{1},\ a_{2},\ a_{3},\ \dots</math> , 또는 <math>a1,a2,a3,…}{\{a_{1},\ a_{2},\ a_{3},\ \dots \}</math> , <math>(a_{1},\ a_{2},\ a_{3},\ \dots )</math>와 같이 표현된다.
+이때 수열의 일반항은 <math>a_{n}</math>이며, 이를 이용해 수열을 (집합의 조건제시법과 유사하게) <math>an}{\{a_{n}\}</math> 또는 <math>(a_{n})</math>으로 표현할 수 있다.
+첨자의 범위를 명시하기 위해 <math>an}n∈N{\{a_{n}\}_{n\in \mathbb {N} }</math> 또는 <math>an}n=1∞{\{a_{n}\}_{n=1}^{\infty }</math> 등으로 표현하기도 한다.
+일반항을 구체적인 수식으로 표현할 수 있는 수열, 이를테면 홀수열은, 일반항을 괄호 안에 집어넣어 <math>2n−1}{\{2n-1\}</math>과 같이도 표현한다.
+일반항에 관한 공식 <math>a_{n}=2n-1</math>이 수열을 확정짓기 충분하기에, 공식 자체를 수열의 표기로 삼기도 한다.
+수열은 더 엄밀히는 자연수 전체 또는 앞의 n개의 집합을 정의역으로 하는 함수 <math>n\mapsto a_{n}</math>으로 정의된다.
+즉, 각 자연수 <math>n</math>의 함수값을 수열의 제n항 <math>a_{n}</math>으로 정의한 함수이다.
+실수열의 예를 들면, 수열 1, 1/2, 1/3, ..., 1/n, ...은 곧 함수 <math>a:\mathbb {N} \to \mathbb {R} ,\ n\mapsto 1/n</math>와 같다.
+구체적인 수열을 정의하는 방법 중 하나는 귀납적 정의법이다.
+먼저 처음 몇 항의 값을 정하고, 그 뒤로는 각 항을 앞의 항에 의존한 관계식을 통해 정의한다.
+일반항 공식에 의한 수열의 정의가 임의의 an과 n 사이의 관계를 사용한다면, 귀납적 정의는 각 an을 a1부터 an - 1까지의 항들로 나타낸 식을 사용한다.
+일부 수열의 경우, 일반항은 귀납적 관계보다 간명하지 않거나, 더 발견되기 어렵다.
+피보나치 수열 (1, 1, 2, 3, 5, 8, 13, ...)은 귀납적 정의할 수 있는 수열의 전형적인 예이다.
+처음 두 항은 둘 다 1이고, 셋째 항 뒤부터는 두 인접 항을 더한 합을 그 바로 다음항으로 정의한다.
+즉, <math>a_{1}=a_{2}=1,</math> <math>a_{n+2}=a_{n+1}+a_{n}.</math> 피보나치 수열의 일반항 공식 <math>a_{n}={\frac {1}{\sqrt {5}}}\left(\,\left({\frac {1+{\sqrt {5}}}{2}}\right)^{n}-\left({\frac {1-{\sqrt {5}}}{2}}\right)^{n}\right)</math> 은 귀납적 정의보다 훨씬 더 복잡하고 알아내기 어렵다.
+수열의 귀납적 정의의 유효성은 자연수 위의 귀납 정리가 보장한다.
+다음 두 (유한) 수열은 한국어의 자음 일곱 개가 정확히 한 번씩 나오지만, 순서가 달라 다른 수열이다.
+ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ ㄴ, ㄱ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ 다음 두 (무한) 수열은 양의 홀수 전체를 나열하지만, 3의 중복 여부가 달라 다른 수열이다.
+1, 3, 5, 7, 9, 11, 13, ...
+1, 3, 3, 5, 7, 9, 11, 13, ...
+다음은 몇 가지 정수열의 예이다.
+2, 4, 6, 8, 10, 12, ...
+양의 짝수열.
+각 항 간의 차가 일정하다.
+(등차수열) 3, 9, 27, 81, 243, ...
+3의 거듭제곱들의 수열.
+각 항 간의 비가 일정하다.
+(등비수열) 2, 3, 5, 7, 11, 13, ...
+소수열.
+7, 9, 3, 1, 7, 9, 3, 1, ...
+"an = (7n의 일의 자리의 숫자)"로 정의되는 수열.
+3, 7, 5, 4, -1, ...
+규칙이 뚜렷하지 않은 수열.
+1, 4, 9, 16, 25, 36, 49, 64, ...
+사각수열, 즉 an = n2 0, 0, 0, 24, 120, 360, 840, ...
+an = n(n - 1)(n - 2)(n - 3)로 정의되는 수열.
+다음은 주로 실수열의 예를 들어 설명한, 수열의 여러 속성들이다.
+실수열 <math>an}{\{a_{n}\}</math>이 모든 <math>m>n</math>인 두 자연수 <math>m,n</math>에 대해 <math>a_{m}\geq a_{n}</math>을 만족시킬 때, <math>an}{\{a_{n}\}</math>을 단조증가수열이라고 한다.
+반대로 모든 <math>m>n</math>인 두 자연수 <math>m,n</math>에 대해 <math>a_{m}\leq a_{n}</math>을 만족시킬 때 단조감소수열이라고 한다.
+이 둘과 동등한 조건은 각각 <math>a_{n+1}\geq a_{n}</math> 또는 <math>a_{n+1}\leq a_{n}</math>이 모든 자연수 <math>n</math>에 대해 성립한다는 것이다.
+홀수열 <math>a_{n}=2n-1</math>은 단조증가수열의 예이다: <math>1<3<5<7<\dots</math> 순증가 또는 순감소수열은, 단조증가 또는 감소하면서 같은 값에 두 번 이상 머무르지 않는 수열이다.
+수열의 단조성은, 실수 이외에도 순서구조가 정립된 곳에서 값을 취하는 수열에 대해 정의 가능하다.
+실수 또는 다른 순서가 정의된 대상의 열 <math>an}{\{a_{n}\}</math>의 모든 항이 어떤 일정한 값(상계라 부른다)보다 작을 때, 즉 <math>\exists M</math>이어서 <math>\forall n\in \mathbb {N}</math>에 대해 <math>a_{n}\leq M</math>일 때, <math>an}{\{a_{n}\}</math>이 위로 유계라고 한다.
+모든 항이 하계라 불리는 어떤 값 <math>M</math>보다 클 때 아래로 유계라고 한다.
+위로도 아래로도 유계인 수열, 또는 이와 동등한 조건인 <math>|a_{n}|\leq M,\ n\in \mathbb {N}</math>을 만족하는 수열을 유계수열이라고 한다.
+수열 <math>a_{n}={\frac {1}{n}}</math>은 유계수열의 예이다.
+<math>0<a_{n}\leq 1</math>이 모든 자연수 <math>n</math>에 대해 성립하기에 그렇다.
+실수열 <math>an}{\{a_{n}\}</math>이 단조수열이면서 유계일 때, 단조 수렴 정리(monotone convergence theorem)에 의해 항상 수렴한다.
+실수열 <math>an}{\{a_{n}\}</math>에 대해 <math>n</math>이 한없이 커질 때, 그리고 그 일반항 <math>a_{n}</math>이 어떤 상수 <math>L</math>에 한없이 가까워지면, 수열 <math>an}{\{a_{n}\}</math>이 극한 <math>L</math>로 수렴한다라고 한다.
+기호로는 <math>\lim _{n\to \infty }a_{n}=L</math> 과 같이 나타낸다.
+반대로, 수열 <math>an}{\{a_{n}\}</math>이 수렴하지 않을 때 수열 <math>an}{\{a_{n}\}</math>이 발산한다고 한다.
+이는 다음과 같은 경우로 나뉜다.
+수열 <math>a_{n}={\frac {1}{n}}</math>은 수렴수열의 예이다.
+<math>\lim _{n\to \infty }{\frac {1}{n}}=0</math> 수열 <math>an}{\{a_{n}\}</math>의 부분수열은, 나열 순서가 변하지 않은 채로 일부 항을 제거해 얻는 새로운 수열이다.
+더 정확히는 <math>ank}{\{a_{n_{k}}\}</math> (<math>n_{k}</math>는 순증가 자연수열) 꼴로 표현되는 수열을 뜻한다.
+예를 들어 소수열 (2, 3, 5, 7, ...)은 자연수열 (1, 2, 3, 4, 5, 6, 7, ...)의 부분수열이다.
+수열 <math>an}{\{a_{n}\}</math>의 계차수열 <math>Δan}{\{\Delta a_{n}\}</math>은 제n항을 바로 다음 항에서부터 뺀 차 <math>a_{n+1}-a_{n}</math>를 일반항으로 하는 수열이다.
+계차수열의 계차수열 <math>Δ2an}{\{\Delta ^{2}a_{n}\}</math>을 2계차수열이라고 하고, 비슷하게 3, 4, ...계차수열이 정의된다.
+수열 <math>a_{n}=n^{2}</math>의 계차수열은 <math>\Delta a_{n}=2n+1</math>, 2, 3계차수열은 <math>\Delta ^{2}a_{n}=2</math>, <math>\Delta ^{3}a_{n}=0</math>이다.
+수열 <math>an}{\{a_{n}\}</math>의 제1항부터 제n항까지의 합 <math>\sum _{k=1}^{n}a_{k}=a_{1}+a_{2}+a_{3}+\cdots +a_{n}</math> 은, n = 1, 2, 3, ...를 취할 때 새로운 수열 <math>∑k=1nak}{\left\{\sum _{k=1}^{n}a_{k}\right\}</math>을 이룬다.
+이를 때로는 부분합 수열이라고 한다.
+계차수열이 쉽게 구해지는 것과 다르게, 수열의 합 공식은 일반적으로 쉽게 찾을 수 없으며, 여러 가지 기교와 정형화된 방법이 요구된다.
+수열의 합 공식의 예로는 1부터 n까지의 자연수의 합 공식이 있다.
+<math>\sum _{k=1}^{n}k=1+2+3+\cdots +n={\frac {n(n+1)}{2}}</math> 부분합 수열 <math>∑k=1nak}{\left\{\sum _{k=1}^{n}a_{k}\right\}</math>이 수열로서 상수 <math>L</math>로 수렴할 때, 무한급수 <math>\sum _{n=1}^{\infty }a_{n}</math>이 <math>L</math>로 수렴한다고 하고 이를 <math>\sum _{n=1}^{\infty }a_{n}=L</math>과 같이 나타낸다.
+급수의 다른 뜻은 다음과 같다.
+벡터(vector, 문화어: 벡토르)는 다음의 뜻이 있다.
+벡터 미적분학(-, 영어: vector calculus) 또는 벡터 해석학(-, 영어: vector analysis)은 주로 3차원 유클리드 공간 <math>\mathbb {R} ^{3}</math>에서 벡터장의 미분과 적분을 다루는 분야이다.
+'벡터 미적분학'이라는 용어는 벡터 미적분학뿐만 아니라 편미분과 중적분을 포함하는 다변수 미적분학을 가리키기 위해 사용하기도 한다.
+벡터 미적분학은 미분 기하학과 편미분방정식에 중요한 개념들을 포함하며, 전자기장과 중력장, 유체동역학 등 공학과 물리 분야에서 유용하게 사용된다.
+벡터 미적분학은 19세기 말 조사이어 윌러드 기브스와 올리버 헤비사이드에 의해 사원수로부터 발전하였으며, 대부분의 표기와 용어는 1901년 기브스와 에드윈 비드웰 윌슨의 책 《벡터 해석학Vector Analysis》에서 확립되었다.
+외적을 사용하는 기존 형식에서, 외대수를 사용하는 기하적 대수학은 더 높은 차원으로 확장할 수 있는 반면 벡터 미적분학은 확장하지 못한다.
+스칼라장은 공간의 각 점에 스칼라를 대응시킨 것으로, 스칼라는 물리량을 나타내는 수이다.
+스칼라장의 예시로는 공간 내의 온도 분포, 유체의 압력분포 등이 있다.
+벡터장은 공간의 각 점에 벡터를 대응시킨 것이다.
+벡터장 중 하나인 평면 벡터장은 평면 위의 각 점에서 특정 크기와 방향을 가진 화살표들을 그려 나타낸다.
+벡터장은 공간 내에서 유체의 속도와 방향이나 자기력 및 중력과 같은 힘의 세기와 방향 등을 나타낼 때 자주 사용하며, 선을 따라 이동할 때의 일을 계산하는 등에 응용된다.
+벡터 미적분학의 대수적 연산을 벡터 대수학이라 하며, 벡터 공간에서 정의되어 벡터장에 적용된다.
+아래는 기초 대수적 연산들이다.
+아래는 벡터의 삼중곱이다.
+벡터 미적분학은 스칼라장이나 벡터장에서 정의된, 주로 델 연산자(<math>\nabla</math>)로 나타나는 다양한 미분 연산자들을 다룬다.
+아래는 세 기본 벡터 연산자들이다.
+아래는 라플라스 연산자이다.
+정의역과 치역이 다변수인 함수에는 야코비 행렬이 유용하게 사용된다.
+세 기본 벡터 연산자는 각각 미적분학의 기본 정리를 더 높은 차원으로 일반화하는 아래의 정리들에 대응한다.
+2차원에서의 발산 정리와 회전 정리는 그린 정리가 된다.
+선형 근사는 복잡한 함수를 그와 거의 비슷한 선형 함수로 근사하기 위해 사용한다.
+실함수 f(x, y)가 주어졌을 때 (a, b) 주변의 (x, y)에 대한 함수 f(x, y)는 아래와 같이 근사된다.
+<math>f(x,y)\ \approx \ f(a,b)+{\tfrac {\partial f}{\partial x}}(a,b)\,(x-a)+{\tfrac {\partial f}{\partial y}}(a,b)\,(y-b).</math> 식의 우변은 함수 z = f(x, y)의 (a, b)에서의 접평면의 방정식이다.
+벡터 미적분학은 다음 분야들에서 사용된다.
+해석학(, 영어: mathematical analysis, analysis)은 대수학과 기하학에 대하여, 미분과 적분의 개념을 기초로 함수의 연속성에 관한 성질을 연구하는 수학의 분야이다.
+미적분학을 엄밀하게 형식화하는 것을 목적으로 시작된 수학의 한 분야로, 수열이나 함수의 극한 및 무한급수, 미분, 적분, 측도 및 해석함수 등의 개념을 다룬다.
+위의 개념들은 주로 실수체나 복소수체 및 그 위의 함수에 대해 적용되나, 보다 일반적으로는 어떤 수학적 공간 혹은 대상이든 "가까움"(위상 공간 참고)이나 조금 더 구체적으로는 "거리"(거리 공간 참고)의 개념이 주어지기만 하면 적용될 수 있다.
+해석학은 정수론, 기하학, 대수학과 함께 수학의 주요한 분야들 중 하나이다.
+다음은 해석학에 포함되는 세부 분야들의 목록이다.
+해석학에서 엡실론-델타 논법(έψιλον-δέλτα, 영어: epsilon-delta argument)은 함수의 극한을 수학적으로 명확하게 정의하는 방법이다.
+x가 c로 갈 때 함수 f(x)의 극한이 L임을 아래처럼 표현한다.
+<math>\lim _{x\to c}f(x)=L</math> 이는 직관적으로 말하면, x가 c에 한없이 가까워질 때 f(x)도 L에 한없이 가까워진다는 의미이다.
+그런데 '한없이 가까워진다'라는 서술은 수학적으로 엄밀한 서술이 아니다.
+예를 들어 구간 <math>[-1,1]</math> 위에서 <math>1x∈Q0x∉Q{\mathbf {1} _{\mathbb {Q} }(x)={\begin{cases}1&x\in \mathbb {Q} \\0&x\notin \mathbb {Q} \end{cases}}</math>로 정의된 디리클레 함수는 그림 1의 그래프와 같은 모양을 가진다.
+그런데 극한을 x가 0으로 갈 때의 극한을 "x가 0에 한없이 가까워질 때의 함숫값"으로 정의한다면 그래프에서 볼 수 있듯이 함숫값 f(x)는 x가 0에 가까워짐에 따라 0과 1을 동시에 끊임없이 반복해서 가지므로, 극한이 존재한다고 봐야할지, 아니면 0과 1 모두 극한값이라고 봐야할지, 아니면 극한이 존재하지 않는다고 봐야할지 불분명해진다.
+따라서 극한을 서술하기 위해서는 다른 엄밀한 방법으로 정의해야 하는데, 이때 사용되는 것이 바로 엡실론-델타 논법이다.
+엡실론-델타 논법을 설명하기 위해 다음의 예시를 보자.
+그림 2의 그래프처럼 정의된 함수 f에 대해 <math>\lim _{x\to a}f(x)</math>를 생각해 보자.
+직관적으로 보면, x가 a로 갈 때 함숫값 f(x)는 b에 가까워지므로 극한값은 b라고 할 수 있을 것이다.
+이 말인즉슨 x가 a에 충분히 가까워질수록 함숫값 f(x)도 b에 원하는 만큼 가까워질 수 있다는 의미이다.
+반대로 말하면, 함숫값 f(x)가 b에 원하는 만큼 가까워지게 하려면 x가 a에 충분히 가까운 거리 안에 있도록 해주면 된다.
+즉, 임의의 작은 양의 실수 ε이 주어져서 f(x)가 b와 ε보다는 가깝게 하고 싶다면, x가 a와 어떤 충분히 작은 양의 실수 δ만큼의 거리 내에 있도록 해주면 된다.
+이는 임의의 ε에 대해 |f(x)-b|<ε가 되도록 하려면, 충분히 작은 실수 δ를 잡아서 x가 0<|x-a|<δ를 만족하게 하면 된다는 뜻이다.
+위의 서술은 x가 a로 갈 때 함수 f(x)의 극한이 b라는 것을 엄밀한 서술 없이 직관적인 방식으로 이해했을 때 자연스럽게 유도되는 성질이었다.
+반대로 함수의 극한을 위의 성질을 만족하도록 하는 방식으로 엄밀하게 정의할 수 있다.
+즉 아래처럼 정의할 수 있다.
+• x가 a로 갈 때 함수 f(x)의 극한값이 b라는 것은, 임의의 양의 실수 ε이 주어졌을 때 조건을 만족하는 어떤 양의 실수 δ를 항상 찾을 수 있다는 것이다.
+이때의 조건이란 0<|x-a|<δ인 모든 x가 |f(x)-b|<ε를 만족하는 것이다.
+이러한 방식으로 극한을 정의하는 것을 엡실론-델타 논법이라고 한다.
+참고로 x가 a에 가까워지는 상황을 고려하고 있으므로 극한값은 f(x)가 x=a에서 어떤 값을 가지는지와는 무관하다.
+이 사실은 |x-a|<δ인 모든 x에 대해서가 아니라 0<|x-a|<δ인 모든 x에 대해서만 조건을 만족하면 된다는 앞의 서술에 잘 나타난다.(즉, x=a일 때는 어떤 조건을 만족할 필요가 없다.) 앞의 엡실론-델타 논법에서 조건을 |x-a|<δ인 모든 x에 대해서 만족하는 것으로 바꾸면, 이는 연속 실함수에 대한 엡실론-델타 논법을 이용한 정의가 된다.
+실수의 부분 집합 <math>E\subseteq \mathbb {R}</math>에 정의된 실함수 <math>f:E\to \mathbb {R}</math>가 <math>E</math>의 극한점 <math>a\in E'</math>에서 가지는 극한 <math>\lim _{E\ni x\to a}f(x)=L</math> 을 엡실론-델타 논법을 통해 다음과 같이 정의를 할 수 있다.
+이를 기호로 표기하면 다음과 같다.
+즉, 임의의 오차 범위를 시험하였을 때, 독립 변수가 일정 값과 어떤 작은 거리 이내인 값에 대한 함숫값과 극한값이 그 오차 범위 이내인 것을 보장한다는 뜻이다.
+거리 공간 <math>(X,d_{X})</math>에서 거리 공간 <math>(Y,d_{Y})</math>로 가는 함수 <math>f\colon X\to Y</math>가 <math>X</math>의 극한점 <math>a\in X'</math>에서 가지는 극한 <math>\lim _{x\to a}f(x)=L</math> 의 엡실론-델타 논법을 통한 정의는 다음과 같다.
+이를 기호로 표기하면 다음과 같다.
+•<math>\forall \epsilon >0\;\exists \delta >0\;\forall x\in E\colon \;0<d_{X}(x,a)<\delta \implies d_{Y}(f(x),L)<\epsilon</math> 엡실론-뎉타 논법을 이용해 다음을 증명해보자.
+<math>\lim _{x\to 2}(4x+1)=9</math> 임의의 <math>\epsilon >0</math>에 대해, <math>\delta =\epsilon /4</math>를 고려하자.
+그러면 <math>0<|x-2|<\delta</math>이면 <math>|4x-8|<\epsilon</math>을 만족한다.
+따라서 <math>|(4x+1)-9|<\epsilon</math>이 성립하므로 함수의 극한값은 9이다.
+한편 개요 문단에서 소개한 디리클레 함수 <math>f(x)=\mathbf {1} _{\mathbb {Q} }(x)</math>는 모든 점에서 극한이 존재하지 않음을 엡실론-델타 논법으로 증명해보자.
+귀류법으로 보이기 위해 어떤 점 <math>a\in \mathbb {R}</math>에서 극한값이 <math>L</math>라 하자.
+이때 <math>\epsilon ={\frac {1}{3}}</math>을 고려하자.
+그런데 어떤 <math>\delta >0</math> 값을 잡든지간에 상관없이 <math>0<|x-a|<\delta</math>을 만족하는 유리수 또는 무리수 <math>x</math>가 항상 존재한다.
+즉 <math>f(x)</math>가 0 또는 1인 <math>x</math>가 범위 안에 항상 존재하므로 <math>|f(x)-L|<2\epsilon <1</math>을 만족할 수 없다.
+모든 <math>L</math>에 대해 이를 만족하지 않으므로 <math>a</math>에서 극한은 존재하지 않는다.
+함수의 극한 외의 여러 해석학적 개념을 엡실론-델타 논법을 통해 정의할 수 있다.
+특히, 실수 함수에 대해서는 다음과 같다.
+두 거리 공간 사이의 함수에 대한 여러 가지 개념의 엡실론-델타 정의는 다음과 같다.
+1817년 베른하르트 볼차노가 기본적인 개념을 세웠고, 19세기 프랑스의 수학자 오귀스탱 루이 코시가 최초 (ε, δ) 표기를 사용해 좀 더 엄밀하게 정의하였고, 후에 카를 바이어슈트라스가 이것을 논리적으로 더욱 엄밀하게 하여 정식화하였다.
+수학에서 푸리에 급수(Fourier, Fourier series)는 주기 함수를 삼각함수의 가중치로 분해한 급수다.
+대부분의 경우, 급수의 계수는 본래 함수와 일대일로 대응한다.
+함수의 푸리에 계수는 본래 함수보다 다루기 쉽기 때문에 유용하게 쓰인다.
+푸리에 급수는 전자 공학, 진동 해석, 음향학, 광학, 신호 처리와 영상 처리, 데이터 압축 등에 쓰인다.
+천문학에서는 분광기를 통해 별빛의 진동수를 분해하여 별을 이루는 화학 물질을 알아내는 데 쓰이고, 통신 공학에서는 전송해야 하는 데이터 신호의 스펙트럼을 이용하여 통신 시스템 설계를 최적화하는 데 쓰인다.
+프랑스의 과학자이자 수학자인 조제프 푸리에가 열 방정식을 풀기 위하여 도입하였다.
+프랑스 혁명에 참가했다.
+푸리에 급수는 주기함수를 기본적인 조화함수인 삼각함수 또는 복소 지수 함수의 급수로 나타낸 것이다.
+주기함수 <math>f\colon \mathbb {R} \to \mathbb {C}</math>가 <math>T</math>의 주기를 가진다고 하자.
+즉, <math>f(x)=f(x+T)</math> 라고 하자.
+또한, <math>f</math>가 모든 유한 구간(finite interval)에서 제곱적분 가능하다고 하자.
+즉, 임의의 <math>a,b\in \mathbb {R}</math>에 대하여, <math>\int _{a}^{b}|f|^{2}\,dx</math> 가 유한한 값으로 존재한다고 하자.
+그렇다면 <math>f</math>의 푸리에 계수(Fourier coefficient) <math>g_{n}</math>을 다음과 같이 정의한다.
+<math>g_{n}={\frac {1}{T}}\int _{t_{0}}^{t_{0}+T}\exp \left(-{\frac {2n\pi {i}x}{T}}\right)f(x)\,dx,\quad t_{0}\in \mathbb {R} .</math> 그렇다면 다음이 성립한다.
+임의의 <math>x\in \mathbb {R}</math>에 대하여, 다음 식이 성립하지 않는 <math>x</math>의 집합은 르베그 측도 0을 가진다.
+<math>f(x)=\sum _{n=-\infty }^{\infty }g_{n}\exp \left({\frac {2n\pi {i}x}{T}}\right)</math>.
+만약 <math>f</math>가 연속미분가능 (<math>C^{1}</math>) 함수라면 (즉, <math>f</math>의 도함수가 존재하고 연속적인 경우) <math>f</math>의 푸리에 급수는 모든 <math>x</math>에서 <math>f(x)</math>로 수렴한다.
+푸리에 변환(Fourier transform, FT)은 시간이나 공간에 대한 함수를 시간 또는 공간 주파수 성분으로 분해하는 변환을 말한다.
+푸리에 변환은 이 변환으로 나타난 주파수 영역에서 함수를 표현한 결과물을 가리키는 용어로도 종종 사용된다.
+이 변환은 조제프 푸리에가 열전도에 대한 연구에서 열 방정식의 해를 구할 때 처음 사용되었다.
+시간에 대한 함수를 푸리에 변환했을 때 얻어지는 복소함수에서 각 주파수에서의 진폭은 원래 함수를 구성하던 그 주파수 성분의 크기를, 편각은 기본 사인 곡선과의 위상차를 나타낸다.
+푸리에 변환된 결과물로부터 피변환함수를 복원할 수도 있고, 이를 증명하는 정리를 푸리에 역변환 정리라고 한다.
+원래 함수에 적용할 수 있는 선형 연산은 주파수 영역에도 그 대응되는 연산이 존재하는데, 때때로 이 대응되는 선형 연산이 더 간단할 수도 있다.
+시간 영역에서 미분은 주파수 영역에서는 주파수와의 곱셈으로 나타나기 때문에 미분방정식을 푸리에 공간으로 옮겨와 푸는 경우도 종종 발생한다.
+또 시간 영역에서의 합성곱은 주파수 영역으로 옮겨오면 평범한 곱셈과 같다.
+이런 경우에는 원 함수를 푸리에 공간으로 옮겨와 여기서 선형연산을 적용한 뒤, 다시 역변환을 통해 원 함수를 복원하는 방식으로 연산을 더 쉽게 적용할 수 있다.
+이처럼 더 단순한 함수와 연산은 조화해석학 분야에서 체계적으로 연구되고 있으며 현대 수학에 폭 넓게 응용되고 있다.
+시간 영역에서는 좁은 지역에서 표현되는 함수를 주파수 영역으로 푸리에 변환하면 함수가 넓게 퍼지게 된다.
+이를 불확정성 원리라 한다.
+그러나 가우스 함수는 푸리에 변환을 해도 똑같이 가우스 함수로 나타난다.
+이 가우스 함수는 확률 이론과 통계학에서 뿐만 아니라 정규 분포를 나타내는 물리 현상에 대한 연구에서 매우 중요하게 다뤄진다.
+조제프 푸리에가 푸리에 변환을 통해 구한 열 방정식의 해가 바로 가우스 함수의 꼴을 띄었다.
+엄밀히 말하면 푸리에 변환은 일종의 적분 변환으로, 리만 이상적분이어서 더 복잡한 적분 이론을 요구하는 응용분야에서는 적합하지 않을 수 있다.
+대표적으로 많은 경우 디랙 델타 함수를 일종의 함수로 푸리에 변환에 응용하지만, 수학적으로 엄밀한 관점을 취하면 더 심도있는 고찰이 필요하다.[주해 1] 푸리에 변환은 유클리드 공간의 변수들로 구성된 함수로 일반화할 수도 있다.
+즉, 3차원 공간의 함수를 3차원 공간의 운동량에 대한 함수로 바꿀 수도 있고, 혹은 공간과 시간의 함수를 4차원 운동량에 대한 함수로 변환할 수 있다.
+이것은 파동에 대한 연구나 양자역학에서뿐 아니라 공간이나 운동량 또는 둘 모두를 함수로 표현할 때 파동 공식 표현이 중요한 분야에서 공간에서의 푸리에 변환이 매우 자연스럽게 사용되도록 하였다.
+일반적으로 푸리에 공식이 적용가능한 함수는 복소수이며, 벡터 값을 가질 수 있다.
+집합군을 이용한 함수에서는 더 많은 형태가 가능하다.
+ℝ 또는 ℝn (덧셈에 닫혀있는 집합군으로 보여지는)의 원래의 푸리에 변환 외에, 알려져 있듯이 이산시간 푸리에 변환(DTFT, 집합 ℤ)과 이산 푸리에 변환(DFT, 집합 ℤ mod N), 푸리에 급수, 원형 푸리에 변환(집합 S1, 단위원 = 끝점이 같은 유한 폐구간)을 포함한다.
+마지막 것은 보통 주기함수에서 다루어진다.
+고속 푸리에 변환은 DFT를 계산하기 위한 하나의 알고리즘이다.
+함수 <math>x(t)</math>가 복소수 범위에서 정의되어 있고 르베그 적분이 가능할 때, 이 함수의 푸리에 변환 <math>X(\xi )</math>는 다음과 같이 정의된다.
+<math>X(\xi )=\int _{-\infty }^{\infty }x(t)\ e^{-2\pi i\xi t}\,dt</math> (<math>\xi</math>는 모든 실수 범위) 여기서 일반적으로 독립변수 <math>t</math>는 시간을 나타내고, 변환변수 <math>\xi</math>는 주파수를 나타낸다.
+<math>X(\xi )</math> 대신에 <math>{\hat {x}}(\xi )</math> 또는 <math>x}(ξ){{\mathcal {F}}\{x\}(\xi )</math>와 같은 표기를 사용하기도 한다.
+푸리에 급수에서 출발하자.
+푸리에 급수에서는 복잡한 모양의 주기함수를 사인과 코사인으로 분해한다.
+푸리에 변환은 일반적인 함수의 주기를 무한대로 간주하여 접근한다.
+오일러 공식을 통해 e2πiθ = cos(2πθ) + i sin(2πθ)로 나타낼 수 있어서 푸리에 급수의 기본 함수를 삼각함수가 아닌 e2πiθ로 사용한다.
+이를 통해 공식을 더 간단하게 표시할 수 있다는 이점이 있다.
+삼각함수를 복소지수함수로 나타낼 경우 푸리에 계수들도 복소수의 값을 가져야 한다.
+이 때 푸리에 계수의 진폭은 원래 함수를 구성하던 그 주파수 성분의 크기를, 편각은 기본 사인 곡선과의 위상차를 나타낸다.
+이 정의를 사용하면 주파수가 음의 값을 가지는 경우도 발생한다.
+따라서 푸리에 변환에서의 주파수는 "시간당 몇 회 진동하는지"에 대한 개념으로만 설명될 수는 없고 하나의 확장된 개념이다.
+<math>f(x)=\int _{0}^{\infty }A(w)\cos wxdw+B(w)\sin wxdw</math> (<math>x</math>는 모든 음이 아닌 실수 범위) 여기서 A(w)와 B(w)는 다음과 같다.
+<math>A(w)={1 \over \pi }\int _{-\infty }^{\infty }f(t)\cos wtdt</math> <math>B(w)={1 \over \pi }\int _{-\infty }^{\infty }f(t)\sin wtdt</math> 시간에 대한 연속성이 고려되지 않음으로써 많은 문제가 야기된다.
+이러한 단점을 보완하기 위해 DTFT, STFT, 웨이블릿 변환, 가버변환, MFCCs 등등이 연구되었다.
+인공지능(, 영어: artificial intelligence, AI)은 인간의 학습능력, 추론능력, 지각능력을 인공적으로 구현하려는 컴퓨터 과학의 세부분야 중 하나이다.
+정보공학 분야에 있어 하나의 인프라 기술이기도 하다.
+인간을 포함한 동물이 갖고 있는 지능 즉, 자연 지능(natural intelligence)과는 다른 개념이다.
+인간의 지능을 모방한 기능을 갖춘 컴퓨터 시스템이며, 인간의 지능을 기계 등에 인공적으로 시연(구현)한 것이다.
+일반적으로 범용 컴퓨터에 적용한다고 가정한다.
+이 용어는 또한 그와 같은 지능을 만들 수 있는 방법론이나 실현 가능성 등을 연구하는 과학 기술 분야를 지칭하기도 한다.
+초기 인공지능 연구에 대한 대표적인 정의는 다트머스 회의에서 존 매카시가 제안한 것으로 "기계를 인간 행동의 지식에서와 같이 행동하게 만드는 것"이다.
+그러나 이 정의는 범용인공지능(AGI, 강한 인공지능)에 대한 고려를 하지 못한 것 같다.
+인공지능의 또다른 정의는 인공적인 장치들이 가지는 지능이다.
+거의 대부분 정의들이 인간처럼 사고하는 시스템, 인간처럼 행동하는 시스템, 이성적으로 사고하는 시스템 그리고 이성적으로 행동하는 시스템이라는 4개의 분류로 분류된다.
+인공지능의 작동 방식이 의사 결정과 문제 해결, 학습에 있어 사람의 생각이나 행동과 유사할수록 강한 인공지능으로 분류되고, 논리에 의해 만들어지는 합리적인 생각이나 행동에 가까울수록 약한 인공지능으로 분류된다.
+약인공지능(weak AI)은 사진에서 물체를 찾거나 소리를 듣고 상황을 파악하는 것과 같이 기존에 인간은 쉽게 해결할 수 있으나 컴퓨터로 처리하기에는 어려웠던 각종 문제를 컴퓨터로 수행하게 만드는데 중점을 두고 있다.
+한참 막연한 인간 지능을 목표로 하기보다는 더 현실적으로 실용적인 목표를 가지고 개발되고 있는 인공지능이라고 할 수 있으며, 일반적인 지능을 가진 무언가라기보다는 특정한 문제를 해결하는 도구로써 활용된다.
+강인공지능(strong AI) 또는 인공 일반 지능(artificial general intelligence, AGI)은 인간처럼 실제로 사고하여 문제를 해결할 수 있는 "일반 지능"을 인공적으로 구현하려는 시도이다.
+오늘날 이 분야의 연구는 주로 미리 정의된 규칙의 모음을 이용해서 지능을 흉내내는 컴퓨터 프로그램을 개발하는 것에 맞추어져 있다.
+강한 인공지능 분야의 발전은 여전히 미약하지만, 인간과 같은 지능이라는 목표를 어떻게 정의하는지에 따라 어느 정도 발전이 이루어지고 있다고도 볼 수 있다.
+존 설이나 휴버트 드라이퍼스와 같은 몇몇 철학자들은 몸이 아닌 기계에 인간의 지능이나 의식을 구현하는 작업의 실현 가능성에 대한 철학적 바탕을 두고 논쟁을 벌였다.
+설은, 튜링 테스트의 통과 여부는 사람의 기준으로 볼 때 기계가 의식을 갖추었다는 판단의 필요 조건이 되지 못한다는 중국어 방에 대한 논증으로 유명하다.
+드라이퍼스는 그의 저서 "컴퓨터가 할 수 없는 것들: 인공적인 추론에 대한 비평"에서 의식이라는 것은 룰이나 논리 기반 시스템 또는 물리적인 형태를 가지고 있지 않은 시스템에서 찾을 수 없으나, 신경망(neural network)이나 그 유사한 메커니즘을 이용하는 로보틱 시스템은 인공지능을 실현할 수 있는 가능성이 있다고 주장했다.
+다른 철학자들은 엇갈린 관점을 고수한다.
+많은 사람들이 약한 인공지능 정도는 가능하다고 보지만, 또한 많은 사람들이 강한 인공지능을 지지하고 있는 것도 사실이다.
+대니얼 C.
+데넷은 그의 '의식에 대한 설명'에서 만일 마법의 불꽃이나 영혼이 없다면 인간은 기계에 불과하다며, 지능에 대해서만 인간이라는 기계가 다른 실현 가능한 모든 기계와 다르게 특별 취급을 받아야할 이유가 무엇인가 묻고 있다.
+어떤 철학자들은 우리가 약한 인공지능을 가능한 것으로 받아들인다면, 강한 인공지능 역시 받아들여야 한다고 주장한다.
+지능은 외견상 보이는 것을 가리키는 것이지 진정한 실체가 아니라는 약한 인공지능의 입장은 많은 비판을 받고 있다.
+그러나 이에 반하는 손쉬운 예를 사이먼 블랙번의 철학 입문서 "생각"에서 찾을 수 있다.
+블랙번은 당신이 지능적으로 보이지만, 그 지능이 실존하는가에 대해서 말할 수 있는 방법이 없다고 지적한다.
+그는 우리는 단지 믿음 또는 신념 위에서 그것을 다룰 뿐이라고 이야기한다.
+강한 인공지능을 지지하는 사람들은 인공지능에 반대하는 사람들의 논증이 결국은 아래와 같은 주장을 조합한 것이라고 주장한다.
+강한 인공지능을 뒷받침하는 논증(따라서 반대하는 사람은 이 논증을 논박해야 한다.)은 다음과 같다.
+로저 펜로즈를 포함한 몇몇 학자들은 지능에 처치-튜링 명제의 적용이 가능하지 않다고 논박한다.
+특히 펜로즈는 인간의 마음에는 물리적인 속성을 뛰어넘는 무언가가 있다고 이야기하며, 그의 주장은 우리의 우주 안에서 초연산(hypercomputation)이 가능하다는 논증에 바탕을 두고 있다.
+양자역학과 뉴턴 역학에 따르면 이러한 초연산은 가능하지 않지만, 특별한 시공간에서는 가능한 것으로 생각되기도 한다.
+그러나 이는 소수의 주장이며, 우리의 우주는 그러한 초연산이 가능할 정도로 꼬이지(convoluted) 않았다는 많은 학자들의 합의가 존재한다.
+상당수 인공지능 연구의 (본래) 목적은 심리학에 대한 실험적인 접근이었고, 언어 지능(linguistic intelligence)이 무엇인지를 밝혀내는 것이 주목표였다(튜링 테스트가 대표적인 예이다).
+언어 지능을 제외한 인공지능에 대한 시도들은 로보틱스와 집합적 지식을 포함한다.
+이들은 환경에 대한 처리, 의사 결정을 일치시키는 것에 중심을 두며 어떻게 지능적 행동이 구성되는 것인가를 찾을 때, 생물학과, 정치과학으로부터 이끌어 낸다.
+사회적 계획성과 인지성의 능력은 떨어지지만 인간과 유사한 유인원을 포함한, 복잡한 인식방법을 가진 동물뿐만 아니라 특히 곤충들(로봇들로 모방하기 쉬운)까지 포함한 동물학으로부터 인공지능 과학은 시작된다.
+여러 가지 생명체들의 모든 논리구조를 가져온 다는 것은 이론적으로는 가능하지만 수치화, 기계화 한다는 것은 쉬운 일이 아니다.
+인공지능 학자는 동물들은 인간들보다 모방하기 쉽다고 주장한다.
+그러나 동물의 지능을 만족하는 계산 모델은 없다.
+매컬러가 쓴 신경 행동에서 내재적 사고의 논리적 계산, 튜링의 기계와 지능의 계산 그리고 리클라이더의 인간과 컴퓨터의 공생가 기계 지능의 개념에 관한 독창적인 논문들이다.
+존 루커스의 지성, 기계, 괴델과 같은 논리학과 철학기반의 기계지능의 가능성을 부인한 초기 논문들도 있다.
+인공지능 연구에 바탕을 둔 실질적인 작업이 결실을 거둠에 따라, 인공지능을 지지하는 사람들은 인공지능의 업적을 깎아내리기 위해 인공지능에 반대하는 사람들이 예전에는 '지능적'인 일이라고 주장하던 컴퓨터 체스나 바둑, 음성인식 등과 같은 작업에 대해 말을 바꾸고 있다고 비난하였다.
+그들은 이와 같이 연구 목표를 옮기는 작업은 '지능'을 '인간은 할 수 있지만, 기계는 할 수 없는 어떤 것'으로 정의하는 역할을 한다고 지적하였다.
+(E.T.
+Jaynes에 따르면) 존 폰 노이만은 이미 이를 예측하였는데, 1948년에 기계가 생각하는 것은 불가능하다는 강의를 듣고 다음과 같이 말하였다.
+"당신은 기계가 할 수 없는 어떤 것이 있다고 주장한다.
+만일 당신이 그 기계가 할 수 없는 것이 무엇인지를 정확하게 이야기해준다면, 나는 언제든지 그 일을 수행할 수 있는 기계를 만들 수 있다." 했다.
+폰 노이만은 이미 그 전에 모든 처리절차(procedure)는 (범용)컴퓨터에 의해서 시뮬레이션 될 수 있다고 이야기함에 따라 쳐치-튜링 이론을 언급했다.
+1969년에 매카시와 헤이스는 그들의 논문 "인공지능 관점에서 바라본 철학적인 문제들"에서 프레임 문제를 언급하였다.
+1940년대 후반과 1950년대 초반에 이르러서 수학, 철학, 공학, 경제 등 다양한 영역의 과학자들에게서 인공적인 두뇌의 가능성이 논의되었다.
+1956년에 이르러서, 인공지능이 학문 분야로 들어섰다.
+생각하는 기계에 대한 초기 연구는 30년대 후기에서부터 50년대 초기의 유행한 아이디어에 영감을 얻은 것이었다.
+당시 신경학의 최신 연구는 실제 뇌가 뉴런으로 이루어진 전기적인 네트워크라고 보았다.
+위너가 인공두뇌학을 전기적 네트워크의 제어와 안정화로 묘사했으며, 섀넌의 정보 과학은 디지털 신호로 묘사했다.
+또 튜링의 계산 이론은 어떤 형태의 계산도 디지털로 나타낼 수 있음을 보였다.
+이런 여러 밀접한 연관에서, 인공두뇌의 전자적 구축에 대한 아이디어가 나온 것이다.
+월터의 거북이 로봇이 이 아이디어를 중요하게 포함한 연구의 예이다.
+이 기계는 컴퓨터를 사용하지 않고 아날로그 회로를 이용했지만, 디지털의 전자적, 상징적 추리를 보여주기엔 충분했다.
+월터 피츠(Walter Pitts)와 워런 매컬러(Warren Sturgis McCulloch)는 인공 신경망에 기인한 네트워크를 분석하고 그들이 어떻게 간단한 논리적 기능을 하는지 보여주었다.
+그들은 후에 신경 네트워크라 부르는 기술을 첫번째로 연구한 사람이다.
+피츠와 매컬러는 24살의 대학원생인 젊은 마빈 민스키를 만났고, 민스키는 1951년 첫번째 신경 네트워크 기계인 SNARC를 구축했다.
+민스키는 향후 50년동안 인공지능의 가장 중요한 지도적, 혁신적 인물 중 하나가 되었다.
+1950년 앨런 튜링은 생각하는 기계의 구현 가능성에 대한 분석이 담긴, 인공지능 역사에서 혁혁한 논문을 발표했다.
+그는 "생각"을 정의하기 어려움에 주목해, 그 유명한 튜링테스트를 고안했다.
+텔레프린터를 통한 대화에서 기계가 사람인지 기계인지 구별할 수 없을 정도로 대화를 잘 이끌어 간다면, 이것은 기계가 "생각"하고 있다고 말할 충분한 근거가 된다는 것이었다.
+튜링 테스트는 인공 지능에 대한 최초의 심도 깊은 철학적 제안으로 평가받는다.
+1951년에, 맨체스터 대학의 페란티 마크 1(Ferranti Mark 1) 기계를 사용하여 크리스토퍼 스트레이(Christopher Strachey)는 체커 프로그램을 작성했고, 디트리히 프린츠(Dietrich Prinz)는 체스 프로그램을 작성했다.
+아서 새뮤얼(Arthur Samuel)이 50년대 중반과 60년대 초반에 개발한 체커 프로그램은 결국 존경받는 아마추어에 도전할 수 있는 충분한 기술적 발전을 이룩했다.
+디지털 컴퓨터에 접할 수 있어진 50년대 중반에 이르러서, 몇몇 과학자들은 직관적으로 기계가 수를 다루듯 기호를 다루고, 사람처럼 기호의 본질적인 부분'까지 다룰 수 있을 것이라고 생각했다.
+이것은 생각하는 기계를 만드는 새로운 접근 방법이었다.
+1956년에, 앨런 뉴얼(Allen Newell)과 허버트 사이먼(Herbert A.
+Simon)은 "논리 이론"을 구현했다.
+그 프로그램은 결국 러셀과 화이트헤드의 '수학 원리'에 나오는 52개의 정리중 32개를 증명해냈고, 일부 새롭고 더 우아한 증거를 찾아내기도 했다.
+1956년에 열린 다트머스 컨퍼런스는 마빈 민스키와 존 매카시, 그리고 IBM의 수석 과학자인 클로드 섀넌과 네이선 로체스터가 개최했다.
+컨퍼런스는 "학습의 모든 면 또는 지능의 다른 모든 특성로 기계를 정밀하게 기술할 수 있고 이를 시물레이션 할 수 있다"라는 주장을 포함하여 제안을 제기했다.
+참가자는 레이 솔로모노프(Ray Solomonoff), 올리버 셀프리지(Oliver Selfridge), 트렌처드 모어(Trenchard More), 아서 새뮤얼(Arthur Smuel), 앨런 뉴얼(Allen Newell)과 허버트 사이먼(Herbert A.
+Simon)으로, 그들 모두 수십년동안 인공지능 연구에서 중요한 프로그램을 만들어온 사람들이었다.
+컨퍼런스에서 뉴얼과 사이먼은 "논리 이론"을 소개했고, 매카시는 Artificial Intelligence를 그들의 연구를 칭하는 이름으로 받아들이길 설득했다.
+1956년 다트머스 컨퍼런스는 AI 라는 이름, 목표점, 첫번째 성공과 이를 이룬 사람들, 그리고 넓은 의미의 AI의 탄생을 포함하는 순간이었다.
+다트머스 컨퍼런스 이후에, AI라는 새로운 영역은 발전의 땅을 질주하기 시작했다.
+이 기간에 만들어진 프로그램은 많은 사람들을 "놀랍게(astonishing)"만들었는데, 프로그램은 대수학 문제를 풀었고 기하학의 정리를 증명했으며 영어를 학습했다.
+몇 사람들은 이와같은 기계의 "지능적" 행동을 보고 AI로 모든 것이 가능할 것이라 믿었다.
+연구가들은 개인의 의견 또는 출판물들을 통해 낙관론을 펼쳤고, 완전한 지능을 갖춘 기계가 20년 안에 탄생할 것이라고 예측했다.
+ARPA(Advanced Research Projects Agency)같은 정부 기관은 이 새로운 분야에 돈을 쏟아부었다.
+많은 성공적인 프로그램과 새로운 발전 방향이 50년대 후반과 60년대에 나타났다.
+이곳에는 AI 역사에 지대한 영향을 미친 것들을 기술했다.
+초기 AI 프로그램은 동일한 기본적인 알고리즘을 사용했다.
+게임의 승리나 정리 증명 같은 어떤 목표 달성을 위해, 그들은 한발짝식 나아가는(step-by-step) 방식을 상용했다.
+예를 들어 미로를 찾아갈때 계속 나아가면서 막힌 길이 있으면 다른 길이 있는 곳까지 되돌아 왔다가 다른 길로 가는 식이었다.
+이런 패러다임은 "탐색 추리"라 불렸다.
+주요한 문제는, 간단한 미로에 있어서도 경로로 사용할 수 있는 수가 천문학적으로 많았다는 것이다.
+연구가들은 추론 또는 경험적으로 찾은 규칙으로 정답이 아닌듯 보이는 경로를 지우는 방식을 사용했다.뉴엘과 사이먼은 "범용 문제 해결기(General Problem Solver)"라 부르는 프로그램 속 알고리즘의 범용적인 버전을 포착하려고 노력했다.
+다른 "검색" 프로그램은 기하학과 대수학의 문제를 해결하는 것처럼 인상적인 작업 - 허버트 게랜터(Herbert Gelenter)의 "기하학 해결기"나 민스키의 제자인 제임스 슬레이글(James Slage)의 SAINT - 을 수행하길 시도했다.
+다른 프로그램은 목표와 목표에 다가가기 위한 세부 계획을 검색했고, 여기에는 스탠포드에서 샤키(Shakey) 로봇의 동작을 제어하기 위해 개발한 STRIPS 시스템을 포함한다.
+AI 연구의 중요한 목표는 영어와 같은 자연어로 컴퓨터와 의사소통할 수 있게 하는 것이었다.
+일찍이 다니엘 보로우(Daniel Bobrow)의 STUDENT라는 프로그램은 고등학교 수준의 대수학 단어 문제를 푸는 성공을 보였다.
+'의미 망'은 개념을 다른 개념들 사이의 노드와 링크 관계로 나타낸다.
+의미 망을 사용하는 첫 번째 AI 프로그램은 로스 퀄리언(Ross Quillian)이 작성했고 가장 성공이며 동시에 논쟁이 많았던 버전은 로거 섕크(Roger Schank)의 "개념 종속 이론(Conceptual dependency theory)"이다.
+조셉 웨이젠바움(Joseph Weizenbaum)의 ELIZA는 사람들이 그들이 대화를 나누는 때때로 상대가 컴퓨터가 아니라 사람이라고 생각할 정도의 질로 대화했다.
+사실, ELIZA는 스스로 생각하여 말하지 않았다.
+그 프로그램은 오직 판에 박힌 말을 하거나, 상대에게 방금 말한 말을 다시 해 달라고 요청하거나, 상대가 한 말을 몇 개의 문법 법칙에 의해 파싱 할 뿐이었다.
+ELIZA는 첫 번째 채팅 프로그램이 되었다.
+1960년대 후반에, MIT의 AI 연구소에 있던 마빈 민스키와 시모어 페퍼트는 마이크로월드 연구로 불리는, 인위적인 간단한 상황에 초점을 맞춘 AI 연구를 제안했다.
+그들은 성공적인 과학자들이 자주 쉬운 이해를 위해 '마찰면'이라든지 '강체(물리학에서 결코 형태가 변하지 않는 물체)'같은 간단한 모델을 사용한다는 것에 집중했다.
+이런 연구의 대부분이 평평한 평면 위의 다양한 형태와 색깔의 블록으로 이루어진 '블록 단위의 세계'에 초점을 맞추는 형식이었다.
+제럴드 서스먼(Gerald Sussman)을 필두로 아돌포 구스만(Adolfo Guzman), 데이비드 월츠(David Waltz) 그리고 패트릭 윈스턴(Patrick Winston)이 마이크로월드 패러다임으로 기계 비전의 혁신을 이끌었다.
+같은 시간에, 민스키와 페퍼는 블록을 쌓을 수 있는 로봇 팔을 제작했다.
+마이크로월드의 영광스러운 성취는 테리 위노가드(Terry Winograd)의 SHRDLU이며, 이것은 보통의 일반 문장으로 소통해 작업을 계획하고 이를 실행할 수 있었다.
+AI 연구의 첫 번째 세대는 그들의 연구 결과에 대해 다음과 같이 예측했다.
+1963년 6월, MIT는 220만 달러를 고등 연구 계획국(Advanced Research Projects Agency - 후에 DARPA로 알려짐)에게 제공받았다.
+자금은 민스키와 매카시가 5년전 설립한 "AI 그룹"이 포섭한 프로젝트 MAC에서 사용되었다.
+DARPA는 계속해서 매년 300만 달러를 70년대까지 제공했다.
+DARPA는 또한 유사한 자금을 뉴얼과 사이먼의 CMU 프로그램과 스탠포드 AI 프로젝트에 제공했다.
+또다른 중요한 AI 연구소는 1965년 도널드 미키가 에든버러 대학교에 세웠다.
+이 4개의 시설은 계속해서 많은 연도에 걸쳐 학계의 주요한 AI연구소, 그리고 자금처로 존재할 것이다.
+자금은 몇가지 단서와 함께 제공됐다 : ARPA의 기획자 리클리더(J.
+C.
+R.
+Licklider)는 그의 조직은 "프로젝트가 아니라, 사람에게 투자"해야 한다고 믿었고, 연구자들이 어떤 방향이든 그들의 관심있는 쪽을 연구하도록 허용했다.
+이것은 MIT에 자유분방한 분위기를 생성했고 해킹 문화를 탄생시키기도 했다.
+그러나 이렇게 손을 떼고 지켜보는 형식의 지원은 얼마 지속되지 못했다.
+70년대에 이르자, AI는 비판의 대상이 되었고 재정적 위기가 닥쳤다.
+AI 연구가들은 그들의 눈앞에 있는 복잡한 문제를 해결하는데 실패했다.
+연구가들의 엄청난 낙관론은 연구에 대한 기대를 매우 높여놓았고, 그들이 약속했던 결과를 보여주지 못하자, AI에 대한 자금 투자는 사라져버렸다.
+동시에, Connectionism 또는 뉴럴망은 지난 10년동안 마빈 민스키의 퍼셉트론(시각과 뇌의 기능을 모델화한 학습 기계)에 대한 파괴적인 비판에 의해 완전히 중지되었다.
+그러나 70년대 후반의 AI에 대한 좋지 않은 대중의 인식에도 불구하고, 논리 프로그래밍, 상징 추론과 많은 여러 영역에서의 새로운 아이디어가 나타났다.
+1970년대 초, AI 프로그램의 가능성은 제한적이었다.
+모든 문제에 걸쳐서 문제를 푸는 인상 깊은 작품들은 겨우 시험용 버전 정도였고, 어떤 의미에선 '장난감'에 가까웠다.
+AI 연구는 70년대에 더 이상 극복할 수 없는 몇개의 근본적인 한계를 가지게 됐다.몇개의 한계를 통해 십여년 후에 극복되었고, 다른 몇 개는 오늘날까지 남아있다.
+영국 정보나 DARPA, NRC같은 AI 연구자들에게 자금을 주던 기관들은 연구 진행의 부진에 실망했고 결국 AI에 관한 방향성을 가진 자금 지원을 끊었다.
+1966년 기계를 이용한 번역을 비판하는 보고서가 ALPAC에 제출되었을 때부터 이런 흐름이 시작되었다.
+총 2천만 달러를 지원한 NRC도 지원을 멈췄다.
+1973년 라이트힐 보고서는 "장대한 목표(grandios objectives)"를 성취하는 데 실패한 영국의 AI 연구의 상태에 대해 비난했고 결국 영국의 AI 연구소는 해체되었다(보고서는 특히 AI 연구의 실패의 원인이 폭발적인 조합의 수라고 언급했다).
+DARPA는 CMU의 음성을 이해하는 연구의 연구자들에게 심하게 실망했고 연간 3백만 달러의 지원을 취소했다.
+1974년에 이르자 AI 연구에대한 투자는 찾기 어려워졌다.
+한스 모라벡은 그의 동료의 비현실적인 예측에 의한 위기를 비난했다.
+"많은 연구가들이 많은 연구자는 과장을 증가시키는 웹에 휘말렸다." 그러나 여기엔 다른 이슈가 있다 : 1969년 맨스필드의 수정안의 통과이후, DARPA는 자금 지원에 대해 "비직접적인 기초 연구보다, 임무 완수에 직결된 연구"를 수행하라는 증가하는 압력을 받고 있었다.
+창조성 높은 지원, 자유분방한 연구는 1960년대와 함께 떠났고 DARPA에서 다시 오지 않을 것이다.
+대신, 자금은 자동조정 탱크나 전투 관리 시스템과 같은 분명한 프로젝트와 명확한 목표를 향할 것이다.
+몇 철학자들은 AI 연구가들에게 강력한 반대를 표했다.
+초기 반대자들 중 괴델의 불완전성의 원리에 의해 컴퓨터 프로그램같은 시스템이 실제적으로 정확하게 사람과 같이 행할 수 없다고 주장한 사람은 존 루커스(John Lucas)이다.
+휴버트 드라이퍼스는 60년대의 깨어진 약속을 조롱했고 AI의 가정을 비판했으며, 인간의 추론이 실제적으론 "상징적 진행"이 매우 적게 포함되어 있고 구현적, 본능적, 무의식적인 노하우에 의해 처리된다고 주장했다.
+존 설의 1980년대 제시된 중국인 방 문제는, 실제로 프로그램이 상징들을 '이해'할 수 없고 사용할 수 없음을 보여주려고 시도했다.
+설은 만약 상징이 기계에게 아무 의미가 못된다면, 기계는 생각하는 것이 아니라고 주장했다.
+이 비난은 AI 연구가들에게 심각하게 작용하지 못했다.
+비용이성과 상식적 지식에 관한 문제가 훨씬 더 즉각적이고 심각한 듯이 보였다.
+'노하우'와 '지향성'이 실제 프로그램을 만드는데 어떻게 다른지가 불분명했다.
+민스키는 드라이퍼스와 설을 향해 "그들은 오해했고, 무시될 것이다"라고 했다.
+MIT에서 가르쳤던 드라이퍼스는 냉대받았다 : 그는 나중에 AI 연구가들에게 "나와 점심 식사할 용기도 없다"라고 평했다.
+ELIZA의 제작자 조셉 웨이즌바움(Joseph Weizenbaum)은 그의 동료인 드라이퍼스가 전문적이지 않고 유치한 대우를 한다고 느꼈다.
+웨이즌바움은 케네스 콜비(Kenneth Colby)가 쓴 DOCTOR와 임상치료 채팅봇에 대해서 심각하게 의심하기 시작했다.
+웨이즌바움은 콜비가 그의 무심한 프로그램을 진지한 치료 도구로 여기는 걸 방해했다.
+이 불화가 시작되고, 이 상황은 콜비가 웨이즌바움을 프로그램에 대한 공로로 인정하지 않았을 때 도움이 되지 않았다.
+1976년에 웨이즌바움은 컴퓨터 능력과 인간 추론(Computer Power and Human Reason)을 출판하며 인공 지능의 오용이 인간의 삶을 평가 절하시킬 수도 있다고 주장했다.
+뉴럴 네트워크 형태의 퍼셉트론이 1958년 마빈 민스키의 고등학교 시절 친구였던 프랭크 로센블랫(Frank Rosenblatt)에 의해 도입되었다.
+다른 AI 연구가들이 그러하듯, 그는 낙관론을 펼쳤고, "퍼셉트론은 결국 학습을 하고, 의사 결정을 하고, 언어 번역을 할 것이다"라고 예견했다.
+60년대를 이끌던 패러다임 속의 연구 프로그램의 수행은 1969년 민스키와 페퍼의 책 퍼셉트론의 출판과 함께 갑자기 중지되었다.
+이것은 퍼셉트론이할 수 있는 일에 몇가지 심각한 제한이 있음을, 또 프랭크의 예견은 심하게 과장되어있음을 알렸다.
+이 책의 파급력은 압도적이었다 : 향후 10년 동안 뉴럴 네트워크에 대한 거의 모든 연구가 중지되었다.
+결국, 뉴럴 네트워크 영역을 회복할 연구원의 새로운 세대가 그 후에 인공지능의 중요하고 유용한 부분을 내놓았다.
+로센블랫은 이 책을 보지 못했는데, 그는 문제의 책이 출판 되고 곧바로 보트 사고와 함께 사망했기 때문이다.
+논리적 추론은 1958년 초에 AI 연구에서 존 매카시가 제안하여 도입되었다.
+1963년 알렌 로빈슨(J.
+Alan Robinson)은 간단하게 추론을 컴퓨터에 구현시키는 분해와 통일 알고리즘을 발견했다.
+그러나 매카시와 그의 학생들이 60년대 후반에 했던 것과 같은 복잡하지 않은 구현은 본질적으로 다루기 힘들었는데, 간단한 정리를 증명하기 위해 천문학적 단계가 필요했다.
+더 성공적인 결실을 맺는 논리적 접근은 70년대 에딘벌 대학의 로버트 코왈스키(Robert Kowalski)가 개발했고 곧 프랑스의 연구가인 알라인 콜메루엘(Alain Colmerauer)과 성공적인 논리 프로그래밍 언어인 프롤로그를 만든 필립 오우셀(Philippe Roussel)과의 협업을 이끌어냈다.
+프롤로그는 다루기 쉬운 계산을 허용하는 논리의 부분을 사용한다.
+규칙은 계속적으로 영향을 미쳤고, 에드워트 페이젠바움(Edward Feigenbaum)이 기대하던 시스템 기초를 제공했으며 알렌 뉴엘과 허버트가 계속 연구하도록 만들었다.
+사이먼은 Soar과 인식에서의 통일 이론을 이끌었다.
+논리적으로의 접근을 비판하는 지적은, 드라이퍼스가 했던대로, 사람이 문제를 해결할 때 논리를 거의 사용하지 않는다는 것이었다.
+피터 왓슨(Peter Waon), 엘리너 로시, 아모스 트버스키, 대니얼 카너먼을 비롯한 심리학자들이 이를 증명했다.
+매카시는 이에 대해서 이 증명이 무관하다고 답했다.
+그는 정말 필요한 기계란 사람처럼 생각하는 것이 아니라 문제를 해결할 줄 아는 기계라고 일축했다.
+매카시의 접근에 대한 비평가들의 대다수가 그의 동료인 MIT 소속이었다.
+마빈 민스키와 사무엘 페퍼와 로저 샹크는 기계를 사람처럼 느껴지도록 만드는 "이야기 이해"와 "물체 인식"의 문제를 해결하려고 노력했다.
+"의자"나 "음식점" 같은 일반적인 개념을 사용할 때 사람들은 모두 비논리적으로, 사람들이 통용하는 범용적 가정을 함께 했다.
+불행하게도 이런 부정확한 가정들은 논리적 절차로 대표하기가 힘들었다.
+제럴드 서스먼(Gerald Sussman)은 "본질적으로 부정확한 개념을 설명하기위 해 정확한 언어를 사용하는 순간 그들은 더 이상 부정확하다고 말할 수 없다"라고 표했다.
+또한 섕크는 이에 대해 "비논리적" 접근 즉 "지저분이"가 매카시, 코와스키, 페이젠바움의 "깔끔이" 패러다임과 반대에 있다고 평했다.
+1975년 세미나 보고서에서, 민스키는 "지저분한" 많은 그의 동료 연구자들이 무언가에 대한 우리의 모든 상식적 가정을 포착하는 프레임워크를 도구로 사용했다고 적었다.
+예를 들어 우리가 새라는 개념을 생각할때, 즉시 '난다', '벌레를 먹는다'와 같은 다양한 사실들 또한 떠올린다.
+떠올린 것들이 항상 사실은 아니고 또 "논리적"으로 이것들이 공제가 되지는 않는다.
+그러나 이런 가정들의 구조는 우리가 말하고 생각하는 문장의 부분을 차지한다.
+그는 이 구조를 "프레임"이라 칭했다.
+섕크는 프레임의 설명에 대해서 영어로된 짧은 스토리에 대한 답변을 성공적으로 하기 위한 "스크립트"라 불렀다.
+수년 후 객체지향 프로그래밍에서 AI 연구에서 쓰였던 프레임에서 나온 '상속'이라는 개념을 채택하게 된다.
+1980년대에는 전 세계적으로 사용된 ‘전문가 시스템’이라고 일컫는 인공지능 프로그램의 형태였고 인공지능 검색에 초점이 맞춰졌다.
+같은 시기에 일본 정부는 자신들의 5세대 컴퓨터 프로젝트와 인공지능에 적극적으로 투자하였다.
+1980년대에 존 홉필드와 데이비드 루멜하트의 신경망 이론의 복원이라는 또 다른 사건이 있었다.
+전문가 시스템은 특정 지식의 범위에 대해 문제를 해결해주거나 질문에 대답해주는 프로그램이며 전문가의 지식에서 파생 된 논리적 법칙을 사용하였다.
+최초의 실험은 1965년 Edward Feigenbaum과 레더버그에 의해 Dendral이 시작하였고 이것은 분광계로부터 화합물을 식별하는 실험이었다.
+MYCIN은 1972년에 개발되었고 전염되는 혈액 질환을 진단하였다.
+이러한 접근법(실험)은 타당성이 입증되었다.
+전문가 시스템은 소규모의 지식 영역에 대해서는 스스로 제한을 둠으로써 상식 문제를 피하였다.
+그리고 그들의 단순한 디자인은 프로그램을 만드는 것을 상대적으로 쉽게 하였다.
+모든 프로그램은 유용성이 입증되어야 하지만 AI는 이 점을 달성할 수 없었다.
+1980년, XCON이라 불리는 전문가 시스템은 디지털 장비 회사인 CMU에서 완성되었다.
+이 시스템은 매년 4천만 달러를 절약시켜주며 매우 큰 성과를 나타냈다.
+전 세계의 회사들은 1985년에 1억 달러 이상을 AI에 사용하여 이를 개발하고 전문가 시스템을 배포하였다.
+Symbolics, Lisp Machines과 같은 하드웨어 회사와 IntelliCorp, Aion 등의 소프트웨어 회사들이 이를 지원하면서 같이 성장하였다.
+전문가 지식들을 포함하면서 전문가 시스템의 힘은 두각을 나타내었다.
+이것은 1970년대 내내 연구하였던 AI 연구 기법의 새로운 방향 중 일부분이었다.
+“AI 과학자들은 지능이란 것이 다른 방법들로 많은 양의 다양한 지식들을 사용하는 능력에 기반한 것이라고 의심하기 시작했다.” 지식 기반 시스템과 지식 엔지니어링은 1980년대 AI 연구자들의 메인 포커스가 되었다.
+또한 1980년대에는 일반인들이 모두 알 만한 일상적인 사실들을 모두 포함한 아주 거대한 데이터베이스를 만들어 상식 문제에 대한 직접적 해결을 시도한 Cyc의 탄생을 볼 수 있었다.
+이 프로젝트를 이끈 Douglas Lenat는 지름길은 없다고 말했다.
+- 기계가 인간의 개념을 알게 하기 위한 단 한 가지 길은 그들을 가르치는 것이다.
+이 프로젝트는 수 십 년 동안 완료될 것이라 생각되지 않았다.
+1981년, 일본의 국제 무역과 산업 부서는 5세대 컴퓨터 프로젝트를 위해 8억 5천만 달러를 확보해 두었다.
+그들의 목적은 기계가 사람처럼 프로그램을 작성하고 대화를 수행할 수 있는 시스템과 언어를 번역하거나 그림을 해석하는 것이었다.
+그들은 프로젝트를 위해 기본 컴퓨터 언어로 Prolog를 선택하였다.
+다른 나라들은 그들만의 고유한 프로그램을 개발하였다.
+UK는 3억 5천만 달러를 들여 Alvey 프로젝트를 시작했다.
+미국 회사들의 컨소시엄은 정보기술과 AI안의 거대한 프로젝트를 투자받기 위해 마이크로 전자공학과 컴퓨터 기술 협력이라는 형태를 취했다.
+또한 1984에서 1988년 사이에 DARPA는 전략적 컴퓨팅 계획을 설립하고 AI에 대한 투자를 세배로 늘렸다.
+1982년 , 물리학자 John Hopfield는 (현재 ‘Hopfield net’이라고 불리는) 완벽한 새로운 길에서 정보를 프로세스하고 배울 수 있는 신경망의 형태를 증명해냈다.
+이 시기에, David Rumelhart는 (Paul Werbos에 의해 발견된) “역전파”라고 불리는 신경망을 개선하기 위한 새로운 방법을 알리고 있었다.
+이러한 두 가지 발견은 1970년 이후 버려진 신경망 이론이라는 분야를 복구시켰다.
+새로운 분야는 1986년 분산 병렬처리의 형태로부터 영감을 받았고 이와 같은 형태로 통일되었다.
+2권 분량의 논문 집합은 Rumelhart와 물리학자인 James McClelland에 의해 편집되었다.
+신경망은 1990년대에 광학 문자 인식 및 음성 인식과 같은 프로그램의 구동 엔진으로 사용되며 상업적으로 성공했다.
+AI와 비즈니스 커뮤니티의 매력은 상실했고 경제 거품이라는 고전적 형태의 1980년대에 빠졌다.
+붕괴는 정부기관과 투자자들의 ‘해당 분야는 계속해서 비판에도 불구하고 진보해왔다.’는 인식에 비롯된 것이었다.
+로봇 공학 분야에 관련 된 연구원인 Rodney Brooks 와 Hans Moravec는 인공지능에 대한 완전히 새로운 접근 방식을 주장하였다.
+1974년에 전문가 시스템에 대한 열정이 통제할 수 없을 정도로 퍼져나가고 이에 대한 실망이 확실히 따라올 것이라는 걱정이 있었고 이 때 투자가 끊기고 살아남은 연구원들에 의해서 “AI winter”이라는 단어가 만들어졌다.
+그들의 두려움은 AI에 대해 일련의 재정적 차질이 있었던 1980년 말에서 1990년대 초반에 잘 나타난다.
+이 AI winter 기간의 첫 번째 사건은 1987년에 특성화된 AI 하드웨어 시장이 갑자기 무너진 것이다.
+1987년에 애플이나 IBM의 데스크탑 컴퓨터들은 급격히 빨라지고 성능이 좋아졌다.
+또한 Symblics과 기타 회사들이 만든 데스크탑 컴퓨터 보다 더 비싼 Lisp 기기들보다도 더욱 좋은 성능을 나타냈다.
+즉, 더 이상 Lisp 기기들을 살 이유가 사라진 것이다.
+전체산업 1억 달러의 절반의 가치가 하룻밤에 사라졌다.
+결국 최초의 성공한 전문가 시스템인 XCON은 유지하기에 너무 비싸다는 것이 증명되었다.
+업데이트하기에도 너무 어려웠고 학습도 되지 않았다.
+이 전문가 시스템은 또한 일반적이지 않은 질문을 했을 때 괴상한 행동을 하는 일명 "brittle" 이었고 그들은 일찍이 발견된 이러한 문제들에 의해 결국 희생되었다.
+전문가 시스템은 특별한 경우에서만 유용할 뿐이었다.
+1980년대 후반, Strategic Computing initiative는 AI의 투자를 자르는 데 공이 컸다.
+DARPA의 새로운 리더쉽은 AI는 이 다음의 파도가 아니라고 결정했고 즉각적인 결과를 나타낼 수 있는 것으로 보이는 프로젝트에 직접적인 투자를 하는 방향으로 결정했다.
+1991년에는 1981년에 일본에서 5세대 프로젝트의 목표 리스트에 적은 것만큼 성과가 나오지 않았다.
+실제로 대화를 계속 이어나가는 것과 같은 어떤 것들은 2010년까지 달성되지 않았다.
+다른 인공 지능 프로젝트와 마찬가지로, 실제 가능했던 것보다 기대가 훨씬 컸다.
+1980년대 후반 , 몇몇 연구원들이 로봇 공학을 기반으로 인공 지능에 완전히 새로운 접근법에 대해 찬성하였다.
+그들은 실제 지능을 보여주려면 기계에도 몸통이 필요하다고 믿었다.
+- 기계 또한 이 세상에서 인식하고, 이동하고, 살아남고 거래할 줄 알 필요가 있다.
+그들은 이런 감각 운동 기술은 상식적인 추론과 같은 더 높은 단계의 기술이 필요하다고 말했고 실제로 추상적인 추론은 인간의 가장 흥미롭거나 중요한 기술이다.
+그들은 지능을 바닥에서부터 지어야 한다고 내세웠다.
+인공 두뇌와 제어 이론에서부터 얻은 접근법은 1960년대까지 인기가 없었다.
+또 다른 선구자인 David Marr는 신경 과학 이론으로 한 그룹의 비전을 이끌어 성공적인 배경으로 1970년대에 MIT에 들어왔다.
+그는 모든 상식적인 접근법(McCarthy's logic and Minsky's frames)을 거절했고 AI는 시각에 대한 육체적인 기계장치를 심볼릭 프로세싱 하기 전에 가장 바닥에서부터 위로 이해할 필요가 있다고 말했다.
+1990년에 Elephants Don't Play Chess 논문에서, 로봇 공학 연구자인 Rodney Brooks는 직접적으로 물리적 심볼 시스템 가설에 초점을 맞추었고 심볼들은 항상 필요한 것은 아니라고 말했다.
+“세계는 그 자체만으로 가장 훌륭한 모델이다.
+이것은 항상 최신이며 모든 세부사항이 존재한다.
+비결은 적절히 그리고 충분히 자주 감지하는 것이다.
+80년대와 90년대에 많은 cognitive 과학자들은 또한 사고방식의 심볼 처리 모델을 거절하고 추론에 몸통은 필수적이라고 말했고 이러한 이론을 embodied mind 이론이라고 불렀다.
+지금보다 반세기는 더 오래된 AI의 분야는 마침내 가장 오래된 목표 중 몇 가지를 달성했다.
+이것은 비록 뒷받침해주는 역할이었지만 기술 산업에 걸쳐 성공적으로 사용되었다.
+몇 가지 성공은 컴퓨터의 성능이 증가했기 때문이고 또 다른 몇 가지는 고립된 문제들에 대해 집중하였고 높은 과학적 의무감으로 해 나갔기 때문에 해결되었다.
+적어도 비즈니스 분야에서의 AI의 평판은 여전히 처음 같지 않다.
+이 분야 내에서는 1960년대 세계의 상상이던 인간 수준의 지능의 꿈을 실현하는 것이 실패로 돌아갔다는 이유로 몇 가지 합의를 하였다.
+하위 파트에서 AI의 일부분을 도와주던 모든 요소들은 특정 문제나 접근 방식에 초점이 맞추어졌다.
+그 후, AI는 여태 해왔던 것보다 더욱 신중해졌고 더욱 성공적이였다.
+또한 보안이 중요한 이슈로 떠올랐다.
+인공지능의 보안이슈로는 학습된 인공지능을 속일 수 있는 공격형태인 Poisoning Attack, Evasion Attack, 인공지능 모델 자체를 탈취할 수 있는 Model Extraction Attack, 학습된 모델에서 데이터를 추출해내는 Inversion Attack 등이 있다.
+1997년 5월 11일, 딥 블루는 당시 체스 세계 챔피언이던 가리 카스파로프를 이긴 최초의 체스 플레이 컴퓨터가 되었다.
+2005년 스탠퍼드의 로봇은 DARPA 그랜드 챌린지에서 연습해 보지 않은 사막 도로 131마일을 자동으로 운전하여 우승하였다.
+2년 뒤, CMU의 한 팀은 DARPA 도시 챌린지에서 모든 교통 법규를 지키고 교통 혼잡 속에서 자동으로 55 마일의 길을 찾았다.
+2011년 2월, 퀴즈 쇼 Jeopardy!에 출전한 IBM의 응답 시스템 왓슨은 상당히 여유롭게 두 챔피언을 이겼다.
+이러한 성공은 혁신적인 새로운 패러다임 때문이 아니라 번거로운 엔지니어 스킬과 매우 뛰어난 성능을 가진 오늘날의 컴퓨터에서 비롯된 것이다.
+실제로, Deep Blue의 컴퓨터는 1951년 Christopher가 체스 하는 법을 가르친 마크 1보다 1천만 배 빨랐다.
+이 엄청난 증가는 무어의 법칙에 의해 측정되는데 이것은 2년마다 컴퓨터의 메모리 속도와 양은 두 배씩 늘어난다는 이론이다.
+최초 컴퓨터 성능의 근본적인 문제는 느리지만 서서히 극복되고 있었다.
+1990년대 동안에는 ‘지능형 에이전트’라고 불리는 새로운 패러다임이 다 방면에서 수용되고 있었다.
+비록 이전의 연구자들은 'divide and conquer' 모듈러를 제안하고 AI에 접근하였지만 지능형 에이전트는 Judea Pearl, Allen Newell 등 다른 이들이 AI를 연구하는데 있어서 결정론과 경제성이라는 개념을 가져오기 전까지 현대식 형태를 갖추지 못했다.
+경제학자들의 합리적 에이전트라는 정의와 컴퓨터 과학자들의 객체 혹은 모듈러 정의가 합쳐졌을 때 지능형 에이전트의 패러다임이 완성되었다.
+지능형 에이전트 시스템은 환경을 인식하고 성공을 가장 극대화할 수 있는 행동을 취한다.
+이러한 정의에 의하면 인간과 인간의 조직처럼, 예를 들어 회사처럼 특정 문제를 해결하는 간단한 프로그램을 지능형 에이전트라고 한다.
+지능형 에이전트는 AI 연구자를 “the study of intelligent agents"로 정의한다.
+이것은 AI의 정의의 일부를 일반화한 것이다.
+이것은 인간의 지능을 넘어 모든 종류의 지능의 연구를 추구한다.
+이러한 패러다임은 당시 연구자들이 고립 문제에 대해 연구하고 다양하고 유용한 해결법을 찾도록 해주었다.
+또한 서로서로 문제와 해결책을 공통의 언어로 표현하였고 추상적 에이전트를 사용한 경제학이나 제어 이론 등과 같은 다른 개념에도 사용되었다.
+어떤 연구자들은 지능형 에이전트의 상호 작용에서 더 다양하고 지능적인 시스템을 만들기로 하였고 완전한 에이전트 아키텍처가 되기를 바랐다.
+이것이 21세기의 보편적인 교과서들이 인공 지능을 정의하는 방식이다.
+AI 연구자는 과거에 사용했던 것보다 더욱 정교한 수학적 도구를 사용하여 개발하기 시작했다.
+해결하는 데 AI가 필요한 수많은 문제들이 존재하고 있다는 인식은 수학, 경제학 또는 오퍼레이션 연구 등의 분야에서 이미 연구자들이 AI를 사용하여 실현하고 있었다.
+공유된 수학적 언어는 높은 수준의 협력, 좋은 평판, 여러 분야를 성공적으로 이끌고 측정과 증명이 된 결과들의 성취를 가능하게 하였다.
+AI는 더 엄격한 과학 학문이 되었다.
+이는 혁명 그 자체였으며 "깔끔함"의 승리였다.
+Judea Pearl의 매우 영향이 큰 1988년 책은 AI에 결정론과 확률을 대입시켰다.
+사용 중인 많은 새로운 도구(Bayesian networks, hidden Markov models, information theory, stochastic modeling)와 기존의 고전적이 방법들이 최적화되었다.
+더 정밀한 수학적 모형이 신경망 네트워크와 진화 알고리즘과 같은 연산 지능적 패러다임을 위해 개발되었다.
+AI 연구자들에 의해 최초로 개발된 알고리즘은 거대한 시스템의 일부로 나타나기 시작했다.
+AI는 매우 어려운 문제들을 해결했고 데이터 마이닝, 산업 로봇공학, 논리학, 음성 인식, 은행 소프트웨어,의학적 진단, 구글 검색 엔진 등 여러 기술들은 기술 산업에 매우 유용하다는 것이 증명되었다.
+AI 분야는 이러한 성공에 대해 매우 낮은 신뢰를 받았다.
+AI의 훌륭한 혁신 중 대부분은 컴퓨터 과학의 도구에서 또 다른 기능으로 세분화되었다.닉 보스트롬은 "많은 최첨단 AI가 일반 응용 부문으로 필터링되었으며, AI라고 불리지 않는 경우가 많다.
+일단 무언가가 충분히 유용하고 일반적이게 되면 더 이상 AI라는 라벨이 붙지 않기 때문이다."라고 말했다.
+1990년대 AI 분야의 많은 연구자들이 고의로 자신의 프로젝트를 다른 이름으로 불렀다.
+일부 이러한 현상은 그들의 분야가 AI와 근본적으로 다르다고 여겼기 때문이거나 또는 새로운 이름이 투자받기 쉬웠기 때문일 것이라고 한다.
+적어도 상업 분야에서는 연구자에 대해 AI 겨울에 있었던 실패했던 계약이 꼬리표처럼 따라다녔고 2005년에 뉴욕 타임즈에서는 “컴퓨터과학과 소프트웨어 엔지니어들은 광기에 싸인 몽상가처럼 보일 두려움 때문에 인공 지능이란 용어를 피했다.” 라고 소개되었다.
+1968년 아서 C.
+클라크와 스탠리 큐브릭은 2001년에는 기계가 인간과 유사하거나 또는 인간의 용량을 뛰어넘는 지능을 가진 존재가 되었을 것이라고 상상하며 《2001: 스페이스 오디세이》라는 SF 작품을 완성했다.
+여기에 등장하는 HAL 9000이라는 캐릭터는 2001년에 이러한 기계가 존재할 거라고 믿는 많은 AI 연구자들의 공유된 믿음을 기반으로 만들어졌다.
+훗날 마빈 민스키는 “그래서 왜 우린 2001년에 HAL을 얻지 못했나?”라는 질문을 하였다.
+대부분의 연구자들이 신경망이나 유전자 알고리즘의 상업적 용도의 프로그램을 추구했던 반면, 민스키는 해답이 방치된 상식 추론과 같이 매우 중심적인 문제에 있다고 믿었다.
+반면에 존 매카시는 여전히 자격문제를 비난하였다.
+레이 커즈와일은 문제는 컴퓨터 성능에 있으며 무어의 법칙을 사용하였을 때 인간 수준의 지능을 가진 기계는 약 2029년에 나올 것이라고 예견하였다.
+제프 호킨스(Jeff Hawkins)는 신경망 연구자들이 대뇌 피질의 본질적인 성질을 무시하고 간단한 문제들을 성공적으로 해결하는 간단한 모델을 추구했다고 말했다.
+또한 각각에 대해 많은 설명들이 있으며 이를 대응하는 진행 중인 연구 프로그램들이 있다.
+세계는 이미 4차 산업혁명에 진입했으며 인공지능은 빠르게 인간을 대체해 나갈 것이다.
+또, 널리 퍼져 있지 않을 뿐 미래는 이미 와 있으며 인공지능, IoT, 클라우드 컴퓨팅, 빅데이터 등이 융합되면서 4차 산업혁명이 발생하고 있다.
+과거 산업혁명이 ‘기계근육’을 만드는 과정이었다면 4차 혁명에서는 ‘기계두뇌’가 탄생할 것이다.
+제1차 산업혁명 발생시, 산업 기계에 의해 일자리를 잃을 것이 두려웠던 노동자들이 러다이트(기계파괴운동)를 일으켰다.
+이와 유사하게, 인공 지능에 의한 4차 산업혁명으로, 많은 사람들이 미래에 일자리를 잃을 것을 우려하고 있다.
+한 온라인 설문조사에 따르면, 응답자의 70.1%가 미래에 인공지능에 의해 인간의 직업이 줄어들 것이라고 예상했다.
+인공지능은 1959년에 MIT AI연구소를 설립한 매카시와 마빈 민스키, 카네기멜론 대학교에 인공지능 연구소를 만든 앨런 뉴웰과 허버트 사이먼과 같은 개척자들에 의해 1950년도에 실험 학문으로 시작되었다.
+이들 모두는 1956년에 매카시, 민스키, IBM의 나단 로체스터 와 클라우드 샤논에 의해 조직되어 열린, 이미 언급된 다트머스 대학의 여름 AI 콘퍼런스에 참가하였다.
+역사적으로, 인공지능 연구는 두 개의 부류 -- 깔끔이(Neats)와 지저분이(Scruffies) -- 로 나눌 수 있다.
+깔끔이는 우리가 전통적 혹은 기호적(symbolic) 인공지능 연구라고 부르는 분야로서, 일반적으로 추상적인 개념에 대한 기호적 연산과 전문가 시스템(expert systems)에 사용된 방법론을 가르친다.
+이와 상반된 영역을 우리는 지저분이(Scruffies) 또는 연결주의자(connectionist)라 부르는데, 시스템을 구축하여 지능을 구현/진화시키려고 시도하고, 특정 임무를 완수하기 위해 규칙적인 디자인을 하기보다는 자동화된 프로세스에 의해서 지능을 향상시키는 방식이다.
+가장 대표적인 예로 신경망(neural network)이 있다.
+이 두 가지 접근법은 인공지능 역사의 매우 초창기부터 함께 했다.
+1960년대와 1970년대를 거치며 scruffy 접근법은 주목받지 못했지만, 1980년대 깔끔이 접근법의 한계가 명확해지면서 다시 주목 받게 되었다.
+그러나 현재 두 가지 방식을 사용하는 그 어떤 최신의 인공지능 알고리즘도 확실한 한계가 있다는 것이 명확하다.
+특히 1980년대에 들어서 Back propagation (인공지능 학습방법: Training Method)가 소개되면서 많은 연구가 진행되었음에도, 신경망을 이용한 인공지능은 아직 초보단계이다.
+인공신경망 (Artificial Neural Networks)을 이용한 많은 연구가 현재에도 진행되고 있지만, 몇 가지 장애로 인해서 실용화하기엔 아직도 먼 기술이다.
+인공신경망을 이용한 인공지능이 어느 정도 실용화되기 위해선 우선 실효성 있는 학습방법 (Training Methods)이 필요하다.
+Back propagation을 이용한 학습방법이 제안되어 연구되고 있지만, 완전한 학습을 이룰 수 없을 뿐만 아니라, 학습에 사용되는 data들이 서로 orthonormal해야 하는 조건 때문에 항상 불완전한 학습으로 끝나기 쉽다.
+(Converge to Local Mimimum, not to the optimal minimum: 지역최적해에 머뭄.
+즉, 눈먼 장님이 가장 낮은 저지대를 찾는 경우 각 현재 지점에서 아래로 내려가려는 성질이 있는데 이때 눈먼 봉사이므로 특정 지점의 저지대에 도달한 경우, 그 지점에선 어디로 가거나 위로 올라가는 것만 있으므로 앞에 설명한 성질에 의해 바로 전에 찾은 저지대 남으려 하는 성질이 있다는 것을 의미함).
+이러한 단점들을 보완하기 위해서 Fuzzy Logic, Neurofuzzy (Neural fuzzy logic) and Genetic Algorithms등을 이용한 학습방법이 연구되고 있으나 전망이 밝지만은 않은 상태이다.
+미국의 DARPA(미 국방부 최신 기술 연구 프로젝트 관리국)과 일본의 5세대 컴퓨터 프로젝트에 의해서 1980년대 인공지능 연구는 엄청난 연구 기금을 지원 받을 수 있었다.
+몇몇 인공지능 선각자들이 거둔 주목할 만한 결과에도 불구하고, 즉각적인 결과를 산출하는 데 실패하게 된다.
+이것은 1980년대 후반 인공지능 연구 기금에 대한 대폭적인 삭감을 초래하였고, 인공지능 연구의 침체기를 뜻하는 인공지능의 겨울을 가져왔다.
+1990년대, 많은 인공지능 연구가들은 좀 더 구체적인 목적 아래 기계 학습, 로보틱스, 컴퓨터 비전과 같은 인공지능과 관련된 세부 영역으로 이동하였고, 순수하고 보편적인 인공지능에 대한 연구는 매우 제한적으로 수행되고 있다.
+인공지능의 궁극적인 목표인 인간과 같은 지능의 개발이 어려움을 겪자, 다양한 응용 분야가 나타나게 되었다.
+대표적인 예가 LISP나 Prolog와 같은 언어인데, 애초에 인공지능 연구를 위해 만들어졌으나 지금에 와서는 인공지능과 관련이 없는 분야에서도 사용되고 있다.
+해커 문화도 인공지능 연구실에서 만들어졌는데, 이 중에서도 다양한 시기에 매카시, 민스키, 페퍼트, 위노그라드(SHRDLU를 만든 뒤에 인공지능을 포기했다)와 같은 유명인의 모태가 된 MIT 인공지능 연구소가 유명하다.
+다른 많은 시스템들이 한때 인공지능의 활발한 연구 주제였던 기술들에 바탕을 두고 만들어졌다.
+그 예들은 다음과 같다: 인공지능 분야와 과학 소설 분야에서는 인공지능 시스템이 인간 전문가의 판단을 대체하리라는 예상이 계속해서 제기되어 왔다.
+오늘날에는 몇몇 공학이나 의약 조제 같은 특정 분야에서 전문가 시스템이 인간 전문가의 판단을 보조하거나 대체하고 있다.
+어떤 사람들은 현재 알려진 어떤 시스템보다도 지능적이며 복잡한 시스템의 등장을 예견하기도 한다.
+이와 같은 가상적인 시스템들을 '비결정적인 인공지능 시스템'의 약자인 atilect라고 한다.
+이와 같은 시스템이 만들어진다면 그동안 인류에게 문제시되지 않았던 많은 윤리적인 문제들이 발생하게 된다.
+이에 대한 토론은 시간이 흐름에 따라 '가능성'보다는 '의도'에 점점 초점을 맞추게 되었다.
+이러한 초점의 이동은 휴고 더개리스(Hugo de Garis)와 케빈 워릭(Kevin Warwick)에 의해 제기된 "Cosmist"(반대말은 "Terran") 논쟁에 의해 이루어졌다.
+더개리스에 따르면 Cosmist란 더욱 지능적인 종족을 인간의 후계종으로 만들어 내기 위해 노력한다.
+이러한 논의로 미루어 볼 때, '의도'의 문제가 초기 인공지능 "반대파"들에게 큰 문제였음을 알 수 있다.
+흥미로운 윤리적 문제를 제기하는 주제는 다음과 같다.
+다양한 종류의 지능적 프로그램이 있다.
+이들 중 몇 가지 예를 들면 다음과 같다.
+전 세계에는 수많은 인공지능 연구가들이 있다.
+이제 인공지능 분야에 많은 기여를 한 연구자들을 소개해보겠다.
+몇몇 컴퓨터 과학 연구가들은, "인공지능"이라는 용어가 지금까지 이 연구 분야에서 이룩한 많은 업적과 "지능"이라는 일반적인 용어사이에서 큰 불일치를 초래하기 때문에 좋지 못한 용어라고 여겨진다.
+이 같은 문제는 대중과학작가들과 케빈 워릭(Kevin Warwick)과 같이 현 상태로는 불가능한 혁신적인 인공지능 연구 성과에 대한 기대를 불러일으키는 사람들에 의해서 심화되고 있다.
+이 같은 까닭으로 인공지능과 관련된 분야에서 일하는 많은 연구자들이 자신들은, 인지 과학, 정보학, 통계추론 또는 정보공학과 관련된 연구를 하고 있다고 이야기한다.
+그러나 현재 진보는 이루어지고 있고, 오늘날 인공지능은 전 세계 수많은 산업 시스템에서 작동하고 있다.
+오늘날 실세계의 인공지능 시스템에 관해 더 자세한 내용을 보려면 와이어드지의 기사를 참고하라.
+초지능(superintelligence)이란 인간의 능력을 아득히 뛰어넘는 가설적인 지능체를 가리키는 말이다.
+어떤 전문가들은 인공 일반지능의 발전이 앞으로 계속해서 이어진다면 일정한 수준의 지능에 도달하고 나서는 인공지능이 스스로를 계속해서 개선할 수 있으며, 이를 반복하여 기하급수적인 지능 성장으로 순식간에 인간의 지능을 뛰어넘을지도 모른다고 주장한다.
+버너 빈지는 이 시나리오를 "특이점"(singularity)이라고 이름하였다.
+인공지능의 한계는 여전히 명확하지 않기 때문에 이는 예측 불가능하다고 여겨지며 때로는 허무맹랑한 이야기로 치부되기도 한다.
+로봇 전문가 한스 모라벡이나 발명가 레이 커즈와일 등은 더 나아가 미래에는 인간이 기계와 결합한 사이보그로 진화하여 초지능을 손에 넣을 수 있을 것이라고 주장하는데, 이러한 주장을 트랜스휴머니즘이라고 한다.
+간추리기: 초지능은 인간의 능력을 뛰어넘는 가설적인 지능체를 의미합니다.
+몇몇 전문가들은 인공 일반지능의 발전으로 인해 인공지능이 스스로를 개선하고 기하급수적인 성장을 거듭하여 인간의 지능을 뛰어넘을 수도 있다고 주장합니다.
+이를 "특이점"이라고도 부르며, 미래에는 사이보그로 진화하여 초지능을 손에 넣을 수 있다는 주장도 있습니다.
+인공지능의 부정적 영향으로 현존 일자리의 감소, 시스템 오류 발생과 이에 따른 보상, 인간 노동력에 대한 경시, 전투 로봇과 같은 자율 살상 무기에 대한 윤리적인 문제 등이 있다.
+지금까지 과학 기술은 일자리를 줄이기보다는 증가시키는 경향이 있었으나 경제학자들은 AI에 관해서는 미지의 영역이라고 인정한다.
+경제학자들을 대상으로 한 설문에서 로봇과 AI의 사용 증가가 장기 실업자를 늘릴지에 대해 물은 결과 의견이 크게 분분했으며, 다만 늘어난 생산성이 재분배된다면 순이익이 될 수 있다는 데에 동의한다.
+또한 블루칼라 직종을 위협하던 종래의 자동화와 달리 인공지능에 의한 자동화는 많은 중산층의 화이트칼라 일자리도 위협할 수 있다는 점이 중대하게 받아들여진다.
+그 영향 범위도 매우 넓어서 법률 사무원에서 패스트푸드 다양한 직종이 큰 위기에 놓일 것이라 예측되는데, 한편으로 개인 건강 관리나 성직자 등 일부 직종은 오히려 수요가 증가할 수 있다고 예상된다.
+순환 신경망(Recurrent neural network, RNN)은 인공 신경망의 한 종류로, 유닛간의 연결이 순환적 구조를 갖는 특징을 갖고 있다.
+이러한 구조는 시변적 동적 특징을 모델링 할 수 있도록 신경망 내부에 상태를 저장할 수 있게 해주므로, 순방향 신경망과 달리 내부의 메모리를 이용해 시퀀스 형태의 입력을 처리할 수 있다.
+따라서 순환 인공 신경망은 필기 인식이나 음성 인식과 같이 시변적 특징을 지니는 데이터를 처리하는데 적용할 수 있다.
+순환 신경망이라는 이름은 입력받는 신호의 길이가 한정되지 않은 동적 데이터를 처리한다는 점에서 붙여진 이름으로, 유한 임펄스 구조와 무한 임펄스 구조를 모두 일컫는다.
+유한 임펄스 순환 신경망은 유향 비순환 그래프이므로 적절하게 풀어서 재구성한다면 순방향 신경망으로도 표현할 수 있지만, 무한 임펄스 순환 신경망은 유향 그래프이므로 순방향 신경망으로 표현하는 것이 불가능하다.
+순환 신경망은 추가적인 저장공간을 가질 수 있다.
+이 저장공간이 그래프의 형태를 가짐으로써 시간 지연의 기능을 하거나 피드백 루프를 가질 수도 있다.
+이와 같은 저장공간을 게이트된 상태(gated state) 또는 게이트된 메모리(gated memory)라고 하며, LSTM과 게이트 순환 유닛(GRU)이 이를 응용하는 대표적인 예시이다.
+RNN은 1986년 데이비드 루멜하르트의 연구에 기반을 둔다.
+RNN의 특수한 예시인 홉필드 네트워크가 1982년 존 홉필드에 의해 발명되었고, 1993년에는 신경 기억 압축기가 "Very Deep Learning"를 구현하는데 성공했는데, 1000개 이상의 레이어로 구성된 정적 RNN이 사용되었다.
+1997년 혹스라이터와 슈미트후버에 의해 발명된 LSTM은 네트워크는 여러 응용분야에서 독보적인 정확성을 보여주었다.
+2007년을 전후로, LSTM은 음성 인식 분야에서 기존의 전통적인 모델들을 아득히 능가하는 성능을 보여주었다.
+2009년에는 CTC(Connectionist temporal classification) 기술로 훈련시킨 LSTM이 처음으로 필기체 인식 시합에서 승리를 거둠으로써, 패턴 인식 분야에 독보적인 기능을 가지고 있음이 증명되었다.
+2014년에는 중국의 검색엔진인 바이두가 기존의 음성 인식 알고리즘은 전혀 사용하지 않고 오직 CTC로 훈련된 RNN만으로 Switchboard Hub5'00 speech recognition dataset 벤치마크를 갱신했다.
+LSTM은 또한 큰 단어에 대한 음성 인식과 음성 합성 분야에서도 발전을 이루어 현재 구글 안드로이드에서 응용되고있다.
+2015년에는 구글의 음성 인식 능력이 CTC 기반 LSTM을 통해 49%가량 향상되었다.
+또한 기계 번역, 언어 모델링, 다국어 언어 처리 분야에서의 기록도 우수한 능력으로 연달아 갱신했다.
+합성곱 신경망과 함께 응용되어 자동 이미지 캡셔닝 분야에서도 커다란 향상을 일으켰다.
+LSTM을 돌리는데 필요한 막대한 계산량에 따른 하드웨어의 부담을 줄이기 위해 하드웨어 가속기를 사용해 LSTM을 가속하고자 하는 연구도 꾸준히 진행되고 있다.
+RNN은 뉴런과 유사한 노드들이 이룬 레이어가 연속되어있는 구조를 가진다.
+각각의 노드들은 다음 단계의 모든 레이어들과 단방향 그래프를 이루며, 시간에 따라 달라지는 실숫값의 활성화(activation)값을 가진다.
+또한 각 노드들 간 연결관계는 실숫값의 가중치를 가지며 이 값은 끊임없이 바뀐다.
+노드의 종류로는 신경망 외부로부터 값을 입력받는 입력 노드, 결괏값을 산출하는 출력 노드, 입력 노드에서 출력 노드 사이에 존재하는 은닉 노드가 있다.
+이산 시간 데이터로 지도 학습을 하는 경우, 단위시간 한 번에 실수 벡터 하나가 입력 노드로 들어온다.
+또한 매 순간 입력 노드를 제외한 모든 노드들은, 각자 연결된 노드들로부터 활성화값을 각 연결의 가중치와 함께 가중합으로 받아, 비선형 함수를 통해 활성화값을 계산한 뒤 저장한다.
+지도 학습을 위해 주어진 데이터는 특정 순간마다 출력 노드 값이 이루어야 하는 값(target)을 알려준다.
+매 순간마다 신경망이 생성한 출력값과, 원래 이루었어야 하는 값 사이의 편차의 합으로 오차를 정의한다.
+이 오차를 줄이는 방향으로 신경망의 학습이 이루어진다.
+일례로 음성 인식을 통해 발음된 숫자를 알아맞추는 프로그램을 생각해보자.
+이 경우 최종 출력값은 숫자를 분류하기 위한 레이블이 될 것이다.
+강화 학습의 경우, 아무도 출력 값이 어떠해야한다는 정보를 가르쳐주지 않는다.
+대신 RNN의 성능을 평가하기 위한 적합성 함수(영어:fitness function)나 보상 함수가 출력값을 받아들인 뒤, 액츄에이터를 통해 환경에 영향을 줌으로써 입력값을 변화시킨다.
+점수가 있는 게임을 플레이하는 인공지능을 만들 때 이런 기술을 사용할 수 있다.
+엘만 신경망과 조르단 신경망을 단순 순환망(Simple recurrent network, SRN)이라 부른다.
+엘만 신경망은 세 개의 레이어와 문맥 유닛으로 이루어져 있으며, 문맥 유닛들은 1로 고정된 가중치와 함께 은닉 레이어와 연결되어 있다.
+학습이 이루어질 때마다 입력값이 순방향으로 되먹임되고, 은닉 레이어가 전 단계에 가지고 있던 값이 문맥 유닛에 저장된다.
+따라서 신경망은 과거의 상태를 저장할 수 있게됨으로써 일반적인 다중계층 퍼셉트론보다 우수한 예지력을 가지게 되는 것이다.
+조르단 신경망은 엘만 신경망과 비슷하나, 문맥 유닛이 은닉 레이어가 아닌 출력 레이어로부터 값을 받는다는 차이점이 있다.
+이 경우 문맥 유닛은 상태 레이어라고 불리며, 그 내부에서도 순환망을 가진다.
+<math>{\begin{aligned}h_{t}&=\sigma _{h}(W_{h}x_{t}+U_{h}h_{t-1}+b_{h})\\y_{t}&=\sigma _{y}(W_{y}h_{t}+b_{y})\end{aligned}}</math> <math>{\begin{aligned}h_{t}&=\sigma _{h}(W_{h}x_{t}+U_{h}y_{t-1}+b_{h})\\y_{t}&=\sigma _{y}(W_{y}h_{t}+b_{y})\end{aligned}}</math> 위 식에서 기호들은 각각 다음을 의미한다.
+LSTM(long short-term memory, 장단기 메모리)는 기울기 소실 문제를 해결하기 위해 고안된 딥 러닝 시스템이다.
+LSTM은 망각 게이트(forget gate)라 부르는 게이트를 추가적으로 가진다.
+이 게이트를 통해 역전파시 기울기값이 급격하게 사라지거나 증가하는 문제를 방지할 수 있다.
+이로써 기존의 RNN은 먼 과거의 일로부터 학습하는 것이 산술적으로 거의 불가능했지만, LSTM은 수백만 단위 시간 전의 사건으로부터도 학습할 수 있음으로서 고주파 신호뿐 아니라 저주파 신호까지도 다룰 수 있게 되었고, 이는 곧 성능의 비약적 발전을 가져왔다.
+이로써 LSTM과 유사한 구조를 가진 신경망들도 많이 발표되고 있다.
+LSTM을 쌓은 뒤 CTC(영어:Connectionist temporal classification)로 이 신경망을 학습시키는 방식으로 실제 연구분야에 많이 사용되고 있다.
+특히 CTC는 정렬과 인식에서 좋은 결과를 가져다주고 있다.
+또한 기존의 은닉 마르코프 모형(HMM)으로는 불가능했던 문맥의존언어 학습이 가능하다는 것이 밝혀졌다.
+GRU(Gated recurrent units, 게이트 순환 유닛)은 2014년에 처음으로 발명된 구조다.
+처음 발표된 형태로 적용되기도 하나, 간단하게 변용되는 경우도 많다.
+출력 게이트가 존재하지 않으므로, LSTM에 비해 더 적은 수의 매개변수를 가짐에도 불구하고 다성음악 학습이나 음성 인식 분야에서 LSTM과 유사한 성능을 가진다.
+양방향(Bi-directional) 순환 신경망은 길이가 정해진 데이터 순열을 통해 어떤 값이 들어오기 전과 후의 정보를 모두 학습하는 방식의 알고리즘이다.
+이를 위해 순열을 왼쪽에서 오른쪽으로 읽을 RNN 하나와, 오른쪽에서 왼쪽으로 읽을 RNN 하나를 필요로 한다.
+이 둘의 출력값을 조합한 뒤 지도된 결과와 비교하여 학습하는 것이다.
+LSTM과 병용할 때 특히 좋은 성능을 낸다는 사실이 증명되었다.
+순환 신경망의은 다음과 같은 분야에서 응용될 수 있다.
+합성곱 신경망(콘볼루션 신경망, Convolutional neural network, CNN)은 시각적 영상을 분석하는 데 사용되는 다층의 피드-포워드적인 인공신경망의 한 종류이다.
+필터링 기법을 인공신경망에 적용하여 이미지를 효과적으로 처리할 수 있는 심층 신경망 기법으로 행렬로 표현된 필터의 각 요소가 데이터 처리에 적합하도록 자동으로 학습되는 과정을 통해 이미지를 분류하는 기법이다.
+합성곱 신경망은 정규화 된 버전의 다층 퍼셉트론이다.
+다층 퍼셉트론은 일반적으로 완전히 연결된 네트워크, 즉 한 계층의 각 뉴런이 다음 계층의 모든 뉴런에 연결되는 신경망 구조이다.
+이와 같이 네트워크가 완전 연결된 경우 주어진 데이터에 과적합 되는 경향이 있다.
+일반적인 정규화를 위해 최적화 함수에 특정 척도를 추가하는 방법이 흔히 쓰이지만, CNN은 정규화를 위한 다른 접근 방식을 취한다.
+데이터에서 계층적 패턴을 활용하고 더 작고 간단한 패턴을 사용하여 더 복잡한 패턴을 표현함으로써 정규화와 같은 효과를 내는 것이다.
+따라서 합성곱 신경망의 연결 구조의 복잡성은 유사한 기능의 다층 퍼셉트론에 비해 극단적으로 낮다.[출처 필요] 합성곱 신경망은 뉴런 사이의 연결 패턴이 동물 시각 피질의 조직과 유사하다는 점에 영감을 받았다.
+개별 피질 뉴런은 수용장(receptive field)으로 알려진 시야의 제한된 영역에서만 자극에 반응한다.
+상이한 뉴런의 수용 필드는 전체 시야를 볼 수 있도록 부분적으로 중첩된다.[출처 필요] 합성곱 신경망을 이용한 영상 분류는 다른 영상 분류 알고리즘에 비해 상대적으로 전처리를 거의 사용하지 않는다.
+이는 신경망이 기존 알고리즘에서 수작업으로 제작된 필터를 학습한다는 것을 의미한다.
+기존 영상 분류 알고리듬에서 설계자가 영상의 특징들을 미리 이해해 알고리듬을 만드는 과정이 없는 것이 합성곱 신경망의 주요한 장점이다.[출처 필요] 합성곱 신경망은 크게 합성곱층(Convolution layer)과 풀링층(통합 계층, Pooling layer), 완전하게 연결된 층(fully connected layer)들로 구성된다.
+그리고 분류연산이라는 행렬 곱 연산을 준비한다.
+우선 기존 사진의 정보를 가진 신경망에 합성곱층과 풀링층을 완전하게 연결된 층 이전에 추가하여 원본 이미지에 필터링 기법을 적용한다.
+이어 해당 이미지에 분류연산을 수행시킨다.
+이를 통해 합성곱층이 이미지에 분류연산이 하고자 하는 필터를 씌울 수 있다.
+여기서 다시 풀링 계층은 각 이미지의 국소적인 부분을 하나의 대표적인 스칼라 값으로 변환하여 행렬 곱 연산으로 인해 커진 이미지 크기를 줄이는 등의 기능을 수행한다.
+트랜스포머(transformer)는 어텐션 메커니즘을 활용하는 딥 러닝 모형이다.
+본래 자연어 처리에 활용되었으나, 비전 트랜스포머의 등장 이후 컴퓨터 비전 분야에도 활용되고 있다.
+트랜스포머가 개발되어 순환 신경망(RNN)의 단점이 극복됨에 따라 자연어 처리 최고의 RNN 기법이었던 장단기 메모리(Long Short-Term Memory, LSTM)가 트랜스포머에 의해 대체되는 추세이다.
+OpenAI에서 만든 GPT 모델들도 트랜스포머를 사용한다.
+트랜스포머는 딥 러닝 모델이다.
+이는 입력(재귀 출력 포함) 데이터의 각 부분의 중요도에 차별적으로 가중치를 부여하는 셀프어텐션(self-attention)의 채택으로 구별된다.
+주로 자연어 처리(NLP) 및 컴퓨터 비전(CV) 분야에서 사용된다.
+순환 신경망(RNN)과 마찬가지로 트랜스포머는 번역 및 텍스트 요약과 같은 작업에 사용되며, 자연어와 같은 순차적 입력 데이터를 처리하도록 설계되었다.
+그러나 RNN과 달리 트랜스포머는 전체 입력을 한 번에 처리한다.
+어텐션 메커니즘은 입력 시퀀스의 모든 위치에 대한 컨텍스트를 만들어낸다.
+예를 들어 입력 데이터가 자연어 문장인 경우 트랜스포머는 한 번에 한 단어씩 처리할 필요가 없다.
+따라서 RNN보다 더 많은 병렬화가 가능해지므로 훈련 시간이 단축된다.
+트랜스포머는 구글 브레인 팀에서 2017년에 도입했으며 LSTM(Long Short-Term Memory)과 같은 RNN 모델을 대체하면서 점점 더 NLP 문제에 대한 선택 모델이 되고 있다.
+RNN 모델에 비해 트랜스포머는 병렬화에 더 적합하여 더 큰 데이터 세트에 대한 교육을 허용한다.
+이로 인해 위키백과 코퍼스(Wikipedia Corpus) 및 커먼 크롤(Common Crawl)과 같은 대규모 언어 데이터 세트로 훈련된 BERT(Bidirectional Encoder Representations from Transformers) 및 최초형 GPT(Generative Pre-trained Transformer)와 같은 사전 훈련된 시스템이 개발되었다.
+특정 작업에 맞게 미세 조정된다.
+- Discussion of the effect of a transformer layer as equivalent to a Hopfield update, bringing the input closer to one of the fixed points (representable patterns) of a continuous-valued Hopfield network - Discussion of the effect of a transformer layer as equivalent to a Hopfield update, bringing the input closer to one of the fixed points (representable patterns) of a continuous-valued Hopfield network 기계 학습() 또는 머신 러닝(영어: machine learning, ML)은 경험을 통해 자동으로 개선하는 컴퓨터 알고리즘의 연구이다.
+방대한 데이터를 분석해 '미래를 예측하는 기술'이자 인공지능의 한 분야로 간주된다.
+기계 학습은 복잡한 패턴에 대한 학습을 통해 상황에 대한 예측과 의사 결정을 돕는다.
+컴퓨터가 학습할 수 있도록 하는 알고리즘과 기술을 개발하는 분야이다.
+가령, 기계 학습을 통해서 수신한 이메일이 스팸인지 아닌지를 구분할 수 있도록 훈련할 수 있다.
+기계 학습의 핵심은 표현(representation)과 일반화(generalization)에 있다.
+표현이란 데이터의 평가이며, 일반화란 아직 알 수 없는 데이터에 대한 처리이다.
+이는 전산 학습 이론 분야이기도 하다.
+다양한 기계 학습의 응용이 존재한다.
+문자 인식은 이를 이용한 가장 잘 알려진 사례이다.
+1959년, 아서 사무엘은 기계 학습을 "기계가 일일이 코드로 명시하지 않은 동작을 데이터로부터 학습하여 실행할 수 있도록 하는 알고리즘을 개발하는 연구 분야"라고 정의하였다.
+기계 학습에서의 일반화는 훈련 이후 새롭게 들어온 데이터를 정확히 처리할 수 있는 능력을 말한다.
+기계 학습과 데이터 마이닝은 종종 같은 방법을 사용하며 상당히 중첩된다.
+다만 다음에 따라 대략적으로 구분된다.
+이론 전산학의 한 갈래이다.
+훈련 데이터는 유한한데, 결과는 불확실하다.
+이는 학습 이론을 통해 알고리즘의 결과를 장담할 수 없기 때문이다.
+또한 다른 용어를 사용함에도 불구하고 통계적 추론과도 많은 유사점이 있다.
+인공신경망(artificial neural network, ANN)은 기계학습과 인지과학에서 생물학의 신경망에서 영감을 얻은 통계학적 학습 알고리즘으로 시냅스의 결합으로 네트워크를 형성한 인공 뉴런(노드)이 학습을 통해 시냅스의 결합 세기를 변화시켜, 문제 해결 능력을 가지는 모델 전반을 가리킨다.
+인공신경망에는 교사 신호(정답)의 입력에 의해서 문제에 최적화되어 가는 교사 학습과 교사 신호를 필요로 하지 않는 비교사 학습이 있다.
+명확한 해답이 있는 경우에는 교사 학습이, 데이터 클러스터링에는 비교사 학습이 이용된다.
+다른 기계학습과 같이 신경망은 일반적으로 규칙기반 프로그래밍으로 풀기 어려운 컴퓨터 비전 또는 음성 인식과 같은 다양한 범위의 문제를 푸는데 이용된다.
+지도 학습(supervised learning)은 훈련 데이터(Training Data)로부터 하나의 함수를 유추해내기 위한 기계 학습(Machine Learning)의 한 방법이다.
+훈련 데이터는 일반적으로 입력 객체에 대한 속성을 벡터 형태로 포함하고 있으며 각각의 벡터에 대해 원하는 결과가 무엇인지 표시되어 있다.
+이렇게 유추된 함수 중 연속적인 값을 출력하는 것을 회귀분석(Regression)이라 하고 주어진 입력 벡터가 어떤 종류의 값인지 표식하는 것을 분류(Classification)라 한다.
+지도 학습기(Supervised Learner)가 하는 작업은 훈련 데이터로부터 주어진 데이터에 대해 예측하고자 하는 값을 올바로 추측해내는 것이다.
+이 목표를 달성하기 위해서는 학습기가 "알맞은" 방법을 통하여 기존의 훈련 데이터로부터 나타나지 않던 상황까지도 일반화하여 처리할 수 있어야 한다.
+사람과 동물에 대응하는 심리학으로는 개념 학습(Concept Learning)을 예로 들 수 있다.
+훈련 데이터로부터 하나의 함수가 유추되고 나면 해당 함수에 대한 평가를 통해 파라미터를 최적화한다.
+이러한 평가를 위해 교차 검증(Cross-Validation)이 이용되며 이를 위해 검증 집합(Validation Set) 을 다음의 3가지로 나눈다.
+이러한 교차 검증을 통하여 훈련된 각 함수에 대해 정밀도(Precision)와 재현율(Recall)를 측정할 수 있으며 그 정의는 아래와 같다.
+정밀도(Precision)와 재현율(Recall)은 다음과 같이 정의: <math>{\mbox{Precision}}={\frac {tp}{tp+fp}}\,</math> <math>{\mbox{Recall}}={\frac {tp}{tp+fn}}\,</math> 강화 학습(reinforcement learning)은 기계 학습의 한 영역이다.
+행동심리학에서 영감을 받았으며, 어떤 환경 안에서 정의된 에이전트가 현재의 상태를 인식하여, 선택 가능한 행동들 중 보상을 최대화하는 행동 혹은 행동 순서를 선택하는 방법이다.
+이러한 문제는 매우 포괄적이기 때문에 게임 이론, 제어이론, 운용 과학, 정보이론, 시뮬레이션 기반 최적화, 다중 에이전트 시스템, 떼 지능, 통계학, 유전 알고리즘 등의 분야에서도 연구된다.
+운용 과학과 제어 이론에서 강화 학습이 연구되는 분야는 "근사 동적 계획법"이라고 불린다.
+또한 최적화 제어 이론에서도 유사한 문제를 연구하지만, 대부분의 연구가 최적해의 존재와 특성에 초점을 맞춘다는 점에서 학습과 근사의 측면에서 접근하는 강화 학습과는 다르다.
+경제학과 게임 이론 분야에서 강화 학습은 어떻게 제한된 합리성 하에서 평형이 일어날 수 있는지를 설명하는 데에 사용되기도 한다.
+강화 학습에서 다루는 '환경'은 주로 마르코프 결정 과정으로 주어진다.
+마르코프 결정 과정 문제를 해결하는 기존의 방식과 강화 학습이 다른 지점은, 강화 학습은 마르코프 결정 과정에 대한 지식을 요구하지 않는다는 점과, 강화 학습은 크기가 매우 커서 결정론적 방법을 적용할 수 없는 규모의 마르코프 결정 과정 문제를 다룬다는 점이다.
+강화 학습은 또한 입출력 쌍으로 이루어진 훈련 집합이 제시되지 않으며, 잘못된 행동에 대해서도 명시적으로 정정이 일어나지 않는다는 점에서 일반적인 지도 학습과 다르다.
+대신, 강화학습의 초점은 학습 과정에서의(on-line) 성능이며, 이는 탐색(exploration)과 이용(exploitation)의 균형을 맞춤으로써 제고된다.
+탐색과 이용의 균형 문제 강화 학습에서 가장 많이 연구된 문제로, 다중 슬롯 머신 문제(multi-armed bandit problem)와 유한한 마르코프 결정 과정 등에서 연구되었다.
+기본적으로 강화 학습의 문제는 마르코프 결정 과정(MDP)으로 표현된다.
+이런 관점에서 강화 학습 알고리즘은 동적 계획법과 깊은 연관이 있다.
+마르코프 결정 과정에서 상태 전이 확률(state transition probabilities)과 보상은 확률에 따른 값일 수도 있고, 이미 결정되어 있는 값일 수도 있다.
+강화 학습이 원하지 않는 행동을 명시적으로 수정하는 지도 학습과 다른 점은 온라인 수행에 중심을 두고 있다는 점이다.
+강화 학습은 아직 조사되지 않는 영역을 탐험하는 것과 이미 알고 있는 지식을 이용하는 것의 균형을 잡는 것이다.
+이 탐험과 이용 사이에 있는 트레이드오프는 Multi-armed bandit과 같은 문제에서 알아 볼 수 있다.
+수식으로 표현하면, 강화 학습 모델은 다음과 같이 구성된다.
+매 시점 <math>t</math>에 에이전트는 자신의 상태(state) <math>s_{t}\in S</math>와 가능한 행동(action) <math>A(s_{t})</math>를 가지고 있다.
+에이전트는 어떤 행동 a ∈ A(st) 을 취하고, 환경으로부터 새로운 상태 st+1와 포상(reward) rt+1을 받는다.
+이 상호작용에 기반해서 강화 학습 에이전트는 누적된 포상값 R을 최대화하는 정책(policy) π: S→A을 개발한다.
+종료 상태(terminal state)가 존재하는 MDPs에서는 <math>R=r_{0}+r_{1}+\cdots +r_{n}=\sum _{t=1}^{n}r_{t}</math>이고, 그렇지 않은 MDPs에서는 <math>R=\sum _{t=1}^{n}\gamma ^{t}r_{t}</math>가 된다.
+여기서 <math>\gamma</math>는 미래의 포상이 현재에 얼마나 가치 있는지를 표현하는 할인율(discount factor)로 0과 1사이의 값이다.
+강화 학습은 장기, 단기의 포상 사이 트레이드오프가 존재하는 문제를 다루는 데 적합하다.
+이것은 로봇 제어, 엘리베이터 스케줄링, 통신망, 백개먼과 체스 같은 게임에 성공적으로 적용되어 왔다.
+인공신경망(, 영어: artificial neural network, ANN)은 기계학습과 인지과학에서 생물학의 신경망(동물의 중추신경계중 특히 뇌)에서 영감을 얻은 알고리즘이다.
+인공신경망은 시냅스의 결합으로 네트워크를 형성한 인공 뉴런(노드)이 학습을 통해 시냅스의 결합 세기를 변화시켜, 문제 해결 능력을 가지는 모델 전반을 가리킨다.
+좁은 의미에서는 오차역전파법을 이용한 다층 퍼셉트론을 가리키는 경우도 있지만, 이것은 잘못된 용법으로, 인공신경망은 이에 국한되지 않는다.
+인공신경망에는 교사 신호(정답)의 입력에 의해서 문제에 최적화되어 가는 지도 학습과 교사 신호를 필요로 하지 않는 비지도 학습으로 나뉘어 있다.
+명확한 해답이 있는 경우에는 교사 학습이, 데이터 클러스터링에는 비교사 학습이 이용된다.
+인공신경망은 많은 입력들에 의존하면서 일반적으로 베일에 싸인 함수를 추측하고 근사치를 낼 경우 사용한다.
+일반적으로 입력으로부터 값을 계산하는 뉴런 시스템의 상호연결로 표현되고 적응성이 있어 패턴인식과 같은 기계학습을 수행할 수 있다.
+예를 들면, 필기체 인식을 위한 신경망은 입력 뉴런의 집합으로 정의되며 이들은 입력 이미지의 픽셀에 의해 활성화된다.
+함수의 변형과 가중치가(이들은 신경망을 만든 사람이 결정한다.) 적용된 후 해당 뉴런의 활성화는 다른 뉴런으로 전달된다.
+이러한 처리는 마지막 출력 뉴런이 활성화될 때까지 반복되며 이것은 어떤 문자를 읽었는 지에 따라 결정된다.
+다른 기계학습과 같이-데이터로부터 학습하는- 신경망은 일반적으로 규칙기반 프로그래밍으로 풀기 어려운 컴퓨터 비전 또는 음성 인식과 같은 다양한 범위의 문제를 푸는데 이용된다.
+인간의 중추 신경계에 대한 조사는 신경망 개념에 영감을 주었다.
+생물학적 신경망을 흉내내는 네트워크를 형상하기 위해 인공신경망에서 인공 뉴런들은 서로 연결되어있다.
+인공신경망이란 무엇인가에 대한 하나의 공식적인 정의는 없다.
+그러나 만약 통계학적 모델들의 집합이 다음과 같은 특징들을 가진다면 해당 집합을 신경(neural)이라고 부른다.
+조정가능한 가중치들은 뉴런 사이의 연결 강도를 의미하고 이들은 훈련 또는 예측하는 동안에 작동한다.
+다양한 유닛들이 할당된 하위작업 보다 유닛들에 의한 병렬 혹은 집합적으로 함수들을 수행한다는 점에서 신경망은 생물학적 신경망과 닮았다.
+'신경망'이라는 단어는 보통 통계학, 인지 심리학 그리고 인공지능에서 사용되는 모델들을 가리킨다.
+중추 신경을 모방하는 신경망 모델들은 이론 신경과학과 계산 신경과학의 한 부분이다.
+인공신경망을 구현한 현대의 소프트웨어에서는 생물학적 접근법은 신호처리와 통계학에 근거한 좀 더 현실적인 접근법들로 인해 주로 사용되지 않는다.
+이러한 시스템들 중 몇몇에서는 신경망 또는 신경망의 부분들(인공 신경들)은 큰 시스템을 형성하며 이러한 시스템은 조정이 가능하거나 기능하지 않은 구성 요소들로 결합되어 있다.
+이러한 시스템의 일반적인 접근법은 많은 현실 문제 해결에 적합한 반면에 전통적인 인공지능 연결 모델에서는 그렇지 않다.
+그러나 이들에게도 공통점이 있는데 그것은 비선형의 원리 분산, 병렬과 지역 처리 그리고 적응이다.
+역사적으로 신경 모델들의 이용은 18세기 후반 if-then 규칙으로 표현된 지능을 가진 전문가 시스템을 특징으로 하는 고차원(symbolic) 인공지능에서부터 동적 시스템의 매개변수들을 가진 지능을 특징으로 하는 저차원(sub-symbolic) 기계학습으로 가는 패러다임의 변환이다.
+워런 맥컬록(Warren McCulloch)와 월터 피츠(Walter Pitts)는 (1943) 수학과 임계 논리(threshold logic)라 불리는 알고리즘을 바탕으로 신경망을 위한 계산학 모델을 만들었다.
+이 모델은 신경망 연구의 두 가지 다른 접근법에 대한 초석을 닦았다.
+하나의 접근법은 뇌의 신경학적 처리에 집중하는 것이고 다른 하나는 인공 신경망의 활용에 집중하는 것이다.
+1940년 후반에 심리학자 도널드 헤비안(Donald Hebb)는 헤비안 학습(Hebbian learning)이라 불리는 신경가소성의 원리에 근거한 학습의 기본 가정을 만들었다.
+헤비안 학습은 전형적인 자율학습으로 이것의 변형들은 장기강화(long term potentiation)의 초기 모델이 된다.
+이러한 아이디어는 1948년 튜링의 B-type 기계에 계산학 모델을 적용하는데서 출발하였다.
+팔리(Farley)와 웨슬리 클라크(Wesley A.
+Clark)는(1954) MIT에서 헤비안 네트워크를 모의 실험하기 위해 처음으로 계산학 모델(후에 계산기라 불리는)을 사용하였다.
+다른 신경망 계산학 기계들은 로체스터(Rochester), 홀랜드(Holland), 하빗(Habit), 두다(Duda)에 의해 만들어졌다.
+(1956) 프랑크 로젠블랫(Frank Rosenblatt)는 (1958) 퍼셉트론 즉, 간단한 덧셈과 뺄셈을 하는 이층구조의 학습 컴퓨터 망에 근거한 패턴 인식을 위한 알고리즘을 만들었다.
+계산학 표기법과 함께 로벤블라트는 또한 기본적인 퍼셉트론에 대한 회로가 아닌예를 들면 배타적 논리합 회로(exclusive-or circuit)와 같은 회로를 표기하였다.
+해당 회로의 수학 계산은 폴 웨어보스(Paul Werbos)에 의해 오차역전파법이 만들어진 후에 가능하였다.
+(1975) 마빈 민스키(Marvin Minsky)와 시모어 페퍼트(Seymour Papert)에 의해 기계학습 논문이 발표된 후에 (1969) 신경망 연구는 침체되었다.
+그들은 인공신경망에서 두 가지 문제점을 찾아내었다.
+첫 번째로는 단층 신경망은 배타적 논리합 회로를 처리하지 못한다는 것이다.
+두 번째 중요한 문제는 거대한 신경망에 의해 처리되는 긴 시간을 컴퓨터가 충분히 효과적으로 처리할 만큼 정교하지 않다는 것이다.
+신경망 연구는 컴퓨터가 충분히 빨라지고, 배타적 논리합 문제를 효율적으로 처리하는 오차역전파법이 만들어지기까지 더디게 진행되었다.
+1980년대 중반 병렬 분산 처리는 연결주의(connectionism)라는 이름으로 각광을 받았다.
+데이비드 럼멜하트(David E.
+Rumelhart)와 제임스 맥클레랜드(James McClelland)가 쓴 교과서는 (1986) 연결주의를 이용해 신경 처리를 컴퓨터에서 모의 실험하기 위한 모든 것을 설명하였다.
+인공신경망이 어느정도 뇌의 기능을 반영하는지 불분명하기 때문에 뇌 신경 처리의 간단한 모델과 뇌 생물학적 구조간의 상관관계에 대해 논란 중에 있으나 인공지능에서 사용되는 신경망은 전통적으로 뇌 신경 처리의 간단한 모델로 간주된다.
+인공신경망은 SVM과 같은 다른 기계학습 방법들의 인기를 점차적으로 추월하고 있다.
+2000년대 이후 딥 러닝의 출현이후 신경 집합의 새로운 관심은 다시 조명받고 있다.
+생물물리학 모의실험 그리고 뇌신경학 컴퓨팅을 위한 계산학 디바이스들은 CMOS를 통해 만들어졌다.
+최근에는 큰 범위의 기본 요소들의 분석과 합성을 위한 나노 디바이스 제작과 같은 노력들이 있다.
+만약 성공한다면 이러한 노력은 디지털 컴퓨팅을 뛰어넘는 신경 컴퓨팅의 새로운 시대를 도래하게 할 것이다.
+왜냐하면 이것은 프로그래밍 보다는 학습에 기반하며 비록 첫 예시가 CMOS 디지털 디바이스와의 합작일지라도 이것은 기본적으로 디지털보다 아날로그이기 때문이다.
+2009년부터 2012년동안 스위스 AI 연구실 IDSIA에서 위르겐 슈밋흠바(Jürgen Schmidhuber)의 연구 그룹이 개발한 재귀 신경망과 심화 피드포워드 신경망은 여덞 번의 패턴 인식과 기계학습 국제 대회에서 우승하였다.
+예를 들면, 알렉스 그레이브스(Alex Graves et al)의 쌍방향 그리고 다중 차원의 장단기 기억(LSTM)은 2009년의 국제문서 분석 및 인식 컨퍼런스(ICDAR)의 필기 인식 부분에서 학습하게 될 세 가지 언어에 대한 아무런 사전 정보가 주어지지 않았음에도 불구하고 세 번이나 우승하였다.
+IDSIA의 댄 크리슨(Dan Ciresan)과 그 동료들에 의한 빠른 GPU 기반 실행 접근 방법은 IJCNN 2011 교통 표지판 인식 대회, ISBI 2012 신경 구조의 분할의 전자 현미경 대회를 비롯하여 여러 패턴 인식 경연에서 여러 번 우승하였다.
+그들의 신경망은 또한 처음으로 교통 표지판(IJCNN 2012) 또는 MINIST 필기 인식 분야에서 인간과 견줄만한 또는 인간을 넘어서는 인공 패턴 인식이다.
+심화 비선형 신경 아키텍처는 1980년 후쿠시마 구니히코(Kunihiko Fukushima)의 신인식기(neocognitron)와 비슷하다.
+그리고 일차 시각 피질에서 데이비드 허블(David H.
+Hubel)과 토르스텐 비셀(Torsten Wissel)에 의해 밝혀진 간단하고 복잡한 세포들에 영감을 받은 표준 비전 아키텍처는 토론토대학의 조프 힌턴(Geoff Hinton) 연구실의 자율학습 방법에 의해 미리 훈련된다.
+해당 연구실의 팀은 2012년 베르크(Berck)의 후원을 받는 신약 개발에 필요한 분자들을 찾는데 도움을 주는 소프트웨어 제작 대회에서 우승하였다.
+인공지능 분야에서 신경망은 보통 인공신경망을 지칭한다.
+인공신경망은 본질적으로 함수 <math>\textstyle f:X\rightarrow Y</math>, <math>\textstyle X</math>에 대한 분포, 또는 <math>\textstyle X</math>와 <math>\textstyle Y</math>에 대한 분포를 정의하는 간단한 수학적 모델이고, 가끔씩 특정한 학습 알고리즘이나 학습 규칙과 긴밀하게 연계되어 있기도 한다.
+인공신경망이라는 단어는 보통 이러한 함수들의 모임에 대한 정의를 뜻하고, 이 모임의 구성원들은 식의 인자를 바꾸거나, 연결 가중치를 바꾸거나, 뉴런의 수나 연결 정도와 같은 구조에 대한 상세적인 것을 바꿈으로써 얻어진다.
+단어 '인공신경망'에서 망은 각 시스템에 있는 여러 층의 뉴런 간의 연결을 의미한다.
+예를 들어 세 층이 있는 시스템이 있다면, 첫 번째 층은 시냅스를 통해 두 번째 층의 뉴런들로 데이터를 보내는 입력 뉴런들이 있고, 더 많은 시냅스를 통해 세 번째 층의 출력 뉴런으로 신호를 보내는 식이다.
+시스템이 더 복잡해질수록 뉴런 층의 수도 더 많아지고, 그 층 안에 있는 입력 뉴런과 출력 뉴런들의 수도 많아질 것이다.
+이 시냅스들은 계산 과정에서 데이터 값을 조절하는 가중치 값을 저장한다.
+인공신경망은 보통 세 가지의 인자를 이용해 정의된다.
+수학적으로, 뉴런의 망 함수 <math>\textstyle f(x)</math>는 다른 함수 <math>\textstyle g_{i}(x)</math>들의 합성으로 정의되고, 이 함수들 또한 다른 함수들의 합성으로 정의될 수 있다.
+이 함수는 화살표가 변수들 사이의 의존 관계를 나타내는 망 구조로써 편리하게 나타낼 수 있다.
+자주 쓰이는 종류의 합성으로는 비선형 가중 합이 있는데, 쌍곡선함수와 같은 미리 정의된 함수 <math>\textstyle K</math> (주로 활성화 함수라 불림)가 있을 때 <math>\textstyle f(x)=K\left(\sum _{i}w_{i}g_{i}(x)\right)</math>로 나타내어지는 함수를 뜻한다.
+이하 설명의 편리함을 의해 함수 <math>\textstyle g_{i}</math>들의 모임을 간단히 벡터 <math>\textstyle g=(g_{1},g_{2},\ldots ,g_{n})</math>로 취급하자.
+이 그림은 변수들 사이의 의존 관계를 화살표로 나타내는 망 구조로 <math>\textstyle f</math>를 분해해 나타낸 것이다.
+이 그림은 두 가지 관점으로 해석할 수 있다.
+첫 번째 관점은 함수로써 바라보는 것이다.
+입력값 <math>\textstyle x</math>가 3차원 벡터 <math>\textstyle h</math>로 변환 된 다음, 2차원 벡터 <math>\textstyle g</math>로 변환되고 최종적으로 출력값 <math>\textstyle f</math>으로 변환된다.
+이 관점은 최적화에 대해 이야기할 때 제일 흔하게 접할 수 있다.
+두 번째 관점은 확률론적으로 바라보는 것이다.
+확률변수 <math>\textstyle F=f(G)</math>는 확률변수 <math>\textstyle G=g(H)</math>에 의존하고, 이것은 <math>\textstyle H=h(X)</math>에 의존하고, 또 이것은 확률변수 <math>\textstyle X</math>에 의존한다.
+이 관점은 그래프 모형에 대해 이야기할 때 제일 흔하게 접할 수 있다.
+이 두 관점은 대체로 같다고 볼 수 있다.
+두 경우 모두 이 망 구조에 대해 각각의 층의 구성 요소는 서로 독립적이다 (<math>\textstyle g</math>의 요소들은 <math>\textstyle h</math>로부터의 입력이 주어졌을 때 서로 독립이다).
+이것은 구현할 때 어느 정도의 병렬화를 가능하게 해 준다.
+앞의 예와 같은 신경망은 의존 관계를 나타내는 화살표가 한 방향으로만 나아가는 유향 비순환 그래프이기 때문에 전향 신경망이라고 불린다.
+순환이 있는 망은 재귀 신경망이라고 불린다.
+재귀 신경망은 그림 위쪽과 같이 <math>\textstyle f</math>가 자기 자신에 의존적인 것으로 나타내어지지만, 시간적 의존 관계는 보이지 않는다.
+신경망이 관심을 받는 제일 큰 요소는 바로 학습이 가능하다는 것이다.
+해결해야 되는 주어진 과제와 함수 <math>\textstyle F</math>들의 모임이 주어졌을 때, 학습을 한다는 것은 과제를 어떤 최적화된 방법으로 푸는 <math>\textstyle f^{*}\in F</math>를 관측값들을 이용해 푼다는 것이다.
+학습을 한다는 것은 최적해 <math>\textstyle f^{*}</math>에 대해 <math>\textstyle C(f^{*})\leq C(f)</math> <math>\textstyle \forall f\in F</math>인 비용 함수 <math>\textstyle C:F\rightarrow \mathbb {R}</math>를 정의하는 것을 수반한다.
+다시 말해, 정의된 함수 <math>\textstyle C</math>에 대해, 최적해의 비용보다 더 적은 비용을 필요로 하는 해답은 존재하지 않는다는 것이다.
+(수학적 최적화 참고.) 비용 함수 <math>\textstyle C</math>는 특정한 해답이 해결할 문제의 최적해에 대해 얼마나 떨어져 있는지에 대한 측도이기 때문에 학습에 있어 중요한 개념이다.
+학습 알고리즘은 해답들의 모임 <math>\textstyle F</math>에서 최소 비용을 필요로 하는 함수를 찾아나가는 식으로 작동한다.
+해답이 어떤 데이터에 의존적인 경우, 비용은 관측값에 대한 함수가 되어야 하며, 그렇지 않을 경우에는 데이터와 관련된 어떤 것도 모델링할 수 없게 된다.
+많은 경우 비용은 근사될수만 있는 통계로 주어진다.
+간단한 예로, 어떤 분포 <math>\textstyle {\mathcal {D}}</math>에서 뽑아낸 데이터 쌍 <math>\textstyle (x,y)</math>에 대해 비용 <math>\textstyle C=E\left[(f(x)-y)^{2}\right]</math>을 최소화하는 모델 <math>\textstyle f</math>을 찾는 문제를 생각해 보자.
+실용적으로는 분포 <math>\textstyle {\mathcal {D}}</math>에서 유한한 <math>\textstyle N</math>개의 샘플만을 뽑아낼 수 있으므로, 이 예의 경우 <math>\textstyle {\hat {C}}={\frac {1}{N}}\sum _{i=1}^{N}(f(x_{i})-y_{i})^{2}</math>, 즉 전체 데이터 집합이 아니라 데이터의 샘플에 대한 비용만 최소화될 수 있을 것이다.
+<math>\textstyle N</math>이 매우 크거나 무한하다면, 새 예제가 주어질 때마다 비용이 부분적으로 최소화되는 온라인 알고리즘을 사용해야 한다.
+<math>\textstyle {\mathcal {D}}</math>가 고정되어 있을 때 직결 기계 학습을 종종 사용하기는 하지만, 분포가 시간에 따라 서서히 변할 때 사용하는 것이 더 유용하다.
+신경망을 사용할 때에는, 직결 기계 학습을 유한한 자료 집합에 대해 자주 사용하기도 한다.
+임의의 비용 함수를 그때그때 정의할 수도 있지만, 일반적인 경우 (볼록성과 같은) 원하는 성질을 가지거나 (확률론적 공식화에서 모델의 사후 확률을 비용의 역으로 생각하는 것과 같이) 문제의 특정한 공식화에서 자연스레 나타난다던지 하는 이유로 특정한 비용 함수를 사용한다.
+결과적으로 비용 함수는 원하는 과제에 따라 달라진다.
+학습 과제는 학습 패러다임에 따라 아래와 같이 세 분류로 묶을 수 있다.
+학습 패러다임에는 크게 지도 학습, 자율 학습, 준 지도 학습이 있으며, 각각이 특정한 추상적인 학습 과제에 대응된다.
+지도 학습에서는 예제 <math>\textstyle (x,y),x\in X,y\in Y</math>들의 집합이 주어졌을 때, 가능한 함수 <math>\textstyle f:X\rightarrow Y</math>들의 목록 중 예제에 제일 적합한 함수를 고르는 것을 목표로 한다.
+즉, 주어진 데이터로부터 함수를 추론하는 것이다.
+이 때 비용 함수는 주어진 데이터가 추론한 함수와 얼마나 어긋나느냐에 따라 달려 있고, 문제에 대한 사전 지식을 암시적으로 포함하고 있다.
+흔히 모든 예제쌍에 대한 망의 출력 <math>\textstyle f(x)</math>과 목표값 <math>\textstyle y</math>의 평균 제곱 오차를 최소화하는 평균 제곱 오차를 비용 함수로 사용한다.
+이 비용을 최소화하기 위해 다층 퍼셉트론이라 불리는 신경망의 한 분류에 경사 하강법을 이용한다면, 이것은 신경망을 학습하기 위해 널리 쓰이는 오차역전파법이 된다.
+지도 학습 패러다임에 해당하는 과제에는 패턴 인식 (또는 분류)와 회귀분석 (또는 함수 근사)가 있다.
+지도 학습은 음성인식이나 모션 인식 분야에 나타나는 순차적 데이터에도 적용시킬 수 있다.
+이것은 현재까지 얻어진 답의 품질에 대해 계속해서 피드백을 주는 함수의 형태로서의 "선생님"과 같이 배우는 것으로 생각할 수 있다.
+자율 학습에서는 데이터 <math>\textstyle x</math>가 주어졌을 때 데이터 <math>\textstyle x</math>와 망의 출력 <math>\textstyle f</math>에 대한 임의의 비용 함수를 최소화한다.
+비용 함수는 할 과제(모델링할 것)와 선험적 가정(모델, 모델의 변수와 관측된 변수에 대한 암시적인 성질)에 따라 결정된다.
+간단한 예로, 비용함수 <math>\textstyle C=E[(x-f(x))^{2}]</math>가 주어져 있고 <math>\textstyle a</math>가 상수일 때 모델 <math>\textstyle f(x)=a</math>에 대해 생각 해 보자.
+비용을 최소화하면 데이터의 평균인 <math>\textstyle a</math> 값이 나올 것이다.
+비용 함수는 이것보다 훨씬 더 복잡해질 수 있고, 그 꼴은 어디에 사용되느냐에 따라 달려 있다.
+예를 들어, 압축과 관련된 과제에서는 <math>\textstyle x</math>와 <math>\textstyle f(x)</math> 사이의 상호 정보량과 관련이 있는 비용 함수를 사용할 수 있고, 통계 모델링에서는 데이터가 주어졌을 때 모델의 사후 확률과 관련지을 수 있을 것이다.
+(참고로 두 경우 모두 이 값을 최소화하는 게 아니라 최대화해야 된다.
+이론적으로는 이 값의 역수를 비용 함수로 사용하면 될 것이다.) 자율 학습 패러다임에 속하는 과제는 일반적으로 근사와 관련된 문제들이다.
+클러스터링, 확률 분포의 예측, 데이터 압축, 베이지언 스팸 필터링 등에 이것을 응용할 수 있다.
+준 지도 학습에서 데이터 <math>\textstyle x</math>는 주어지지 않고, 대신 행위자가 환경과 상호 작용을 함으로써 생성된다.
+시간의 매 순간 <math>\textstyle t</math>마다, 행위자는 행동 <math>\textstyle y_{t}</math>를 취하고 환경에서 <math>\textstyle x_{t}</math>와 순간적인 비용 <math>\textstyle c_{t}</math>가 알려지지 않은 특정한 법칙에 따라 생성되어 관측된다.
+이 때 목표는 예상되는 장기적 (누적) 비용을 최소화하는 특정한 행동을 고르는 정책을 찾는 것이다.
+환경의 법칙과 각각의 정책에 따른 장기적 비용은 보통 모르지만, 예측할 수는 있다.
+형식적으로 말해 환경은 상태 <math>\textstyle {s_{1},...,s_{n}}\in S</math>와 행동 <math>\textstyle {a_{1},...,a_{m}}\in A</math>이 순간적인 비용의 분포 <math>\textstyle P(c_{t}|s_{t})</math>, 관측 분포 <math>\textstyle P(x_{t}|s_{t})</math>, 상태 천이 분포 <math>\textstyle P(s_{t+1}|s_{t},a_{t})</math>와 함께 주어진 마르코프 결정 프로세스로 모델링되며, 정책은 관측값들이 주어졌을 때 행동에 대한 조건부 분포로 정의된다.
+이 두가지는 함께 마르코프 연쇄를 이룬다.
+목표는 비용을 최소화하는 정책, 즉, 비용이 최소인 마르코프 연쇄를 찾는 것이다.
+인공신경망은 전체적인 알고리즘의 일부로서 준 지도 학습에 자주 이용된다.
+동적 계획법은 베르트세카스(Bertsekas)와 치치클리스(Tsitsiklis)에 의해 인공신경망과 결부되었으며, 차량 경로 설정 문제, 천연 자원 관리, 의학 등에 관련된 다차원 비선형적 문제에 적용되었는데, 원래 제어 문제의 해답을 수치적으로 근사하기 위한 이산화 격자의 간격을 넓혀서 생기는 정확도 감소 문제를 인공신경망이 완화시킬수 있기 때문이다.
+준 지도 학습 패러다임에 속하는 과제에는 제어 문제, 게임, 순차적 결정 문제 등이 있다.
+실질적으로 인공신경망을 학습시키는 것은 비용을 최소화하는 모델을 허용된 모델의 집합에서 고르는 것이다.
+(베이즈 확률론에서는 허용된 모델의 집합 상에서 모델의 분포를 결정짓는 것이다.) 인공신경망을 학습시키는 데에는 많은 알고리즘이 존재하고, 그 중 대부분은 최적화 이론과 추정 이론을 접목해 응용한 것으로 볼 수 있다.
+인공신경망을 학습할 때 사용하는 대부분의 알고리즘은 역전파 기법을 이용해 실제 기울기를 계산하는 경사 하강법을 사용한다.
+이는 간단하게 비용 함수를 망의 인자에 대해 미분한 다음 인자를 기울기 방향으로 조금씩 바꾸는 식으로 할 수 있다.
+유전 알고리즘, 유전자 수식 프로그래밍, 담금질 기법, 기댓값 최대화 알고리즘, 비모수 통계, 군집 최적화와 같은 방법들이 신경망을 학습시키는데 주로 이용된다.
+인공신경망의 가장 큰 장점은 관찰된 데이터로부터 학습하여 원하는 근사 함수를 만들 수 있다는 것이다.
+그러나 사용하려는 신경망의 기본 이론과 예측하려는 데이터의 근본적인 이해가 매우 중요하다.
+인공신경망의 사용함에 있어서 세가지 큰 부분으로 나눌 수 있다.
+인공신경망의경우 자연스럽게 많은 데이터를 가지고 online learning 방식을 사용한다.
+이 방식은 병렬화가 쉽게 가능하도록 주로 지역적 의존성만 가지고 있다.
+인공신경망의 활용은 데이터 관찰로부터 원하는 함수를 추론 하는데 사용할 수 있다.
+이것은 매우 복잡한 데이터를 사용하거나 사람의 주관적인 판단이 필요한 부분에 매우 유용하게 사용될 수 있다.
+인공 신경망은 다음과 같은 몇가지 종류로 사용될 수 있다.
+또한 인공신경망은 여러 가지 암 진단에도 사용되었다.
+HLDN이라는 인공 신경망 기반 폐암 검출 시스템은 암 진단의 정확성과 속도 향상을 이루었고 전립선 암에도 사용되었다.
+이 시스템은 많은 환자의 데이터로부터 특정한 모델을 만들어서 모델과 환자 한명과 비교를 통해서 진단한다.모델은 다른 변수의 상관관계나 가정에 의존하지 않는다.
+인공 신경망 모델은 임상 실험 방법보다 더 정확하게 동작하였고 한 기관에서 훈련된 모델이 다른 기관에서도 결과를 예측 할 수 있었다.
+이론 및 계산 신경과학은 이론적 분석과 생물학적 신경 시스템의 컴퓨터 모델링과 관련된 분야이다.
+인공 신경망이 인식 과정이나 행동에 상당히 관련이 되어있는 것과 같이 신경 과학 분야도 밀접하다.
+이 분야의 목적은 생물학적 신경 시스템 모델을 사용해서 생물학적 시스템이 어떻게 동작하는지 이해 하는 것이다.
+이 분야를 이해하기 위해서 신경과학자들은 관측된 생물학적 프로세스와 생물학적 메카니즘 사이의 링크를 만들기 위해서 신경 학습과 이론을 적용하고 있다.
+다양한 모델이 추상화 단계에서 시스템의 특성에 따라 다르게 적용이 된다.
+다양한 모델들 각각 신경 세포와 신경 회로의 관계가 최종 시스템이 추상적 신경 모델에서 발생 할 수 있는 상호작용과 단기 행동 모델까지 다양한 모델들이 있다.
+이러한 신경 시스템모델들은 각각 신경 세포와 시스템 간의 상호 관계에 따라 달라진다.
+인공신경망을 경영학에 응용하고자 하는 연구는 재무, 회계, 마케팅, 생산 등의 분야에서 다양하게 진행되어 왔다.
+특히, 재무분야에 대한 응용연구는 매우 활발하게 진행되고 있는데 주가지수예측, 기업신용평가, 환율예측 등의 연구가 진행되고 있다.
+인공 신경망 소프트웨어는 시뮬레이션, 연구, 개발 분야에 많이 사용된다.
+인공 신경망 소프트웨어는 생물학적 신경망 개념을 가져와서 여러 가지 시스템에 적용되고 있다.
+인공 신경망 시뮬레이터는 대부분 생물학적 신경망이나 인공 신경망을 구현하는 프로그램으로 사용된다.
+보통 한가지 이상의 신경망 종류를 제공 한다.
+대부분 시뮬레이터들은 학습 방법을 데이터 시각화 하는 기능을 제공한다.
+인공 신경망 개발 환경은 대부분 강력한 기능을 제공한다.
+알고리즘 수정이 쉽고 다른 프로그램과 같이 사용하기 편하다.
+어떤 프로그램은 좋은 전처리 알고리즘과 시각화 알고리즘도 제공한다.
+인공 신경망의 가장 많은 형태는 사용자가 직접 다양한 환경에서 구현한 경우이다.
+높은 유연성을 가지고 있지만 개발하기 힘들다는 단점이 있다.
+연구분야 뿐만 아니라 실제 서비스등 많은 분야에서 사용된다.
+인공 신경망 유형은 복잡한 다중 입력과 방향성 피드백 루프와 단방향 또는 양방향 그리고 다양한 계층등 여러 가지 종류가 있다.
+전반적으로 이들 시스템의 알고리즘은 각각 함수의 제어와 연결을 결정하게 된다.
+대부분의 시스템은 "가중치"와 다양한 신경들의 연결을 시스템의 매개 변수를 수정하는데 사용된다.
+인공 신경망은 자동적으로 외부의 훈련으로부터 자동적으로 학습을 하거나 스스로 데이터를 사용해서 발전 될 수 있다.
+다층 퍼셉트론(MLP)은 보편 근사 정리로 증명된 일반적인 함수 근사자이다.
+하지만, 이 증명은 인공신경망에 필요한 신경의 수나 가중치의 설정에 직접적으로 관여하지 않는다.
+하바 세이겔만(Hava Siegelmann)과 에드워도 다니엘 손택(Eduardo D.
+Sontag)의 연구 는 유한개의 수로 이루어진 신경들과 일반 선형 연결을 사용한 어떤 합리적인 가중치의 값(정확한 실수 값의 가중치가 아니라)을 가진 어떤 반복되는 구조는 일반적인 튜링 기계와 동일하게 완벽한 성능(full power of a Universal Turing Machine)을 가진다는 것을 증명했다.
+게다가, 비합리적인 값의 가중치 설정은 기계로 하여금 튜링 기계이상의 성능(super-Turing power)을 발휘하게 한다는 것도 이미 증명되었다.
+인공신경망 모델은 수용력이라고 불리는 특성을 가지고 있으며, 그것은 신경망에서 주어진 함수 모델의 능력에 상당히 연관된다.
+또한 신경망에 저장될 수 있는 어떤 정보의 총량과 정보 개념의 복잡도와 크게 연관된다.
+인공신경망을 계산할 때는 항상 근사에 대한 몇가지 문제에 직면하게 된다.
+첫번째로, 국지적 최솟값이 존재할 수 있다는 것이다.
+이것은 신경망의 비용(Cost)함수와 모델에 좌우된다.
+두번째로, 알려진 최적화 방법은 국지적 최솟값과 멀리 떨어져 있을 때 적당한 근사를 보장하지 않을 수 있다는 점이다.
+세번째로, 상당히 큰 양의 데이터나 변수들에 대해서 일부 이미 알려진 알고리즘들은 비현실적일 수 있다.
+일반적으로, 근사에 대한 이론적 보장은 실생활 데이터의 적용에서는 신뢰할 만 하지 않을 수 있다고 알려져 있다.
+실제 적용에서의 목표는 신경망에 학습 되지 않은 숨겨진 예시에 대해서도 정확한 추측을 가능하게 되는 것이지만, 이를 위한 과도한 트레이닝은 문제를 일으킬 수 있다.
+즉, 필요한 자유 매개변수에 대해 네트워크의 용량이 이를 엄청나게 초과했을 때에는 시스템에 복잡한 문제가 발생될 수 있다.
+이러한 문제를 피하기 위한 두가지 해결책이 제시되었다.
+첫 번째는 교차타당화(cross-validation)와 비슷한 방법으로, 현재 신경망이 과도한 트레이닝이 되었는지 지속적으로 확인하고 에러를 최소화하며, 신경망 학습을 최적화 하기 위해 특수한 매개변수(Hyperparameters)를 선택하는 방법이다.
+두번째 제시된 방법은 정칙화(Regularization)이다.
+이 개념은 확률적(베이지안) 프레임워크에서 자연적으로 드러난다.
+즉, 정칙화는 쉬운 신경망 모델들 중에서 더 큰 우선순위를 가지는 확률을 선택함으로써 수행될 수 있다.
+하지만 통계적 학습이론에서도, 궁극적인 목표는 경험에 의한 위험성(Empirical risk)과, 구조적 위험성(Structural risk)의 두가지 값을 최소화하는 것이다.
+이것들은 훈련집합 자체의 오류 및 과도한 훈련 및 학습으로 인해 숨겨졌던 자료에 대한 예고되는 오류와 크게 상관있는 것으로 알려져 있다.
+평균제곱오차 비용함수를 사용하는 교사 학습된 신경망은 학습된 모델의 신뢰도를 결정하기 위해 이미 알려진 여러 가지 통계 방법을 사용할 수 있다.
+예를 들어, 검증집합의 평균제곱오차는 분산을 측정할 때 사용될 수 있다.
+또한 이 값이 정규분포를 따른다고 가정하면, 네트워크의 출력 값의 신뢰 구간을 계산하는데 사용될 수 있다.
+출력 확률 분포는 동일하게 유지하고 네트워크가 수정되지 않기 때문에 이렇게 만든 신뢰도 분석은 통계적으로 유효하다.
+범주 대상 변수를 위한 신경망 (또는 컴포넌트 기반 뉴럴 네트워크에서 softmax 성분)의 출력층에 softmax 활성화 함수, 즉 로지스틱 방정식의 일반화를 할당하여, 출력은 사후 확률로 해석 될 수 있다.
+이것은 분류할 때 확실한 측정값을 주기 때문에 이에 매우 유용하다.
+softmax 활성화 함수는 일반적으로 아래와 같이 나타내어진다.
+<math>y_{i}={\frac {e^{x_{i}}}{\sum _{j=1}^{c}e^{x_{j}}}}</math> 인공신경망의 시뮬레이션을 할때, Softmax 함수는 신경망 마지막층의 분류계산을 하기 위해 구현된다.
+일반적인 로그-손실(log loss) 또는 교차-엔트로피(Cross-entropy) 방식으로 학습된 신경망에서는, 다항 로지스틱 회귀분석(multinomial logistic regression)의 비선형 도함수(Derivative)를 가질 수 있다.
+함수 지도 벡터와 특수 인덱스 i를 실수 값으로 보면, 도함수(Derivative) 식은 아래와 같이 인덱스를 고려해야 한다.
+<math>{\frac {\partial }{\partial q_{k}}}\sigma ({\textbf {q}},i)=\dots =\sigma ({\textbf {q}},i)(\delta _{ik}-\sigma ({\textbf {q}},k))</math> 여기서, 크로네커 델타는 단순화를 위해 사용된다.(이것은 함수 그 자체로 표현되는 시그모이드 함수의 도함수(Derivative)와 비교될 수있다.) 인공신경망 중에서도 로보틱스 분야는 많은 비평가들에게 비판을 받는다.
+왜냐하면 실제 상황에 정확히 부합하는 작동을 학습하기 위해 수많은 경우에 대한 엄청난 다양성을 가진 자료의 수집을 필요로 하기 때문이다.
+하지만 이것은 그리 놀랄 일이 아니다.
+어떠한 학습 기계(Learning machine)라도 여러 가지 새로운 케이스에 정확히 동작하는 근본적인 구조를 잡기위해 수 많은 훈련 예시들을 필요로 하기 때문이다.
+딘 포말리우(Dean Pomerleau)의 최근 논문 “자동 로봇 운전을 위한 인공신경망의 지식기반 학습 방법”에서는 여러 가지 종류의 길을 갈 수 있는 로봇 자동차를 훈련하기 위해 인공신경망이 사용된다.
+그의 연구의 대부분은 하나의 학습 경험으로부터 여러개의 학습 시나리오를 추정하는 것과 과거 학습의 다양성을 유지하여 시스템이 과도하게 학습하는 것을 막는 것, 이 두가지에 기울여져 있다.(예를 들어, 이 연구에서는 과거에 학습된 우회전을 잊지 않고, 비슷한 상황에서 언제나 우회전을 하게 학습하는 것을 막게 할 수 있다.) 실제 상황의 넓고 다양한 반응에 대해서 어떤 것을 훈련하고 선택할 것인지와 같은 문제는 인공신경망에서는 상당히 일반적이다.
+미국인 과학 칼럼니스트 알렉산더 듀드니(A.
+K.
+Dewdney)는 1997년 쓴 글에서, "비록 신경망이 매우 적은 장난감과 같은 문제를 풀지라도, 그 계산 능력은 일반적인 문제 해결 기법들을 가뿐히 뛰어넘을 정도의 수준을 가질 수 있다." 라고 적었다.
+크고 효과적인 인공신경망 소프트웨어를 구현하기 위해서는 상당한 프로세싱 기법과 저장 자원이 필요하다.
+우리의 뇌는 신경 그래프를 통한 신경전달 프로세싱 임무에 최적화된 하드웨어를 가지고 있다.
+우리가 가장 간단하게 시뮬레이션 할 수 있는 폰 노이만 기술 조차도 신경망 디자이너로 하여금 뇌와 같은 신경 그래프를 구축하기 위해 수백, 수천만 개의 데이터베이스 행을 채우도록 하고 있다.
+이는 엄청난 양의 컴퓨터 메모리와 하드디스크 공간을 소비하게 한다.
+게다가, 신경망 시스템의 디자이너는 이런 엄청난 신경 연결과 뉴런들을 통해 뇌와 같은 신호 전달을 시뮬레이션 할 수 있어야 한다.
+이것은 일반적인 CPU의 처리능력과 시간으로는 불가능한 양일 정도이다.
+하지만, 신경망은 가끔 효과적인 프로그램을 만들어 낼 수 있게 해주고 비용적 측면에서도 효율적이고 고려할만한 정도의 효과를 내 줄 때가 있다.
+게다가 컴퓨터의 계산능력은 무어의 법칙에 따라 지속적으로 크게 증가하고 있으며, 이는 새로운 임무를 효과적으로 달성하는데 기여하고 있다.
+또한 신경모방 공학에서는 처음부터 신경망을 구현하기 위해 설계된 회로(비 폰 - 노이만 칩)를 구성하여, 직접적으로 하드웨어적 어려움을 해결하기 위해 노력하고 있다.
+알렉산더 듀드니(A.K.Dewdney)의 또다른 주장은 신경망은 비행기의 자동운전모드 또는 신용카드 사기 탐지 같은 여러 가지 복잡하고 다양한 문제를 효과적이고 성공적으로 해결해왔다는 것이다.
+하지만, 기술 집필자 로저 브리드만(Roger Bridgman)은 듀드니의 신경망에 대한 주장에 대해 이러한 말을 남겼다.
+"신경망은 예를 들면, 그것은 더 높은 목적을 달성할 수 있다고 과장된 광고를 하고 있을 뿐만 아니라 이것이 어떻게 동작하는지 이해도 하지 않고도 성공적인 네트워크를 만들어 낼 수 있다고 말하는데, 이것은 불투명하고 이해할 수 없는 것일 뿐만 아니라 과학적 측면에서 가치가 없는 것이다." 그의 이러한 과학(인공신경망)은 기술이 아니라는 강한 발표에도, 듀드니는 "이것은 단지 남들이 보는 앞에서 그들이 이것을 이해하지 못하더라도 훌륭한 기술자들인 것처럼 보이기 위해 신경망을 안 좋은 학문이라고 비판하는 것"이라고 했다.
+불투명하고 이해할 수 없는 것이라도 유용한 기계가 될 수있다면 그것은 여전히 우리에게 가치있는 것이고 필요한 것일 것이다.
+.
+비록 인공 신경망을 배우고 이해하고 분석하는 것이 매우 힘든 일이라는 것은 사실이지만, 실제 생물에서의 신경망을 배우고 이해하여 분석해서 적용하는 것보다는 훨씬 쉬운 일일 것이다.
+게다가, 신경망을 구현하는 학습 알고리즘을 연구하는 연구자들은 점진적으로 기계학습을 성공적으로 하게 할 수 있는 신경 유전적 원리를 발견해 내는데 성공하고 있다.
+예를 들어, 벤지오(Bengio)와 레쿤(LeCun)이 2007년에 쓴 논문에서는, 지역 vs 비지역 학습(local vs non-local learning)과 얕은 vs 깊은 구조(shallow vs deep architecture)에 대해서 다루고 있다.
+일부 다른 분석가들은 신경망과 다른 분야에 대한 혼합적 모델을 지지한다.(예를 들면 기호적 접근과 인공신경망의 결합) 이러한 두 가지 접근방식의 내부 혼합은 사람의 내적 동작에 대한 메커니즘을 조금 더 잘 잡아 낼 수 있을 것이라 생각하기 때문이다.
+대규모 언어 모델(영어: large language model, LLM) 또는 거대 언어 모델( - )은 수많은 파라미터(보통 수십억 웨이트 이상)를 보유한 인공 신경망으로 구성되는 언어 모델이다.
+자기 지도 학습이나 반자기지도학습을 사용하여 레이블링되지 않은 상당한 양의 텍스트로 훈련된다.
+LLM은 2018년 즈음에 모습을 드러냈으며 다양한 작업을 위해 수행된다.
+이전의 특정 작업의 특수한 지도 학습 모델의 훈련 패러다임에서 벗어나 자연어 처리 연구로 초점이 옮겨졌다.
+대규모 언어 모델(LLM) 은 AI 챗봇 기술을 가능하게 하는 요소이며 많은 화제를 불러일으키고 있는 주제 중 하나다.
+대규모 언어 모델(LLM)의 작동 방식은 크게 3가지로 나뉘고 있다.
+토큰화, 트랜스포머 모델, 프롬프트 등.
+토큰화는 자연어 처리의 일부로 일반 인간 언어를 저수준 기계 시스템(LLMS)이 이해할 수 있는 시퀀스로 변환하는 작업을 말하며 여기에는 섹션에 숫자 값을 할당하고 빠른 분석을 위해 인코딩하는 작업이 수반된다.
+이는 음성학의 AI 버전과 같으며 토큰화의 목적은 인공지능이 문장의 구조를 예측하기 위한 학습 가이드 또는 공식과 같은 컨텍스트 백터를 생성하는 것이 목적.
+언어를 더 많이 연구하고 문장이 어떻게 구성되는지 이해할수록 특정 유형의 문장에서 다음 언어에 대한 예측이 더 정확해진다.
+이로 인해 온라인에서 사람들이 사용하는 다양한 커뮤니케이션 스타일을 재현하는 모델을 개발할 수 있다.
+트랜스포머 모델은 순차적 데이터를 검사하여 어떤 단어가 서로 뒤따를 가능성이 높은지 관련 패턴을 식별하는 신경망의 일종으로 각각 다른 분석을 수행하여 어떤 단어가 호환되는지 결정하는 계층으로 구성된다.
+이러한 모델은 언어를 학습하지 않고 알고리즘에 의존하여 사람이 쓴 단어를 이해하고 예를 들어, 힙스터 커피 블로그를 제공함으로써 커피에 대한 표준 글을 작성하도록 학습시킨다.
+프롬프트는 개발자가 정보를 분석하고 토큰화하기 위해 대규모 언어 모델 LLM에 제공하는 정보로 프롬프트는 기본적으로 다양한 사용 사례에서 LLM에 도움이 되는 학습 데이터이다.
+더 정확한 프롬프트를 받을수록 LLM은 다음 단어를 더 잘 예측하고 정확한 문장을 구성할 수 있다.
+따라서 딥러닝 AI의 적절한 학습을 위해서는 적절한 프롬프트를 선택하는 것이 중요하다.
+2017년 이전에도 당대 기준으로는 상당히 큰 언어 모델들이 존재했다.
+1990년대에는 IBM의 정렬 모델(IBM aligned model)이 통계적 언어 모델링의 선구적 역할을 했다.
+2001년에는 3억 단어 규모의 말뭉치로 학습한 스무딩된 n-그램 모델(smoothed n-gram model)이 당시 최고 수준의 퍼플렉시티(perplexity)를 기록하기도 했다.
+2000년대에 접어들면서 인터넷 사용이 보편화되자 일부 연구자들은 웹 전체를 말뭉치로 활용하는 '웹을 말뭉치로(web as corpus)' 접근을 통해 인터넷 규모의 언어 데이터세트를 구축했고, 이를 기반으로 통계적 언어 모델을 학습시켰다.
+2009년경에는 대부분의 자연어처리 과제에서 통계 기반 언어 모델이 기호 기반(symbolic) 언어 모델보다 우위를 점하게 되었는데, 이는 대규모 데이터를 효과적으로 활용할 수 있었기 때문이다.
+2012년경 이미지 처리 분야에서 신경망이 주류가 된 이후, 언어 모델링에도 신경망이 적용되기 시작했다.
+구글은 2016년 자사의 번역 시스템을 기존의 통계적 방식에서 신경망 기계번역(NMT) 방식으로 전환하였다.
+이는 트랜스포머가 등장하기 전이었기 때문에, 순차적(seq2seq) 심층 LSTM 네트워크를 사용하였다.
+2017년 NeurIPS 학회에서 구글 연구진은 트랜스포머 아키텍처를 소개하는 기념비적인 논문 'Attention Is All You Need'를 발표했다.
+이 논문은 2014년의 seq2seq 기술을 개선하는 것을 목표로 했으며, 주로 바다나우(Bahdanau) 등이 2014년에 개발한 어텐션 메커니즘을 기반으로 했다.
+이듬해인 2018년에는 BERT가 등장했고, 빠르게 자연어 처리 분야에서 사실상의 표준이 되었다.
+최초의 트랜스포머는 인코더와 디코더 블록을 모두 포함하고 있지만, BERT는 인코더만 가지고 있는 모델이다.
+한편 2023년 이후에는 디코더 기반의 GPT 계열 모델이 프롬프트 기반 문제 해결 능력에서 뛰어난 성과를 보이며 BERT의 연구 활용은 점차 감소세를 보이고 있다.
+디코더만 있는 GPT-1은 2018년에 처음 등장했지만, 대중의 주목을 받은 것은 2019년의 GPT-2였다.
+이는 개발사인 오픈AI가 GPT-2가 악용될 가능성을 우려해 처음에는 공개를 보류하기도 할만큼 강력했기 때문이다.
+2020년에 발표된 GPT-3는 이보다 더 진일보한 성능을 보였으며, 2024년 기준으로 API를 통해서만 접근 가능하고 모델 자체는 다운로드해 로컬에서 실행할 수 없다.
+대중적 관심을 끌게 된 계기는 2022년 출시된 ChatGPT였는데, 이 소비자 대상의 브라우저 기반 챗봇은 대중의 상상력을 자극하며 큰 화제를 모았다.
+2023년의 GPT-4는 정확도가 향상되었을 뿐만 아니라 멀티모달 기능 덕분에 '성배(Holy Grail)'라는 평가까지 받았다.
+오픈AI는 GPT-4의 구체적인 아키텍처와 파라미터 수를 공개하지 않았다.
+ChatGPT의 등장은 로봇공학, 소프트웨어 공학, 사회적 영향 연구 등의 컴퓨터 과학의 여러 하위 분야에서 LLM의 사용 증가로 이어졌다.
+2024년에는 오픈AI가 논리적 추론 기능을 강화한 모델 OpenAI o1을 출시했으며, 이 모델은 최종 답변을 생성하기 전에 장문의 사고 과정(Chains of Thought)을 먼저 생성하는 특징이 있다.
+경쟁 언어 모델들은 주로 GPT 시리즈와 동일하거나 유사한 규모의 파라미터 수를 갖추는 것을 목표로 개발되고 있다.
+2022년 이후에는 BLOOM, LLaMA 등의 오픈소스 기반 모델이 인기를 끌고 있다.
+다만 이들 모델은 사용 용도에 제한이 있다.
+반면 Mistral AI의 Mistral 7B 및 Mixtral 8x7B는 보다 자유로운 아파치 라이선스를 채택하였다.
+2025년 1월에는 DeepSeek가 6,710억 개의 파라미터를 가진 가중치 공개 모델 DeepSeek R1을 발표했으며, 이는 OpenAI o1에 견줄 수 있는 성능을 훨씬 낮은 비용으로 제공한다.
+2023년 이후에는 많은 LLM이 멀티모달(multimodal) 모델, 즉 이미지나 오디오 등의 데이터도 함께 처리할 수 있는 능력을 가진 모델로 훈련되고 있다.
+이러한 LLM은 대형 멀티모달 모델 (Large Multimodal Model, LMM)이라 불린다.
+2024년에는 가장 크고 강력한 언어 모델들은 여전히 트랜스포머 아키텍처를 기반으로 하고 있다.
+다만 최근에는 순환 신경망(RNN) 변형이나 상태공간 모델(State Space Model)인 Mamba와 같은 새로운 아키텍처를 적용한 시도도 일부 진행되고 있다.
+퍼플렉시티(perplexity) 또한 더 구체적인 다운스트림 작업에서 언어 모델의 역량을 평가하기 위해 많은 수의 테스트 데이터 세트와 벤치마크가 개발되었다.
+테스트는 일반 지식, 상식적 추론, 수학적 문제 해결을 포함한 다양한 역량을 평가하도록 설계될 수 있다.
+고전역학 양자역학 통계역학 열역학 동역학 유체동역학 정역학 열역학 유체동역학 광학 특수 상대성 이론 일반 상대성 이론 표준모형 양자장론 초끈이론 물리학(한국 한자: , 영어: physics)은 물질과 그것의 시공간에서의 운동, 그리고 그것과 관련된 에너지나 힘 등을 연구하는 자연과학의 한 분야이다.
+가장 기초적인 과학의 한 분야로, 물리학의 목표는 우주 또는 자연이 어떤 식으로 운동하는가를 논리적으로 이해하는 것 즉, 모든 물체의 운동 원리를 규명하는 것이다.
+즉, 인간이 과거 철학을 통해 자연법칙에 대해 물어왔던 근본적인 질문들이 오늘날 물리학을 통해 해결되고 있다.
+2천 년 이상의 기간 동안 물리학은 화학, 생물학, 지구과학, 천문학과 함께 자연 철학의 일부였지만, 17세기 과학 혁명 이후 엄격한 과학적 방법을 사용하여 경험적 지식만을 다루게 되면서 물리학은 철학에서 분리되어 독자적인 학문으로 자리잡게 되었다.
+유럽 언어에서 물리학을 뜻하는 단어는 자연을 뜻하는 고대 그리스어: φύσις 피시스[*]에서 유래하였다.
+고대 그리스의 철학자 아리스토텔레스는 《자연학》(Φυσικῆς ἀκροάσεως)에서 여러 가지 운동에 대해 설명하였다.
+아리스토텔레스 이후 서양 언어에서는 물체의 운동과 그에 미치는 힘 등을 연구하는 학문을 이 그리스 단어를 따서 부르게 되었다.
+예를 들어, 영어: physics 피직스[*], 프랑스어: physique 피지크[*], 독일어: Physik 퓌지크[*] 등이다.
+한자 문화권의 물리()라는 낱말은 메이지 시대 일본에서 난학이라 부르던 네덜란드를 중심으로 한 서양 문물을 도입하는 과정에서 만들어졌다.
+갈릴레오 갈릴레이 이후 물리학은 물체의 운동과 같은 물리 현상을 수리 모형( )을 통해 설명하고자 하였다.
+아이작 뉴턴은 고전 역학을 수립하였다.
+조제프루이 라그랑주와 같은 학자들은 물리학에서 다루는 모든 현상에 대해 수리 모형을 수립하고자 하였다.
+현대 물리학에서도 수리 모형은 예측과 가설 검증의 주요한 수단으로 사용된다.
+특히 물리학이 다루는 수리 모형과 관련된 연구를 하는 학문을 수리물리학이라고 한다.
+고전 역학의 성립으로 천체에서부터 사과와 같은 작은 것에 이르기까지 대부분의 물체가 나타내는 운동을 설명하고 예측할 수 있게되자, 충분한 조건만 주어진다면 우주에 있는 모든 것의 상태를 물리학을 통하여 예측할 수 있다고 생각하는 결정론적 세계관이 널리 받아들여지기도 하였다.
+그러나 20세기 초, 원자·분자·소립자 등 미시세계를 다루는 양자역학이 발달하면서 자연 현상의 예측에는 본질적으로 불확실성이 있음이 알려졌다.
+20세기 후반에 발전한 혼돈 이론에서는 양자역학이 다루는 미시세계에서 뿐만 아니라 날씨와 같은 거시세계에서도 예측 불가능성이 있을 수 있다는 점이 밝혀졌다.
+이는 미시세계에서 나타나는 불확실성과는 다른 것으로 초기 조건을 완벽히 알 수 없다는 점에 기인한다.
+현대의 물리학은 매우 다양한 세부 학문으로 나뉜다.
+다루는 대상에 따라 기본입자와 같은 미립자를 실험을 통해 검증하려는 입자물리학이나, 우주와 천체에 대해 연구하는 천체물리학과 같이 구분되기도 하고, 자연 현상을 설명하는 이론 체계를 세우는 이론물리학과 실험을 통해 해당 이론을 검증하는 실험물리학으로 구분되기도 한다.
+또한, 역학, 전자기학, 광학과 같이 특정한 분야별로 나뉘어 불리기도 한다.
+한편, 현대 물리학은 지구과학, 생물학 등 다양한 분야의 학문들과도 학제간 연구가 활발히 이루어지고 있다.
+물리학은 여러 학문에서 다루는 대상들의 기본적인 성질에 대한 지식을 제공하기 때문에 기초과학 (Elementary Science)이라고 불린다.
+물리학은 만물을 구성하는 기본적인 대상인 원자 내부의 아원자 입자(양성자, 중성자, 전자)부터 가장 크다고 여겨지는 우주 전체까지 현상의 광범위한 범주를 포괄한다.
+물체의 운동 및 제반 자연현상(물과 공기의 흐름, 전류, 원자의 움직임 등)의 메커니즘을 규명하고 그러한 현상의 미래를 예측하는 것이다.
+물리학의 목적은 자연에 대한 서술이다.
+그러므로 물리학자들은 우리 주변에서 일어나는 일의 원인을 알아내어 이성적으로 판단하여 그 원인과 결과를 하나의 이론으로 일반화시킨다.
+이때 물리학자들은 과학적 방법론을 따른다.
+과학철학은 과학의 전제 조건 및 방법, 묵시적으로 인정하는 기초 등을 탐구한다.
+즉, 이미 존재하고 있는 과학적 담론, 이론, 방법 등에 대해 반성적으로 고찰하여 〈과학이란 무엇인가?〉라는 질문에 답하는 작업이다.
+과학철학은 물리학을 포함한 자연 과학이 다음과 같은 전제 위에 놓여 있다고 본다.
+과학철학의 역할에 대한 견해는 학자마다 다르다.
+대략 네 가지의 유형으로 나뉠 수 있는데, 밝혀진 과학 이론을 바탕으로 합리적인 세계관을 형성하는 것이라고 보는 견해가 있는 한편, 과학자들이 과학 연구에서 전제하는 가정들을 반성적으로 고찰하는 것이라는 견해도 있다.
+예를 들어 과학자들은 자연 현상에 대해 복잡하기는 하지만 충분히 관찰하여 파악할 수 있는 규칙성이 있다고 전제한다.
+또 다른 견해로는 과학철학이 과학에서 사용되는 개념을 명료하게 구축하는 작업이라는 것이다.
+시간, 공간과 같은 용어가 무엇을 뜻하는 지를 분명히 하는 것을 예로 들 수 있다.
+끝으로 과학철학이란 과학적 탐구와 그 밖의 탐구가 어떻게 다른지, 과학의 절차는 어떠하여야 하는 지, 올바른 과학적 지식은 어떤 전제를 만족하여야 하는 지 등을 탐구하는 제2준위의 표준설정학이라고 보는 견해가 있다.
+이 외에도 프랑스의 과학철학자 도미니크 르쿠르는 20세기 이후의 과학철학을 논리실증주의에 입각하여 과학 자체의 논리를 검증하는 분석적 과학철학, 과학의 역사에 대하여 비판적으로 고찰하는 역사적 과학철학, 과학과 과학이 아닌 것을 구분하는 비판적 과학철학으로 과학철학의 분야를 정리한 바 있다.
+과학철학은 과학 자체를 보다 합리적으로 발전시킬 뿐만 아니라, 대중이 갖는 과학의 이미지에 대하여 반성하고 보다 균형있는 과학의 대중화에도 기여한다.
+과학적 방법은 현상을 연구하고, 새로운 지식을 구축하거나, 이전의 지식들을 모아 통합할 때 사용되는 기법으로, 경험과 측정에 근거한 증거를 사용하여 현상의 원리를 밝히는 과정이다.
+과학적 방법은 귀납적이며 경험적인 진리를 추구한다.
+따라서 과학적 방법으로 얻어진 지식은 철학, 종교, 수학 등 다른 영역에서 다루는 진리와 뚜렷이 구별된다.
+과학적 방법은 경험에 입각한 귀납적 결론을 이끌어낸다.
+따라서 과학적 방법에 의한 지식은 확고부동한 것이 아니며, 언제나 반증될 가능성이 있다.
+즉, 새롭게 얻어진 연구 결과에 따라 과거의 과학 지식이 수정되거나 폐기될 수 있는 것이다.
+이 때문에, 아인슈타인은 "아무리 많은 실험을 하더라도 내가 옳다고 단정할 수는 없다.
+단 하나의 실험으로도 내가 틀렸다는 것이 드러날 수 있기 때문이다."라고 하였다.
+한편, 카를 구스타프 헴펠(1905년-1997년)이 지적한 것처럼 과학적 방법은 귀납에 의지하기 때문에, 도출된 결론은 통계적인 것이며 가설을 보강하기 위해서는 베이즈 정리에 따른 엄격한 분석이 필요하다.[주해 1] 루트비그 플렉(1896년-1961년)을 비롯한 과학자들은 과학자의 경험 자체가 편향된 것일 수 있으므로 보다 신중하게 접근할 필요가 있다는 점을 지적하였다.
+F.
+N.
+컬린저(F.
+N.
+Kerlinger)는 과학적 방법의 특징을 다음과 같이 정리하였다.
+과학적 방법의 과정을 간단히 차례를 두어 표현하면 다음과 같다.
+인류가 도구를 사용한 이래 물리학적 지식은 생활의 여러 방면에 이용되어왔다.
+선사 시대에 이미 빗면, 지레, 바퀴와 같은 단순 기계들을 이용하여 집을 짓고 물건을 운반하며 여러 가지 도구를 만들어 사용하였던 것이다.[주해 2] 또한, 천체를 관측하여 돌이나 고인돌에 새기기도 하였다.
+문자가 발명된 이후 여러 고대 문명에서 물리학적 지식을 기록하고 후대에게 가르쳐왔다.
+고대 그리스의 자연 철학은 자연에 대한 일반적인 설명을 시도하였다는 측면에서 물리학을 본격적인 학문으로 구축하였다고 볼 수 있다.
+중세 시기에도 기계를 개선하고 다양한 방면에 물리학적 지식을 사용하였다.
+한편, 알하이탐과 같은 12세기 무렵의 이슬람 과학자들은 자연 현상을 경험적 방법을 통해 관찰하고 기록하여 과학적 방법의 기초를 마련하였다.
+르네상스 시기에 들어 서양의 여러 학자들 역시 고대 그리스 시대의 지식을 새롭게 발견하는 한편, 이슬람 과학의 영향을 받아 실험을 중요하게 여기기 시작하였다.
+갈릴레오 갈릴레이는 실험과 관찰을 통해 과학적 지식을 발견하였고, 이를 수학적 모형으로 서술하여 이후 물리학 발전에 큰 영향을 주었다.
+16세기 이후 과학 혁명 기간 동안 많은 사람들이 물리학의 발전에 공헌하였는데, 르네 데카르트의 직교 좌표계 도입은 큰 의미를 갖는다.
+아이작 뉴턴이 완성시킨 고전 역학은 자연에 대한 이해를 새롭게 하였고, 눈으로 볼 수 있는 크기의 모든 물체의 운동에 대해 잘 들어맞는 모형을 제시하였다.
+프랑스 수학자 조제프루이 라그랑주는 물리학이 다루는 모든 자연 현상에 대해 수리 모형을 수립하고자 하였으며 라그랑주 역학을 만들었다.
+이어 수 많은 물리학자와 수학자들이 물리 현상을 정확히 설명하는 수리 모형을 발견해 나갔다.
+소피 제르맹은 탄성에 대한 방정식을 발견하였고, 레온하르트 오일러는 달의 보다 정확한 위치를 계산하는 알고리즘을 개발하였다.
+이러한 수리 모형 수립의 노력은 끊임없이 계속되어 18세기와 19세기를 거치면서 현재 고전물리학이 다루는 대부분의 자연 현상에 대한 수리 모형이 확립되었다.
+한편, 과학 혁명 이후 물리학의 발전으로 다양한 자연 현상에 대한 연구와 발견이 이루어졌고 전자기학, 열역학이라는 다른 분야들이 수립된다.
+20세기 초, 물리학은 새로운 패러다임의 변화를 겪게 되었다.
+한 편에서는 알베르트 아인슈타인이 상대성 이론을 발표하여 고전 물리학에서 불변량으로 다루어져왔던 시간과 공간(장소)은 더 이상 불변량으로 다루어지지 않고 고전역학의 절대시간과 절대공간의 개념은 폐기되었다.
+헤르만 민코프스키가 시간과 공간(장소)가 기하학적으로 통합된 민코프스키 시공간을 도입하면서 더 이상 시간과 장소가 독립적으로 여겨지지 않고 통합된 시공간의 개념으로서 다루어지게 되었다.
+다른 한 편에서는 흑체복사의 연구에서부터 시작된 양자역학의 출현으로 우주를 이루는 물질의 상태에 대한 일반적 설명에 근본적인 변화가 불가피하게 되었다.
+20세기 후반에 들어 물리학은 다양한 세부 분야로 세분되는 한편, 혼돈 이론, 통일장 이론, 초끈이론과 같은 새로운 이론 물리학 가설들이 생겨났다.
+물리학에는 여전히 미해결 문제가 있고 이를 해결하기 위해 많은 물리학자들이 노력하고 있다.
+물리학이 넓은 범위에 걸친 다양한 주제를 다룸에도 불구하고 모든 물리학자들이 공통적으로 사용하는 핵심 이론들이 있다.
+이들 이론에 대한 연구는 여전히 활발히 지속되고 있지만, 그 중에 근본적으로 잘못된 이론이 있으리라고 믿는 물리학자는 거의 없다.
+물리 연구의 기본 도구 역할을 하는 이 이론들 각각은 그 적용 범위 내에서 기본적으로 옳은 것으로 믿어지고 있는데, 예를 들어 원자보다 크고 천체에 비해 매우 가벼우며 광속보다 훨씬 느리게 움직이는 일상적인 물체의 움직임은 고전역학으로 비교적 정확히 기술된다.
+이러한 특성 때문에 이 이론들은 모든 물리학도들이 기본적으로 이해해야 하는 필수 과목이기도 하다.
+물리학은 우주의 법칙을 알아내기 위한 학문이지만, 물리학의 이론은 그것이 적용 가능한 범위 내에 있다.
+쉽게 말해서, 고전 물리학의 법칙들은 크기가 원자보다 크고 움직임이 빛의 속도보다 훨씬 느린 계에 대해 설명한다.
+이 범위를 벗어나면, 관측 결과는 고전 물리학에서 예측한 것과 일치하지 않게 된다.
+알베르트 아인슈타인은 절대 공간과 시간의 개념을 시공간의 개념으로 대체하고 빛의 속도에 근접한 구성요소를 갖고 있는 계에 대한 더 정확한 설명을 가능하게 해준 특수 상대성이론을 제시했다.
+막스 플랑크, 에르빈 슈뢰딩거 등을 필두로 한 양자역학은 개연론에 의거한 입자와 상호작용에 대한 개념을 제공했고, 이는 원자나 원자보다 작은 크기에 대한 정확한 설명을 가능하게 했다.
+후에 양자장론은 양자역학과 특수 상대성이론을 통일했다.
+일반 상대성이론은 동적이고 구부러진 시공간에 대해 서술함으로써 매우 무거운 계나, 거대한 천체에 대해 설명할 수 있게 해준다.
+일반 상대성이론은 아직 다른 이론과 통일되지 않았지만, 여러 양자중력이론의 후보 이론들이 성장하고 있다.
+물리학에서의 현재 진행 중인 연구 분야는 대략 응집 물질 물리학, 원자 분자 광 물리학(AMO), 입자 물리학, 천체 물리학, 지구 물리학, 생물 물리학으로 나눌 수 있다.
+일부 물리학과들은 물리 교육학의 연구를 지원하기도 한다.
+20세기 이래로, 물리학의 개별 연구분야는 점점 더 전문화해지면서, 현재에는 대부분의 물리학자들이 평생동안 한 분야에서만 일을 하고 있다.
+여러 물리 분야에서 연구했던 알베르트 아인슈타인 (1879-1955)나 레프 란다우 (1908-1968)과 같은 사람들은 이제는 극히 드물다.
+작은 공간에 적용되는 물리 법칙을 서술하는 분야이다.
+끈 이론과 양자론 등이 여기에 속한다.
+아주 작은 공간이 아닌 분자수준의 공간은 화학이 서술하는 경우가 많다.
+고전 물리학 시대엔 주로 빛과 화학을 연구하였으며, 원자 단위를 연구한것은 비교적 최근의 일이다.
+큰 공간에 적용되는 물리 법칙을 서술하는 분야이다.
+아주 큰 범위로는 우주 전체부터 작은 범위로는 일상적으로 눈에 보이는 범위까지이다.
+천체물리학과 역학 등이 여기에 속한다.
+물리학적 관점에서 생물학을 연구하기도 한다.
+이를 생물리학이라고 부른다.
+보통 어떤 한생명체를 두고 구조 역학적으로 분석하거나, 생물 내부의 물질대사를 물리적으로 연구한다.
+혹은 물리학적 관점에서 생물군을 관찰하여 정리하기도 한다.
+응집 물질 물리학은 물질의 거시적인 물리적 성질들을 다루는 물리 분야이다.
+특히, 계의 구성 성분요소들의 수가 극히 많고 요소들간의 상호작용이 강할 때 나타나는 "응집된" 상태들에 주로 관심을 갖는 분야이다.
+가장 익숙한 응집 상태의 예로는 고체와 액체를 들 수 있는데, 이들은 원자들 사이의 결합과 전자기력에 의해 생겨나는 것이다.
+보다 특이하고 흥미로운 응집 상태로는 아주 낮은 온도에서 특정한 원자계에서 발견되는 초유체와 보스-아인슈타인 응축상, 특정한 물질에서 전도 전자들에 의해 나타나는 초전도상, 원자 격자에서의 스핀의 정렬에 따른 강자성과 반강자성상 등을 들 수 있다.
+응집 물질 물리학은 현재의 물리 분야 중에서 가장 큰 분야를 형성한다.
+역사적으로, 응집 물질 물리학은 고체 물리학에서 성장해 나왔고, 여전히 고체 물리학이 주된 세부 분야중의 하나이다.
+"응집 물질 물리학"이라는 용어는 필립 앤더슨이 본인의 연구 그룹의 이름을 변경하면서 1967년에 창작한 용어로 보인다.
+1978년에 미국 물리학회의 고체 물리학 분과는 응집 물질 물리학 분과로 이름을 변경하였다.
+응집 물질 물리학은 화학, 재료과학, 나노 기술, 그리고 공학과 관련성이 많다.
+자연 현상에 대한 보편 법칙을 찾고자 하는 물리학은 모든 물질세계, 즉 모든 자연 현상을 연구 대상으로 하는데, 연구 대상의 크기에 따라서 세분화되어 있다.
+또 어떤 이론 체계(고전역학, 양자역학 등)를 가지고 자연 현상을 설명하느냐, 즉 연구 방법에 따라서도 분류할 수 있다.
+물리학 연구는 일반적인 이론 체계(고전역학, 양자역학 등)를 세우는 것, 그 이론 체계를 이용하여 알려진 자연 현상을 설명하는 것, 알려지지 않은 새로운 현상에 대한 예측과 실험, 관찰을 통해 그 예측을 검증하는 것으로 이루어져 있다.
+이 중 이론 체계 연구를 하는 것을 이론물리학, 실험과 관찰을 하는 것을 실험물리학이라고 한다.
+오늘날, 물리학의 연구는 다방면으로 발전해나가고 있다.
+응집물질 물리학에서 가장 중요한 미해결 문제는 고온 초전도체이다.
+스핀트로닉스와 양자 컴퓨터도 주로 실험 분야에서 노력하고 있다.
+입자물리학에서 표준 모형을 넘어서는 실험적인 징후가 있다.
+이중 가장 중요한 것으로 중성미자의 질량이 있다는 발견을 들 수 있다.
+질량이 있는 중성미자에 의한 영향과 발견이 이론적으로나 실험적으로 활발하게 연구되고 있다.
+이러한 실험 결과는 오랫동안 고민해오던 태양의 표준 모형의 태양 중성미자 문제 보관됨 2018-10-15 - 웨이백 머신의 해결로 여겨진다.
+입자 가속기의 충돌 에너지 영역이 TeV까지 올라가면서 힉스 보존이 입증되었고 초대칭 입자들과 암흑물질의 발견을 기대하고 있다.
+이론 물리학에서는 양자역학과 일반 상대론을 하나로 통합하는 양자 중력을 찾는 노력이 반세기 동안 끊임없이 시도되고 있지만 아직까지 괄목할 만한 성과는 없다.
+지금으로서 가장 중요한 분야는 M이론을 포함한 초끈 이론과 루프 양자 중력을 들 수 있다.
+많은 천체물리학과 우주론의 문제들도 충분히 이해하지 못했다.
+그중 초고 에너지 우주선 문제, 바리온 비대칭과 우주 가속 문제, 은하 회전 문제 등이 있다.
+고에너지 물리, 양자물리학과 천체물리학의 많은 진전이 있었지만 우리의 일상생활에서의 현상인 복잡계나 혼돈, 난류에 대해서는 이해하지 못하고 있다.
+복잡계의 문제는 모래톱의 생성이나 물의 흐름, 물방울의 모양, 표면장력 또는 카타스트로피 이론 보관됨 2018-10-15 - 웨이백 머신처럼 역학을 어떻게 잘 적용하느냐의 문제처럼 보이지만 아직도 미해결 문제가 많다.
+1970년대 이후로 복잡계의 문제들은 더 큰 주목을 받게 되었으며 이는 현대의 수리물리학이나 컴퓨터의 발전과도 연관이 있다.
+복잡계의 물리는 다른 학문과의 상호 연계라는 측면에서도 중요한데 유체역학에서의 난류나 생물학의 패턴 형성 등이 그 예이다.
+화학()은 물질의 성질, 조성, 구조, 변화 및 그에 수반하는 에너지의 변화를 연구하는 자연과학()의 한 분야이다.
+물리학()도 역시 물질을 다루는 학문이지만, 물리학이 원소()와 화합물()을 모두 포함한 물체의 운동과 에너지, 열적·전기적·광학적·기계적 속성을 다루고 이러한 현상으로부터 통일된 이론을 구축하려는 것과는 달리 화학에서는 물질 자체를 연구 대상으로 한다.
+화학은 이미 존재하는 물질을 이용하여 특정한 목적에 맞는 새로운 물질을 합성하는 길을 제공하며, 이는 농작물()의 증산, 질병의 치료 및 예방, 에너지 효율 증대, 환경오염() 감소 등 여러 가지 이점을 제공한다.
+화학은 연금술사들이 물질을 섞으며 발전시켰기 때문에 화학을 뜻하는 영어 ‘케미스트리(chemistry)’는 연금술을 뜻하는 단어 ‘알케미(alchemy)’에서 비롯하였다.
+이는 다시 아랍어 ‘알 키미야(الكيمياء, al-kīmiyāʾ)’에서 왔는데, 이 단어의 어원에 대해서는 여러 가지 설이 있다.
+‘화학()’이란 단어는 물질의 변화를 다루는 학문이라는 점에 착안한 번역어이다.
+이 번역어는 장덕이(중국어판)의 《항해술기()》(1866), 윌리엄 알렉산더 파슨스 마틴(영어판)의 자연과학 교과서 《격물입문()》(1866) 등에서 처음 쓰였다.
+고대 화학() *초기 야금 (, 야금: 금속을 광석으로부터 추출하고 정련하는 기술) 인간에 의해 발견된 최초의 기록된 금속은 금()인 것으로 보이며 구석기() 후기(BC 40,000)에 스페인 동굴에서 소량의 천연 금이 발견되었다고 한다.
+은(), 구리(), 주석() 및 유성 철() 또한 고대 문화에서 일부 제한된 양의 금속 가공을 허용하면서 고대문화로 발견 될 수 있었다.
+기원전 3000년경 유성 철제로 만든 이집트 무기는 "천국의 단검()"으로 높이 평가 받았다.
+아마도 통제 된 방식으로 사용된 최초의 화학 반응은 불이었다.
+그러나 천년 동안 불은 단순히 열과 빛을 생성하면서 한 물질을 다른 물질 (타는 나무 또는 끓는 물)로 변형시킬 수 있는 신비한 힘으로만 알려졌다.
+불은 초기 사회의 여러 측면에 영향을 미쳤다.
+이들은 요리 및 서식지() 조명과 같은 일상 생활의 가장 단순한면에서 도기, 벽돌 및 금속을 녹여 도구를 만드는 것과 같은 고급 기술()에 이르기까지 다양했다.
+유리()의 발견과 금속()의 정화로 이어지는 불로 인해 야금이 부상했다.
+야금의 초기 단계에서 금속의 정화 방법이 요구되었고, 금은 BC 2900년 초기의 고대 이집트의 귀중한 금속이되었다.
+17 세기와 18 세기 : 초기 화학() *로버트 보일 영국계 미국인 화학자() 로버트 보일 (Robert Boyle, 1627-1691)은 연금술()에 대한 현대의 과학적 방법을 정제하고 화학을 연금술과 분리한 것으로 생각된다.
+그의 연구가 연금술 전통에 뿌리를 두고 있음에도 불구하고, 보일은 오늘날 현대의 화학자이자 현대화학()의 창시자이자 현대 실험 과학 방법의 선구자() 중 한 사람으로 불리고 있다.
+보일이 원래 발견자가 아님에도 보일은 1662년에 제시한 보일의 법칙으로 가장 잘 알려져있다.
+보일의 ()은 온도()만 폐쇄()된 시스템 내에서 일정하게 유지된다면 가스의 절대 압력과 부피가 반비례함을 의미한다.
+보일은 또한 화학 분야의 초석으로 간주되는 1661년의 《의심 많은 화학자》 에 대한 획기적인 저서로 인정받고 있다.
+작품에서 보일은 모든 현상이 움직이는 입자의 충돌의 결과라는 가설을 제시한다.
+보일 (Boyle)은 화학자들에게 실험을 호소했으며 실험은 지구, 화염, 공기 및 물과 같은 고전적인 4 가지 원소만으로 화학 원소를 제한한다는 것을 부인했다.
+그는 또한 화학이 의학이나 연금술에 종속되어 과학의 지위로 부상하는 것을 중단해야 한다고 촉구했다.
+중요한 것은 과학 실험에 대한 엄격한 접근 방식이라고 주장했다.
+그는 모든 이론이 사실로 간주되기 전에 실험적으로 입증되어야 한다고 믿었다.
+이 작품은 원자, 분자 및 화학 반응의 가장 초기의 현대적인 아이디어를 포함하고 있으며 현대 화학의 역사의 시작을 나타낸다.
+보일은 또한 화학 물질을 정제하여 재현 가능한 반응을 얻으려고 시도했다.
+그는 재료 물질의 물리적 특성()과 상호 작용()을 설명하고 정량화()하기 위해 르네 데카르트가 제안한 기계 철학()의 공개적인 지지자였다.
+보일은 원자핵론자()였지만 원자보다 더 많은 입자를 선호했다.
+그는 속성이 유지되는 물질의 가장 정밀한 부분은 미립자()의 수준에 있다고 논평했다.
+그는 또한 공기 펌프로 수 많은 조사를 수행했으며, 공기가 펌프로 퍼져 나감에 따라 수은이 떨어지는 것으로 나타났다.
+그는 또한 컨테이너에서 공기를 펌핑하면 화염을 없애고 내부에 있는 작은 동물을 죽일 수 있음을 관찰했다.
+과거 화학에서 더 이상 나뉘지 않는 기초적인 요소가 존재한다고 했는데, 이 기초적인 요소를 원자()라 한다.
+원자란 물질을 구성하는 기본적인 입자()로 고대 그리스의 데모크리토스에서부터 그 존재가 주장되었는데, 1803년 존 돌턴에 의해서 원자론()으로 정리되었다.
+20세기 초, 화학자들은 원자를 구성하는 더 작은 입자들, 즉 전자(), 양성자(), 중성자()가 존재한다는 사실을 발견하였다.
+전자는 음전하를 띠고 있고, 양성자는 양전하를 띠고 있으며, 중성자는 전하를 띠지 않고 있다.
+원자는 양성자와 중성자로 구성되어 있는 원자핵()을 가지고 있으며 전자는 이 주변에 원자 궤도()을 이루며 분포되어 있다.
+원소()는 일반적인 화학적, 물리학적 방법으로는 분해되지 않는 물질을 의미한다.
+원소는 원자핵에 존재하는 양성자 수로 정의되는 원자 번호()로 구별된다.
+산소(), 황(), 주석(), 철() 등은 원소이다.
+19세기 중엽까지 약 80가지의 원소가 발견되었는데, 이들은 주기율()에 따라 배열()될 수 있다.
+동위원소()는 아이소토프 또는 동위체()라고도 한다.
+서로 화학적으로는 거의 구별하지 못하지만 그것을 구성하고 있는 원자()의 질량()이 서로 다른 원소를 동위원소라고 한다.
+영어의 isotope는 그리스어인 isos(같은)와 topos(장소)의 합성어()인데, 질량은 서로 달라도 원소의 주기율표()에서 같은 장소에 배열되는 데서 1901년 영국의 화학자 F.
+소디가 isotope라는 명칭을 붙였다.
+대부분의 원소는 동위 원소를 가진다.
+동위 원소는 원자 번호는 같으나, 중성자수가 다른 원소를 뜻한다.
+동위 원소는 화학적인 성질()은 동일하나, 원자량의 차이를 이용하여 분리할 수 있다.
+자연에서도 발견되는 92개의 원소 중 88개는 동위 원소가 지표면 상에 존재한다.
+자연에서 발견되지 않더라도 동위 원소는 핵반응()을 이용하여 만들어낼 수 있다.
+어떤 동위 원소는 방사능을 가지기도 하는데, 이 경우 동위 원소의 원자핵은 불안정하고 방사선()을 방출하며 자연적으로 붕괴된다.
+동중 원소()는 원자 질량()은 같으나, 양성자수()가 다른 원소를 뜻한다.
+동중 원소는 화학적, 물리적 성질이 다르며 40S, 40Cl, 40Ar, 40K, 40Ca등이 있다.
+분자()란 원자의 결합체() 중 독립 입자()로서 작용하는 단위체()이다.
+일정한 개수의 원자가 특정하게 정렬되어 서로 결합해 분자가 형성된다.
+원자가 원소()의 최소단위()이듯, 분자()는 화합물()의 최소단위가 된다.
+원자가 결합()될 때 전자의 재배치()가 일어나는데, 이는 화학에서의 중요한 관심사중 하나이다.
+화학 반응은 원자 혹은 분자가 화학적인 변화를 겪는 일을 말한다.
+화학 반응은 원자간의 결합이 끊어지는 일과 다시 이어지는 일을 포함한다.
+결합이 끊어질 때는 에너지가 흡수되고, 결합이 이어질 때는 에너지가 방출된다.
+화학 반응의 간단한 예로는 수소와 산소가 반응하여 물이 되는 것을 들 수 있다.
+반응식()은 다음과 같다.
+2 H2 + 2 O → 2 H2O ΔH = - 572kJ 2 H2 + 2 O → 2 H2O ΔH = - 572kJ 반응식()에서 알 수 있듯이, 화학 반응에서는 원자가 새로 생성되거나 나타나는 일이 일어나지 않는다.
+ΔH는 에너지 또는 엔탈피 변화를 뜻한다.
+반응은 발열반응()일 수도 있고, 흡열반응()일 수도 있다.
+발열반응은 주위로 열을 방출()하는 반응으로 엔탈피 변화가 음수()로 나타난다.
+반면에 흡열반응은 주위 열을 흡수하는 반응으로 엔탈피 변화가 양수()로 나타난다.
+위 반응의 경우는 발열반응인데, 이는 계()로부터 주위()로 열이 이동()하였다는 의미이다.
+화학 결합()을 주된 세 가지 부류로 나누어보면 이온 결합(ion), 공유 결합() 그리고 금속결합()으로 나눌 수 있다.
+이온이란 전하()를 띤 원자 또는 분자를 뜻한다.
+이온 결합은 양전하()와 음전하()의 전기적인 인력()에 의해서 생성되는 화학 결합이다.
+예를 들면 염화 나트륨은 양전하를 띤 나트륨 이온(Na+)과 음전하를 띤 염화 이온(Cl-) 사이의 전기적인 결합으로 이루어진 이온 화합물()이다.
+이러한 물질을 물에 녹이면 이온은 물 분자에 의해 수화되고 이렇게 해서 만들어진 수용액()은 전기전도도()를 가진다.
+공유 결합()은 원자 궤도()이 겹쳐진 결과 두 원자가 전자쌍()을 공유하게 되어 생성되는 결합을 의미한다.
+공유 결합이 형성되는 결합은 발열반응()인데, 이때 방출되는 에너지의 양이 그 결합의 결합 에너지이다.
+결합 에너지만큼의 에너지를 그 결합에 가해주면 결합은 끊어질 수 있다.
+금속 결합()은 금속 원자에서 전자()들이 떨어져 나와 자유전자()를 생성하게 되어 생성되는 결합을 의미한다.
+금속의 특성인 연성()과 전성()이 생성되는 이유이기도 하다.
+화합물()은 구성하고 있는 원자의 종류, 수, 배치에 의해서 그 특성이 결정된다.
+자연에서 찾을 수 있거나 인공적으로 합성()할 수 있는 화합물의 수는 엄청나고, 이들 중 대부분은 유기 화합물()이다.
+유기 화합물을 이루는 주된 화학 원소()인 탄소()는 다른 화학 원소와는 다르게 매우 긴 사슬 형태로 정렬될 수 있으며, 같은 수많은 이성질체()를 형성할 수 있다.
+예를 들어, 분자식() C8H16O는 약 천 개의 서로 다른 화합물을 뜻할 수 있다.
+화학은 취급 대상() 및 대상의 취급 방법에 따라서 몇 가지 분과()로 구분될 수 있다.
+물질을 분석하는 분석화학()은 크게 물질의 존재를 취급하는 정성 분석과 물질의 양을 결정하는 정량 분석으로 나눌 수 있다.
+탄소를 포함한 유기 화합물()을 다루는 유기화학()과 유기 화합물을 제외한 무기 화합물()을 다루는 무기화학()도 있다.
+물리학()과 화학의 경계에는 물리화학()이 있고 생물학()과의 경계에는 생화학()이 있다.
+물리화학에서 특히 분자의 구조와 성질과의 관계를 다루는 부분을 구조화학()이라고 부르기도 한다.
+제2차 세계 대전(2) 이후에는 방사성 물질을 다루는 방사화학()이 발전하였고 화학 공업을 다루는 공업화학()도 있다.
+이 외에도 화학의 분과는 매우 다양하다.
+화학의 분과는 전통적으로 다음과 같은 5가지로 나눌 수 있으며, 각각의 분과는 더욱 세분화될 수 있다.
+무기화학()은 유기화학에서 다루지 않는 물질을 다루며 주로 금속이나 준금속()이 포함된 물질에 대해서 연구한다.
+따라서 무기화학에서는 매우 넓은 범위의 화합물을 다루게 된다.
+초기에는 광물()의 구성이나 새 원소의 발견이 주요 관심사였고 여기서부터 지구화학()이 분기되었다.
+주로 전이 금속() 등을 이용한 촉매()나 생물에서 산소 수송(), 광합성(), 질소 고정() 등의 과정에서 중요한 역할을 하는 금속 원자들에 대해 연구하며 이 외에도 세라믹, 복합재료(), 초전도체()등에 대한 연구를 한다.
+물리화학()은 화학적 현상()에 대한 해석과 이를 설명하기 위한 물리적 원리들에 대해 다루는 분과이다.
+화학반응()에 관련된 열역학적 원리와 물질의 물리학적 성질에 대한 설명은 물리화학이 다루는 고전적인 주제이다.
+물리화학은 양자화학()의 발전에도 큰 기여를 하였다.
+분광계()나 자기 공명(), 회절() 기기 등 물리화학에서 사용하는 실험 장비나 실험 방법()들은 다른 화학의 분과에서도 매우 많이 사용된다.
+물리화학이 다루는 대상은 유기 화합물, 무기 화합물, 혼합물()을 모두 포함한다.
+분석화학()은 물질의 조성이나 혼합물()의 구성요소() 등을 결정하는 방법에 대해서 연구하는 화학의 분과이다.
+혼합물을 이루고 있는 성분의 탐색(), 분리(), 정량()과 분자를 이루고 있는 원자의 비율을 측정하여 분자식을 결정하는 일 등이 분석화학에서 행해진다.
+1950년대의 분석화학의 발전은 많은 질량 분석기를 포함한 분석 기구의 등장을 불러일으켰다.
+이 외에도 고해상도() 크로마토그래피, 전기화학()에서의 많은 실험방법() 등은 분석화학에 있어서 중요한 분석법이다.
+분석화학에 있어서 최종 목표는 더 정확한 측정법()이나 측정기기() 등을 개발하는 것이다.
+분석화학의 발전으로 인해 환경오염 물질() 등을 피코그램의 수준에서도 감지하는 것이 가능해졌다.
+생화학()에서는 이와 같이 생물체에서 기능하는 물질들을 다룬다.화학의 관점()에서 다루는 학문이다.
+식물()이나 동물()의 세포()에서 발견되는 물질이나 일어나는 화학 반응들이 주 관심사이다.
+생명체()에서 발견되는 탄수화물(), 지방(), 단백질(), 핵산(), 호르몬 등은 유기 화합물이라서 유기화학에서도 다루어지기도 하나, 이들 화합물에 관련된 물질대사() 과정이나 조절 과정에 대한 연구는 생화학의 고유 분야이다.
+효소()와 조효소(), 그리고 이들의 작용 과정에 대해서도 연구하며, 세포막()을 통과하는 이온과 분자, 신경전달물질()과 다른 조절 물질들의 작용에 대해서도 연구한다.
+생화학은 내분비학(), 유전학(), 면역학(), 바이러스학의 발전에 큰 영향을 끼쳤다.
+유기화학()은 탄소()로 이루어진 화합물()을 연구하는 분과이다.
+원래 유기 화합물은 식물이나 동물로부터 추출해낸 화합물을 뜻하였으나 지금은 유기 화합물의 범위가 크게 넓어져 탄소 사슬 또는 탄소 고리를 가진 모든 화합물을 뜻한다.
+유기화학의 오랜 관심사는 유기 화합물의 합성 메커니즘이다.
+현대에 들어서 핵자기 공명법()과 X선 결정학(X) 등이 개발되어 유기 화합물 분석에 있어서 매우 중요한 방법으로 자리잡았다.
+플라스틱, 합성섬유()등의 고분자물질() 등도 유기화학에서 다루어진다.
+생물학(, 영어: biology)은 생명현상과 살아있는 생명체의 물리적 구조, 화학적 과정, 분자적 상호작용, 생리적 메커니즘, 발생 및 진화에 대해 연구하는 자연과학이다.
+과학의 복잡성에도 불구하고, 그것을 하나의 일관성 있는 분야로 통합하는 특정 공통 개념들이 있다.
+생물학은 세포를 생명체의 기본 단위로, 유전자를 유전의 기본 단위로, 진화를 생물 종들의 출현과 멸종을 추진하는 수단으로 인정하고 있다.
+살아있는 생명체는 항상성으로 정의되는 안정되고, 생명 유지에 필수적인 상태를 유지하기 위해 에너지를 변환시키고, 부분적으로 엔트로피를 감소시킴으로써 생존해 가는 개방계이다.
+생물학의 하위분야는 연구 방법과 목적에 따라 나뉠 수 있는데, 생물에서 일어나는 화학적 현상을 연구하는 생화학, 분자 수준에서 일어나는 생명 현상을 탐구하는 분자생물학, 세포에서 일어나는 생명 현상을 다루는 세포생물학, 기관이나 조직을 연구대상으로 삼는 생리학, 환경에서 다양한 생물 개체들이 맺는 관계를 탐구하는 생태학 등이 있다.
+이론생물학은 수학적인 방법을 사용하여 정량적인 모델을 만드는 반면, 실험생물학은 제안된 이론의 타당성을 테스트하고, 생명체의 기초가 되는 메커니즘과 약 40억년전 생명이 없는 물질로부터 생명체가 어떻게 출현하였고, 생물 체계의 복잡성이 어떻게 점진적으로 증가하는 방향으로 진화해왔는지를 이해하기 위한 경험적인 실험들을 수행한다.
+생물학(biology)이라는 용어는 그리스어 "βίος"(bios, "life", "생명"이란 뜻)와 접미사 "-λογία"(-logia, "study of", "-학()"이라는 뜻)로부터 유래되었다.
+생물학이라는 용어의 라틴어 형태는 1736년에 스웨덴의 과학자 칼 폰 린네가 그의 저서 《Bibliotheca botanica》(영어: Bibliography of botany, 식물학의 문헌)에서 "biologi"를 사용하면서 처음으로 등장했다.
+생물학이라는 용어는 1766년 크리스티안 볼프의 제자인 미하엘 크리스토프 하노브의 《Philosophiae naturalis sive physicae: tomus III, continens geologian, biologian, phytologian generalis》라는 제목의 저서에서 다시 사용되었다.
+"생물학(독일어: Biologie)"이란 용어의 최초의 독일어 사용은 린네의 저서의 1771년 번역본에서였다.
+1797년에 테오도르 게오르그 아우구스트 루스(Theodor Georg August Roose)는 《Grundzüge der Lehre van der Lebenskraft》라는 책의 서문에서 "생물학(독일어: Biologie)"이란 용어를 사용했다.
+칼 프리드리히 부르다흐는 1800년에 형태학, 생리학 및 심리학의 관점에서 인간에 대한 연구라는 보다 제한된 의미로 생물학이라는 용어를 사용했다.
+생물학이란 용어는 독일의 박물학자이자 의사인 고트프리트 라인홀트 트레비라누스가 자신의 저서 《Biologie, oder Philosophie der lebenden Natur》(전6권, 1802년~1822년)에서 현대적인 의미로 사용하였다.
+현대적인 생물학은 비교적 최근에 발전되어 왔지만, 생물학에 관련되고 그 안에 포함되는 과학은 고대부터 연구되어 왔다.
+자연철학은 일찍이 메소포타미아, 이집트, 인도, 중국의 고대 문명에서 연구되었다.
+그러나 현대 생물학의 기원과 자연 연구에 대한 접근 방식은 대부분 고대 그리스로 거슬러 올라간다.
+의학에 대한 정식 연구는 히포크라테스(기원전 460년경~370년 경)로 거슬러 올라가지만, 생물학의 발전에 가장 폭 넓게 공헌을 한 이는 아리스토텔레스(기원전 384년~322년)였다.
+특히 중요한 것은 아리스토텔레스의 《동물지》(History of Animals)와 그의 자연주의적인 성향을 보여준 다른 작품들, 그리고 이 후에 생물학적 인과 관계와 생명의 다양성에 초점을 맞춘 좀 더 경험에 근거를 둔 작품들이다.
+아리스토텔레스가 개설한 리케이온 학원의 후계자인 테오프라스토스는 식물학에 대한 일련의 책들을 저술했는데, 이는 고대에 중요한 공헌을 했을 뿐만 아니라, 중세에도 영향을 미쳤다.
+이후 생물학은 중세 이슬람 세계의 학자들에 의해 큰 발전을 이루었는데 식물학에 대한 저술을 남긴 알 자히즈(al-Jahiz, 781년~869년),, 아부 하니파 디나와리(Al-Dīnawarī, 828년~896년), 해부학과 생리학에 대한 저술을 남긴 알 라지(Rhazes, 865년~925년) 등이 있다.
+의학은 특히 그리스 철학자의 전통을 토대로 연구하는 이슬람 학자들에 의해 잘 연구되었고, 박물학은 특히 고정된 생명체들의 계층 구조를 당연하게 여기는 아리스토텔레스의 사상에 크게 영향을 받았다.[주해 1] 생물학은 안톤 판 레이우엔훅에 의한 현미경 성능의 극적인 개선과 함께 빠르게 발전하고 성장하기 시작했다.
+학자들이 정자, 세균, 적충류, 미생물들의 다양성을 발견한 것은 이 시기였다.
+얀 슈밤메르담의 연구는 곤충학에 대한 새로운 관심을 불러 일으켰고, 현미경적인 해부와 염색의 기본적인 기술을 개발하는데 도움을 주었다.
+또한 현미경 관찰 기술의 발전은 생물학적 사고에도 중대한 영향을 미쳤다.
+19세기 초에 많은 생물학자들은 세포의 중요성을 지적했다.
+1838년 독일의 식물학자 마티아스 야코프 슐라이덴은 "모든 식물은 세포로 이루어져 있다"는 식물 세포설을 주장하였다.
+1839년에 독일의 의사이자 생리학자인 테오도어 슈반은 "모든 동물은 세포로 이루어져 있다"는 동물 세포설을 주장하였다.
+슐라이덴과 슈반은 "세포는 모든 생물의 구조적 단위일 뿐만 아니라 생명활동이 일어나는 기능적 단위"라는 세포설을 제창하였다.
+1855년에 독일의 의사이자 생물학자인 루돌프 피르호는 "세포는 기존의 살아있는 세포로부터만 만들어진다"라고 주장하였다.
+로베르트 레마크와 루돌프 피르호의 연구 덕분에 1860년에 이르러 대부분의 생물학자들은 세포설을 받아들이게 되었다.
+한편, 분류학 및 분류는 박물학자들이 초점을 기울인 연구 분야였다.
+칼 폰 린네는 1735년에 자연계에 대한 기본적인 분류체계를 발표했으며, 1750년대에는 그가 분류한 모든 종에 학명을 부여했다.
+조르주루이 르클레르 드 뷔퐁은 생물 종들을 인위적인 범주로 취급하고, 생물의 형태를 변할 수 있는 것으로 보았고, 심지어 공통 조상의 가능성을 시사하기도 했다.
+비록 뷔퐁은 진화를 반대했지만, 그는 진화론의 역사에서 중요한 인물이다.
+뷔퐁의 연구는 라마르크와 다윈의 진화론에 영향을 미쳤다.
+진지한 진화적 사고는 일관성 있는 진화론을 처음으로 제시한 장바티스트 라마르크의 연구에서 시작되었다.
+라마르크는 진화가 동물의 성질에 대한 환경적 스트레스의 결과라고 주장했는데, 이는 기관을 더 자주, 엄격하게 사용할수록 기관이 더 복잡하고 효율적이게 되어 동물을 환경에 적응시키게 된다는 것을 의미했다.
+라마르크는 이러한 획득 형질이 동물의 자손에게 유전될 수 있다고 믿었다.
+영국의 박물학자 찰스 다윈은 알렉산더 폰 훔볼트의 생물지리학적 접근법, 찰스 라이엘의 동일과정설 지질학, 멜서스의 인구 증가에 관한 저술, 그리고 자신의 형태학적 전문 지식과 광범위한 자연 관찰을 결합해서 자연선택에 기초한 보다 성공적인 진화론을 만들어냈다.
+이와 유사한 증거와 추론을 바탕으로 앨프리드 러셀 월리스도 독자적으로 같은 결론에 도달했다.
+비록 논란의 대상이었지만(논쟁은 오늘날까지 계속되고 있음), 다윈의 이론은 과학계를 통해 빠르게 확산되어, 급속하게 발전하는 생물학의 중심축이 되었다.
+19세기말 그레고어 멘델은 멘델의 유전법칙을 정리하여 유전학의 기초를 쌓았다.
+멘델의 이론은 한동안 외면되었으나 20세기에 들어와서 독자적인 실험들을 통해 재발견되어, 생물학자들의 인정을 받게 되었다.
+이후, 1940년대에서 1950년대에 이르는 동안 집단유전학의 발전으로 진화에 대한 이해를 넓히게 되었다.
+1940년대와 1950년대 초의 실험들은 유전자로 알려진 형질 전달의 단위를 가진 염색체의 구성 성분으로 DNA를 지목하였다.
+1953년에 DNA 이중 나선 구조의 발견과 함께 바이러스나 세균과 같은 새로운 종류의 모델 생물에 대한 연구는 분자유전학 시대로의 전환을 가져왔다.
+1950년대부터 현재까지 생물학은 분자 영역에서 크게 확장되었다.
+DNA가 트리플렛 코드를 가지고 있는 것으로 파악된 후에 마셜 워런 니런버그, 하르 고빈드 코라나, 로버트 윌리엄 홀리는 유전 암호를 해독하였다.
+인간 게놈 프로젝트는 일반적인 인간 게놈 지도 완성을 목표로 1990년에 시작되었다.
+인간 게놈 프로젝트는 2003년에 완료되었으며, 추가적인 분석은 여전히 계속되고 있다.
+인간 게놈 프로젝트는 생물학의 축적된 지식을 인간과 다른 생물들의 기능적, 분자적 연구로 통합하려는 세계적인 노력의 첫 걸음이었다.
+세포설에 따르면 세포는 생명체의 기본 단위이며, 모든 생명체는 하나 이상의 세포로 구성되며, 모든 세포는 세포 분열을 통해 기존의 세포로부터 생성된다고 설명한다.
+다세포 생물에서 모든 세포는 궁극적으로 단일 세포인 수정란으로부터 유래한다.
+세포는 또한 많은 병리학적 과정에서 기본 단위로 간주된다.
+세포에서는 물질대사가 일어나며, 물질대사 중에 에너지 흡수 또는 에너지 방출이 일어난다.
+세포는 세포 분열동안 세포에서 세포로 전달되는 유전 정보(DNA)를 가지고 있다.
+생명의 기원에 대한 연구는 최초의 세포의 기원을 밝히기 위한 시도이다.
+생물학에서 중심 개념은 생명은 진화를 통해 변화하고 발전하며, 알려져 있는 모든 생명체는 공통적인 기원을 가지고 있다는 것이다.
+진화학은 지구 상의 모든 생명체들이(현존하는 것과 멸종된 것 모두) 공통 조상 또는 공통 조상의 유전자풀로부터 유래했다는 것을 연구하는 학문이다.
+모든 생명체들의 공통 조상은 약 35억년 전에 출현한 것으로 보인다.
+생물학자들은 모든 세균, 고균, 진핵생물들이 공통적인 유전 암호를 사용하는 것을 모든 생물들이 공통 조상으로부터 유래한 결정적인 증거로 간주한다.
+"진화(evolution)"라는 용어는 1809년에 장바티스트 라마르크가 과학 용어로 도입하였고, 50년 후인 1859년에 찰스 다윈은 자신의 저서 《종의 기원》에서 자연선택에 의한 과학적 모델을 진화의 원동력으로 제시했다.
+앨프리드 러셀 월리스도 진화에 대한 연구와 실험에 기여했기 때문에 다윈이 주장한 개념의 공동발견자로 인정받고 있다.
+진화는 현재 지구 상에서 발견되는 생명체의 변화를 설명하기 위해 사용되며, 현대에서 진화는 직접 관찰이 가능해지게 되면서 "관찰 가능한 현상"으로 인정받고 있다.
+다윈은 자연선택이나 선택적 교배 과정을 통해 생물 종이 번성하거나 도태된다는 것을 이론화했다.
+현대 종합설에서 유전적 부동은 진화의 추가적인 메커니즘으로 받아들여졌다.
+현대 종합설에서는 지구의 모든 생물이 하나의 공통 조상에서 분화되어 오늘날과 같은 생물 다양성을 이루게 되었다고 설명한다.
+진화가 일어나는 근본적인 원인은 생물 종이나 개체군 내에 대립하는 유전형질이 다양하게 존재하는 유전적 다양성 때문이다.
+생물의 유전형질은 세대에서 세대로 이어지면서 유전적 부동, 자연선택과 같은 외부의 작용에 의해 변화하게 된다.
+그 결과 생물 개채군은 환경 적응에 유리한 형질은 유전되고, 그렇지 않은 형질은 사라지는 변화를 겪게 된다.
+이것이 진화의 과정이다.
+현재는 진화의 과정을 직접 관찰하기도 함으로써, 진화는 관찰가능한 자연현상의 하나로 집단유전학 등을 통해 연구되고 있다.
+계통은 생물이 진화해 온 경로를 바탕으로 한 생물 종 간의 유연관계이며, 생물 종의 진화 역사이다.
+계통수는 생물의 계통을 알 수 있도록 나뭇가지 모양으로 나타낸 것으로, 생물 종 간의 진화적 유연관계를 알 수 있다.
+생물학에 대한 다양한 접근법은 계통 발생에 대한 정보를 생성하도록 한다.
+여기에는 분자생물학(특히 유전체학)의 산물인 DNA 염기서열의 비교와 고생물학의 산물인 고대 생명체의 화석이나 다른 증거들이 포함된다.
+생물학자들은 계통학, 표형분류학, 분지학 등 다양한 방법들을 통해 진화적 유연관계를 정리하고 분석한다.
+진화는 생명체의 자연사에 대한 이해와 현존하는 생명체의 구성에 대한 이해와 관련이 있다.
+이러한 구성은 생명체가 어떠한 진화 과정을 거쳐왔는지를 알아야만 이해될 수 있다.
+결론적으로 진화는 모든 생물학 분야의 중심을 차지하고 있다.
+유전자는 모든 생명체에서 유전의 기본 단위이다.
+유전자는 유전의 단위이며, 특정 방식으로 생명체의 형태 또는 기능에 영향을 미치는 DNA 상의 특정 영역이다.
+세균에서 동물에 이르기까지 모든 생명체는 DNA를 복제하고, RNA로 전사하고, 단백질로 번역하는 동일한 메커니즘을 사용한다.
+세포는 DNA의 정보를 RNA로 전사하고, 리보솜은 RNA로 전사된 정보를 단백질로 알려진 일련의 아미노산 서열로 번역한다.
+RNA 코돈으로부터 아미노산으로의 유전 암호는 대부분의 생명체에서 동일하다.
+예를 들어, 사람의 인슐린을 암호화하는 DNA 염기서열을 식물과 같은 다른 생명체에 삽입하면 인슐린을 생성시킬 수 있다.
+DNA는 진핵생물에서는 선형 염색체로, 원핵생물에서는 원형 염색체로 존재한다.
+염색체는 DNA와 히스톤 단백질로 구성되어 있다.
+세포 내의 염색체 세트와 미토콘드리아, 엽록체 또는 다른 장소에서 발견되는 유전 정보는 세포의 게놈으로 알려져 있다.
+진핵생물에서 DNA는 세포핵에 국한되어 있거나 미토콘드리아와 엽록체에 소량으로 존재한다.
+원핵생물에서 DNA는 세포질에 핵양체라고 불리는 불규칙적인 형태로 존재한다.
+유전체의 유전 정보는 유전자 내에 존재하며, 생명체에서 이러한 정보의 완전한 통합을 유전자형이라고 부른다.
+항상성은 상호 연관된 조절 메커니즘에 의해 통제되는 여러 동적 평형 조절을 통해 안정된 상태를 유지하기 위한 생명체의 내부 환경을 조절하는 생명체(개방계의 일종)의 능력을 뜻한다.
+모든 생명체는 단세포 생물이든 다세포 생물이든 항상성을 유지하려고 한다.
+동적 평형을 유지하고 특정 기능을 효과적으로 수행하기 위해서 생명체는 환경의 변화를 감지하고 반응할 수 있어야 한다.
+환경 변화가 감지되면, 생명체는 일반적으로 음성 피드백을 통해 기관이나 기관계의 활동을 증가시키거나 감소시켜서 환경 변화에 반응한다.
+혈당량이 낮아지면, 글루카곤을 분비하여 혈당량을 높이는 것은 항상성 조절의 한 예이다.[주해 2] 살아있는 생명체의 생존은 에너지의 지속적인 투입에 달려있다.
+생명체의 구조와 기능에 관련된 화학 반응은 음식물로 섭취된 물질로부터 에너지를 추출하고, 새로운 세포를 생성하고, 세포를 유지하는 것을 돕기 위해 사용된다.
+이 과정에서 음식물을 구성하는 화학 물질의 분자는 두 가지 역할을 한다.
+첫째, 생명체의 생물학적, 화학적 반응에서 변형되고 재사용될 수 있는 에너지를 포함하고 있다.
+둘째, 음식물은 생명체에 유용한 새로운 분자 구조(생체분자)로 전환될 수 있다.
+에너지를 생태계로 유입시키는 역할을 하는 생명체들은 생산자 또는 독립영양생물로 알려져 있다.
+거의 모든 생명체들은 태양으로부터 온 에너지를 근원으로 해서 살아간다.
+식물과 다른 광영양생물은 광합성으로 알려진 과정을 통해 태양의 빛 에너지를 이용하여 원료 분자를 ATP와 같은 유기 분자로 전환한다.
+태양으로부터 생산자에 의해 생태계로 유입된 에너지가 먹이 그물의 최종 소비자에게로 전달되는 에너지의 흐름을 영양 단계라 한다.
+그러나 몇몇 생태계는 화학영양생물이 메테인, 황화물, 다른 태양 에너지 외의 에너지원으로부터 추출한 에너지에 전적으로 의존한다.
+따라서 저장되는 에너지 중 일부는 다른 생명체의 성장과 발달에 사용할 수 있는 바이오매스와 에너지를 생성하는데 사용된다.
+이러한 바이오매스와 에너지의 대부분은 부산물과 열로 소실된다.
+화학 물질에 저장된 에너지를 생명 활동에 필요한 에너지로 전환시키는 가장 중요한 과정은 세포 호흡을 비롯한 여러 물질대사들이다.
+발생은 동물의 정자와 난자가 수정된 후 배를 형성하고 생장하여 새로운 개체가 되는 과정이다.
+발생의 과정은 초기 발생과 후기 발생으로 나뉘는데, 최초의 난할에서 배엽이 형성되는 때까지를 초기 발생이라 하고, 기관이 형성되는 때부터 새로운 개체가 되는 때까지를 후기 발생이라 한다.
+분자생물학은 분자 수준에서 생물학을 연구하는 학문이다.
+분자생물학은 생물학의 다른 분야, 특히 유전학 및 생화학과 연구 분야가 중첩된다.
+분자생물학은 DNA, RNA, 단백질 합성의 상호 관계와 그러한 상호 작용이 어떻게 조절되는지를 포함하여 세포 내 다양한 시스템의 상호 작용에 대해 연구하는 학문이다.
+세포생물학은 세포 수준에서 세포의 내부 행동, 다른 세포와의 상호 작용, 환경과의 상호작용과 같은 세포의 구조적, 생리학적 특성에 대해 연구하는 학문이다.
+세포생물학은 세균과 같은 단세포 생물 뿐만 아니라 사람과 같은 특화된 세포에 대해 현미경 및 분자 수준에서 연구가 이루어진다.
+세포의 구조와 기능을 이해하는 것은 모든 생물학 분야의 기본이다.
+세포 유형 간의 유사점과 차이점은 특히 분자생물학과 관련이 있다.
+해부학은 구조에 대해 보다 거시적인 형태인 기관 및 기관계에 대해 연구하는 학문이다.
+유전학은 유전자, 유전 및 생명체의 변이에 관해 연구하는 학문이다.
+유전자는 단백질의 합성을 위해 세포가 필요로 하는 정보를 암호화하며, 이는 결국 생명체의 최종 표현형에 영향을 미치는 중심적인 역할을 한다.
+유전학은 특정 유전자의 기능을 조사하거나 유전자 상호작용을 분석하는데 사용되는 연구 도구를 제공한다.
+생명체 내에서 유전 정보는 물리적으로 염색체 내에 존재하며, 특히 DNA 상의 특정 부위에 유전 정보가 저장되어 있다.
+발생생물학은 생명체가 발생하고 생장하는 과정에 대해 연구하는 학문이다.
+발생학으로부터 유래된 발생생물학은 세포 생장, 세포 분화 및 세포의 형태형성에 대한 유전적인 조절에 대해 연구하는데, 세포는 점차적으로 조직, 기관으로 발달해 나간다.
+발생생물학에서 주로 사용되는 모델 생물로는 선형동물인 예쁜꼬마선충, 초파리과에 속하는 노랑초파리, 잉어과에 속하는 제브라피시, 쥐과에 속하는 생쥐, 배추과에 속하는 애기장대 등이 있다.
+모델 생물은 특정 생물학적 현상을 이해하기 위해 광범위하게 연구되는 생물 종으로, 모델 생물에서의 발견이 다른 생물의 작용에서도 적용할 수 있을 것이라는 기대를 제공한다.
+생리학은 생명체의 기계적, 물리적, 생화학적 과정을 전반적으로 연구하는 학문이다.
+"기능하기 위한 구조"에 대한 문제는 생물학의 핵심 주제이다.
+생리학에 대한 연구는 전통적으로 식물생리학과 동물생리학으로 나뉘어 왔으나, 어떤 생물체가 연구되더라도 생리학의 기본 원리는 보편적이다.
+예를 들어, 효모 세포의 생리학에 대해 알게 된 것은 사람의 세포에도 적용될 수 있다.
+동물생리학은 인체생리학의 도구와 방법을 사람이 아닌 동물 종으로 확장한다.
+식물생리학 연구에서도 동물생리학의 방법을 적용할 수 있다.
+생리학은 신경계, 면역계, 내분비계, 호흡계, 순환계가 어떻게 작용하고, 서로 상호작용을 하는지를 연구한다.
+이러한 기관계에 대한 연구는 신경학 및 면역학과 같은 의학적으로 지향하는 분야로 연결된다.
+진화에 대한 연구는 종의 기원과 멸종, 시간에 따른 생물 종의 변화에 관한 것이다.
+진화는 예를 들어 포유류학, 조류학, 식물학, 양서파충류학과 같은 특정 생명체에 대한 특별한 훈련을 받은 많은 분류학을 지향하는 분야의 과학자들이 연구에 참여하고 있고, 진화에 관한 보다 일반적인 해답을 찾기 위해 연구 중이다.
+진화생물학은 부분적으로 진화의 형태와 속도에 관한 질문에 답하기 위해 화석 기록을 사용하는 고생물학을 기반으로 하고, 집단유전학과 같은 분야의 발전에도 기반을 두고 있다.
+1980년대에 발생생물학은 진화발생생물학에 대한 연구를 통해 현대종합설로부터 초기에 배제된 후에 진화생물학으로 다시 들어오게 되었다.
+계통학, 계통분류학, 분류학은 종종 진화생물학의 일부로 간주되는 관련 분야이다.
+여러 종 분화 사건들은 생물 종들 간의 유연관계를 체계적으로 나타낸 계통수로 표현할 수 있다.
+계통분류학은 이러한 생물 종들 간의 관계 및 종들 간의 유사점과 차이점에 대해 연구하는 학문이다.
+계통분류학은 진화론적 사고가 주류가 되기 전부터 활발하게 연구되어온 분야였다.
+전통적으로 생물들은 원핵생물계, 원생생물계, 균계, 식물계, 동물계의 5계 분류 체계로 분류되어 왔다.
+그러나 많은 과학자들은 이제 5계 분류 체계를 낡은 분류 방식으로 간주한다.
+현재는 세균역(진정세균계), 고균역(고세균계), 진핵생물역(원생생물계, 식물계, 균계, 동물계)의 3역 6계 분류 체계로 생물들을 분류한다.
+이러한 역들은 리보솜과 같은 핵심적인 생체분자의 화학적 조성에서의 차이 뿐만 아니라 세포핵의 존재 유무를 반영한다.
+또한 생물 분류군들을 좀 더 세분화하여 역, 계, 문, 강, 목, 과, 속, 종으로 분류한다.
+예를 들어, 사람은 진핵생물역, 동물계, 척삭동물문, 포유강, 영장목, 사람과, 사람속(Homo), 사람종(sapiens)로 분류한다.
+이러한 범주 외에도 대사 활동과 관련하여 "생명의 가장자리에 있는" 세포 내에서 기생생활을 하는 존재들이 있는데, 이러한 존재들은 많은 과학자들이 생명체를 정의하는 기본적인 기능이나 특성들 중 적어도 하나 이상이 부족하기 때문에 일반적으로 살아있는 생명체로 분류하지 않는다.
+생명 현상의 특성들 중 일부만 나타내는 존재들은 바이러스, 바이로이드, 프라이온, 위성 바이러스로 분류된다.
+생물의 학명은 속명(속을 나타냄)과 종소명(종을 나타냄)으로 나타낸다.
+종명이라는 용어 대신에 학명 표기시 분류 단계상 종의 명칭인 "종소명"을 사용한다.
+예를 들어, 사람의 학명은 호모 사피엔스(Homo sapiens)이다.
+호모는(Homo)는 속명이고, 사피엔스(sapiens)는 종소명이다.
+생물의 학명을 표기할 때는 라틴어를 사용하여, 속명의 첫 글자는 대문자로, 종소명의 첫 글자는 소문자로 표기한다.
+속명과 종소명은 이탤릭체로 나타내거나 밑줄을 그어서 표기한다.
+지배적인 분류 체계는 린네 분류학이라고 한다.
+린네 분류학은 분류 단계와 이명법을 포함한다.
+생물체의 명명 방법은 국제조류균류식물명명규약(ICN), 국제동물명명규약(ICZN), 국제원핵생물명명규약(ICNB)과 같은 국제 규약에 의해 결정된다.
+일부 생물학적 특성을 나타내는 바이러스, 바이로이드, 프라이온 및 기타 바이러스 이하의 존재들의 분류는 국제바이러스분류위원회(ICTV)에 의해 수행되며, 국제바이러스분류및명명규약(ICVCN)으로 알려져 있다.
+그러나 몇몇 다른 바이러스 분류 체계가 존재한다.
+통합하기 위한 초안인 바이오코드(BioCode)는 위의 세 분야의 명명법을 표준화하기 위한 시도로 1997년에 출판되었지만, 아직 공식적으로 채택되지는 않았다.
+바이오코드 초안은 1997년 이후 거의 주목을 받지 못했다.
+원래 2000년 1월 1일로 예정된 시행일은 별 다른 관심을 받지 못하고 지나갔다.
+기존의 코드를 교체하는 대신 통일된 맥락을 제공하는 개정 바이오코드가 2011년에 제안되었다.
+그러나 2011년에 국제식물학회는 바이오코드 제안에 대한 검토를 거부했다.
+국제바이러스분류및명명규약(ICVCN)은 바이러스 분류를 포함하지 않는 바이오코드 밖에 남아있다.
+생태학은 살아있는 생물의 분포와 개체수, 생물과 환경 사이의 상호 작용에 대해 연구하는 학문이다.
+생물체는 다른 생물체와의 상호작용 같은 생물적 요소 뿐만 아니라 기후와 생태와 같은 비생물적 요소를 포함하는 환경을 공유한다.
+생물학적 시스템이 연구하기 어려울 수 있는 한 가지 이유는 다른 생물들 및 환경과의 다양한 상호 작용이 작은 규모에서도 가능하다는 것이다.
+국지적인 당의 농도 기울기에 반응하는 세균은 아프리카 사바나에서 먹이를 찾는 사자 만큼이나 환경에 민감하게 반응한다.
+어떤 생물 종의 경우, 행동은 경쟁, 기생, 공생들 중 하나일 수 있다.
+생태계에서 두 가지 이상의 종이 상호작용을 할 때 문제는 더 복잡해진다.
+생태계는 개별 생물 개체부터 개체군, 군집, 생태계, 생물권에 이르기까지 여러 가지 다른 수준에서 연구된다.
+집단생물학이라는 용어는 종종 개체군생태학과 교환가능한 의미로 사용되지만, 집단생물학은 질병, 바이러스, 미생물의 경우에 더 자주 사용되는 반면, 인구생태학이라는 용어는 식물과 동물의 연구에 더 일반적으로 적용된다.
+생태학은 많은 하위 분야에서 사용된다.
+동물행동학은 동물의 행동(특히 영장류 및 개과 동물과 같은 사회적 동물의 행동)에 대해 연구하는 학문이며, 동물학의 한 분야로 간주된다.
+동물행동학자들은 특히 자연선택설의 관점에서 행동의 진화 및 행동의 이해에 관심을 가져왔다.
+어떤 의미에서 최초의 동물행동학자는 찰스 다윈이었는데, 그의 저서 《인간과 동물의 감정표현》(The Expression of the Emotions in Man and Animals)은 많은 동물행동학자들에게 영향을 주었다.
+생물지리학은 판 구조론, 기후 변화, 분산 및 이주, 분지학과 같은 주제에 초점을 맞추어 지구 상의 생물체의 공간 분포에 대해 연구하는 학문이다.
+생명의 근본적인 과정에 대한 우리의 이해는 최근 수 십년 동안 이루어진 많은 발전에도 불구하고, 몇 가지 기본적인 문제들은 해결되지 못한 채로 남아있다.
+생물학이 해결하지 못한 주요 문제들 중 하나는 성의 주요 적응 기능, 특히 진핵생물에서 감수 분열 및 상동 재조합의 주요 과정이다.
+한 가지 견해는 성은 주로 유전적 다양성을 증가시키는 적응으로 진화해 왔다는 것이다.
+또 다른 견해는 성은 생식샘 DNA에서 정확한 DNA 복구를 촉진시키기 위한 적응이며, 증가된 유전적 다양성은 주로 장기적으로 유용한 부산물이 될 수 있다는 것이다.
+생물학이 해결하지 못한 또 다른 기본적인 문제는 노화에 대한 생물학적 기초에 대한 문제이다.
+노화에 대해 설명하는 다양한 경쟁 이론들이 존재한다.
+다음은 생물학의 주요 연구 분야들이다.
+천문의 다른 뜻은 다음과 같다.
+지구과학(, 영어: earth science 또는 geoscience)은 행성인 지구와 그 주위의 천체를 연구하는 학문들을 묶어 부르는 이름이다.
+지구의 환경은 크게 육지, 바다, 대기로 나누어지며, 이러한 환경들은 각각 지구과학의 주요 분야라고 할 수 있는 지질과학, 수문과학, 대기과학 분야의 주요연구대상이 된다.
+일반적으로 지구과학으로 불리는 학문들은 대기에서 일어나는 현상을 대상으로 하는 기상학, 지구 표면의 물질을 주로 대상으로 하는 지질학, 바다 현상을 대상으로 하는 해양학, 지구의 깊은 속에서 일어나는 현상을 대상으로 하는 지구물리학과 실용적인 응용분야로서 환경공학 등이 있다.
+지구과학에는 많은 전문 분야가 포괄되지만 대체로 여섯 가지로 나뉜다.
+고전역학 양자역학 통계역학 열역학 동역학 유체동역학 정역학 열역학 유체동역학 광학 특수 상대성 이론 일반 상대성 이론 표준모형 양자장론 초끈이론 고전 역학(, 영어: classical mechanics)은 투사체, 기계 부품, 우주선, 행성, 별, 은하 등의 물체의 운동을 설명하는 물리 이론이다.
+고전역학은 물체에 작용하는 힘과 운동의 관계를 설명하는 물리학이다.
+뉴턴의 운동법칙을 만든 뉴턴의 이름을 따 "뉴턴 역학"이라고 불린다.
+고전역학은 다시 크게 두 분야로 나뉜다.
+하나는 힘이 균형을 이루어 움직이지 않는 물체들을 다루는 정역학이며 다른 하나는 운동하는 물체를 다루는 동역학이다.
+(역학 참조) 고전역학은 일상생활에서 일어나는 현상들을 매우 정확하게 설명하고 예측할 수 있다.
+그러나 매우 빠른 속도로 움직이는 계에서는 상대성이론, 원자단위와 같은 극히 미세한 스케일의 계에서는 양자 역학에 자리를 내주었으며, 그리고 그 두 가지 조건을 동시에 만족하는 계에서는 양자 마당 이론이 그 역할을 대신하고 있다.
+그렇지만, 고전역학은 다음과 같은 이유로 여전히 아주 유용하다.
+실제로 고전 역학은 다음과 같은 물체들의 운동들을 잘 설명하고 있다.
+고전역학은 따로 발전된 고전 전자기학, 그리고 고전 열역학과 거의 모순되지 않는 것처럼 보였으나, 19세기에 들어서 더 심각한 모순점들이 드러나 현대 물리학이 필요하게 되었다.
+특별히 고전 비상대론 전기역학은 에테르 매질에 대해 빛의 속도가 일정하리라고 예측하였다.
+이 예측은 고전 역학과 융화될 수 없었고 그러한 사실이 특수상대론의 성장으로 이어졌다.
+그리고 고전 열역학과는 엔트로피가 잘 정의될 수 없는 양이 되는 깁스 역설과 흑체복사의 자외선 영역에서의 무한한 에너지의 예측 등의 모순을 빚었다.
+이러한 문제들을 해결하기 위한 노력으로 인해 양자 역학이 성장하게 되었다.
+여기서 고전 역학의 기본개념들을 소개하고자 한다.
+이해하기 쉽게 점입자 - 즉 무시할 만큼 작은 크기를 가지는 물체 - 만 다루고자 한다.
+적은 수의 맺음변수(parameter)를 가지고 점입자의 운동을 기술할 수 있다.
+그 몇몇 맺음변수는 위치, 질량, 그리고 점입자에 가해지는 힘이다.
+맺음변수들 하나하나씩 살펴보기로 하자.
+실제로, 고전 역학으로 기술할 수 있는 물체 중에서 어떠한 것은 크기를 가지고 있다.
+진짜 점입자들(예: 전자)은 양자 역학에 의해 잘 설명될 수 있다.
+크기를 가지고 있는 물체들은 점입자라고 가정한 물체보다 훨씬 복잡한 운동 형태를 가진다.
+왜냐하면 내부 구조 또한 다른 운동의 형태를 가질 수 있기 때문이다.
+투수가 회전을 걸어 던진 야구공을 예로 들 수 있다.
+그러나 우리는 야구공과 같은 물체를 서로 상호작용하는 수많은 입자의 집합체로 생각하여 점입자에 대해 얻은 결과를 적용할 수 있다.
+그리고 이러한 집합체 속 입자 간의 거리가 다른 물체와의 거리보다 충분히 작다면 이 집합체가 점입자처럼 행동한다는 것을 보일 수 있으며 또한 이렇게 야구공 같은 집합체를 점입자로 취급하는 것을 정당화할 수 있다.
+점입자의 위치는 공간 내의 임의의 고정된 한 점, 때때로 이것을 원점 즉 O, 을 기준으로 해서 정해지며, O에서 입자까지의 벡터 r로 정의된다.
+일반적으로 점입자는 움직이거나 변화하기 때문에 r은 t의 함수이다.
+여기서 시간은 임의의 초기시간 이후로 지나간 시간을 의미한다.
+아인슈타인 이전의 상대성(알려져 있기로는 갈릴레이의 상대성)에서는 시간은 모든 기준틀에서 절대적이다.
+속도, 즉 시간에 따른 위치의 변화율은 다음과 같이 정의된다.
+<math>\mathbf {v} ={d\mathbf {r}  \over dt}</math>.
+아인슈타인 이전의 상대성에서는 속도는 직접 더하고 빼기가 가능하다.
+예를 들면, 만약 자동차 A가 60 km/h의 속도로 50 km/h의 속도로 달리는 다른 자동차B 옆을 지나간다고 하자.
+이럴 때 60 km/h로 달리는 자동차A의 관점에서 보면 자동차 A는 속도60-50=10 km/h로 달리고 있는 다른 자동차 B의 옆을 지나가는 것이다.
+간단한 수식을 사용해보자.
+앞에서 논의한 자동차 B의 기준좌표계의 속도를 다음과 같이 정의 내린다면 벡터 u = ux (x는 x 방향의 단위벡터), 자동차A가 바라보는 자동차B의 속도는 다음과 같다.
+<math>\mathbf {v'} =\mathbf {v} -\mathbf {u}</math> 가속도(속도의 변화율)는 <math>\mathbf {a} ={\frac {d\mathbf {v} }{dt}}</math>.
+가속도 벡터는 속도의 크기가 변할 때, 방향이 변할 때 혹은 둘 다 변할 때 변한다.
+만약 v의 크기가 줄어든다면, 이것은 때때로 감속이라고 한다.
+하지만 일반적으로 감속을 포함해서 속도의 어떤 변화라도 간단히 가속도라고 말할 수 있다.
+좀 더 쉽게 설명하면 일반적으로 우리가 감속이라고 표현하는 경우는 가속도가 영(0)보다 작은 경우이다.
+<math>\mathbf {a} <0</math> 그렇다면 가속이라고 표현하는 경우는 가속도가 영(0)보다 큰 경우가 된다.
+<math>\mathbf {a} >0</math> 두 개의 기준틀(Frames of Reference) S와 S'를 생각해 보자.
+여기서 S'는 S에 대해 상대속도 u로 움직이고 있다.
+S와 S'에서 각각 바라보는 하나의 사건(event)이 있다.
+두 기준틀에서 바라보는 그 사건에 대한 연관성은 다음과 같다.
+이해하기 쉽게 예를 들면, 먼저 질량 m을 가지는 물체가 운동하고 있다고 하자.
+당신은 S에 있고, 당신의 친구는 S'에 있으며 당신의 친구가 속도 u로 달리고 있다고 생각해 보자.
+당신이 바라보는 물체의 속도는 v이며, 당신의 친구가 바라보는 속도는 v'이다.
+이런 경우에 v와 v'의 연관성은 다음의 수식으로 표현될 수 있다.
+뉴턴의 제2법칙은 한 입자의 질량과 속도와 힘(벡터양)의 관계를 설명한다.
+여기서 m은 입자의 질량 F는 그 입자에 가해지는 모든 힘들의 벡터합(외부에서 가해진 알짜힘)이다.
+그래서 뉴턴의 제2법칙은 다음{수식(1)}과 같다.
+<math>\mathbf {F} _{net}={\frac {d(m\mathbf {v} )}{dt}}</math> 이 양 mv는 운동량이라 불린다.
+보통 질량 m은 시간에 대해서 일정하며 이러한 경우에 뉴턴의 법칙은 좀 더 간단한 형태 {수식(2)} <math>\mathbf {F} _{net}=m\mathbf {a}</math> 로 바뀐다.
+여기서 a는 위에서 정의한 것처럼 가속도이다.
+항상 질량(m)이 시간(t)에 대해 일정한 것은 아니다.
+질량이 시간에 따라 변하는 예도 있다.
+먼 달로 쏘아 올린 로켓을 생각해 보자.
+로켓의 질량은 로켓이 멀리 날아갈수록 줄어든다.
+연료를 소모하기 때문이다.
+그러한 경우에는 위와 같은 간단한 형태{수식 (2)}는 틀린 것이 되며 뉴턴의 제2법칙의 완전한 형태{수식(1)}를 사용해야만 한다.
+뉴턴의 두 번째 법칙만으로 한 입자의 운동을 모두 기술할 수는 없다.
+F를 어떤 식으로 표현할 수 있어야 하는데, 이 식은 그 입자가 상호작용을 하고 있는 물리적인 상황을 고려함으로써 구할 수 있다.
+예를 들어, 저항력을 다음과 같이 입자의 속도에 대한 함수로 모형화할 수 있다.
+<math>\mathbf {F} _{\rm {R}}=-\lambda \mathbf {v}</math> 여기에서 λ는 양의 상수라고 하자.
+일단 입자에 작용하는 각 힘을 구하고 나면 그 식을 뉴턴의 두 번째 법칙에 대입하여 운동 방정식이라고 부르는 상미분 방정식을 만들 수 있다.
+앞에서 든 예를 계속 써서, 그 입자에 작용하는 힘이 마찰력뿐이라고 가정해 보자.
+그러면 운동 방정식은 다음과 같이 쓸 수 있다.
+<math>-\lambda \mathbf {v} =m\mathbf {a} =m{d\mathbf {v}  \over dt}</math>.
+위 식을 적분하면 다음과 같은 식을 얻을 수 있다.
+<math>\mathbf {v} =\mathbf {v} _{0}e^{-\lambda t/m}</math> 여기에서 v0는 초기 속도를 뜻한다.
+즉 이 입자의 속도는 시간이 지남에 따라 지수함수적으로 감소한다.
+이 식을 다시 한 번 적분하면 입자의 위치 r을 시간의 함수로 구할 수 있다.
+대표적인 힘의 예로 중력과 전자기학에서 나오는 로렌츠 힘 등을 들 수 있다.
+이 외에, 뉴턴의 셋째 법칙을 써서 입자에 작용하는 힘을 유도할 수도 있다.
+어떤 입자 A가 다른 입자 B에 F라는 힘을 작용한다는 것을 알고 있다면 B는 크기가 같고 방향이 반대인 반작용력 -F를 A에 대해 작용한다는 결론을 내릴 수 있다.
+힘 F를 한 입자에 주게되면 입자는 변위 δr만큼 움직이며 이 힘에 의해 행하여진 일은 스칼라양으로 다음과 같다.
+<math>\delta W=\mathbf {F} \cdot \delta \mathbf {r}</math>.
+입자의 질량이 일정하다고 하고 그 입자에 행하여진 총 일은 δWtotal 이라고 한다면, 뉴턴의 두 번째 법칙에 의해 다음과 같은 등식을 얻을 수 있다.
+<math>\delta W_{\rm {total}}=\delta T</math>, 여기서 T를 운동 에너지라고 부른다.
+점입자의 경우 아래와 같이 정의된다.
+<math>T={m|\mathbf {v} |^{2} \over 2}</math>.
+여러개의 입자로 구성된 물체의 운동에너지는 각각의 입자들의 운동에너지의 합으로 표현할 수 있다.
+특별한 힘의 종류인 보존력은 퍼텐셜 에너지의 스칼라 함수 V의 그라디언트로 나타낼 수 있다.
+<math>\mathbf {F} =-\nabla V</math>.
+입자에 작용하는 모든 힘이 보존력이라 하고 V를 총 퍼텐셜 에너지라하면 총 퍼텐셜 에너지는 입자에 작용하는 각 힘에 대응하는 퍼텐셜 에너지의 합으로 얻어낼 수 있다.
+그러면, <math>\mathbf {F} \cdot \delta \mathbf {r} =-\nabla V\cdot \delta \mathbf {r} =-\delta V</math> <math>\Rightarrow -\delta V=\delta T</math> <math>\Rightarrow \delta (T+V)=0</math>.
+이것이 에너지 보존 법칙이다.
+그리고 총 에너지 <math>E=T+V</math>는 시간에 대해서 상수이다.
+우리가 보통 다루는 힘이 보존력이기 때문에 이 법칙은 유용하게 쓰이는 경우가 많다.
+뉴턴의 운동 법칙은 입자계에 대한 유용한 결과를 얻게 해준다.
+참고 각운동량.
+고전역학에 대응하는 두 가지의 중요한 체계가 있다.
+라그랑지안 역학과 해밀토니안 역학이 그것이다.
+이 둘은 뉴턴 역학과 동등하나 문제를 풀 때 더 유용한 경우가 있다.
+이 둘과 현대 물리학 체계들은 보통, 힘이라는 개념을 우회해 에너지 같은 다른 물리량을 사용하여 역학계를 다룬다.
+두 개의 기준틀을 생각하자.
+이 중 하나는 다른 하나의 기준틀에 대해서 상대적인 속력 u로 움직이고 있다.
+예를 들면 차 한 대가 다른 차 한대에 대해서 10 km/h로 지나치는 상황을 들 수 있다.
+여기에서 u는 10 km/h가 될 것이다.
+두 기준틀 S 와 S'이며, S'은 S에 대해서 u의 속력으로 움직이고 있다.
+어떤 사건이 S기준틀에서는 시-공간 좌표로 (x,y,z,t) 로 표시되고, S에서는 (x',y',z',t') 로 표시된다.
+갈릴레이-뉴턴 상대론에서 어떤 사건의 시-공간 좌표는 갈릴레이 변환으로 알려진 군변환에 의해서 규정된다.
+시간이 어떤 기준틀에서도 절대적이라고 가정하면, x방향으로 상대속도가 u만큼 차이나는 기준틀간의 시-공간 좌표는 다음의 관계를 갖는다.
+(x' = 0 이어서 x = ut라 하자) x' = x - ut y' = y z' = z t' = t 이 방정식 4개가 갈릴레이 변환으로 알려진 군변환을 정의한다.
+자연을 지배하는 추상적인 원리가 있다는 것을 처음으로 제안한 것은 고대 그리스인들, 그 중에서도 특히 아리스토텔레스였다.
+갈릴레오 갈릴레이는 추상적인 법칙을 처음으로 제안한 과학자 중 한 명인데 그는 피사의 사탑에서 대포알 두 개를 떨어뜨리는 유명한 실험을 수행한 사람이기도 하다.
+(이 실험에서 그는 두 개의 무게가 다른 물체가 땅에 동시에 떨어진다는 이론을 검증했다.) 아이작 뉴턴경은 프린키피아에서 3개의 운동법칙을 처음으로 제안했으며 또한 이들 세 법칙이 일상적으로 접하는 물체나 천체의 움직임을 지배한다는 것을 증명했다.
+뉴턴 이후로 여러 수학자들의 손을 거쳐가며 고전역학은 더욱 수학적이며 추상적인 방향으로 발전하게 되었는데 라그랑주 역학, 해밀턴 역학이 그 예이다.
+열역학(, thermodynamics)은 에너지, 열, 일, 엔트로피와 과정의 자발성을 다루는 물리학의 분야다.
+통계 역학과 밀접한 관계를 가지며, 그로부터 수많은 열역학 관계식을 유도할 수 있다.
+물질이나 에너지를 서로 교환하는 여러 물리계 사이의 열역학적 과정을 다룰 때, 고전 열역학은 그 과정이 완료되는 시간이나 그 과정이 얼마나 빨리 일어나는지에 대해서는 관심을 갖지 않는다.
+"열역학"이라는 용어 대신 평형 열역학이란 용어를 사용하며, 준정적 과정(quasi-static process)이라는 개념이 매우 중요하다.
+준정적 과정은 "매우 천천히 변하여" 각 순간마다 "평형상태"로 간주할 수 있는 이상적인 과정을 말한다.
+비평형 열역학(non-equilibrium thermodynamics)에서 시간에 따라 변화하는 열역학적 과정을 연구한다.
+열역학 법칙은 매우 일반적인 법칙으로, 관찰하는 대상이나 물질 사이의 상호작용에 상관없이 항상 성립하는 법칙이다.
+즉, 관찰하고자 하는 계와 이를 둘러싼 환경 사이에 에너지와 물질 교환이 평형을 이룬다는 사실만 확인되면 항상 적용할 수 있다.
+이것에 대한 예로 20세기 초 알베르트 아인슈타인이 예측한 자발 방출(spontaneous emission)과 현재 연구 중인 블랙홀 열역학이 있다.
+열역학의 역사는 열과 에너지에 관한 정의라 해도 무관하다.
+1789년, 벤자민 럼포드에 의해 열을 물질의 일종이라 간주했던 열소이론이 깨지면서 열역학의 역사가 시작되었다.
+1801년 존 돌턴은 모든 기체는 온도의 증가에 따라 그 부피가 균일하게 증가한다는 사실을 발견했다.
+1808년 게이뤼삭은 모든 기체의 부피가 0으로되는 온도를 외삽에 의해 예측할 수 있게 하였고, -273°C를 절대온도 0이라고 하였다.
+1824년 니콜라 레오나르 사디 카르노가 카르노 사이클을 만들었고, 1849년 켈빈 경에 의해 타당성이 입증되었다.
+1850년 루돌프 클라우지우스는 열역학 제 2법칙을 정의했다.
+또한 몇 달 뒤에 열역학 제 1법칙도 정의했다.
+1873년 반데르발스가 상태방정식을 고안했다.
+1878년 조시아 깁스는 깁스에너지와 상률의 개념을 도입했다.
+1886년 라울은 프랑코 라울의 법칙을 발표하였고, 1901년 길버트 루이스는 퓨개시티와 활동도의 개념을 도입했다.
+1949년 레들리히와 쾅은 상태방정식을 실제기체에 맞게 수정하였고, 1955년 케네스 피쳐는 비중심 인자의 개념을 도입하였다.
+흔히 여기까지의 역사를 고전열역학의 범주로 불린다.
+일반적인 계의 형태나 계가 만족해야 하는 조건에 따라 계의 상태를 기술하기 위한 변수를 다르게 사용한다.
+일반적으로 많이 사용하는 변수는 다음과 같다.
+역학적 변수: 압력 : <math>p</math> 비부피 : <math>v</math> (또는 부피 : <math>V</math>) 통계적 변수: 온도 : <math>T</math> 엔트로피 : <math>S</math> 계를 구성하는 입자의 수가 일정하지 않은 열린 계(open system)에서는 다음과 같은 두 가지 변수를 더 생각한다.
+계의 입자 수 <math>N</math> 화학 퍼텐셜(chemical potential) <math>\mu</math> 위에 열거된 역학적 변수들은 근본적인 고전 물리학 혹은 양자 물리학으로 기술할 수 있지만, 통계적인 변수는 오로지 통계 역학으로만 이해할 수 있다.
+열역학이 적용되는 대부분의 경우에, 하나 이상의 열역학 변수는 변하지 않는 상수로 간주되고, 나머지 변수들만 변하게 된다.
+수학적으로, 이것은 계의 상태를 n-차원 공간의 한 점으로 대응시켜 기술할 수 있다.
+여기서 n은 상수가 아닌 변수의 개수이다.
+통계 역학을 고전 물리학이나 양자 물리학과 결합하여, 이들 변수들 사이의 관계식을 나타내는 상태 방정식을 유도할 수 있다.
+가장 간단하고 가장 중요한 상태 방정식은 바로 이상 기체의 상태 방정식이다.
+<math>pV=nRT</math> 여기서 <math>R</math>은 기체 상수다.
+혹은 다음과 같이 기술하기도 한다.
+<math>pV=NkT</math> 여기서 <math>k</math>는 볼츠만 상수로, 온도와 에너지 사이의 관계를 나타내는 기본 물리 상수다.
+기체상수는 볼츠만 상수를 몰로 나타낸 것이다.
+물리계의 열역학 변수는 다음과 같이 정의된 4가지 열역학 퍼텐셜로 정의할 수 있다.
+내부 에너지(internal energy) U : dU = TdS - pdV 헬름홀츠 자유 에너지 A : dA = -SdT - pdV 기브스 자유 에너지 G : dG = -SdT + Vdp 엔탈피 H : dH = TdS + Vdp 위에 열거된 열역학 퍼텐셜들은 서로 무관한 양이 아니고 적절한 관계를 가지고 있다.
+위의 열역학 퍼텐셜의 미분형을 합성함수의 미분을 사용하여 아래와 같은 관계식을 찾을 수 있다.
+<math>U=H-PV=A+TS</math> <math>A=U-TS=G-PV</math> <math>G=A+PV=H-TS</math> <math>H=G+TS=U+PV</math> 위에 열거한 열역학 퍼텐셜과 열역학 변수 사이 관계식은 계에 상관없이 성립한다; 이 관계식은 계의 구성요소간 상호작용에 무관하게 통계 역학으로부터 자연스럽게 얻을 수 있는 일반적인 관계식이다.
+하지만 계의 구성요소 사이의 상호작용이나, 양자역학적인 에너지 준위와 에너지 준위의 축퇴도(degeneracy), 혹은 계의 분배함수를 모른다면, 위 네 가지 열역학 퍼텐셜은 계의 열역학 변수로만으로 완전히 표현할 수는 없다.
+하지만 일단 열역학 퍼텐셜 중 하나가 열역학 변수로 완전히 결정된다면, 나머지 세 열역학 퍼텐셜은 위 관계식을 사용하여 쉽게 얻을 수 있다.
+열역학 계란 우주 전체 중에서 우리가 관심있는 일부를 말한다.
+우주 전체 중에서 우리가 관심갖는 계를 제외한 나머지 우주를 흔히 환경 또는 열원라고 부른다.
+환경과 계 사이에 실제 경계 혹은 가상적인 경계가 존재하여 이 둘을 분리할 수 있다.
+이 경계의 특성에 따라 환경과 계 사이에 에너지만 이동할 수도 있고, 물질이나 엔트로피도 이동할 수 있다.
+따라서 이 경계의 특성에 따라 열역학 계를 분류한다.
+계와 환경 사이의 에너지, 물질, 엔트로피 교환형태에 따라 다음과 같이 열역학 계를 3가지로 분류한다.
+고립계: 환경과 열, 물질, 일 모두 교환하지 않는 계이다.
+이 말은 수학적으로 <math>TdS=0,dN=0,pdV=0</math>를 의미하며, 따라서 <math>dE=0</math>를 의미한다.
+고립계의 예로, 외부와 완전히 격리된 기체 실린더를 예를 들 수 있다.
+닫힌계(closed system): 환경과 에너지(열과 일)는 교환하지만 물질은 교환하지 않는 계를 말한다.
+일반적으로 닫힌계에서는 오직 <math>dN=0</math>이다.
+예를 들어, 온실은 온실 외부(환경)과 열을 교환하지만 물질을 교환하지 않으므로 닫힌계로 간주할 수 있다.
+계가 열을 교환하든지 혹은 일을 교환하든지 혹은 둘 다 교환하든지, 이런 특성은 경계의 성질로 이해하여 다음과 같은 경계를 정의한다.
+단열 경계(adiabatic boundary): 열교환이 일어나지 않는다, <math>TdS=0</math> 단단한 경계(rigid boundary): 일 교환이 일어나지 않는다, <math>pdV=0</math> 열린 계(open system) : 에너지(열과 일), 물질 모두 환경과 교환하는 계이다.
+이런 경계는 투과성 있는(permeable) 경계라 한다.
+바다는 열린 계로 간주할 수 있다.
+현실적으로 환경으로부터 완전히 분리된 엄밀한 고립계는 존재할 수 없다.
+왜냐하면 아무리 환경과 계 사이의 결합을 제거하더라도 중력은 제거할 수 없기 때문이다.
+정상상태의 계에서 빠져나가는 에너지와 들어오는 에너지는 같다.
+보관됨 2005-06-04 - 웨이백 머신 주어진 일련의 조건 하에서 평형상태의 계는 정의된 상태(definite state)라고 한다.
+계의 상태는 여러 세기 변수(intensive variables)와 크기 변수(extensive variables)로 기술된다.
+계의 특성은 이 변수들 사이의 관계를 정해주는 상태 방정식(equation of state)로 기술된다.
+열역학에는 네 가지의 근본적인 법칙이 있다.
+이 사법칙은 여러 가지의 서로 동등한 방법으로 기술할 수 있다.
+열역학 제 0 법칙에 따르면, 만약 계 A와 계 B가 접촉하여 열역학적 평형상태를 이루고 있고 계 B와 계 C가 접촉하여 열역학적 평형상태를 이루고 있다면, 계 A와 계 C가 접촉하여도 열역학적 평형을 이룬다.
+두 계가 접촉하였을 때 열역학적 평형을 이루지 못한다면, 두 계 사이에 에너지나 물질의 알짜이동이 있다.
+서로 열역학적 평형을 이루고 있는 두 계는 나중에 다시 접촉하였을 때도 평형을 이룬다.
+열역학 제0법칙은 열역학의 근본적인 개념이지만, 이것을 법칙으로 진술하게 된 것은 놀랍게도 열역학의 많은 부분이 완성된 후인 1930년대이다.
+이미 열역학 1, 2, 3법칙이 확립되었기 때문에, 열역학의 가장 근본적인 이 개념은 자연스럽게 0법칙의 지위를 얻게 되었다.
+여전히 열역학 제0법칙의 지위에 대한 논의가 이루어지고 있다.[출처 필요] 열역학적 평형은 열적 평형(열교환과 온도와 관계)과 역학적 평형(일교환과 압력 같은 일반화된 힘과 관계)과 화학적 평형(물질교환과 화학퍼텐셜과 관계)을 포함한다.
+요약: A와 B가 열평형을 이루고 있고, B와 C가 열평형을 이루고 있다면, A와 C도 서로 열평형을 이룬다.
+열역학 제 1 법칙에 따르면, 단열 과정에서 일교환은 과정(process)의 구체적인 형태에 상관없이 초기 상태와 최종 상태에만 관계한다.
+단열과정에서는 열이동이 없기 때문에, 이것은 에너지 보존 법칙과 동등한 진술이다.
+이 법칙은 단열과정하에서 계의 에너지 이동은 계가 한 일 혹은 계에 한 일밖에 없음을 의미한다.
+이는 수학적으로 다음과 같이 표현된다.
+<math>dU=dq+dw</math> <math>dU=dq+dw</math> 여기서 U는 계의 내부 에너지, q는 계로 흘러들어간 열에너지, w는 계가 한 일이다.
+고온의 열저장고와 저온의 열저장고를 물체로 연결해놓으면 고온의 열저장고에서 열에너지가 저온의 열저장고로 전도된다.
+이러한 전달되는 열에너지를 단위시간당 전달되는 비율을 전도율이라고 한다.
+연결된 물체의 면적을 A, 길이를 L이라고 하면 전도율 P = kA(Th-Tc)/L로 나타낼 수 있다(k=열전도도, Th=고온의 열저장고의 온도, Tc=저온의 열저장고의 온도).
+열전도도 k는 물체의 고유한 특징으로 상수값을 지닌다.
+열에너지를 빨리 전달하는 물질일수록 좋은 열전도체로서 k값이 크다.
+요약: 고립계의 에너지총합은 일정하다 열역학 제2법칙에 따르면, "열원(reservoir)으로부터 양의 열에너지를 뽑아서 모두 일로 전환하되, 다른 추가적인 효과를 동반하지 않는 순환과정(cycle)은 존재하지 않는다."(Kelvin-Planck 진술) 다시 말해, 열적으로 고립된 거시계의 엔트로피는 절대 감소하지 않는다(맥스웰의 도깨비 참고).
+하지만 미시계에서는 제2법칙이 진술하는 것과 반대로 행동하는 엔트로피의 요동(fluctuation)이 있다(요동 정리(Fluctuation Theorem)).
+사실, 가역 동역학(time-reversible dynamics)와 인과율의 공리(Axiom of Causality)로부터 요동 정리를 수학적으로 증명할 수 있고, 이것이 제2법칙의 증명이 되겠다.
+논리적으로 제2법칙은 물리학의 "법칙"이라기 보다, 매우 큰 계 혹은 오랜 시간에 대한 정리일 뿐이다.
+요약: 고립계에서의 엔트로피는 절대 감소하지 않는다.
+열역학 제3법칙은 통계학상으로 나타나는 자연적인 법칙이며, 절대영도에 다다르는 것의 불가능에 대하여 다룬다.
+이 법칙은 엔트로피의 값의 결정에 기준점(절대영도)을 제공해 주는데, 이처럼 절대영도를 기준으로 하여 상대적으로 결정된 엔트로피를 절대 엔트로피라고 한다.
+엔트로피는 절대영도에 가까워질수록 변화량이 0에 수렴하며, 절대영도에서 완전한 결정상태의 엔트로피는 0이다.
+다만 자연계에서 절대영도는 존재할 수 없고 단지 0으로 수렴할 뿐이다.
+'어떠한 계, 혹은 계의 어떠한 상태에서든지, 엔트로피는 절대영도에서 최소이다'라고 표현할 수도 있으며, '유한번의 과정을 통해 절대영도에 도달하는 것은 불가능하다'라는 표현도 사용할 수 있다.
+요약: 자연계에서 절대영도는 존재하지 않는다.
+열역학 제1법칙은 고전역학 혹은 양자역학의 법칙만으로 엄밀하게 얻어진다.
+요동 정리(fluctuation theorem)로부터 열역학 제2법칙을 역학법칙으로부터 유도할 수 있으나.
+거시계나 시간을 무한대로 보내는 극한에서만 성립한다.
+기관이란 열저장고에서 열을 뽑아 일을 수행하는 장치다.
+기관의 효율은 열효율로 나타낸다.
+열효율은 공급된 열에너지에 대한 일의 비율 (즉 사용한 에너지/얻은 에너지)로 정의한다 열효율이 마찰이나 막흐름 등에 의한 에너지 손실이 하나도 없이 최대가 되는 기관을 카르노 기관이라고 한다.
+일반적으로 열효율 = W(일)/얻은 열에너지(Qh) = 1 - Ql(방출한 열에너지)/Qh 열효율 = W(일)/얻은 열에너지(Qh) = 1 - Ql(방출한 열에너지)/Qh 인데, 카르노 기관에서는 열효율 = 1 - Tl(저온의 열저장고의 온도)/Th(고온의 열저장고의 온도) 열효율 = 1 - Tl(저온의 열저장고의 온도)/Th(고온의 열저장고의 온도) 이다.
+Tl<Th이므로, 카르노 기관의 효율은 100%보다는 낮음을 알 수 있다.
+즉, 효율이 100%인 가상의 영구기관은 열역학 제2법칙을 위배하여 실재할 수 없다.
+흑체 복사 문제는 광자의 개수가 보존되지 않기 때문에 대표적인 예제가 될 수 있다.
+이렇게 입자수가 보존되지 않는 계는 상전이나 자발대칭파괴가 일어나지 않는다면, 온도만으로 완전히 결정된다.
+상전이나 자발대칭파괴가 일어난다면, 상을 구별하기 위해 다른 물리량이 필요하다.
+(다행히도 흑체 복사 문제에서는 이런 일은 이러나지 않는다.) 내부 에너지가 온도만의 함수이므로, 헬름홀츠 자유 에너지 F = U - TS를 정의해서 사용할 수 있다.
+대부분의 "순수한" 비자성물질은 이 범주에 속한다.
+이러한 계의 상태는 정렬된 상(ordered phase)에서 상전이나 자발적인 대칭성 파괴가 없다면 온도와 압력만으로 완전히 기술할 수 있다.
+U와 V(혹은 밀도 ρ)가 T와 P의 함수로 주어진다면, 우리는 헬름홀츠 자유 에너지 F = U - TS와 기브스 자유 에너지 G = U - TS + PV와 엔탈피 H = U + PV를 정의할 수 있다.
+원자/분자가 한 종류 이상 있다면, 이 범주에 속한다.
+이러한 계의 상태는 온도와 압력, 화학 퍼텐셜로 기술할 수 있다.
+여기서도 정렬된 상의 상전이나 자발적인 대칭 파괴가 없을 때만 3가지 양으로 기술할 수 있다.
+다루고자 하는 물질이 강자성이나 초전도성을 띠면, 이 범주에 속한다.
+이러한 계는 온도와 자기장만으로 완전히 기술된다.
+이 경우도 상전이나 자발적인 대칭 파괴가 없을 때이다.
+고전역학 양자역학 통계역학 열역학 동역학 유체동역학 정역학 열역학 유체동역학 광학 특수 상대성 이론 일반 상대성 이론 표준모형 양자장론 초끈이론 전자기학(, 영어: Electromagnetism)은 전기와 자기 현상을 탐구하는 학문이다.
+전기와 자기는 전자기장을 이룬다.
+자기 현상은 이미 기원전 2000년 무렵 중국 문헌에 등장하며, 전기 역시 기원전 700년 무렵 고대 그리스 세계에 알려져 있었다.
+그러나, 전기와 자기가 전자기력이라는 동일한 기본 상호작용에 의한 현상이라는 점은 19세기에 와서야 밝혀졌다.:533 양털로 만든 옷감에 플라스틱 빗을 여러 번 문지른 후 머리카락에 갖다 대면 머리카락이 빗에 달라 붙는 것을 볼 수 있다.
+이와 같이 물체가 전기를 띄게 되는 것을 대전되었다고 한다.
+고대 그리스 시대의 철학자 탈레스는 호박()을 마찰하면 호박에 작은 물체가 달라 붙는 것을 관찰하였다.
+전기를 뜻하는 영어: electricity는 호박을 뜻하는 그리스어: ἤλεκτρον에서 온 것으로 추정된다.
+위에 든 예와 같이 두 물체를 마찰하여 대전된 전기를 정전기라고 하는데, 정전기가 대전되는 까닭은 물체를 이루는 원자가 지니는 전자 가운데 일부가 적은 에너지로도 쉽게 원자에서 벗어날 수 있기 때문이다.
+이렇게 원자로부터 벗어나 움직이는 전자를 자유 전자라고 한다.[주해 1] 금속과 같이 자유 전자를 많이 지닌 물질은 언제나 전자들이 쉽게 이동하기 때문에 대전되었더라도 다른 물체와 닿게 되면 전기가 쉽게 전달되어 버린다.
+이런 물체를 도체라고 한다.
+반면에 고무나 유리와 같은 물질은 자유전자가 매우 적어서 한 번 대전되면 전하를 비교적 오랫동안 유지하게 된다.
+이런 물체를 부도체라고 한다.
+물질 가운데에는 상태에 따라 도체와 부도체의 성질을 모두 가질 수 있는 것도 있다.
+이런 물질들은 반도체라고 부른다.
+반도체는 최근 여러 전자 제품에 널리 사용되고 있다.
+전기에는 서로 다른 두 종류의 전하가 있어서 같은 것은 밀쳐내고 다른 것과는 끌어당긴다.
+18세기 미국의 과학자이자 정치가였던 벤저민 프랭클린은 두 전하를 한 쪽은 양 전하, 다른 쪽은 음 전하라고 이름 붙였다.:536 이런 척력과 인력의 크기는 물체가 갖고 있는 전하의 양과 두 물체 사이의 거리에 관계된다.
+이렇게 정전기로 대전된 두 물체 사이에 작용하는 힘은 쿨롱의 법칙으로 계산될 수 있다.:65-68 어떤 공간에 대전된 한 개의 물체가 있다고 할 때, 이 물체 근처로 지나가는 다른 대전된 물체는 쿨롱의 법칙에 따라 서로의 거리가 가까워 질 수록 더 강한 힘을 받게 된다.
+반대로 일정 거리 이상 멀어지면 두 전하 사이의 힘은 무시될 수 있을 정도로 작아질 것이다.
+이렇게 하나의 전하에서 만들어지는 전기력이 영향을 미치는 범위를 전기장이라고 한다.
+전기장의 세기는 어떤 위치에 있는 물체가 단위 전하당 얼마만큼의 힘을 받는지로 계산한다.
+국제단위계로 나타내면 쿨롱당 뉴턴, 즉 <math>N/C</math>로 나타낸다.
+물체에 고여있는 정전기와 달리 전류는 양전하에서 음전하로 흐르는 전기의 흐름이다.
+1800년 이탈리아의 과학자 알레산드로 볼타는 황산 수용액에 구리막대와 아연막대를 담은 후, 두 막대를 금속선으로 이어 전지를 발명하였다.
+볼타 전지는 최초로 전류를 지속적으로 공급하는 장치였다.:45-47 고대 중국에서는 자석에 철이달라붙는 다는 사실과 자석이 남북을 가리킨다는 사실을 알고 있었다.
+고대 중국인들은 이러한 성질을 이용하여 나침반을 만들어 사용하였다.
+나침반은 세계 여러 곳에 전파되어 항해에 필수적인 장비가 되었다.:102 자석은 전하와 같이 같은 극끼리는 밀치고 다른 극끼리는 잡아당기는 힘이 작용한다.
+관례적으로 자석에서 북극을 가리키는 쪽을 N극, 반대편을 S극이라고 한다.
+물질이 자기를 띄게 되는 것은 원자가 스스로 전류 고리를 갖기 때문이다.
+원자핵의 자전과 원자핵 주변을 돌고 있는 전자의 공전과 자전때문에 원자에 전류 고리가 생기고 이 때문에 원자 자체에 N극과 S극의 성질을 나타내는 자기쌍극자가 형성된다.
+전기의 기본 단위인 전하가 음전하 또는 양전하 홀로 존재할 수 있는 것과는 다르게 자기는 자기쌍극자에 의해 발생하는 현상이기 때문에, 기초 단위에서부터 N극과 S극이 동시에 존재한다.:680 자석에 철과 같은 물질이 달라붙는 현상을 자기라고 하고, 자석에 달라붙는 물질을 자성체라고 한다.
+널리 알려진 자성체로는 철 이외에 니켈과 같은 것이 있다.
+자기에 반응하지 않는 물질은 비자성체라고 하며, 이 외에 자석에 아주 약하게 반응하는 알루미늄, 크롬과 같은 물질은 상자성체, 구리, 금, 은과 같이 자석이 가까이 가면 약하게 반발하는 물질은 반자성체라고 한다.:137 대부분의 물질은 원자단위의 자기쌍극자가 무질서하게 놓여져 있기 때문에 서로간의 자기가 상충되어 자성을 띄지 않지만, 철이나 니켈같은 물질들은 원자의 배열이 자기가 한 쪽 방향으로 정렬되기 쉽도록 되어 있어서 쉽게 자성을 띄게 되고 한 번 자석이 되면 계속하여 자성을 유지하게 된다.
+자성을 잃지 않고 계속 지니는 자석을 영구 자석이라고 한다.
+철 막대를 자석의 한 극으로 내려 치면 철 원자의 자기쌍극자가 한 쪽으로 정렬되어 영구 자석이 된다.
+한편, 영구 자석이 된 철이라고 하더라도 약 770℃ 가 되면 자성을 잃는데, 열에 의해 원자가 무질서하게 운동하기 때문이다.
+전기장과 마찬가지로 자기가 미치는 공간을 자기장이라고 한다.
+위에 설명한 바와 같이 자기의 단위 자극인 자하는 전하와 달리 홀로 존재하지 않고 언제나 쌍극자로 존재하므로 N극에서 나와 S극까지 이어지는 하나의 자기 흐름을 생각할 수 있다.
+이렇게 하나의 폐곡선으로 연결되는 자기 흐름을 자기력선이라고 하는데, 자기장은 일정 공간에 자기력선이 얼마나 많이 모여있는지와 그렇게 모인 자기력선이 얼마나 센 지를 고려하여야 한다.
+자기력선이 일정 공간에 얼마나 많이 모여 있는지는 자기 선속 밀도()라고 하며, 관례적으로 <math>{\overrightarrow {B}}</math>로 나타낸다.
+한편, 특정 위치에서 자기장의 세기는 <math>{\overrightarrow {H}}</math>로 나타내는데, 그곳에 놓인 자하가 받는 힘을 뜻한다.[주해 2] 국제단위계에서는 자기장의 단위로 테슬라(T)를 사용하지만 일반적으로는 가우스(G)가 더 많이 쓰인다.:683 자기장의 경우에 자기 선속 밀도와 자기장의 세기가 다른 까닭은 자기장이 통과하는 매질마다 자기장을 전달하는 비율이 다르기 때문이다.
+어떤 물질이 자화되어 자기장을 전달하는 비율을 투자율()이라고 하고 그리스 문자 μ로 나타낸다.
+투자율은 물질마다 고유의 값이 있는데 투자율이 수백에 근접하는 강자성 물체를 제외하면 대부분의 물질은 1에 가까운 투자율을 가지고 있다.:39[주해 3] 진공 또는 자유공간의 투자율은 특히 μ 0로 나타내며, 그 값은 <math>4\pi \times 10^{-7}A/m</math>이다.
+자기장의 자기 선속 밀도 <math>{\overrightarrow {B}}</math>는 자기장의 세기<math>{\overrightarrow {H}}</math>에 투자율 μ를 곱한 것과 같은 값을 갖는다.
+즉, 다음과 같은 수식으로 나타낼 수 있다.:39 <math>{\overrightarrow {B}}=\mu {\overrightarrow {H}}</math> 전기와 자기는 아주 오래전부터 알려진 현상이었지만, 이 둘이 사실은 같은 상호 작용이란 것은 19세기에 와서야 밝혀졌다.
+1820년 덴마크의 과학자 한스 크리스티안 외르스테드는 전류가 흐르는 도선 가까이 나침반을 두면 나침반의 바늘이 가리키는 방향이 변하는 것을 관찰하고 전류와 자기 사이에 연관이 있음을 밝혀냈다.
+프랑스의 과학자 앙드레마리 앙페르는 외르스테드의 논문을 읽고 자신도 같은 실험을 하여 전류가 흐르는 도선에 생기는 자기장의 방향을 관찰하였다.
+앙페르는 전류가 오른손의 엄지손가락 방향으로 흐를 때 자기장은 나머지 네 손가락을 말아쥔 방향으로 형성된다는 것을 밝혔는데, 오른손 엄지를 위로 치켜 든다면 나머지 말아 쥔 네손가락은 반시계방향을 나타내게 된다.
+이러한 발견은 앙페르의 오른나사 법칙이라는 이름으로 널리 알려지게 되었고, 훗날 수리 모형이 만들어져 앙페르의 회로 법칙이 수립되었다.
+1824년 영국의 과학자 윌리엄 스터전은 전류에서 발생하는 자기장을 이용하여 전자석을 만들었다.
+스터전이 처음 만든 전자석은 말굽 모양의 철심을 자기 코어로 이용한 것이었다.
+스터전은 자기 코어에 굵은 구리 전선을 18 번 감아 전자석을 만들었다.
+당시에는 오늘날과 같은 절연체가 없었기 때문에 스터전은 구리 도선에 바니시를 발라 절연체로 사용하였다.
+전류가 자기장을 만든다는 사실이 알려지자, 자기장에서도 전류를 만들 수 있지 않을까 하는 의문을 갖는 것은 어찌보면 당연한 것이었다.
+1831년 마이클 패러데이는 자석을 도선 가까이에서 움직이면 전류가 생긴다는 것을 밝혀내었다.
+패러데이는 영구 자석이든, 전자석이든 자기장을 형성하는 것이기만 하면 도선가까이에서 움직이면(즉, 자기장의 변화가 일어나면) 전류가 생긴다는 것을 알아내고 이를 정리하여 패러데이 전자기 유도 법칙을 발표하였다.
+자기에서 전기가 유도될 수 있다는 것이 알려지자, 이것을 이용한 많은 기술들이 발명되었다.
+니콜라 테슬라는 전자기 유도를 이용하여 교류 발전기를 발명하였다.
+1864년 제임스 클러크 맥스웰은 기존의 전기와 자기에 대한 이론의 수리 모형들을 약 20개의 방정식으로 정리하였다.
+맥스웰은 나중에 의미가 같은 방정식들은 과감히 생략하고 본질적인 네 개의 방정식으로 정리하였다.
+이를 맥스웰 방정식이라고 한다.:112 맥스웰 방정식이 다루는 전자기학의 법칙은 다음과 같다.[주해 4] 맥스웰은 전자기학에 대한 법칙들의 수리 모형을 정리하면서 로런츠 힘은 다루지 않았다.
+로렌츠 힘은 전하를 띈 물체가 전기장 안에서 받는 힘을 뜻한다.
+오늘날 전자기학은 맥스웰 방정식과 로런츠 힘을 기반으로 하고 있다.:114-115 맥스웰은 맥스웰 방정식을 정리한 후, 자계가 사인파와 같은 파동을 보이며 변화한다면 전계 역시 그에 따라 사인파 파동을 만들어 내게 될 것이고, 그 반대도 마찬가지 일 것이므로, 전기와 자기의 성질을 모두 갖는 파동, 즉 전자파가 존재할 것이라고 예측하였다.
+맥스웰이 예측한 전자파는 1888년 하인리히 루돌프 헤르츠의 실험을 통해 증명되었다.
+이후, 전기 회로에서 생성된 전자파를 안테나를 통해 방출하거나 수신할 수 있다는 것이 알려지게 되었고, 이를 이용하여 무선 통신이나 방송과 같은 전자파를 이용한 기술들이 발명되었다.:175-182 상대성이론(, 독일어: Relativitätstheorie, 영어: theory of relativity) 또는 상대론(, 독일어: Relativität, 영어: relativity, 문화어: 상대성)은 알베르트 아인슈타인의 주도로 정립된 시간과 공간에 대한 물리 이론이다.
+특수 상대성 이론과 일반 상대성 이론으로 나뉜다.
+상대성 이론에 따르면, 서로 다른 상대 속도로 움직이는 관측자들은 같은 사건에 대해 서로 다른 시간과 공간에서 일어난 것으로 측정하며, 그 대신 물리 법칙의 내용은 관측자 모두에 대해 서로 동일하다.
+상대성 이론은 단순한 자연 법칙이 아니고 일종의 사고 체계라고 할 수 있다.
+상대성 이론은 인식에 대한 대변혁을 일으킨 것이다.
+추상적 수학 개념과 세밀한 관측이 자연을 이해하는 열쇠가 된다고 알려준 갈릴레오 갈릴레이와 아이작 뉴턴이 해결하지 못했던, 측정의 대상이 되는 물체와 측정의 기준이 되는 기준 좌표계의 관계를 이해하기 위한 고민에서 상대성 이론이 시작되었다고 할 수 있다.
+아인슈타인은 상대성 이론에 대해 다음과 같이 언급한 바 있다.
+특수 상대성 이론은 시공의 구조에 대한 것이다.
+아인슈타인은 1905년의 <운동하는 물체의 전기역학에 대하여(독일어: Zur Elektrodynamik bewegter Körper, 영어: On the Electrodynamics of Moving Bodies)〉라는 논문에서 특수 상대성 이론을 처음으로 선보였다.
+특수 상대성 이론은 맥스웰의 전자기학이 고전역학의 갈릴레이 대칭성을 지키지 않는다는 모순을 설명하기 위해 만들어졌다.
+전자기학을 통해 전자기파의 속도를 계산할 수 있는데, 이렇게 구한 전자기파의 속도는 관측자의 상대 운동과는 관계없이 상수이며, 이는 갈릴레이 대칭성을 위반한다.
+이 문제를 해결하기 위하여 알베르트 아인슈타인은 두 개의 공준을 도입하고, 그 공준에 따르면 자연계는 갈릴레이 대칭성 대신 로런츠 대칭성을 따른다는 사실을 보였다.
+우와 특수 상대성이론에서는 관성 좌표계의 관측자가 자신의 "절대 운동"을 실험적으로 측정해 낼 수 다고 생각한다.
+또한 진공에서의 빛의 속도는 관성 좌표계에 있는 각각의 관측자 모두에 대해 동일하다고 가정한다.
+특수 상대성 이론은 단 두 개의 공준만을 바탕으로 하며, 이로써 다른 모든 결론을 도출할 수 있다.
+첫 번째 공준은 (절대적 속도를 허용하지 않는) 고전역학의 갈릴레이 대칭을 부정한다.
+두 번째 공준은 역학에서의 상대성 원칙을 전자기학까지 확장한 것이다.
+이 두 공준으로부터 다음과 같은 현상들을 예측할 수 있다.
+여기서 S는 고정 관성계이며 S1은 운동하는 관성계이다.
+두 사건의 고유 시간이 <math>t_{0}</math>이면 임의의 관성계에서 측정한 시간 t는 다음과 같다.
+<math>t=\gamma t_{0}</math><math>{\Bigl (}\gamma ={1 \over {\sqrt {1-\left({\frac {\upsilon }{c}}\right)^{2}}}}{\Bigr )}</math> 빛으로 작동하는 시계를 생각해보자.
+이 시계는 한 쪽면에는 에미터에서 빛을 매우 짧은 간격으로 방출하고 반대쪽으로는 디텍터가 그 빛을 받아 1초를 계산한다고 한다.
+시계가 움직이지 않는다면 (즉 S 관성계에 있다면) 이 시계는 정확하게 1초마다 시간이 움직일 것이다.
+이제 이 시계를 시계 빛의 진행 방향으로 움직여 보자.
+이때 시계를 움직이는 관성계(S1)에 놓게 되면 S1관성계에서 시계는 움직이지 않을 것이고(S1관성계는 일정한 속도로 이동하고 있다)이 시계는 아까와 같이 1초마다 시간을 체크할 것이다.
+이제 S관성계에서 S1관성계를 바라보도록 하자.
+빛의 속도는 일정하지만(특수상대성원리의 가정) S1관성계의 에미터에서 방출된 빛이 디텍터에 닿는 동안 디텍터는 조금 더 이동하게 된다.
+이동한 거리만큼 빛은 조금 더 이동해야 디텍터에 도달하게 되고 이것은 시간이 1초보다 더 걸린다는 것을 의미한다.
+즉 S관성계에서 S1을 보는 사람에게 S1의 시간은 느리게 가는 것처럼 보이는 것이다.(주의해야할 점은 S1에서는 항상 1초마다 똑딱거리고 있다) 이것은 위의 시간 팽창을 조금 더 응용하면 쉽게 알 수 있다.
+기차의 중앙에서 빛이 쏘아지고 이 빛이 기차의 양 끝에 닿게되면 기차 양끝의 문이 열린다고 생각해보자.
+S1(움직이는 관성계- 기차가 이동한다)에서 관측을 하게 되면 멈춰있는 기차에서 양 끝으로 이동하는 시간은 같게 되므로 기차의 내부의 관찰자는 기차의 양 문이 동시에 열린다고 생각할 것이다.
+하지만 S관성계에서의 관찰자는 기차의 진행방향의 문이 더 늦게 열리고 그 반대방향의 문이 더 빨리 열린다고 생각하게 된다.
+왜냐하면 진행방향으로의 빛은 더 이동해야하므로 더 늦게 열리고 그 반대방향의 문은 더 빨리 접근하므로 더 빨리 열리게 되는 것이다.
+즉 동시에 일어난 사건이라고 하더라도 어느 관성계에서 사건을 보느냐에 따라서 동시에 일어나지 않을 수 있다는 것이다.
+관찰자에 대해 운동하고 있는 물체는 관찰자에게 운동하는 방향으로 그 길이가 줄어든 것으로 측정된다.
+여기서, 길이 수축은 운동 방향과 나란한 방향으로반 발생한다.
+즉 x축으로 진행하는 물체의 길이 수축은 x축 방향으로만 일어나며 y, z축으로의 길이 수축은 일어나지 않는다.
+오로지 한 방향으로만 길이 수축이 일어난다는 의미이다.
+일반 상대성 이론은 1915년에 아인슈타인이 발표하였다.
+(프로이센 과학 아카데미에서 1915년 11월 25일에 제출) 일반 상대성이론은 특수 상대성이론의 확장판이라 하면 이해하기 쉬울 것이다.
+이 이론은 뉴턴의 고전 물리학에 결정타를 날림으로서 새로운 물리학적 이론의 길을 열었다는 점에서 의의가 있다고 할 수 있다.
+일반 상대성 이론에 대해 알아보기 전에 먼저 이를 전개하기 위해 필요한 한 가지 가정을 보도록 하자.
+등가원리 -가속 좌표계에서 지구로 인해 생기는 중력과 중력 가속도 g와 같은 크기의 가속도 a로 중력의 작용 방향과 반대로 운동하는 것으로 인한 관성력은 구분할 수 없다는 원리이다.
+(관성력은 가속 좌표계에서 뉴턴 운동 제2법칙을 적용하기 위해 도입한 가상의 힘으로, 관성력의 방향은 계의 가속도의 방향과 반대 방향이다) 즉, 관성질량과 중력질량이 같은 측정값을 지닌다는 것이다.
+1.
+시공간 일반 상대성 이론에서 아인슈타인은 '시공간은 4차원, 즉 시간과 공간이 결합된 형태의 연속체'임을 규명했다.
+뉴턴이 시공간이 시간과 공간으로 분리되어 서로 영향을 주고받지 않는 별개의 공간인 점과, 공간위의 한 점에 위치한 물체에 어떠한 영향도 받지 않을 것이라고 생각한 반면에 아인슈타인의 사고실험에서 아인슈타인은 시공간이 서로 상호작용을 함과, 공간위에 위치한 어떠한 질량을 가진 물체에 대하여 공간이 휘어짐을 제시하였다.
+2.
+중력 아인슈타인은 뉴턴의 중력을 가속 좌표계에 적용시켰다.
+그는 중력 가속도 g의 크기만큼 가속하는 가속계 내의 물체와, 중력을 받고있는 물체는 서로 구분이 불가능하다는 이론을 내세움으로서 가속계를 관성계로 해석가능함을 보였다.
+3.
+중력으로 인한 시간 팽창 위에서 가속계 역시 관성계로 인식할 수 있다고 하였다.
+따라서 가속계의 물체는 관성계에서 물체의 이동으로 판단할 수 있고, 특수 상대성이론에 따라 시간 지연이 일어남을 알 수 있다.
+이로서 중력을 받는 물체는 그 물체에 흐르는 시간이 느려지게 된다.
+4.
+공간 왜곡으로 일어나는 현상 4-1.
+빛의 휘어짐 : 빛의 움직임을 가속 좌표계에 적용시켜보면, 그 빛이 휜다는 것을 알 수 있을 것이다.
+따라서 중력으로 인하여 빛이 휜다는 것을 알 수 있다 4-2.
+중력 렌즈 효과 : 이는 일식이 일어날 때 관측할 수 있는 현상인데, 바로 태양의 뒤에 위치하여 가려져 있던 천체가 태양의 중력에 의한 영향으로 그 빛이 휘어져 우리눈에 들어오는 것이다.
+흔히 '아인슈타인의 십자가'라는 것이 이로 인한 현상이다.
+4-3.
+블랙홀 : 질량이 매우 큰 천체는 공간을 심하게 왜곡하여 빛마저 삼켜버릴 수 있다.
+5.
+일반 상대성 이론의 증거 ① 에딩턴의 태양의 일식 관측 : 태양 주위의 시공간이 휘어져 있다면 그 근처를 지나는 빛도 휘어질 것으로 예측하였는데, 영국의 과학자 에딩턴이 1919년 일식이 일어났을 때 태양 주위에서 관측한 별의 위치와 반년 전 관측한 별의 위치를 비교하여 태양 근처에서 빛이 휘어짐을 관찰하였다.
+② 수성의 세차운동 : 수성의 근일점은 뉴턴의 이론에 따라 계산하면 100년동안 574´´만큼 이동해야 하지만, 실제 세차운동 관측결과 43´´정도 오차가 났다.
+하지만 일반 상대성 이론을 적용해 태양의 질량에 의한 시공간의 곡률을 고려하면 오차를 정확히 설명할 수 있다.
+③ 중력 렌즈 효과 : 중력이 렌즈처럼 빛을 휘게 하는 현상이다.
+중력 렌즈 역할을 하는 은하단의 질량 분포, 광원-렌즈-관찰자의 상대적 위치 등에 따라 '아인슈타인의 십자가'와 같은 상이나 '아인슈타인의 고리'와 같은 원형의 상을 관찰할 수 있다.
+대표적으로 퀘이사가 있다.(퀘이사는 은하의 중력 때문에 지구에서 4개의 빛나는 쌍둥이 별로 오인했었다.) ④ 중력파 : 천체의 중력 붕괴나 초신성 폭발 같은 우주현상으로 발생하여 질량의 공간적 분포에 변화가 생기게 되면 주위의 시공간이 일그러져 요동을 치게 되고, 이 흔들림이 파동으로 퍼져 나가는 것을 말한다.
+⑤ GPS : 인공위성이 움직이기 때문에 시간차이가 생기는데 속력과 중력의 작용을 고려하여 보정해 주어야 한다.
+⑥ 블랙홀 : 질량이 매우 큰 천체는 공간을 휘게하여 천체를 지나는 빛마저 흡수한다.(아인슈타인이 2차원의 평면에 시간의 곡률을 표기한 그림에서 보면 블랙홀은 질량이 극도로 커 평면 자체가 엄청나게 움푹 들어가있다.
+중력이 클수록 시간이 느리게 가며 블랙홀의 어떤 경계에서는 시간이 멈춘 것처럼 보이는데, 이를 사건의 지평선이라고 한다.
+이 안쪽 부분은 어떠한것도 빠져나오지 못하므로 검게보인다.) 양자역학(, 영어: quantum mechanics, quantum physics, quantum theory)은 분자, 원자, 기본 입자(전자, 소립자 원자핵 등) 미시적인 계의 현상을 다루는 즉, 물리계의 아주 작은 입자들을 연구하는 물리학의 분야이다.
+또는 아원자 입자 및 입자 집단을 다루는 현대 물리학의 기초 이론이다.
+'아무리 기이하고 터무니없는 사건이라 해도, 발생 확률이 0이 아닌 이상 반드시 일어난다'(Anything that is possible will happen)는 물리학적 아이디어에 기초한다.
+양자역학의 양자는 물리량에 기본 단위가 있으며, 그 기본 단위에 정수배만 존재한다는 뜻을 담고 있다.
+현대 물리학의 기초인 양자역학은 컴퓨터의 주요 부품인 반도체의 원리를 설명해 주고, "물질의 운동이 본질적으로 비결정론적인가?" 라는 의문을 제기하며 과학기술, 철학, 문학, 예술 등 다방면에 중요한 영향을 미쳐 20세기 과학사에서 빼놓을 수 없는 중요한 이론으로 평가된다.
+19세기 중반까지의 실험은 뉴턴의 고전역학으로 설명할 수 있었다.
+그러나, 19세기 후반부터 20세기 초반까지 이루어진 전자, 양성자, 중성자 등의 아원자 입자와 관련된 실험들의 결과는 고전역학으로 설명을 시도할 경우 모순이 발생하여 이를 해결하기 위한 새로운 역학 체계가 필요하게 되었다.
+이 양자역학은 플랑크의 양자 가설을 계기로 하여 슈뢰딩거, 하이젠베르크, 디랙 등에 의해 만들어진 전적으로 20세기에 이루어진 학문이다.
+양자역학에서 플랑크 상수를 0으로 극한을 취하면 양자역학이 고전역학으로 수렴하는데, 이를 대응 원리라 한다.
+미시세계를 탐구하는 양자역학에서 물리량은 기본적으로 불연속적이다.
+이와는 반대로 거시세계를 탐구하는 고전역학에서 물리량은 연속적이였다.
+다루는 이는 관찰 기준의 차이이다.
+이해를 돕기 위한 간단한 비유로 우리가 모래사장을 멀리서 바라본다고 하면 이는 우리가 물리현상을 거시세계에서 보는 것이라고 할 수 있다.
+이 관찰에서 모래사장의 표면은 연속적으로 보인다.
+이는 거시세계에서 우리가 관찰하는 물리현상에서 물리량이 연속적으로 관찰된다는 것에 비유된다.
+만약 우리가 점점 모래사장에 가까이 다가가 모래사장을 관찰한다면 이는 거시세계에서 미시세계로 관찰의 단위를 줄인 것이다.
+모래사장 가까이서 모래사장을 관찰한다면 모래사장의 표면은 불연속적으로 관찰 될 것이다.
+이는 미시세계에서 물리현상에 물리량이 불연속적으로 관찰 된다는 것과 비슷하다.
+즉, 거시세계에서 특정 물리량을 관찰하면 그 물리량의 불연속성이 미시세계의 관찰 기준에 비해 너무 미세해 마치 그것이 연속적인 것처럼 보이지만, 관찰 단위가 거시세계보다 작은 미시세계에서 대상을 관찰하면 그 불연속성이 보이더라'라는 것이다.
+양자역학은 모든 역학, 전자기학(일반 상대성 이론은 제외)을 포함하는 고전 이론을 일반화한다.
+양자역학은 고전역학으로 설명되지 않는 현상에 대한 정확한 설명을 제공한다.
+양자역학의 효과는 거시적으로는 관측이 어렵지만 고체의 성질을 연구하는 과정에서 양자역학 개념이 필수적이다.
+예를 들어 드하스-판알펜 효과는 양자역학을 통해서만 설명이 가능하다.
+물론, 원자 또는 그보다 작은 영역에서는 분명해진다.
+양자역학이라는 용어는 독일의 물리학자 막스 보른(Max Born, 1882~1970)이 처음 제시했다.
+독일어 'Quantenmechanik(퀀텐메카닉)'이 영어 'Quantum mechanics'로 번역되었고 일본에서 이를‘(료오시리키가쿠)’라 번역했는데 이것이 한국에 그대로 들어와 ‘양자역학'이라 부르게 되었다.
+양자()’로 번역된 영어의 quantum은 양을 의미하는 quantity에서 온 말로, 무엇인가 띄엄띄엄 떨어진 양으로 있는 것을 가리키는 말이다.
+‘역학()’은 말 그대로는 ‘힘의 학문’이지만, 실제로는 ‘이러저러한 힘을 받는 물체가 어떤 운동을 하게 되는지 밝히는 물리학의 한 이론’이라고 할 수 있다.
+간단히 말해 ‘힘과 운동’의 이론이다.
+이렇듯 양자역학이란 띄엄띄엄 떨어진 양으로 있는 것이 이러저러한 힘을 받으면 어떤 운동을 하게 되는지 밝히는 이론이라고 할 수 있다.
+제1차 세계 대전의 종료와 평화의 회복과 더불어 물리학의 발전이 시작되었다.
+1918년도의 노벨상은 패전국 독일의 물리학자인 막스 플랑크에게 수여되었으며(알베르트 아인슈타인 1921년, 닐스 보어 1922년), 독일을 중심으로 하여 양자론이 진전되었다.
+그 주요 중심지는 1921년 이론물리학 연구소가 개설된 코펜하겐(닐스 보어)을 비롯하여 뮌헨(아르놀트 조머펠트), 괴팅겐(막스 보른, 막스 플랑크), 레이던(파울 에렌페스트)이며, 그 밖에 취리히의 에르빈 슈뢰딩거, 베를린의 알베르트 아인슈타인이 가담하였다.
+이 형성기는 또한 젊은 세대의 활약이 특징적이었다.
+양자역학 형성의 길은 두 갈래로 되어 있다.
+한쪽은 보어의 원자 모형에서 출발하여 대응원리()에서 행렬 역학으로 통한 길이다.
+또 한쪽은 아인슈타인의 광자로 비롯하며, 루이 드브로이의 물질파를 거쳐서 도달하는 파동역학의 길이었다.
+이 둘은 그 형성과정이나 수립된 이론이 전혀 달랐지만 얼마 안 가서 실은 같은 내용이라는 것이 판명되고, 통일체로서의 양자학으로 간추려졌다.
+그리하여 양자역학의 형성이 일단락될 무렵, 물리학은 재차 새로운 단계에 이르렀다.
+행렬역학과 파동역학은 다른 관점에서 출발하였고, 전혀 다른 형태를 갖추고 형성되었으나, 그 이룩한 결과는 일치했다.
+이것을 우연이 아니라고 생각한 에르빈 슈뢰딩거는 파동역학에서 행렬역학의 유도를 시도하여 양자의 동등성()을 증명하는 데 성공하였다.
+폴 디랙과 파스쿠알 요르단(Pascual Jordan)은 변환이론()을 수립하였으며, 이것으로 두 개의 이론은 하나로 통합되어 1926년경에는 양자역학이 성립되었다.
+양자역학의 형식은 성립되었어도, 그 물리적 해석에는 아직도 많은 문제가 남아 있었다.
+예컨대 파동의 개념에 대하여서도 파동역학의 창시자 슈뢰딩거는 이것을 실재()하는 것으로 보았지만 아인슈타인의 반론을 받고, 보른의 확률해석이 이에 대체되었으나, 마침내 이것도 불충분하여 많은 모순으로 유도되는 것이 판명되었다.
+이리하여 결국 낡은 물리학의 사고방식으로는 양자론의 개념은 어떻게도 설명할 수 없음이 차차 확실해졌고, 드디어 1927년에 베르너 하이젠베르크의 불확정성 원리가 등장하였다.
+파와 입자의 두개의 상()을 결부시킴으로써 발생하는 이 관계는, 미시적 세계에서는 일상경험에서 만들어진 관념은 이미 통용되지 않는다는 것을 강조하는 것이다.
+보어는 이 생각을 다시 자연인식 일반에 펼쳐 양자역학의 일관된 해석을 수립하려고 하여, 같은 해 상호보완성 원리를 제창하였다.
+현상의 시공적()인 기술과 인과적 관계와는 서로 보충하는 동시, 서로 배제한다는 것이 골자이다.
+아인슈타인은 이와 같은 새로운 양자론의 해석에 찬성하지 않고 일관하여 EPR 역설 등 의문을 계속 제출하였지만, 한편으로는 기묘한 양자역학의 주장은 당시의 사상계에도 큰 영향을 주어, 물질의 부정이나 주관주의·실증주의 경향의 세력이 증가하는 기초가 되기도 하였다.
+양자역학()의 결론들은 당시 과학자(및 일반인)들이 가진 고전역학적 직관으로는 이해하기 힘든 것이었기에, 이 이론이 실재에 대해서 무엇을 말해주는지에 대해 많은 해석과 철학적 논쟁이 있었다.
+많은 수의 물리학자들은 보어 등이 개발한 코펜하겐 해석을 받아들이고 있다.
+이 해석에서 양자역학의 확률적 측면들은 우리의 지식의 부족함을 말해주는 것이 아닌 실재 그 자체이며, 따라서 결정론적 이론에 의해 설명될 수 없다.
+양자역학을 개발한 이들 중 한 명인 아인슈타인은 이 이론의 무작위성을 좋아하지 않았고, 양자역학의 현상인 도깨비 원격현상등을 강력히 부정하면서 "신은 주사위놀이를 하지 않는다"라고 말했다.
+그는 양자역학의 근본에는 보다 깊은 국소적 숨은 변수 이론이 있을 거라고 주장했다.
+아인슈타인은 양자역학에 대해 여러 가지 반박을 제시했는데, 그중 가장 유명한 것은 EPR 역설이라 불린다.
+벨은 EPR 역설을 이용해, 조건법적 명확성(counterfactual definiteness)을 가정한 경우 양자역학과 국소적 이론 사이에 실험적으로 확인 가능한 차이가 있음을 증명했다.
+실험을 통해서, 실제 세계는 조건법적으로 명확하지 않거나 비국소적이라는 것이 증명되었다.
+영문학 교수이자 작가인 루이스는 비결정론이 그의 철학적 신념에 어긋난다는 이유로 양자역학을 불완전한 이론으로 보았다.
+그는 하이젠베르크의 불확정성 원리가 존재론적 비결정성이 아닌 인식론적 한계를 보여줄 뿐이라고 생각했으며, 다른 많은 이들과 마찬가지로 이런 이유에서 숨은 변수 이론을 지지했다.
+코펜하겐 해석을 둘러싼 보어-아인슈타인 논쟁은 당시의 양자역학을 둘러싼 논쟁 중에서 가장 대표적인 것이었다.
+현재 표준적인 양자역학의 해석은 코펜하겐 해석이나, 그 외에도 다음과 같은 해석들이 존재한다.
+양자역학이라는 새 이론은 원자와 관련된 거의 모든 것을 설명할 수 있는 탁월한 이론이었다.
+학자들은 이 이론을 토대로 점점 더 많은 문제들을 풀어나갔다.
+하지만 또 한편으로 이 새로운 이론은 ‘우리가 안다는 것은 도대체 무엇인가’라는 아주 근본적이고 철학적인 문제를 새로 꺼내기 시작했다.
+원자와 관련된 것을 설명하기 위해 양자역학은 ‘파동함수’라고도 하고 ‘상태함수’라고도 하는 수학적인 장치를 사용한다.
+파동함수는 우리가 알고자 하는 양자역학적 계의 모든 양자역학적 정보를 담고 있다.
+양자역학이 제안된 초창기부터 많은 물리학자들은 파동함수의 의미를 둘러싸고 논쟁을 벌였다.
+이로 인해 파동함수가 정확히 무엇인지 도무지 알 수 없는 상황이 돼 버렸다.
+다시 말하면, 파동함수가 우리가 가진 거시세계에 대한 직관 중 어떤 것에 대응하는지 알 수가 없다.
+그전까지 물리학에서는 대체로 수학을 이용해 물리학 방정식이나 공식을 만들면, 그 의미는 인간이 경험하는 거시계로부터 얻은 직관과 잘 대응된다고 생각해 왔다.
+그런데 양자역학에서는 가장 핵심이 되는 파동함수가 정확히 무엇인지 아무도 제대로 대답할 수 없는 듯 보였다.
+게다가 하이젠베르크는 이 양자역학이라는 이론 안에 소위 ‘불확정성 원리’가 있음을 밝혔는데, 이는 입자가 어떤 속도로 어디에서 움직이고 있는가, 특정 시간에 얼마나 많은 에너지를 가지고 있는가 등을 안다는 것에 근본적인 한계가 있음을 말해 주었다.
+실용적으로 물리현상을 아주 잘 설명해 주는 이론이 있는데, 정작 그 이론은 고전적으로 통용되던 우리가 안다는 것에 대해 회의적인 관점을 제시하고 있었던 셈이었다.
+그보다 불과 100여 년 전에 프랑스의 수학자 피에르 시몽 라플라스(Pierre Simon de Laplace, 1749~1827)는 라플라스의 악마라는 개념을 통해, 원칙적으로는 물리학을 통해 물질계의 모든 것을 예측 할 수 있다고 제안했지만, 파동함수와 불확정성 원리의 등장으로 인해 우리가 원자에 대해 무엇을 알고 있는지, 그 개념마저 흔들리기 시작했다.
+플랑크와 보어의 초기 양자역학은 전자의 궤도가 점프하는 현상을 강조한 반면 후기의 슈뢰딩거, 하이젠베르크의 이론은 전자의 위치가 확률적 분포로밖에 알 수 없다는 점을 강조했다고 볼 수 있다.
+초기의 양자역학은 원자폭탄, 반도체 등에 이론적 배경을 제공했고 후기의 양자역학은 물질에 대한 인간의 인식에 큰 변화를 주었다는 것에 큰 의의가 있다.
+특히 후기 양자역학은 인간의 인식의 한계성을 인정함으로써 현대철학에도 큰 영향을 주었다.
+한편으로는 19세기 말부터 20세기 초반까지의 실험가능한 물리학의 혁명적 발전이 실험이 불가능한 한계에 다다랐다는 점을 내포하기도 했다.
+물리학은 실제로 20세기 후반부터 지금의 21세기 초반까지 끈 이론, 통일장 이론 등 여러 이론을 내놓았으나 실험이 불가능한 가설에 그치는 경우가 많았다.
+슈뢰딩거 방정식(-, 영어: Schrödinger equation)은 비상대론적 양자역학적 계의 시간에 따른 진화를 나타내는 선형 편미분 방정식이다.
+오스트리아의 물리학자 에르빈 슈뢰딩거가 도입하였고, 그가 발명한 파동역학의 기본 방정식이다.
+파동 함수 <math>\psi (x)</math>에 대한 슈뢰딩거 방정식은 다음과 같다.
+<math>i\hbar {\frac {\partial {}|\psi \rangle }{\partial {}t}}={\hat {H}}|\psi \rangle</math> 해밀토니언 연산자 <math>{\hat {H}}</math>는 고전적 해밀토니언에 해당하는 연산자로, 후자를 양자화하여 얻는다.
+<math>|\psi \rangle</math>는 폴 디랙의 브라-켓 표기를 사용해 나타낸, 슈뢰딩거 묘사에서의 힐베르트 공간의 상태 벡터이다.
+이를 파동 함수 <math>\psi</math>로 나타낼 수 있다.
+(파동 함수에 대한 해석은 코펜하겐 해석을 참조하라.) 해밀토니언 연산자 <math>{\hat {H}}</math>는 보통 미분 연산자이다.
+예를 들어, 퍼텐셜 <math>V(\mathbf {x} ,t)</math> 속에 있는, 질량이 <math>m</math>인 비상대론적 입자의 경우 해밀토니언은 다음과 같은 2차 미분 연산자이다.
+<math>{\hat {H}}=-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V(\mathbf {x} ,t)</math> 즉, 슈뢰딩거 방정식은 다음과 같은 2차 편미분 방정식이 된다.
+<math>i\hbar {\frac {\partial }{\partial t}}\psi (\mathbf {x} ,t)=\left(-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}+V(\mathbf {x} ,t)\right)\psi (\mathbf {x} ,t)</math> 슈뢰딩거 방정식은 다음과 같은 라그랑지언으로부터 유도할 수 있다.
+<math>{\mathcal {L}}=\psi ^{*}\left(i\hbar {\frac {\partial }{\partial t}}-{\hat {H}}\right)\psi</math> 예를 들어, 퍼텐셜 <math>V(\mathbf {x} ,t)</math> 속에 있는, 질량이 <math>m</math>인 비상대론적 입자의 경우 슈뢰딩거 라그랑지언은 다음과 같다.
+<math>{\mathcal {L}}=\psi ^{*}\left(i\hbar {\frac {\partial }{\partial t}}+{\frac {1}{2m}}\nabla ^{2}-V\right)\psi \sim \psi ^{*}i\hbar {\frac {\partial }{\partial t}}\psi -{\frac {1}{2m}}({\boldsymbol {\nabla }}\psi )^{2}-V|\psi |^{2}</math> 여기서 두 번째 표현은 전미분항(total derivative)을 무시하고 쓴 것이다.
+이 라그랑지언을 고전적 가환 또는 반가환 장의 라그랑지언으로 여겨, 양자장론으로 이차 양자화시킬 수 있다.
+이 경우, 외부 배경장 속에서 움직이는, 임의의 수의 비상대론적 보손 또는 페르미온을 나타내는 양자장론을 얻는다.
+또한, 이 경우 비선형 상호작용항을 추가할 수 있다.
+예를 들어, 그로스-피타옙스키 방정식이 이러한 꼴이다.
+1905년, 알베르트 아인슈타인은 광전 효과를 설명하기 위해서 광자의 에너지 E와 진동수 ν 및 플랑크 상수 h 사이의 관계를 <math>E=h\nu</math> <math>E=h\nu</math> 로 나타내었다.
+1924년 루이 드 브로이는 광자 뿐만 아니라 모든 입자가 대응되는 파동함수 <math>\psi \;</math>를 가진다는 드 브로이 가설을 발표하고, 파동의 파장 λ와 입자의 운동량 p에 대해 <math>p=h/\lambda</math> <math>p=h/\lambda</math> 의 관계식을 제안했으며, 이 관계식이 특수상대론 및 위의 아인슈타인이 제안한 식과 일관됨을 보였다.
+즉, E = hν는 광자 뿐만 아니라 모든 입자에 대해 성립한다는 것이다.
+위 식들을 각진동수 <math>\omega =2\pi \nu \;</math>와 파수 <math>k=2\pi /\lambda \;</math> 및 <math>\hbar =h/2\pi \;</math>를 이용해 표현하면, <math>E=\hbar \omega</math> 및 <math>E=\hbar \omega</math> 및 p와 k를 벡터로 표현하면 <math>\mathbf {p} =\hbar \mathbf {k}</math> <math>\mathbf {p} =\hbar \mathbf {k}</math> 에르빈 슈뢰딩거는 슈뢰딩거 방정식을 1925년 발표하였다.
+슈뢰딩거는 평면파의 위상을 복소 위상인자로 나타내었다.
+<math>\psi (\mathbf {x} ,t)=Ae^{i(\mathbf {k} \cdot \mathbf {x} -\omega t)}</math> 그리고 그는 <math>{\frac {\partial }{\partial t}}\psi =-i\omega \psi</math> 이므로 <math>E\psi =\hbar \omega \psi =i\hbar {\frac {\partial }{\partial t}}\psi</math> 이며, 마찬가지로 <math>{\frac {\partial }{\partial x}}\psi =ik_{x}\psi</math> 이므로 <math>p_{x}\psi =\hbar k_{x}\psi =-i\hbar {\frac {\partial }{\partial x}}\psi</math> 이고, 따라서 <math>p_{x}^{2}\psi =-\hbar ^{2}{\frac {\partial ^{2}}{\partial x^{2}}}\psi</math> 및 각 방향의 부분들을 더하면 <math>p^{2}\psi =(p_{x}^{2}+p_{y}^{2}+p_{z}^{2})\psi =-\hbar ^{2}\left({\frac {\partial ^{2}}{\partial x^{2}}}+{\frac {\partial ^{2}}{\partial y^{2}}}+{\frac {\partial ^{2}}{\partial z^{2}}}\right)\psi =-\hbar ^{2}\nabla ^{2}\psi</math> 이 성립함을 알았다.
+이제 이를 총 에너지 E와 질량 m 및 위치에너지에 대한 고전역학적 공식 <math>E={\frac {p^{2}}{2m}}+V</math> (단순히 총 에너지를 운동 에너지와 위치 에너지의 합으로 나타낸 것) 에 대입하여, 당시에 슈뢰딩거가 얻었던 위치에너지가 주어진 3차원 공간 상의 단일입자에 대한 공식에 도달한다.
+<math>i\hbar {\frac {\partial }{\partial t}}\psi =-{\frac {\hbar ^{2}}{2m}}\nabla ^{2}\psi +V\psi .</math> 슈뢰딩거 방정식은 비상대론적이므로, 특수상대론과 불합한다.
+슈뢰딩거 방정식을 상대론적으로 일반화하면 스핀에 따라 클라인 고든 방정식이나 디랙 방정식 따위를 얻는다.
+이들은 비상대론적인 극한에서 슈뢰딩거 방정식으로 수렴한다.
+또한, 슈뢰딩거 방정식에 비인 항을 추가할 수도 있다.
+예를 들어, 응집물질물리학에서 보스-아인슈타인 응축을 나타내기 위해 사용하는 그로스-피타옙스키 방정식은 슈뢰딩거 방정식에 사승 상호작용을 추가한 것이다.
+유체역학(, 영어: fluid mechanics)은 유체(액체와 기체)의 운동에 대해서 연구하는 학문이다.
+정지상태에 있는 유체에 대해 연구하는 유체 정역학, 운동중에 있는 유체에 대해 연구하는 유체 동역학으로 나뉜다.
+또는 유체에 따라서 액체일 때는 수역학, 기체일 때는 기체역학으로 분류하기도 한다.
+최근에는 컴퓨터의 발달과 함께 전산유체역학이 새롭게 떠오르고 있다.
+유체역학은 고대 농경사회부터 인간이 폭우와 홍수에 대비하기 위해 벽돌을 쌓아보기도 하고, 운하나 저수지, 하수도 등을 건설하기도 하면서 시작되었다.
+고대인들이 관심을 가졌던 것은 단지 물의 흐름과 마찰에 대한 피상적인 부분에 해당하는 수력학(hydraulics)이었다.
+그로부터 지금까지 많은 과학자들의 이론과 실험을 토대로 현대의 유체역학으로 발달하게 되었다.
+유체역학의 응용분야는 아주 다양하다.
+예를 들면, 펌프, 송풍기, 팬, 압축기 등의 기계와 항공기, 선박, 자동차 등의 운송수단, 인체의 인공순환장치, 골프의 슬라이싱, 난방 배관 등 우리 주변에서 볼 수 있는 많은 도구, 장비, 기계들에 응용된다.
+유체를 정의하는 데에는 공학적으로 '유체가 연속체라는 가정하에 이러한 유체를 전단응력에 따라 변형력을 수리()적 또는 정량적으로 확인할 수 있는 물체'로 기술할 수 있다.
+강체 역학과 유체 역학은 어느 하나만을 다루기 보다는 나아가 현실계의 현실 상황을 고려했을 때 응용을 위해 서로 밀접한 관계를 갖는다.
+,Wiley)https://www.wiley.com/en-gp/Fundamentals+of+Fluid+Mechanics%2C+6th+Edition+SI+Version-p-ES80470398814(ISBN[깨진 링크(과거 내용 찾기)]: ES8-0-470-39881-4) 디랙 방정식(Dirac )은 스핀이 ½인 페르미온을 나타내는 상대론적 양자 파동 방정식이다.
+디랙 방정식은 거울 대칭 및 시공 반전성을 따르고, 입자가 반입자와 다른, 스핀 ½ 페르미온을 기술한다.
+이 때문에 거울 대칭을 지키는 이론(양자전기역학 등)에서 전자를 기술할 때 쓴다.
+만약 입자가 그 반입자와 동일할 경우 마요라나 방정식을 쓰고, 표준 모형과 같이 거울 대칭을 따르지 않으면 바일 방정식을 사용한다.
+1928년에 폴 디랙이 발표하였다.
+디랙은 진공 상태의 우주가 비어있는 것이 아닌 입자와 반입자의 결합체로 가득 찬 상태라고 보았고, 후세에 의해 진공은 '디랙의 바다'라고도 불린다.
+방정식을 사용하여, 디랙은 반입자의 존재를 예측하였다.
+이는 1932년에 칼 데이비드 앤더슨이 양전자를 발견함으로써 실험적으로 검증되었다.
+상대론적으로 쓰면, 디랙 방정식은 다음과 같다.
+(아인슈타인 표기법을 사용하자.) <math>-i\hbar \gamma ^{\mu }\partial _{\mu }\psi +mc\psi =0</math> <math>-i\hbar \gamma ^{\mu }\partial _{\mu }\psi +mc\psi =0</math> 여기서 <math>\gamma ^{\mu }</math>는 디랙 행렬이다.
+이 중 <math>\gamma ^{0}</math>은 에르미트 행렬이고, 나머지는 반에르미트 행렬이다.
+이들은 민코프스키 메트릭 <math>\eta ^{\mu \nu }</math>와 다음과 같은 관계를 가진다.
+<math>γμ,γν}=2ημν{\{\gamma ^{\mu },\gamma ^{\nu }\}=2\eta ^{\mu \nu }</math> <math>γμ,γν}=2ημν{\{\gamma ^{\mu },\gamma ^{\nu }\}=2\eta ^{\mu \nu }</math> 여기서 <math>γμ,γν}{\{\gamma ^{\mu },\gamma ^{\nu }\}</math>는 반교환자(anticommutator)를 뜻한다.
+즉, 디랙 행렬은 민코프스키 공간에 대해 클리퍼드 대수(Clifford algebra)를 이룬다.
+(이를 디랙 대수라 칭한다.) 파인먼 표기법을 이용하면, 디랙 방정식은 다음과 같다.
+<math>(-i\partial \!\!\!/+m)\psi =0</math> <math>(-i\partial \!\!\!/+m)\psi =0</math> 디랙 방정식에 <math>(i\partial \!\!\!/+m)</math>를 곱하면 <math>(i\partial \!\!\!/+m)(-i\partial \!\!\!/+m)\psi =(\partial ^{2}+m^{2})\psi =0</math> 이 된다.
+즉, <math>\psi</math> 가 디랙 방정식을 만족하면 <math>\psi</math> 의 각 성분이 클라인-고든 방정식 <math>(\partial ^{2}+m^{2})\psi =0</math> <math>(\partial ^{2}+m^{2})\psi =0</math> 을 만족한다.
+(그러나 그 역은 성립하지 않는다.)
