@@ -1,5 +1,7 @@
 import torch
 
+# 텍스트 생성 함수
+
 def generate(model, idx, max_new_tokens, context_size, temperature=0.0, top_k=None, eos_id=None):
 
     for _ in range(max_new_tokens):

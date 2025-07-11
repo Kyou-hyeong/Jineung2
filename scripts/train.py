@@ -1,5 +1,7 @@
 import torch
-from model.model import GPTModel
+from model.math_reasoning import GPTModel
+
+# 데이터셋 로드 후 훈련
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(123)
